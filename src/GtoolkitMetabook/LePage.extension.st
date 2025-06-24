@@ -7,6 +7,12 @@ self assert: self hasBaseDatabase description: 'This metapage has no base databa
 ]
 
 { #category : #'*GtoolkitMetabook' }
+LePage >> basePage [
+	self assert: self hasBasePage description: 'This metapage has no base page.'.
+	^ self baseDatabase pageNamed: self title
+]
+
+{ #category : #'*GtoolkitMetabook' }
 LePage >> createMetapage [
 	| metaPage |
 	self
