@@ -2,7 +2,8 @@ Class {
 	#name : #GtMetabookMapping,
 	#superclass : #Object,
 	#classInstVars : [
-		'map'
+		'map',
+		'reverseMap'
 	],
 	#category : #'GtoolkitMetabook-Mapping'
 }
@@ -10,6 +11,17 @@ Class {
 { #category : #accessing }
 GtMetabookMapping class >> associations [
 	^ {'Glamorous Toolkit Book' -> 'feenkcom/gtoolkit-metabook/gtmetabook'}
+]
+
+{ #category : #accessing }
+GtMetabookMapping class >> baseDatabaseFor: aPage [
+	self assert: aPage hasBaseDatabase..
+	^ LeDatabase databaseNamed: (self reverseMap at: aPage database databaseName)
+]
+
+{ #category : #accessing }
+GtMetabookMapping class >> hasBaseDatabase: aPage [
+	^ self reverseMap includesKey: aPage database databaseName
 ]
 
 { #category : #accessing }
@@ -35,5 +47,13 @@ GtMetabookMapping class >> metadatabaseFor: aPage [
 
 { #category : #accessing }
 GtMetabookMapping class >> reset [
-	map := nil
+	map := nil.
+	reverseMap := nil
+]
+
+{ #category : #accessing }
+GtMetabookMapping class >> reverseMap [
+	^ reverseMap
+		ifNil: [ reverseMap := (self associations
+					collect: [ :assoc | assoc value -> assoc key ]) asDictionary ]
 ]

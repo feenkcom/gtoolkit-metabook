@@ -14,6 +14,20 @@ GtMetabookExamples >> gtBookMainPage [
 ]
 
 { #category : #accessing }
+GtMetabookExamples >> gtBookMetapage [
+	<gtExample>
+	| page metapage |
+	page := self gtBookMainPage.
+	self assert: page hasMetapage.
+	metapage := page metapage.
+	self assert: metapage hasBaseDatabase.
+	self assert: metapage baseDatabase equals: page database.
+	self assert: metapage hasBasePage.
+	self assert: metapage basePage equals: page.
+	^ metapage
+]
+
+{ #category : #accessing }
 GtMetabookExamples >> projectMainPage [
 	<gtExample>
 	| page |
