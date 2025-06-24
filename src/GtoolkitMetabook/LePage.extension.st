@@ -3,7 +3,7 @@ Extension { #name : #LePage }
 { #category : #'*GtoolkitMetabook' }
 LePage >> baseDatabase [
 self assert: self hasBaseDatabase description: 'This metapage has no base database.'.
-	^ GtMetabookMapping baseDatabaseFor: self
+	^ GtMetabookMapping uniqueInstance baseDatabaseFor: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -62,7 +62,7 @@ LePage >> gtOpenMetapageActionFor: anAction [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> hasBaseDatabase [
-	^ GtMetabookMapping hasBaseDatabase: self
+	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -72,7 +72,7 @@ LePage >> hasBasePage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> hasMetadatabase [
-	^ GtMetabookMapping hasMetadatabase: self
+	^ GtMetabookMapping uniqueInstance hasMetadatabase: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -83,7 +83,7 @@ LePage >> hasMetapage [
 { #category : #'*GtoolkitMetabook' }
 LePage >> metadatabase [
 self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
-	^ GtMetabookMapping metadatabaseFor: self
+	^ GtMetabookMapping uniqueInstance metadatabaseFor: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
