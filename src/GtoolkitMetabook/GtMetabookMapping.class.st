@@ -2,7 +2,7 @@
 I am a Singleton that maps Lepiter databases to databases of metapages. 
 
 Metapages are accessed by LePage actions that appear if a metadatabase is defined.
-The mappings from databases to metadatabases is defined in my `associations` method. 
+The mappings from databases to metadatabases is defined in my `mappings` method. 
 Extend this to define more mappings.
 
 (To do: define an API to add more mappings.)
@@ -12,7 +12,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'map',
-		'reverseMap'
+		'reverseMap',
+		'repoMap'
 	],
 	#classInstVars : [
 		'uniqueInstance'
@@ -23,11 +24,6 @@ Class {
 { #category : #'as yet unclassified' }
 GtMetabookMapping class >> uniqueInstance [
 	^ uniqueInstance ifNil: [ uniqueInstance := self new ]
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> associations [
-	^ {'Glamorous Toolkit Book' -> 'feenkcom/gtoolkit-metabook/gtmetabook'}
 ]
 
 { #category : #accessing }
@@ -48,7 +44,23 @@ GtMetabookMapping >> hasMetadatabase: aPage [
 
 { #category : #accessing }
 GtMetabookMapping >> map [
-	^ map ifNil: [ map := self associations asDictionary ]
+	^ map ifNil: [ map := (self mappings collect: [:each | each first -> each second ] ) asDictionary ]
+]
+
+{ #category : #accessing }
+GtMetabookMapping >> mappings [
+	"Add more mappings here. Mappings are of the form:
+	{base database name . meta database name . metadatabase repo name}"
+
+	^ {{'Glamorous Toolkit Book'.
+			'feenkcom/gtoolkit-metabook/gtmetabook'.
+			'gtoolkit-metabook'}}
+]
+
+{ #category : #accessing }
+GtMetabookMapping >> metaRepoNameFor: aPage [
+	self assert: aPage isMetapage.
+	^ self repoMap at: aPage database databaseName
 ]
 
 { #category : #accessing }
@@ -58,14 +70,22 @@ GtMetabookMapping >> metadatabaseFor: aPage [
 ]
 
 { #category : #accessing }
+GtMetabookMapping >> repoMap [
+	^ repoMap
+		ifNil: [ repoMap := (self mappings collect: [ :each | each second -> each third ])
+					asDictionary ]
+]
+
+{ #category : #accessing }
 GtMetabookMapping >> reset [
 	map := nil.
-	reverseMap := nil
+	reverseMap := nil.
+	repoMap := nil
 ]
 
 { #category : #accessing }
 GtMetabookMapping >> reverseMap [
 	^ reverseMap
-		ifNil: [ reverseMap := (self associations
-					collect: [ :assoc | assoc value -> assoc key ]) asDictionary ]
+		ifNil: [ reverseMap := (self mappings collect: [ :each | each second -> each first ])
+					asDictionary ]
 ]

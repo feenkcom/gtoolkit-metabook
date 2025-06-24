@@ -258,14 +258,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T11:00:51.731841+02:00"
+									"dateAndTimeString" : "2025-06-24T17:58:32.418283+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "dX5eTa/0DQCZsRE7DpN2Eg=="
 							},
-							"code" : "aPage := GtMetabookExamples new gtBookMainPage."
+							"code" : "aPage := GtMetabookExamples new gtBookMainPage"
 						},
 						{
 							"__type" : "textSnippet",
@@ -329,14 +329,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:10:14.721648+02:00"
+									"dateAndTimeString" : "2025-06-24T17:58:28.772634+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "S09v0K70DQCKr0HADpN2Eg=="
 							},
-							"code" : "aPage := GtMetabookExamples new gtBookMainPage.\rmetapage := aPage metapage."
+							"code" : "metapage := GtMetabookExamples new gtBookMetapage"
 						}
 					]
 				},
@@ -438,14 +438,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:16:48.613767+02:00"
+									"dateAndTimeString" : "2025-06-24T18:02:34.883314+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "PVdUgrT0DQCBBd+uBZqZmA=="
 							},
-							"code" : "GtMetabookMapping uniqueInstance map"
+							"code" : "GtMetabookMapping uniqueInstance"
 						}
 					]
 				},
@@ -479,6 +479,152 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Refactoring"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T17:56:37.233817+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T17:58:04.262177+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Lac8HLX0DQCM1USqBZqZmA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We want an action to get from a metapage to its git repo. We implement {{gtMethod:name=LePage>>#gtGitButtonFor:}} and {{gtMethod:name=LePage>>#metaRepoName}}. The latter is initially hard-coded, but should get its details from the mapping object."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T17:58:10.098961+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T17:58:34.64522+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "n6jFIbX0DQCQwfzeBZqZmA=="
+							},
+							"code" : "metapage := GtMetabookExamples new gtBookMetapage"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T18:08:28.030054+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T18:09:34.592648+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "2omaRrX0DQCTCJdWBZqZmA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We change the mapping object to keep track of three pieces of data: the base and meta datbase names and the repo name. We add {{gtMethod:name=LePage>>#metaRepoName}} to access the last of these."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-24T17:56:29.684347+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-24T17:56:36.73976+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "H3TJG7X0DQCMez1pBZqZmA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Git repo button"
 			},
 			{
 				"__type" : "textSnippet",
@@ -577,7 +723,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T17:13:57.821998+02:00"
+						"dateAndTimeString" : "2025-06-24T18:08:22.890727+02:00"
 					}
 				},
 				"uid" : {
@@ -587,7 +733,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Views"
+				"string" : "# Views (To do)"
 			}
 		]
 	},

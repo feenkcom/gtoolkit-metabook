@@ -22,6 +22,7 @@ GtMetabookExamples >> gtBookMetapage [
 	page := self gtBookMainPage.
 	metapage := page metapage.
 	self assert: metapage isMetapage.
+	self assert: metapage metaRepoName equals: 'gtoolkit-metabook'.
 	self assert: metapage baseDatabase equals: page database.
 	self assert: metapage hasBasePage.
 	self assert: metapage basePage equals: page.

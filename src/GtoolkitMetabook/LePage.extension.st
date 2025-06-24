@@ -31,6 +31,27 @@ LePage >> createMetapage [
 ]
 
 { #category : #'*GtoolkitMetabook' }
+LePage >> gtGitButtonFor: anAction [
+	"To do: get the repoName from the mapping object"
+
+	<lePageAction>
+	| repoName repo |
+	self isMetapage not ifTrue: [ ^ anAction empty ].
+
+	repoName := self metaRepoName.
+	repo := [ GtGitRepository forRepoNamed: repoName ]
+			onErrorDo: [ ^ anAction empty ].
+
+
+	^ anAction button
+		tooltip: 'Go to repository';
+		priority: 100;
+		icon: BrGlamorousVectorIcons branching;
+		id: GtCoderGitButtonId;
+		action: [ :aButton | aButton phlow spawnTool: (GtGitPhlowTool new repository: repo) ]
+]
+
+{ #category : #'*GtoolkitMetabook' }
 LePage >> gtOpenBasepageActionFor: anAction [
 	<lePageAction>
 	self isMetapage ifFalse: [ ^ anAction empty ].
@@ -38,6 +59,7 @@ LePage >> gtOpenBasepageActionFor: anAction [
 	^ anAction button
 		id: LeOpenMetapageElementId;
 		tooltip: 'Open base page';
+		priority: 90;
 		icon: GtMetabookVectorIcons leftSide;
 		action: [ :aButton | aButton phlow spawnObject: self basePage ];
 		primaryModifierAction: [ :aButton | aButton phlow showObject: self ]
@@ -51,12 +73,14 @@ LePage >> gtOpenMetapageActionFor: anAction [
 		ifTrue: [ anAction button
 				id: LeOpenMetapageElementId;
 				tooltip: 'Open metapage';
+				priority: 90;
 				icon: GtMetabookVectorIcons rightSide;
 				action: [ :aButton | aButton phlow spawnObject: self metapage ];
 				primaryModifierAction: [ :aButton | aButton phlow showObject: self ] ]
 		ifFalse: [ anAction button
 				id: LeOpenMetapageElementId;
 				tooltip: 'Create metapage';
+				priority: 90;
 				icon: GtMetabookVectorIcons fadedRightSide;
 				action: [ :aButton | aButton phlow spawnObject: self createMetapage ];
 				primaryModifierAction: [ :aButton | aButton phlow showObject: self ] ]
@@ -80,6 +104,12 @@ LePage >> hasMetapage [
 { #category : #'*GtoolkitMetabook' }
 LePage >> isMetapage [
 	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self
+]
+
+{ #category : #'*GtoolkitMetabook' }
+LePage >> metaRepoName [
+	self assert: self isMetapage description: 'This page is not a metapage.'.
+		^ GtMetabookMapping uniqueInstance metaRepoNameFor: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
