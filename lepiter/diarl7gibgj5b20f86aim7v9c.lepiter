@@ -66,12 +66,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T07:58:34.8016+02:00"
+						"dateAndTimeString" : "2025-06-24T08:12:43.195971+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "9S96waz0DQCfc+n8B+or5A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Repo: [](https://github.com/feenkcom/gtoolkit-metabook)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-24T08:12:27.621647+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-24T08:12:27.621647+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "0AIe86z0DQC2sp2aDpN2Eg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
