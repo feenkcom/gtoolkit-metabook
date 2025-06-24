@@ -1,7 +1,7 @@
 Class {
 	#name : #LeOpenMetapageElementId,
 	#superclass : #BlElementUniqueId,
-	#category : #GtoolkitMetabook
+	#category : #'GtoolkitMetabook-ElementIds'
 }
 
 { #category : #'as yet unclassified' }

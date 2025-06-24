@@ -13,7 +13,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-24T10:20:39.323008+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-24T10:21:07.158651+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "y0TYpq70DQCFacE4DpN2Eg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We change the colors to light gray for the case where the pages are missing and add them to {{gtClass:name=GtMetabookVectorIcons}}"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -34,7 +72,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T08:28:18.395752+02:00"
+									"dateAndTimeString" : "2025-06-24T10:14:16.841188+02:00"
 								}
 							},
 							"uid" : {
@@ -87,7 +125,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-24T10:25:45.652511+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-24T10:31:57.511309+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WrM5z670DQCKIzJEDpN2Eg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "This page has no metadb so no button, but this one does: {{gtMethod:name=GtMetabookExamples>>#gtBookMainPage}}"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -108,7 +184,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T08:15:10.137914+02:00"
+									"dateAndTimeString" : "2025-06-24T10:25:34.740843+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +194,186 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
+							"string" : "Find meta database. We introduce the mapping and the query {{gtMethod:name=LePage>>#hasMetadatabase}}."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T10:57:09.641521+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T10:57:43.032269+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "nI9r5670DQCM5bSMDpN2Eg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We create a new metapage if one does not exist."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T10:57:43.341736+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:08.647204+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6OQjQq/0DQCXJn3wDpN2Eg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Now we need a similar button for the metapage itself. We introduce {{gtMethod:name=LePage>>#gtOpenBasepageActionFor:}}"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:51.731841+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:51.731841+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "dX5eTa/0DQCZsRE7DpN2Eg=="
+							},
+							"code" : "aPage := GtMetabookExamples new gtBookMainPage."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:11.259253+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:11.259253+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "wu70Sq/0DQCYxb33DpN2Eg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
 							"string" : ""
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T10:25:55.681858+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T11:00:53.160741+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "S09v0K70DQCKr0HADpN2Eg=="
+							},
+							"code" : "aPage := GtMetabookExamples new gtBookMainPage.\rmetapage := aPage metapage."
 						}
 					]
 				},
@@ -141,7 +396,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T08:29:48.325158+02:00"
+						"dateAndTimeString" : "2025-06-24T10:59:10.900754+02:00"
 					}
 				},
 				"uid" : {
@@ -151,7 +406,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Metapage button"
+				"string" : "#Metapage buttons"
 			}
 		]
 	},
