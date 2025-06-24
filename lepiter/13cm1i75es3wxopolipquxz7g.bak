@@ -438,14 +438,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:13:44.761193+02:00"
+									"dateAndTimeString" : "2025-06-24T17:16:48.613767+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "PVdUgrT0DQCBBd+uBZqZmA=="
 							},
-							"code" : "GtMetabookMapping new"
+							"code" : "GtMetabookMapping uniqueInstance map"
 						}
 					]
 				},
@@ -499,7 +499,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:13:58.721927+02:00"
+									"dateAndTimeString" : "2025-06-24T17:22:50.367865+02:00"
 								}
 							},
 							"editEmail" : {
@@ -510,7 +510,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:14:05.795612+02:00"
+									"dateAndTimeString" : "2025-06-24T17:23:26.600486+02:00"
 								}
 							},
 							"uid" : {
@@ -520,7 +520,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We add some views."
+							"string" : "To do: add some views to get an overview of the metadatabases, metapages, and possibly for broken l"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -547,14 +547,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:15:27.473014+02:00"
+									"dateAndTimeString" : "2025-06-24T17:16:45.878994+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "xoxChLT0DQCB73SRBZqZmA=="
 							},
-							"code" : "GtMetabookMapping  new map"
+							"code" : "GtMetabookMapping  uniqueInstance"
 						}
 					]
 				},

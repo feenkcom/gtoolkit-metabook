@@ -499,7 +499,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:13:58.721927+02:00"
+									"dateAndTimeString" : "2025-06-24T17:22:50.367865+02:00"
 								}
 							},
 							"editEmail" : {
@@ -510,7 +510,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:14:05.795612+02:00"
+									"dateAndTimeString" : "2025-06-24T17:23:38.695329+02:00"
 								}
 							},
 							"uid" : {
@@ -520,7 +520,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We add some views."
+							"string" : "To do: add some views to get an overview of the metadatabases, metapages, and possibly for broken links (e.g. orphaned metapages)."
 						},
 						{
 							"__type" : "pharoSnippet",

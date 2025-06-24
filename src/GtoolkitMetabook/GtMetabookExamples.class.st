@@ -10,6 +10,8 @@ GtMetabookExamples >> gtBookMainPage [
 	| page |
 	page := LeDatabase gtBook pageNamed: 'Glamorous Toolkit'.
 	self assert: page hasMetadatabase.
+	self assert: page isMetapage not.
+	self assert: page hasMetapage.
 	^ page
 ]
 
@@ -18,9 +20,8 @@ GtMetabookExamples >> gtBookMetapage [
 	<gtExample>
 	| page metapage |
 	page := self gtBookMainPage.
-	self assert: page hasMetapage.
 	metapage := page metapage.
-	self assert: metapage hasBaseDatabase.
+	self assert: metapage isMetapage.
 	self assert: metapage baseDatabase equals: page database.
 	self assert: metapage hasBasePage.
 	self assert: metapage basePage equals: page.

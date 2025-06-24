@@ -1,3 +1,12 @@
+"
+I am a Singleton that maps Lepiter databases to databases of metapages. 
+
+Metapages are accessed by LePage actions that appear if a metadatabase is defined.
+The mappings from databases to metadatabases is defined in my `associations` method. 
+Extend this to define more mappings.
+
+(To do: define an API to add more mappings.)
+"
 Class {
 	#name : #GtMetabookMapping,
 	#superclass : #Object,
@@ -23,7 +32,7 @@ GtMetabookMapping >> associations [
 
 { #category : #accessing }
 GtMetabookMapping >> baseDatabaseFor: aPage [
-	self assert: aPage hasBaseDatabase..
+	self assert: aPage isMetapage.
 	^ LeDatabase databaseNamed: (self reverseMap at: aPage database databaseName)
 ]
 
@@ -35,11 +44,6 @@ GtMetabookMapping >> hasBaseDatabase: aPage [
 { #category : #accessing }
 GtMetabookMapping >> hasMetadatabase: aPage [
 	^ self map includesKey: aPage database databaseName
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> hasMetapage: aPage [
-	^ (self metadatabaseFor: aPage) hasPageNamed: aPage title
 ]
 
 { #category : #accessing }
