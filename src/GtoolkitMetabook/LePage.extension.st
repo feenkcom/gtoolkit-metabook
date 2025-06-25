@@ -22,7 +22,7 @@ LePage >> createMetapage [
 		description: 'This page already has a metapage.'.
 	metaPage := (LePage named: self title)
 			addSnippet: (LeTextSnippet new
-					string: '(Edit metapage.)';
+					string: '*This is a metapage for ', self asRemoteLink, '* ';
 					yourself);
 			yourself.
 
@@ -69,21 +69,18 @@ LePage >> gtOpenBasepageActionFor: anAction [
 LePage >> gtOpenMetapageActionFor: anAction [
 	<lePageAction>
 	self hasMetadatabase ifFalse: [ ^ anAction empty ].
-	^ self hasMetapage
-		ifTrue: [ anAction button
-				id: LeOpenMetapageElementId;
-				tooltip: 'Open metapage';
-				priority: 90;
-				icon: GtMetabookVectorIcons rightSide;
-				action: [ :aButton | aButton phlow spawnObject: self metapage ];
-				primaryModifierAction: [ :aButton | aButton phlow showObject: self ] ]
-		ifFalse: [ anAction button
-				id: LeOpenMetapageElementId;
-				tooltip: 'Create metapage';
-				priority: 90;
-				icon: GtMetabookVectorIcons fadedRightSide;
-				action: [ :aButton | aButton phlow spawnObject: self createMetapage ];
-				primaryModifierAction: [ :aButton | aButton phlow showObject: self ] ]
+	^ anAction button
+		tooltip: (self hasMetapage ifTrue: [ 'Open metapage' ] ifFalse: [ 'Create metapage' ]);
+		id: LeOpenMetapageElementId;
+		icon: (self hasMetapage
+				ifTrue: [ GtMetabookVectorIcons rightSide ]
+				ifFalse: [ GtMetabookVectorIcons fadedRightSide ]);
+		priority: 90;
+		action: [ :aButton | 
+			self hasMetapage
+				ifTrue: [ aButton phlow spawnObject: self metapage ]
+				ifFalse: [ aButton phlow spawnObject: self createMetapage ] ];
+		primaryModifierAction: [ :aButton | aButton phlow showObject: self ]
 ]
 
 { #category : #'*GtoolkitMetabook' }

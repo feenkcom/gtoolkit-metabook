@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T08:12:27.621647+02:00"
+						"dateAndTimeString" : "2025-06-25T08:21:27.985087+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Starting point for the metabook: {{gtPage:Glamorous Toolkit|db=13cm1i7479vigj3b6heeymnoh}}  "
 			}
 		]
 	},
