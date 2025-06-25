@@ -121,7 +121,7 @@
 											"uidString" : "WeQeDsT0DQCmjjFuBGpMcA=="
 										},
 										"string" : "@tudor girba , you had asked for feedback.  This response could fall in the category of ... be careful what you ask for since you might get it.\n\nAs a new user trying to learn my way around GT, it has taken some time to either find the information I needed or figure things out to get over the initial learning curve.  There are a couple of dozen pages and videos in the book that are great for beginners but they are scattered around the book and, when you find one, it does not always have links to the others that are useful to beginners.  Here is a partial mapping of the resources that helped me find my way (by repurposing the Wardley Map snippet since I did not find any other ways to create a table or a map).  If this is useful, I can link them in a suggested order but, in general, the order is from bottom left to top right.\n(see diagram on Discord)",
-										"isHidden" : false
+										"isHidden" : true
 									}
 								]
 							},
@@ -194,7 +194,7 @@
 											"uidString" : "GnmPYsP0DQCkBbboBGpMcA=="
 										},
 										"string" : "I think there are a couple of easy changes that would make GT more accessible to people who are not familiar with the smalltalk/pharo/GT world.\n1. Add a \"Navigating in GT\" page that covers the basics like the hamburger menu in the top right, views, actions, the Spotter in the top right that is broader in scope than any of the panes below it (even Coder), Views, Actions, and interactions like Alt-Click, Shift-Scroll, and any other things that are universal for the GT environment.\n2. Add a Quick Start section or tag some pages with Quick Start links and add a Quick Start page to gather them all in one place.  The \"Get Started\" page that jumps right into case studies assumes the user has a lot of knowledge about the environment already.\n3. Rename \"A Tour of the Environment\" since the slide show on it is more a tour of moldable development or moldability and not the GT environment itself.  A tour of the environment would be great but, for a newcomer, it would need to cover the things they would interact with like Lepiter, Inspectors, Spotter, and Coder instead.",
-										"isHidden" : false
+										"isHidden" : true
 									}
 								]
 							},

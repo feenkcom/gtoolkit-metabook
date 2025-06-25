@@ -22,6 +22,9 @@ LePage >> createMetapage [
 		description: 'This page already has a metapage.'.
 	metaPage := (LePage named: self title)
 			addSnippet: (LeTextSnippet new
+					string: '';
+					yourself);
+			addSnippet: (LeTextSnippet new
 					string: '*This is a metapage for ', self asRemoteLink, '* ';
 					yourself);
 			yourself.
