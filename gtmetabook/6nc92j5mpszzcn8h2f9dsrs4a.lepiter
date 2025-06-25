@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:44.400814+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:44.400814+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jd6URsH0DQCzyCX4DhMEZg=="
+					"uidString" : "xhOfNsT0DQCtM5xjBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:Molding the environment|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:47.080123+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:47.565242+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
+					"uidString" : "D/HHNsT0DQCtNj2VBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add something on Patterns in the exercises section."
+				"string" : "Some more explanation is needed."
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:57:44.400795+02:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:57:44.400795+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Get started"
+		"title" : "Molding the environment"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d3b99446-c1f4-0d00-b3c7-ecf60e130466"
+		"uuid" : "1a079f36-c4f4-0d00-ad32-5eee046a4c70"
 	}
 }

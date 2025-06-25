@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:20.546657+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:20.546657+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jd6URsH0DQCzyCX4DhMEZg=="
+					"uidString" : "dhczNcT0DQCs8ulKBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:Managing code with Coder|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:23.731778+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
+						"dateAndTimeString" : "2025-06-25T11:57:27.091072+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
+					"uidString" : "iqpjNcT0DQCs9aRLBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add something on Patterns in the exercises section."
+				"string" : "This page is needed but maybe should  not be a slideshow"
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:57:20.546636+02:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:57:20.546636+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Get started"
+		"title" : "Managing code with Coder"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d3b99446-c1f4-0d00-b3c7-ecf60e130466"
+		"uuid" : "0c083335-c4f4-0d00-acf1-2225046a4c70"
 	}
 }

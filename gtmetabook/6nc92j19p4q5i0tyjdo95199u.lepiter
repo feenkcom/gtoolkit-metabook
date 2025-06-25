@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T12:00:47.876272+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T12:00:47.876272+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jd6URsH0DQCzyCX4DhMEZg=="
+					"uidString" : "5rCOQcT0DQCuO4r/BGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:Exploring your Twitter data|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
+						"dateAndTimeString" : "2025-06-25T12:00:50.458607+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
+						"dateAndTimeString" : "2025-06-25T12:00:55.047528+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
+					"uidString" : "xhS2QcT0DQCuPu1KBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add something on Patterns in the exercises section."
+				"string" : "Does this still work?"
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T12:00:47.876225+02:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T12:00:47.876225+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Get started"
+		"title" : "Exploring your Twitter data"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d3b99446-c1f4-0d00-b3c7-ecf60e130466"
+		"uuid" : "328e8e41-c4f4-0d00-ae3a-015d046a4c70"
 	}
 }

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:23.529156+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:23.529156+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jd6URsH0DQCzyCX4DhMEZg=="
+					"uidString" : "Dow5LsT0DQCsiv5bBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:A tour of the environment|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:26.313058+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:29.459747+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
+					"uidString" : "QP5jLsT0DQCsjVq5BGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add something on Patterns in the exercises section."
+				"string" : "These pages are too telegraphic. More explanation is needed, and the slideshows should be converted to pages."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-25T11:55:29.967054+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-25T11:55:38.006995+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "38GbLsT0DQCsoRXpBGpMcA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Replace the slideshow by a page with examples and explanatory text?"
 			}
 		]
 	},
@@ -88,7 +125,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:55:23.529116+02:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +136,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:55:23.529116+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Get started"
+		"title" : "A tour of the environment"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d3b99446-c1f4-0d00-b3c7-ecf60e130466"
+		"uuid" : "1072392e-c4f4-0d00-ac89-ce44046a4c70"
 	}
 }

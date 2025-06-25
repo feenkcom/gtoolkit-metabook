@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:54.184901+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T08:27:27.265104+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:54.184901+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Jd6URsH0DQCzyCX4DhMEZg=="
+					"uidString" : "8VANMMT0DQCsrfkDBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:GT in 7' videos|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
+						"dateAndTimeString" : "2025-06-25T11:55:57.388603+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
+						"dateAndTimeString" : "2025-06-25T11:56:02.606163+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
+					"uidString" : "py0+MMT0DQCssG4LBGpMcA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add something on Patterns in the exercises section."
+				"string" : "{{gtPage:GT in 7' videos|db=2j9m7db2i4oz116bexd7wbdxo}} — possibly add pages for some of these, like {{gtPage:How to find stuff in GT in 7'|db=2j9m7db2i4oz116bexd7wbdxo}}  "
 			}
 		]
 	},
@@ -88,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:55:54.184863+02:00"
 		}
 	},
 	"editEmail" : {
@@ -99,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T08:27:27.265037+02:00"
+			"dateAndTimeString" : "2025-06-25T11:55:54.184863+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Get started"
+		"title" : "GT in 7' videos"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "d3b99446-c1f4-0d00-b3c7-ecf60e130466"
+		"uuid" : "45390d30-c4f4-0d00-acac-218e046a4c70"
 	}
 }

@@ -40,43 +40,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "*This is a metapage for {{gtPage:Get started|db=2j9m7db2i4oz116bexd7wbdxo}}* "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:23.904228+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:51:36.615025+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "NSLxH8T0DQCqASXvBGpMcA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Add something on Patterns in the exercises section."
 			}
 		]
 	},
