@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T11:01:13.925349+02:00"
+									"dateAndTimeString" : "2025-06-25T11:01:00.037856+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[Carll on maps of the pages](https://discord.com/channels/729445214812504107/737255889517543545/1341552433247289415)"
+							"string" : "[Carll on ](https://discord.com/channels/729445214812504107/737255889517543545/1341552433247289415)"
 						},
 						{
 							"__type" : "textSnippet",
