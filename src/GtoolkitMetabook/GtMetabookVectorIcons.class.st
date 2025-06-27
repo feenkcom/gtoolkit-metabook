@@ -14,7 +14,7 @@ GtMetabookVectorIcons class >> createMetaPage [
 		geometry: (BlSvgPath new
 				svg: 'M8 2C10.2091 2 12 3.79086 12 6V7C14.2091 7 16 8.79086 16 11V14H9V11H11V10L8 7L5 10V11H7L7 14H0V10C0 7.79086 1.79086 6 4 6C4 3.79086 5.79086 2 8 2Z'
 				viewbox: (0 @ 0 extent: 16 @ 16));
-		background: Color red ] asStencil
+		background: Color red muchLighter ] asStencil
 ]
 
 { #category : #icons }
