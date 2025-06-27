@@ -734,6 +734,257 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Views (To do)"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:16:55.847298+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:17:52.703864+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "/q/R5/D0DQCQ5F5TCcES1g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Some better icons would be nice. Maybe [cloud arrow up](https://www.svgrepo.com/svg/532848/cloud-arrow-up) and [cloud arrow down](https://www.svgrepo.com/svg/532847/cloud-arrow-down-alt). "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:19:14.993015+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:34:57.381556+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XOUc8PD0DQCS5yxACcES1g=="
+							},
+							"code" : "cloudDown := ZnClient new\r\t\tget: 'https://www.svgrepo.com/download/535309/cloud-arrow-down.svg'.\r\rcloudUp := ZnClient new\r\t\tget: 'https://www.svgrepo.com/download/535305/cloud-arrow-up.svg'"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:21:09.751784+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:36:11.955646+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Tfrz9vD0DQCTqv71CcES1g=="
+							},
+							"code" : "cloudDown := BlElement new\r\tsize: 16 @ 16;\r\tgeometry: (BlSvgPath new\r\t\t\tsvg: 'M8 2C10.2091 2 12 3.79086 12 6V7C14.2091 7 16 8.79086 16 11V14H9L11 12V11H9L9 8L7 8L7 11H5V12L7 14H0V10C0 7.79086 1.79086 6 4 6C4 3.79086 5.79086 2 8 2Z'\r\t\t\tviewbox: (0 @ 0 extent: 16 @ 16));\r\tbackground: Color black"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:36:16.475451+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:37:16.698905+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "onv/LPH0DQCU/pBsCcES1g=="
+							},
+							"code" : "cloudUp := BlElement new\r\tsize: 16 @ 16;\r\tgeometry: (BlSvgPath new\r\t\t\tsvg: 'M8 2C10.2091 2 12 3.79086 12 6V7C14.2091 7 16 8.79086 16 11V14H9V11H11V10L8 7L5 10V11H7L7 14H0V10C0 7.79086 1.79086 6 4 6C4 3.79086 5.79086 2 8 2Z'\r\t\t\tviewbox: (0 @ 0 extent: 16 @ 16));\r\tbackground: Color black"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:37:42.269173+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:37:56.891642+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zZYcMvH0DQCVK2G9CcES1g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We use these in {{gtClass:name=GtMetabookVectorIcons}}. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:18:24.83368+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-27T17:18:24.83368+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "15by7PD0DQCS1nDYCcES1g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-27T17:16:46.961047+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-27T17:16:53.71244+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "zRdK5/D0DQCQqOjaCcES1g=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Icons"
 			}
 		]
 	},
