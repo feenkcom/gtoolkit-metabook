@@ -63,7 +63,7 @@ LePage >> gtOpenBasepageActionFor: anAction [
 		id: LeOpenMetapageElementId;
 		tooltip: 'Open base page';
 		priority: 90;
-		icon: GtMetabookVectorIcons leftSide;
+		icon: GtMetabookVectorIcons openBasePage;
 		action: [ :aButton | aButton phlow spawnObject: self basePage ];
 		primaryModifierAction: [ :aButton | aButton phlow showObject: self ]
 ]
@@ -76,8 +76,8 @@ LePage >> gtOpenMetapageActionFor: anAction [
 		tooltip: (self hasMetapage ifTrue: [ 'Open metapage' ] ifFalse: [ 'Create metapage' ]);
 		id: LeOpenMetapageElementId;
 		icon: (self hasMetapage
-				ifTrue: [ GtMetabookVectorIcons rightSide ]
-				ifFalse: [ GtMetabookVectorIcons fadedRightSide ]);
+				ifTrue: [ GtMetabookVectorIcons openMetaPage ]
+				ifFalse: [ GtMetabookVectorIcons createMetaPage ]);
 		priority: 90;
 		action: [ :aButton | 
 			self hasMetapage
