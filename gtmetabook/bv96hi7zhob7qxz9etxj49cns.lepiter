@@ -318,7 +318,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-02T13:41:28.755033+02:00"
+									"dateAndTimeString" : "2025-07-02T14:18:13.858088+02:00"
 								}
 							},
 							"editEmail" : {
@@ -329,7 +329,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-02T13:41:33.766635+02:00"
+									"dateAndTimeString" : "2025-07-02T14:18:41.561625+02:00"
 								}
 							},
 							"uid" : {
@@ -339,7 +339,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "*To do ...*"
+							"string" : "Add textual versions of the slideshows. See [[Get started]] and [[GT in 7' videos]]. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -399,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-02T13:41:28.387493+02:00"
+						"dateAndTimeString" : "2025-07-02T14:18:09.590487+02:00"
 					}
 				},
 				"uid" : {
@@ -409,7 +409,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# High priority pages to work on ..."
+				"string" : "# High priority actions"
 			}
 		]
 	},

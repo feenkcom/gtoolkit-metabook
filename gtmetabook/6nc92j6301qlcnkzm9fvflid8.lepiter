@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:31.296002+02:00"
+						"dateAndTimeString" : "2025-07-02T14:30:38.569976+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We could expand this  page with a bit of history of Moose, Pharo, and also SmaCC, PetitParser and Magritte, with pointers to literature, blogs etc."
 			},
 			{
 				"__type" : "textSnippet",

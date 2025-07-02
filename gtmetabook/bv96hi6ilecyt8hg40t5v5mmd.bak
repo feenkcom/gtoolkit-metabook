@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:49:49.725218+02:00"
+						"dateAndTimeString" : "2025-07-02T13:40:48.549612+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:35.284056+02:00"
+						"dateAndTimeString" : "2025-07-02T14:07:43.30752+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "WhdUGsT0DQCnpPz0BGpMcA=="
+					"uidString" : "AlMdeFL1DQC5bVnyDtN3yA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page could contain more actual history, rather than just a diagram."
+				"string" : "OK, but a bit bland. How to spice up the intro?"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:31.296002+02:00"
+						"dateAndTimeString" : "2025-07-02T14:07:45.99039+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,12 +66,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:31.296002+02:00"
+						"dateAndTimeString" : "2025-07-02T14:08:19.163072+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "t1yaWcT0DQCyRdM4BGpMcA=="
+					"uidString" : "j3yF2FL1DQC93jSHDtN3yA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The section **Ok, but what can you do with it?** should point to real examples. This overv"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-02T13:41:08.624021+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-02T13:41:08.624021+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "o59PeVL1DQC5eEA2DtN3yA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -92,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:31.557062+02:00"
+						"dateAndTimeString" : "2025-07-02T13:41:08.837512+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,54 +140,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:31.557062+02:00"
+						"dateAndTimeString" : "2025-07-02T13:41:09.725053+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "U1yeWcT0DQCySkeBBGpMcA=="
+					"uidString" : "8+FSeVL1DQC5fWKjDtN3yA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:49:40.932686+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:49:49.365219+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "jvDNGcT0DQCnlZ+1BGpMcA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "*This is a metapage for {{gtPage:A short history of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			}
 		]
 	},
@@ -162,7 +162,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T11:49:40.93263+02:00"
+			"dateAndTimeString" : "2025-07-02T13:40:48.49703+02:00"
 		}
 	},
 	"editEmail" : {
@@ -173,15 +173,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T11:49:40.93263+02:00"
+			"dateAndTimeString" : "2025-07-02T13:40:48.49703+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "A short history of Glamorous Toolkit"
+		"title" : "Glamorous Toolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "3ccbcd19-c4f4-0d00-a794-71fd046a4c70"
+		"uuid" : "c5841c78-52f5-0d00-b96c-51300ed377c8"
 	}
 }

@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:19.843356+02:00"
+						"dateAndTimeString" : "2025-07-02T14:17:48.683437+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Each video should have a textual version, which follows closely the transcript. Then people can find the code and the examples easily. NB: much of this is in the slideshows, but just sharing that is probably not ideal."
 			},
 			{
 				"__type" : "textSnippet",
