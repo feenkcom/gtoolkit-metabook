@@ -44,23 +44,23 @@ GtMetabookMapping >> hasMetadatabase: aPage [
 
 { #category : #accessing }
 GtMetabookMapping >> map [
-	^ map ifNil: [ map := (self mappings collect: [:each | each first -> each second ] ) asDictionary ]
+	"Map: base db name -> meta db name"
+
+	^ map
+		ifNil: [ map := (self mappings collect: [ :each | each first -> each third ])
+					asDictionary ]
 ]
 
 { #category : #accessing }
 GtMetabookMapping >> mappings [
 	"Add more mappings here. Mappings are of the form:
-	{base database name . meta database name . metadatabase repo name}"
+	{base database name . base database repo name .
+		meta database name . metadatabase repo name}"
 
 	^ {{'Glamorous Toolkit Book'.
+			'gtoolkit'.
 			'feenkcom/gtoolkit-metabook/gtmetabook'.
 			'gtoolkit-metabook'}}
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> metaRepoNameFor: aPage [
-	self assert: aPage isMetapage.
-	^ self repoMap at: aPage database databaseName
 ]
 
 { #category : #accessing }
@@ -72,8 +72,14 @@ GtMetabookMapping >> metadatabaseFor: aPage [
 { #category : #accessing }
 GtMetabookMapping >> repoMap [
 	^ repoMap
-		ifNil: [ repoMap := (self mappings collect: [ :each | each second -> each third ])
+		ifNil: [ repoMap := ((self mappings collect: [ :each | each first -> each second ])
+					, (self mappings collect: [ :each | each third -> each fourth ]))
 					asDictionary ]
+]
+
+{ #category : #accessing }
+GtMetabookMapping >> repoNameFor: aPage [
+	^ self repoMap at: aPage database databaseName ifAbsent: nil
 ]
 
 { #category : #accessing }
@@ -85,7 +91,9 @@ GtMetabookMapping >> reset [
 
 { #category : #accessing }
 GtMetabookMapping >> reverseMap [
+	"Map: meta db name -> base db name"
+
 	^ reverseMap
-		ifNil: [ reverseMap := (self mappings collect: [ :each | each second -> each first ])
+		ifNil: [ reverseMap := (self mappings collect: [ :each | each third -> each first ])
 					asDictionary ]
 ]

@@ -39,13 +39,10 @@ LePage >> gtGitButtonFor: anAction [
 
 	<lePageAction>
 	| repoName repo |
-	self isMetapage not ifTrue: [ ^ anAction empty ].
-
-	repoName := self metaRepoName.
+	repoName := self repoName.
+	repoName ifNil: [ ^ anAction empty ].
 	repo := [ GtGitRepository forRepoNamed: repoName ]
 			onErrorDo: [ ^ anAction empty ].
-
-
 	^ anAction button
 		tooltip: 'Go to repository';
 		priority: 100;
@@ -107,12 +104,6 @@ LePage >> isMetapage [
 ]
 
 { #category : #'*GtoolkitMetabook' }
-LePage >> metaRepoName [
-	self assert: self isMetapage description: 'This page is not a metapage.'.
-		^ GtMetabookMapping uniqueInstance metaRepoNameFor: self
-]
-
-{ #category : #'*GtoolkitMetabook' }
 LePage >> metadatabase [
 self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
 	^ GtMetabookMapping uniqueInstance metadatabaseFor: self
@@ -122,4 +113,9 @@ self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
 LePage >> metapage [
 	self assert: self hasMetapage description: 'This page has no metapage.'.
 	^ self metadatabase pageNamed: self title
+]
+
+{ #category : #'*GtoolkitMetabook' }
+LePage >> repoName [
+	^ GtMetabookMapping uniqueInstance repoNameFor: self
 ]

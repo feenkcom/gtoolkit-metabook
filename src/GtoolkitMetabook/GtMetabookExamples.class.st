@@ -22,7 +22,7 @@ GtMetabookExamples >> gtBookMetapage [
 	page := self gtBookMainPage.
 	metapage := page metapage.
 	self assert: metapage isMetapage.
-	self assert: metapage metaRepoName equals: 'gtoolkit-metabook'.
+	self assert: metapage repoName equals: 'gtoolkit-metabook'.
 	self assert: metapage baseDatabase equals: page database.
 	self assert: metapage hasBasePage.
 	self assert: metapage basePage equals: page.
@@ -30,11 +30,24 @@ GtMetabookExamples >> gtBookMetapage [
 ]
 
 { #category : #accessing }
+GtMetabookExamples >> gtBookRepo [
+	<gtExample>
+	| repoName repo |
+	repoName := self gtBookMainPage repoName.
+	self assert: repoName isNotNil.
+	repo := GtGitRepository forRepoNamed: repoName.
+	^ repo
+]
+
+{ #category : #accessing }
 GtMetabookExamples >> projectMainPage [
+	"Databases that are not registered have no meta database, and their repo is not known."
+
 	<gtExample>
 	| page |
 	page := (LeDatabase databaseNamed: 'feenkcom/gtoolkit-metabook/lepiter')
 			pageNamed: 'Metabook project'.
 	self assert: page hasMetadatabase not.
+	self assert: page repoName isNil.
 	^ page
 ]

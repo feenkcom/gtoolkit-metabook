@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T10:53:46.063028+02:00"
+						"dateAndTimeString" : "2025-07-02T13:39:53.302551+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T10:55:42.807949+02:00"
+						"dateAndTimeString" : "2025-07-02T13:39:53.321876+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "dazWUcP0DQCgRlRnBGpMcA=="
+					"uidString" : "uqz4clL1DQC4wbh9DtN3yA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
 				"string" : "The Glamorous Toolkit book needs to better address onboarding of newcomers. These metapages review the current content and discuss ways in which we can improve the pages."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-02T13:41:13.303941+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-02T13:41:13.303941+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "7ab7c1L1DQC41yGlDtN3yA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -266,7 +303,82 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T13:41:28.755033+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T13:41:33.766635+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "182CelL1DQC6QXhnDtN3yA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "*To do ...*"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T13:41:36.062118+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-02T13:41:36.062118+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "akvyelL1DQC6gXt/DtN3yA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -276,7 +388,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T10:52:31.184148+02:00"
+						"dateAndTimeString" : "2025-07-02T13:41:04.936022+02:00"
 					}
 				},
 				"editEmail" : {
@@ -287,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T10:53:44.77889+02:00"
+						"dateAndTimeString" : "2025-07-02T13:41:28.387493+02:00"
 					}
 				},
 				"uid" : {
@@ -297,7 +409,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*This is a metapage for {{gtPage:Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "# High priority pages to work on ..."
 			}
 		]
 	},
@@ -309,7 +421,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T10:52:31.184113+02:00"
+			"dateAndTimeString" : "2025-07-02T13:39:22.195325+02:00"
 		}
 	},
 	"editEmail" : {
@@ -320,15 +432,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T10:52:31.184113+02:00"
+			"dateAndTimeString" : "2025-07-02T13:39:22.195325+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Glamorous Toolkit"
+		"title" : "Metabook overview"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "dd07604d-c3f4-0d00-b3e3-a20c0e130466"
+		"uuid" : "58a8f772-52f5-0d00-b8c0-49610ed377c8"
 	}
 }
