@@ -318,6 +318,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T11:01:09.302254+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T11:01:28.992802+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "wlnUeHj1DQCO0fPaDf4gTQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add Roadmaps. See [[Get started]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-07-02T14:18:13.858088+02:00"
 								}
 							},
@@ -366,7 +403,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-02T13:41:36.062118+02:00"
+									"dateAndTimeString" : "2025-07-04T11:06:31.976497+02:00"
 								}
 							},
 							"uid" : {
@@ -376,7 +413,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Break up [[A tour of the environment]] into subpages based on the slideshow."
 						}
 					]
 				},
@@ -399,7 +436,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-02T14:18:09.590487+02:00"
+						"dateAndTimeString" : "2025-07-04T11:01:08.878577+02:00"
 					}
 				},
 				"uid" : {

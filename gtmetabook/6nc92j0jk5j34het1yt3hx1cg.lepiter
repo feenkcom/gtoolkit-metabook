@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:55:38.006995+02:00"
+						"dateAndTimeString" : "2025-07-04T11:05:52.702265+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Replace the slideshow by a page with examples and explanatory text?"
+				"string" : "Replace the slideshow by a page with examples and explanatory text? The slideshow should be broken into sections, each of which can be a subpage."
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:13.949777+02:00"
+						"dateAndTimeString" : "2025-07-04T11:10:08.079402+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "NB: There is probably overlap between this slideshow and the [[Getting started with GT in 7']] video turned into pages. We don't want duplication of pages ..."
 			},
 			{
 				"__type" : "textSnippet",

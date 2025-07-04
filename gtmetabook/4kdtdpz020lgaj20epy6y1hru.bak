@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:57:23.731778+02:00"
+						"dateAndTimeString" : "2025-07-04T11:03:18.694329+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:57:27.091072+02:00"
+						"dateAndTimeString" : "2025-07-04T11:04:00.129656+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "iqpjNcT0DQCs9aRLBGpMcA=="
+					"uidString" : "0LmKgHj1DQCPZjZcDf4gTQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page is needed but maybe should  not be a slideshow"
+				"string" : "This page could use a bit of explanation. What does it mean for something to be a version of GT? Does this refer to source code only? What about the VM version and the P"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:53.112083+02:00"
+						"dateAndTimeString" : "2025-07-04T11:03:18.694419+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,54 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:53.112083+02:00"
+						"dateAndTimeString" : "2025-07-04T11:03:18.694419+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HLxTV8T0DQCx8lrzBGpMcA=="
+					"uidString" : "MbqKgHj1DQCPZ+nnDf4gTQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:57:20.546657+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:51.100026+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "dhczNcT0DQCs8ulKBGpMcA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "*This is a metapage for {{gtPage:Managing code with Coder|db=2j9m7db2i4oz116bexd7wbdxo}}* "
+				"string" : "*This is a metapage for {{gtPage:About this version of Glamorous Toolkit|db=2j9m7db2i4oz116bexd7wbdxo}}* "
 			}
 		]
 	},
@@ -125,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T11:57:20.546636+02:00"
+			"dateAndTimeString" : "2025-07-04T11:03:18.694301+02:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-25T11:57:20.546636+02:00"
+			"dateAndTimeString" : "2025-07-04T11:03:18.694301+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Managing code with Coder"
+		"title" : "About this version of Glamorous Toolkit"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "0c083335-c4f4-0d00-acf1-2225046a4c70"
+		"uuid" : "3aaa8a80-78f5-0d00-8f65-ee610dfe204d"
 	}
 }

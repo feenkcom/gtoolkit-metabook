@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:07:44.773851+02:00"
+						"dateAndTimeString" : "2025-07-04T11:17:23.189538+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "This overlaps with [[Handling objects through custom views]]. "
 			},
 			{
 				"__type" : "textSnippet",
