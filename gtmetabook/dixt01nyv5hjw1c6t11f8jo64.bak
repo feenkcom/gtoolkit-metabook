@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-01T10:01:46.711993+02:00"
+						"dateAndTimeString" : "2025-07-01T10:02:20.235935+02:00"
 					}
 				},
 				"uid" : {
@@ -39,13 +39,51 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This page could use a ToC. Could also structure the text into headings with children."
+				"string" : "This page could use a ToC. Could also structure the text into headings with children. Or break into sub-pages."
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T16:59:37.636755+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T17:00:24.42765+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "eH7Ten31DQCRWXENBhZaTA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "*Couldn't \tselect: [ :method | method package name beginsWith: 'GToolkit' ]` be rewritten more succinctly as `'GToolkit' gtPackageMatches`, or is there a nuance there?*"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -55,7 +93,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-01T10:01:04.476159+02:00"
+						"dateAndTimeString" : "2025-07-04T16:59:21.127959+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,7 +104,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-01T10:01:04.476159+02:00"
+						"dateAndTimeString" : "2025-07-04T17:00:15.822133+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +114,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Sean DeNigris [asks on Discord](https://discord.com/channels/729445214812504107/737255889517543545/1390151089286025277) "
 			},
 			{
 				"__type" : "textSnippet",

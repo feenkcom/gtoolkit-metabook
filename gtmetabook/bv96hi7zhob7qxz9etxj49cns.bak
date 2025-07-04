@@ -318,6 +318,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T17:04:06.911463+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-04T17:04:24.722038+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "pEvgin31DQCSkFSuBhZaTA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The examples on [[Scripting an elaborate user interface scenario]] are broken!"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-07-04T11:01:09.302254+02:00"
 								}
 							},
@@ -403,7 +440,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-04T11:06:30.277931+02:00"
+									"dateAndTimeString" : "2025-07-04T11:06:31.976497+02:00"
 								}
 							},
 							"uid" : {
@@ -413,7 +450,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Break up [[A tour of the environment]] into subpages based on the s"
+							"string" : "Break up [[A tour of the environment]] into subpages based on the slideshow."
 						}
 					]
 				},
@@ -436,7 +473,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-04T11:01:08.878577+02:00"
+						"dateAndTimeString" : "2025-07-04T17:04:06.510621+02:00"
 					}
 				},
 				"uid" : {
