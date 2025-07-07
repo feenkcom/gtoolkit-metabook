@@ -329,7 +329,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-04T17:04:24.722038+02:00"
+									"dateAndTimeString" : "2025-07-04T17:08:02.232818+02:00"
 								}
 							},
 							"uid" : {
@@ -339,7 +339,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The examples on [[Scripting an elaborate user interface scenario]] are broken!"
+							"string" : "The examples on [[Scripting an elaborate user interface scenario]] are (sometimes) broken!"
 						},
 						{
 							"__type" : "textSnippet",

@@ -904,7 +904,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-27T17:37:44.743812+02:00"
+									"dateAndTimeString" : "2025-06-27T17:37:56.891642+02:00"
 								}
 							},
 							"uid" : {
@@ -914,7 +914,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We use"
+							"string" : "We use these in {{gtClass:name=GtMetabookVectorIcons}}. "
 						},
 						{
 							"__type" : "textSnippet",

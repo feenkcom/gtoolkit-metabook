@@ -359,7 +359,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T10:59:10.900754+02:00"
+						"dateAndTimeString" : "2025-07-07T09:44:10.505675+02:00"
 					}
 				},
 				"uid" : {
@@ -369,7 +369,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#Metapage buttons"
+				"string" : "\n#Metapage buttons"
 			},
 			{
 				"__type" : "textSnippet",
@@ -510,7 +510,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-24T17:58:04.262177+02:00"
+									"dateAndTimeString" : "2025-07-07T09:43:59.505292+02:00"
 								}
 							},
 							"uid" : {
@@ -520,7 +520,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We want an action to get from a metapage to its git repo. We implement {{gtMethod:name=LePage>>#gtGitButtonFor:}} and {{gtMethod:name=LePage>>#metaRepoName}}. The latter is initially hard-coded, but should get its details from the mapping object."
+							"string" : "We want an action to get from a metapage to its git repo. We implement {{gtMethod:name=LePage>>#gtGitButtonFor:}} and {{gtMethod:name=LePage>>#repoName}}. The latter is initially hard-coded, but should get its details from the mapping object."
 						},
 						{
 							"__type" : "pharoSnippet",

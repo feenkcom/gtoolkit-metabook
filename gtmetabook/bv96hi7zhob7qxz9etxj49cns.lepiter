@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-02T13:41:13.303941+02:00"
+						"dateAndTimeString" : "2025-07-07T10:11:36.901022+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-02T13:41:13.303941+02:00"
+						"dateAndTimeString" : "2025-07-07T10:11:51.724288+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "For implementation notes, see the {{gtPage:Metabook project|db=diarl7k06y5o2qdyie5qtceoo}}. "
 			},
 			{
 				"__type" : "textSnippet",
