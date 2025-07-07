@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T09:52:47.698954+02:00"
+									"dateAndTimeString" : "2025-07-07T17:43:01.382344+02:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[* Metabook views (todo)]] "
+							"string" : "[[Metabook summary views]] "
 						}
 					]
 				},

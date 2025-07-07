@@ -50,19 +50,26 @@ LePage >> gtGitButtonFor: anAction [
 ]
 
 { #category : #'*GtoolkitMetabook' }
-LePage >> gtMetadatabaseActionFor: anAction [
-	"Todo: we want to show the same view for both meta and base pages -- namely the base -> metapage mapping."
-	
+LePage >> gtMetadatabaseSummaryActionFor: anAction [
+	"Todo: we want to show the same view for both meta and base pages -- namely the base -> metapage mapping.
+	We need a better icon."
+
 	<lePageAction>
+	| baseDatabase |
 	self database ifNil: [ ^ anAction noAction ].
 	self database isDatabase ifFalse: [ ^ anAction noAction ].
+	self hasMetadatabase
+		ifTrue: [ baseDatabase := self database ]
+		ifFalse: [ self isMetapage
+				ifTrue: [ baseDatabase := self database baseDatabase ]
+				ifFalse: [ ^ anAction noAction ] ].
 
 	^ anAction button
 		tooltip: 'Inspect the page''s database';
 		priority: 110;
 		icon: LeIcons lepiterDatabase;
 		id: LePageDatabaseActionId;
-		action: [ :aButton | aButton phlow spawnObject: self database ]
+		action: [ :aButton | aButton phlow spawnObject: (GtMetabookSummary for: baseDatabase) ]
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -114,7 +121,7 @@ LePage >> hasMetapage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> isMetapage [
-	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self database
+	^ self database hasBaseDatabase
 ]
 
 { #category : #'*GtoolkitMetabook' }
