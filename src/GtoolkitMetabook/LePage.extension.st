@@ -2,10 +2,8 @@ Extension { #name : #LePage }
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> baseDatabase [
-	self
-		assert: self isMetapage
-		description: 'This page is not a metapage.'.
-	^ GtMetabookMapping uniqueInstance baseDatabaseFor: self
+	self assert: self isMetapage description: 'This page is not a metapage.'.
+	^ self database baseDatabase
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -52,6 +50,22 @@ LePage >> gtGitButtonFor: anAction [
 ]
 
 { #category : #'*GtoolkitMetabook' }
+LePage >> gtMetadatabaseActionFor: anAction [
+	"Todo: we want to show the same view for both meta and base pages -- namely the base -> metapage mapping."
+	
+	<lePageAction>
+	self database ifNil: [ ^ anAction noAction ].
+	self database isDatabase ifFalse: [ ^ anAction noAction ].
+
+	^ anAction button
+		tooltip: 'Inspect the page''s database';
+		priority: 110;
+		icon: LeIcons lepiterDatabase;
+		id: LePageDatabaseActionId;
+		action: [ :aButton | aButton phlow spawnObject: self database ]
+]
+
+{ #category : #'*GtoolkitMetabook' }
 LePage >> gtOpenBasepageActionFor: anAction [
 	<lePageAction>
 	self isMetapage ifFalse: [ ^ anAction empty ].
@@ -90,7 +104,7 @@ LePage >> hasBasePage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> hasMetadatabase [
-	^ GtMetabookMapping uniqueInstance hasMetadatabase: self
+	^ self database hasMetadatabase
 ]
 
 { #category : #'*GtoolkitMetabook' }
@@ -100,13 +114,13 @@ LePage >> hasMetapage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> isMetapage [
-	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self
+	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self database
 ]
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> metadatabase [
-self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
-	^ GtMetabookMapping uniqueInstance metadatabaseFor: self
+	self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
+	^ self database metadatabase
 ]
 
 { #category : #'*GtoolkitMetabook' }

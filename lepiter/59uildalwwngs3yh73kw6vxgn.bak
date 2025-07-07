@@ -595,43 +595,6 @@
 							"string" : "Probably we should build our own {{gtClass:name=BrColumnedTree}}, or just use a `columnedTree view`. See {{gtMethod:name=LeDatabase>>#gtViewTableOfContentsNodesFor:}} and {{gtMethod:name=LeDatabase>>#gtDailyNotesFor:}}."
 						},
 						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:42:31.525206+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:42:31.525206+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Ooy6j7T1DQC2gFRlCZgTWQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -690,7 +653,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:47:06.358634+02:00"
+									"dateAndTimeString" : "2025-07-07T10:47:09.42798+02:00"
 								}
 							},
 							"uid" : {
@@ -700,7 +663,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "A basic expanded tree. We need to change the nodes to be the page links, and ad"
+							"string" : "A basic expanded tree. We need to change the nodes to be the page links, and add columns."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -727,51 +690,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:46:06.217103+02:00"
+									"dateAndTimeString" : "2025-07-07T16:18:31.397659+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "3YnVkrT1DQC3QrfOCZgTWQ=="
 							},
-							"code" : "gtbook := LeDatabase gtBook .\rGtPhlowProtoView new columnedTree\r\titems: [ gtbook tableOfContentsNodes ];\r\tchildren: #children;\r\texpandAll\r\r"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:29:53.646677+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T10:29:53.646677+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Bj6OYrT1DQC15bItCZgTWQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"code" : "gtbook := LeDatabase gtBook.\rGtPhlowProtoView new columnedTree\r\titems: [ gtbook tableOfContentsNodes ];\r\tchildren: #children;\r\texpandAll;\r\tcolumn: 'Page'\r\t\ttext: [ :each | each page title ]\r\t\twidth: 400;\r\tcolumn: 'Has Metapage'\r\t\ttext: [ :each | \r\t\t\t(each page isKindOf: LePage)\r\t\t\t\tifTrue: [ each page hasMetapage ifTrue: [ '√' ] ifFalse: [ '-' ] ]\r\t\t\t\tifFalse: [ 'x' ] ]\r\t\twidth: 100;\r\tsend: [ :each | each page ]"
 						}
 					]
 				},
@@ -805,6 +731,115 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Experiment"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-07T16:51:03.965301+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-07T16:51:43.563041+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "3Ju7tbn1DQCpIlAFC+ouKA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We could put the view into the database, but it is really about the relationship between two databases, so let's introduce a summary object."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-07T16:51:41.78361+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-07T16:51:56.908873+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Vqz8t7n1DQCr5is4C+ouKA=="
+							},
+							"code" : "GtMetabookSummary "
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-07T16:50:49.024538+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-07T16:51:03.073812+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Bj6OYrT1DQC15bItCZgTWQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# MetabookSummary"
 			}
 		]
 	},

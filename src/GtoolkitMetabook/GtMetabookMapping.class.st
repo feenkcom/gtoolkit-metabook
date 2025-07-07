@@ -27,19 +27,19 @@ GtMetabookMapping class >> uniqueInstance [
 ]
 
 { #category : #accessing }
-GtMetabookMapping >> baseDatabaseFor: aPage [
-	self assert: aPage isMetapage.
-	^ LeDatabase databaseNamed: (self reverseMap at: aPage database databaseName)
+GtMetabookMapping >> baseDatabaseFor: aDatabase [
+	self assert: aDatabase hasBaseDatabase.
+	^ LeDatabase databaseNamed: (self reverseMap at: aDatabase databaseName)
 ]
 
 { #category : #accessing }
-GtMetabookMapping >> hasBaseDatabase: aPage [
-	^ self reverseMap includesKey: aPage database databaseName
+GtMetabookMapping >> hasBaseDatabase: aDatabase [
+	^ self reverseMap includesKey: aDatabase databaseName
 ]
 
 { #category : #accessing }
-GtMetabookMapping >> hasMetadatabase: aPage [
-	^ self map includesKey: aPage database databaseName
+GtMetabookMapping >> hasMetadatabase: aDatabase [
+	^ self map includesKey: aDatabase databaseName
 ]
 
 { #category : #accessing }
@@ -64,9 +64,9 @@ GtMetabookMapping >> mappings [
 ]
 
 { #category : #accessing }
-GtMetabookMapping >> metadatabaseFor: aPage [
-	self assert: aPage hasMetadatabase.
-	^ LeDatabase databaseNamed: (self map at: aPage database databaseName)
+GtMetabookMapping >> metadatabaseFor: aDatabase [
+	self assert: aDatabase hasMetadatabase.
+	^ LeDatabase databaseNamed: (self map at: aDatabase databaseName)
 ]
 
 { #category : #accessing }
