@@ -33,6 +33,11 @@ GtMetabookSummary class >> forMetadatabase: aLeDatabase [
 ]
 
 { #category : #accessing }
+GtMetabookSummary >> baseDatabase [
+	^ baseDatabase
+]
+
+{ #category : #accessing }
 GtMetabookSummary >> baseDatabase: aLeDatabase [
 	self assert: aLeDatabase hasMetadatabase.
 	baseDatabase := aLeDatabase.
@@ -78,6 +83,11 @@ GtMetabookSummary >> gtSummaryFor: aView [
 					ifFalse: [ 'x' ] ]
 			width: 100;
 		send: [ :each | each page ]
+]
+
+{ #category : #accessing }
+GtMetabookSummary >> metadatabase [
+	^ metadatabase
 ]
 
 { #category : #printing }

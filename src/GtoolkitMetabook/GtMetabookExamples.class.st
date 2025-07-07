@@ -15,6 +15,15 @@ GtMetabookExamples >> gtBookMainPage [
 	^ page
 ]
 
+{ #category : #'as yet unclassified' }
+GtMetabookExamples >> gtBookMetaSummary [
+	<gtExample>
+	| summary |
+	summary := GtMetabookSummary for: LeDatabase gtBook.
+	self assert: summary baseDatabase equals: LeDatabase gtBook.
+	^ summary
+]
+
 { #category : #accessing }
 GtMetabookExamples >> gtBookMetapage [
 	<gtExample>
