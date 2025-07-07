@@ -33,8 +33,6 @@ LePage >> createMetapage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> gtGitButtonFor: anAction [
-	"To do: get the repoName from the mapping object"
-
 	<lePageAction>
 	| repoName repo |
 	repoName := self repoName.
@@ -51,8 +49,7 @@ LePage >> gtGitButtonFor: anAction [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> gtMetadatabaseSummaryActionFor: anAction [
-	"Todo: we want to show the same view for both meta and base pages -- namely the base -> metapage mapping.
-	We need a better icon."
+	"We need a better icon."
 
 	<lePageAction>
 	| baseDatabase |
@@ -138,5 +135,5 @@ LePage >> metapage [
 
 { #category : #'*GtoolkitMetabook' }
 LePage >> repoName [
-	^ GtMetabookMapping uniqueInstance repoNameFor: self
+	^ self database repoName
 ]

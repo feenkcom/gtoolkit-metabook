@@ -59,7 +59,7 @@ GtMetabookSummary >> gtOrphanedMetaPagesFor: aView [
 		column: 'Value' text: [ :each | each title ]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #views }
 GtMetabookSummary >> gtSummaryFor: aView [
 	<gtView>
 	^ aView columnedTree

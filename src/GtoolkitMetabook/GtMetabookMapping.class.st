@@ -78,8 +78,8 @@ GtMetabookMapping >> repoMap [
 ]
 
 { #category : #accessing }
-GtMetabookMapping >> repoNameFor: aPage [
-	^ self repoMap at: aPage database databaseName ifAbsent: nil
+GtMetabookMapping >> repoNameFor: aDatabase [
+	^ self repoMap at: aDatabase databaseName ifAbsent: nil
 ]
 
 { #category : #accessing }

@@ -19,3 +19,8 @@ LeDatabase >> hasMetadatabase [
 LeDatabase >> metadatabase [
 	^ GtMetabookMapping uniqueInstance metadatabaseFor: self
 ]
+
+{ #category : #'*GtoolkitMetabook' }
+LeDatabase >> repoName [
+	^ GtMetabookMapping uniqueInstance repoNameFor: self
+]
