@@ -62,7 +62,7 @@ LePage >> gtMetadatabaseSummaryActionFor: anAction [
 				ifFalse: [ ^ anAction noAction ] ].
 
 	^ anAction button
-		tooltip: 'Inspect the page''s database';
+		tooltip: 'Inspect the page''s meadatabase mapping';
 		priority: 110;
 		icon: LeIcons lepiterDatabase;
 		id: LePageDatabaseActionId;
