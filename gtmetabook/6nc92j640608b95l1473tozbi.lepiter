@@ -55,6 +55,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-08T15:43:20.60506+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-08T15:50:27.485459+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Hgdh4cz1DQC17b0iCKPiqQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "One problem with these case studies is that there is no structure. How do we map these examples to concrete tasks? A Roadmap could map abstract tasks to concrete case studies."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-06-25T11:58:35.707226+02:00"
 					}
 				},
@@ -66,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:59:02.387253+02:00"
+						"dateAndTimeString" : "2025-07-08T15:43:16.347125+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "**To do** — check that all the examples still work.*Continue exploring*"
+				"string" : "Need to check that all the examples still work."
 			},
 			{
 				"__type" : "textSnippet",
@@ -129,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:59.889298+02:00"
+						"dateAndTimeString" : "2025-07-08T15:43:19.584405+02:00"
 					}
 				},
 				"editEmail" : {
@@ -140,12 +177,49 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T12:06:59.889298+02:00"
+						"dateAndTimeString" : "2025-07-08T15:44:33.819882+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "pCW7V8T0DQCyBFN2BGpMcA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "There are quite a few Python case studies, spread around a bit. Perhaps group them all into their own subtree?"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-08T15:49:23.161764+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-08T15:49:23.161764+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "fC/99sz1DQC6ghb/CKPiqQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
