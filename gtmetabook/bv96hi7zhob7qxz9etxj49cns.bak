@@ -140,14 +140,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-08T15:48:00.952825+02:00"
+						"dateAndTimeString" : "2025-07-09T13:55:12.538391+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "HgbM8cz1DQC5ZVmOCKPiqQ=="
 				},
-				"code" : "GtMetabookExamples new gtBookMetaSummary"
+				"code" : "GtMetabookExamples new gtB"
 			},
 			{
 				"__type" : "textSnippet",
@@ -479,7 +479,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-08T15:51:57.88524+02:00"
+												"dateAndTimeString" : "2025-07-08T15:52:33.143515+02:00"
 											}
 										},
 										"uid" : {
@@ -489,7 +489,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Maybe we can start a mindmap (scenario) correlating the two?"
+										"string" : "Maybe we can start a mindmap (scenario) correlating the two? For each"
 									}
 								]
 							},

@@ -688,7 +688,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-07T16:51:43.563041+02:00"
+									"dateAndTimeString" : "2025-07-09T13:58:54.459147+02:00"
 								}
 							},
 							"uid" : {
@@ -698,7 +698,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We could put the view into the database, but it is really about the relationship between two databases, so let's introduce a summary object."
+							"string" : "We could put the view into the database, but it is really about the relationship between two databases, so let's introduce a mapping object."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -725,14 +725,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:41:22.337481+02:00"
+									"dateAndTimeString" : "2025-07-09T13:58:49.511138+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Vqz8t7n1DQCr5is4C+ouKA=="
 							},
-							"code" : "GtMetabookMapping for: LeDatabase gtBook"
+							"code" : "GtMetabookMapping\r\t\tforMap: {'Glamorous Toolkit Book'.\r\t\t\t\t'gtoolkit'.\r\t\t\t\t'feenkcom/gtoolkit-metabook/gtmetabook'.\r\t\t\t\t'gtoolkit-metabook'}"
 						},
 						{
 							"__type" : "textSnippet",

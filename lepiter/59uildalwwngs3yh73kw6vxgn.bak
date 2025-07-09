@@ -725,14 +725,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:40:55.433767+02:00"
+									"dateAndTimeString" : "2025-07-09T13:56:40.129081+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Vqz8t7n1DQCr5is4C+ouKA=="
 							},
-							"code" : "GtMetabookMap for: LeDatabase gtBook"
+							"code" : "GtMetabookRegistry new gtBookMapping"
 						},
 						{
 							"__type" : "textSnippet",
@@ -759,7 +759,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:39:22.106647+02:00"
+									"dateAndTimeString" : "2025-07-09T12:41:22.29261+02:00"
 								}
 							},
 							"uid" : {
@@ -769,7 +769,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We create the first summary view {{gtMethod:name=GtMetabookMap>>#gtSummaryFor:}}. "
+							"string" : "We create the first summary view {{gtMethod:name=GtMetabookMapping>>#gtSummaryFor:}}. "
 						},
 						{
 							"__type" : "textSnippet",

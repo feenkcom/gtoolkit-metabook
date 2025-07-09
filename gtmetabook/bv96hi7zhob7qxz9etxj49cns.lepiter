@@ -140,14 +140,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-08T15:48:00.952825+02:00"
+						"dateAndTimeString" : "2025-07-09T13:55:17.750501+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "HgbM8cz1DQC5ZVmOCKPiqQ=="
 				},
-				"code" : "GtMetabookExamples new gtBookMetaSummary"
+				"code" : "GtMetabookExamples new gtBookMapping"
 			},
 			{
 				"__type" : "textSnippet",
