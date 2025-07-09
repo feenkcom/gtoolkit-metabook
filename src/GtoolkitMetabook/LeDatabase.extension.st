@@ -2,25 +2,25 @@ Extension { #name : #LeDatabase }
 
 { #category : #'*GtoolkitMetabook' }
 LeDatabase >> baseDatabase [
-	^ GtMetabookMapping uniqueInstance baseDatabaseFor: self
+	^ GtMetabookRegistry uniqueInstance baseDatabaseFor: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
 LeDatabase >> hasBaseDatabase [
-	^ GtMetabookMapping uniqueInstance hasBaseDatabase: self
+	^ GtMetabookRegistry uniqueInstance hasBaseDatabase: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
 LeDatabase >> hasMetadatabase [
-	^ GtMetabookMapping uniqueInstance hasMetadatabase: self
+	^ GtMetabookRegistry uniqueInstance hasMetadatabase: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
 LeDatabase >> metadatabase [
-	^ GtMetabookMapping uniqueInstance metadatabaseFor: self
+	^ GtMetabookRegistry uniqueInstance metadatabaseFor: self
 ]
 
 { #category : #'*GtoolkitMetabook' }
 LeDatabase >> repoName [
-	^ GtMetabookMapping uniqueInstance repoNameFor: self
+	^ GtMetabookRegistry uniqueInstance repoNameFor: self
 ]

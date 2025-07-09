@@ -62,11 +62,13 @@ LePage >> gtMetadatabaseSummaryActionFor: anAction [
 				ifFalse: [ ^ anAction noAction ] ].
 
 	^ anAction button
-		tooltip: 'Inspect the page''s meadatabase mapping';
+		tooltip: 'Inspect the page''s metadatabase mapping';
 		priority: 110;
 		icon: LeIcons lepiterDatabase;
 		id: LePageDatabaseActionId;
-		action: [ :aButton | aButton phlow spawnObject: (GtMetabookSummary for: baseDatabase) ]
+		action: [ :aButton | 
+			aButton phlow
+				spawnObject: (GtMetabookRegistry uniqueInstance map at: baseDatabase databaseName) ]
 ]
 
 { #category : #'*GtoolkitMetabook' }

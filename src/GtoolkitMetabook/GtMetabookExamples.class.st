@@ -16,12 +16,12 @@ GtMetabookExamples >> gtBookMainPage [
 ]
 
 { #category : #'as yet unclassified' }
-GtMetabookExamples >> gtBookMetaSummary [
+GtMetabookExamples >> gtBookMapping [
 	<gtExample>
-	| summary |
-	summary := GtMetabookSummary for: LeDatabase gtBook.
-	self assert: summary baseDatabase equals: LeDatabase gtBook.
-	^ summary
+	| map |
+	map := GtMetabookRegistry new gtBookMapping.
+	self assert: map baseDatabase equals: LeDatabase gtBook.
+	^ map
 ]
 
 { #category : #accessing }
