@@ -14,10 +14,6 @@ Class {
 
 { #category : #'instance creation' }
 GtMetabookMapping class >> forMap: aMetadatabaseMapArray [
-	"Mappings are of the form:
-		{base database name . base database repo name .
-			meta database name . metadatabase repo name}"
-
 	^ self new
 		map: aMetadatabaseMapArray;
 		yourself
@@ -85,8 +81,11 @@ GtMetabookMapping >> map [
 ]
 
 { #category : #initialization }
-GtMetabookMapping >> map: anObject [
-	map := anObject
+GtMetabookMapping >> map: aMetadatabaseMapArray [
+	"Mappings are of the form:
+		{base database name . base database repo name .
+			meta database name . metadatabase repo name}"
+	map := aMetadatabaseMapArray
 ]
 
 { #category : #accessing }

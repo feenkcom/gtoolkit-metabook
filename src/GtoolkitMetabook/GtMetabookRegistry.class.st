@@ -4,16 +4,14 @@ I am a Singleton that maps Lepiter databases to databases of metapages.
 Metapages are accessed by LePage actions that appear if a metadatabase is defined.
 The mappings from databases to metadatabases are defined in methods with the `<metabookMapping>` pragma.
 These are retrieved by my `mappings` method. 
-Additional mappings can be defined as extension method.
-If needed, send me `reset` so the registry dictionaries will be recomputed.
+Additional mappings can be defined as extension methods.
+If needed, send me `reset` so the registry will be recomputed.
 "
 Class {
 	#name : #GtMetabookRegistry,
 	#superclass : #Object,
 	#instVars : [
-		'map',
-		'reverseMap',
-		'repoMap'
+		'mappings'
 	],
 	#classInstVars : [
 		'uniqueInstance'
@@ -21,7 +19,7 @@ Class {
 	#category : #'GtoolkitMetabook-Mapping'
 }
 
-{ #category : #accessing }
+{ #category : #'instance creation' }
 GtMetabookRegistry class >> uniqueInstance [
 	^ uniqueInstance ifNil: [ uniqueInstance := self new ]
 ]
@@ -29,7 +27,9 @@ GtMetabookRegistry class >> uniqueInstance [
 { #category : #accessing }
 GtMetabookRegistry >> baseDatabaseFor: aDatabase [
 	self assert: aDatabase hasBaseDatabase.
-	^ (self reverseMap at: aDatabase databaseName) baseDatabase
+	^ (self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ])
+		baseDatabase
 ]
 
 { #category : #mapping }
@@ -44,21 +44,30 @@ GtMetabookRegistry >> gtBookMapping [
 
 { #category : #accessing }
 GtMetabookRegistry >> hasBaseDatabase: aDatabase [
-	^ self reverseMap includesKey: aDatabase databaseName
+	"Look for a metadatabase with this name."
+
+	^ self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ]
+		ifFound: [ true ]
+		ifNone: [ false ]
 ]
 
 { #category : #accessing }
 GtMetabookRegistry >> hasMetadatabase: aDatabase [
-	^ self map includesKey: aDatabase databaseName
+	"Look for a base database with this name."
+
+	^ self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]
+		ifFound: [ true ]
+		ifNone: [ false ]
 ]
 
 { #category : #accessing }
-GtMetabookRegistry >> map [
-	"Map: base db name -> map"
-
-	^ map
-		ifNil: [ map := (self mappings collect: [ :each | each baseDatabaseName -> each ])
-					asDictionary ]
+GtMetabookRegistry >> mappingFor: aDatabase [
+	^ self mappings
+		detect: [ :map | 
+			map baseDatabaseName = aDatabase databaseName
+				or: [ map metadatabaseName = aDatabase databaseName ] ]
 ]
 
 { #category : #accessing }
@@ -66,46 +75,31 @@ GtMetabookRegistry >> mappings [
 	"Gather the methods that define metabook mappings, and return their maps
 	to use in building the registry dictionaries."
 
-	^ self class methods
-		select: [ :m | m hasPragmaNamed: 'metabookMapping' ]
-		thenCollect: [ :m | m valueWithReceiver: self arguments: {} ]
+	^ mappings
+		ifNil: [ mappings := self class methods
+					select: [ :m | m hasPragmaNamed: 'metabookMapping' ]
+					thenCollect: [ :m | m valueWithReceiver: self arguments: {} ] ]
 ]
 
 { #category : #accessing }
 GtMetabookRegistry >> metadatabaseFor: aDatabase [
 	self assert: aDatabase hasMetadatabase.
-	^ (self map at: aDatabase databaseName) metadatabase
-]
-
-{ #category : #accessing }
-GtMetabookRegistry >> repoMap [
-	^ repoMap
-		ifNil: [ repoMap := ((self mappings collect: [ :each | each first -> each second ])
-					, (self mappings collect: [ :each | each third -> each fourth ]))
-					asDictionary ]
+	^ (self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]) metadatabase
 ]
 
 { #category : #accessing }
 GtMetabookRegistry >> repoNameFor: aDatabase [
-	aDatabase hasMetadatabase
-		ifTrue: [ ^ (self map at: aDatabase databaseName) baseRepoName ].
-	aDatabase hasBaseDatabase
-		ifTrue: [ ^ (self reverseMap at: aDatabase databaseName) metaRepoName ].
+	self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]
+		ifFound: [ :map | ^ map baseRepoName ].
+	self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ]
+		ifFound: [ :map | ^ map metaRepoName ].
 	^ nil
 ]
 
-{ #category : #accessing }
+{ #category : #initialization }
 GtMetabookRegistry >> reset [
-	map := nil.
-	reverseMap := nil.
-	repoMap := nil
-]
-
-{ #category : #accessing }
-GtMetabookRegistry >> reverseMap [
-	"Map: meta db name -> map"
-
-	^ reverseMap
-		ifNil: [ reverseMap := (self mappings
-					collect: [ :each | each metadatabaseName -> each ]) asDictionary ]
+	mappings := nil
 ]

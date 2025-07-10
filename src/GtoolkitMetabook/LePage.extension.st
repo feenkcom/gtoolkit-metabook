@@ -68,7 +68,7 @@ LePage >> gtMetadatabaseSummaryActionFor: anAction [
 		id: LePageDatabaseActionId;
 		action: [ :aButton | 
 			aButton phlow
-				spawnObject: (GtMetabookRegistry uniqueInstance map at: baseDatabase databaseName) ]
+				spawnObject: (GtMetabookRegistry uniqueInstance mappingFor: self database) ]
 ]
 
 { #category : #'*GtoolkitMetabook' }
