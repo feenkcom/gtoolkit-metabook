@@ -7,10 +7,7 @@ Class {
 	#name : #GtMetabookMapping,
 	#superclass : #Object,
 	#instVars : [
-		'baseDatabaseName',
-		'metadatabaseName',
-		'baseRepoName',
-		'metaRepoName'
+		'map'
 	],
 	#category : #'GtoolkitMetabook-Mapping'
 }
@@ -22,10 +19,7 @@ GtMetabookMapping class >> forMap: aMetadatabaseMapArray [
 			meta database name . metadatabase repo name}"
 
 	^ self new
-		baseDatabaseName: aMetadatabaseMapArray first;
-		baseRepoName: aMetadatabaseMapArray second;
-		metadatabaseName: aMetadatabaseMapArray third;
-		metaRepoName: aMetadatabaseMapArray fourth;
+		map: aMetadatabaseMapArray;
 		yourself
 ]
 
@@ -36,22 +30,12 @@ GtMetabookMapping >> baseDatabase [
 
 { #category : #accessing }
 GtMetabookMapping >> baseDatabaseName [
-	^ baseDatabaseName
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> baseDatabaseName: aString [
-	baseDatabaseName := aString
+	^ self map first
 ]
 
 { #category : #accessing }
 GtMetabookMapping >> baseRepoName [
-	^ baseRepoName
-]
-
-{ #category : #'instance creation' }
-GtMetabookMapping >> baseRepoName: aString [
-	baseRepoName := aString
+	^ self map second
 ]
 
 { #category : #printing }
@@ -97,20 +81,17 @@ GtMetabookMapping >> gtSummaryFor: aView [
 
 { #category : #accessing }
 GtMetabookMapping >> map [
-	^ {self baseDatabaseName.
-		self baseRepoName.
-		self metadatabaseName.
-		self metaRepoName}
+	^ map
+]
+
+{ #category : #initialization }
+GtMetabookMapping >> map: anObject [
+	map := anObject
 ]
 
 { #category : #accessing }
 GtMetabookMapping >> metaRepoName [
-	^ metaRepoName
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> metaRepoName: aString [
-	metaRepoName := aString
+	^ self map fourth
 ]
 
 { #category : #accessing }
@@ -120,12 +101,7 @@ GtMetabookMapping >> metadatabase [
 
 { #category : #accessing }
 GtMetabookMapping >> metadatabaseName [
-	^ metadatabaseName
-]
-
-{ #category : #accessing }
-GtMetabookMapping >> metadatabaseName: aString [
-	metadatabaseName := aString
+	^ self map third
 ]
 
 { #category : #printing }
