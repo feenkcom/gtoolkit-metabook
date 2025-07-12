@@ -331,7 +331,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:41:04.804129+02:00"
+									"dateAndTimeString" : "2025-07-12T10:21:47.69781+02:00"
 								}
 							},
 							"uid" : {
@@ -341,7 +341,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We rename `GtMetabookMapping` to {{gtClass:name=GtMetabookRegistry}} and `GtMetabookSummary` to {{gtClass:name=GtMetabookMapping}}. "
+							"string" : "We rename `GtMetabookMapping` to `GtMetabookRegistry` and `GtMetabookSummary` to {{gtClass:name=GtMetabookMapping}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -405,7 +405,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:05:19.522031+02:00"
+									"dateAndTimeString" : "2025-07-12T10:23:14.25971+02:00"
 								}
 							},
 							"uid" : {
@@ -413,40 +413,6 @@
 								"uidString" : "P5+wwN71DQCHi5NTDUSfpA=="
 							},
 							"code" : "GtMetabookExamples new gtBookMapping"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:43:28.426237+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:43:44.490133+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "T3eIUt/1DQCQGjK9C34MrQ=="
-							},
-							"code" : "GtMetabookRegistry uniqueInstance reset "
 						},
 						{
 							"__type" : "textSnippet",
@@ -489,7 +455,116 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:06:53.542235+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:22:09.474139+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "MH6sbd71DQCDmyp3DUSfpA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "It seems overkill to have a separate registry class, so let's  move all the global query methods to the class side of {{gtClass:name=GtMetabookMapping}}. Then we'll harness the registry methods to the mapping object, and finally deprecate them all in favour of the class methods."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:08:31.613389+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:22:17.581213+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "f9dYqxj2DQChjpxsBPAcZw=="
+										},
+										"code" : "GtMetabookMapping mappings"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:08:29.465154+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-12T10:08:29.465154+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "mUoYqxj2DQChdoxlBPAcZw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -499,7 +574,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:39:28.805503+02:00"
+									"dateAndTimeString" : "2025-07-12T10:07:03.864811+02:00"
 								}
 							},
 							"editEmail" : {
@@ -510,17 +585,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T12:39:28.805503+02:00"
+									"dateAndTimeString" : "2025-07-12T10:07:05.049354+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "MH6sbd71DQCDmyp3DUSfpA=="
+								"uidString" : "yucdphj2DQCccspmBPAcZw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "# Unification"
 						}
 					]
 				},

@@ -2,6 +2,13 @@
 I specify a mapping from a base Lepiter database to a metadatabase.
 
 I am initialized with an array consisting of the base database and repo names followed by the meta database and repo names.
+
+My mappings are defined in methods with the pragma `<mapping>`.
+See `GtMetabookMapping>>#gtBookMapping` for an example.
+More mappings can be defined as extension methods. 
+
+The class methods `mappings` returns all the currently known mappings.
+Query methods on the class side access this array.
 "
 Class {
 	#name : #GtMetabookMapping,
@@ -12,11 +19,76 @@ Class {
 	#category : #'GtoolkitMetabook-Mapping'
 }
 
+{ #category : #querying }
+GtMetabookMapping class >> baseDatabaseFor: aDatabase [
+	self assert: aDatabase hasBaseDatabase.
+	^ (self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ])
+		baseDatabase
+]
+
 { #category : #'instance creation' }
 GtMetabookMapping class >> forMap: aMetadatabaseMapArray [
 	^ self new
 		map: aMetadatabaseMapArray;
 		yourself
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> hasBaseDatabase: aDatabase [
+	"Look for a metadatabase with this name."
+
+	^ self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ]
+		ifFound: [ true ]
+		ifNone: [ false ]
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> hasMetadatabase: aDatabase [
+	"Look for a base database with this name."
+
+	^ self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]
+		ifFound: [ true ]
+		ifNone: [ false ]
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> mappingFor: aDatabase [
+	^ self mappings
+		detect: [ :map | 
+			map baseDatabaseName = aDatabase databaseName
+				or: [ map metadatabaseName = aDatabase databaseName ] ]
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> mappings [
+	"Gather the methods that define metabook mappings, and return their maps
+	to use in building the registry dictionaries."
+
+	<todo: 'cache this in a class variable?'>
+	^ self methods
+		select: [ :m | m hasPragmaNamed: 'metabookMapping' ]
+		thenCollect: [ :m | m valueWithReceiver: self arguments: {} ]
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> metadatabaseFor: aDatabase [
+	self assert: aDatabase hasMetadatabase.
+	^ (self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]) metadatabase
+]
+
+{ #category : #querying }
+GtMetabookMapping class >> repoNameFor: aDatabase [
+	self mappings
+		detect: [ :map | map baseDatabaseName = aDatabase databaseName ]
+		ifFound: [ :map | ^ map baseRepoName ].
+	self mappings
+		detect: [ :map | map metadatabaseName = aDatabase databaseName ]
+		ifFound: [ :map | ^ map metaRepoName ].
+	^ nil
 ]
 
 { #category : #accessing }
@@ -32,6 +104,16 @@ GtMetabookMapping >> baseDatabaseName [
 { #category : #accessing }
 GtMetabookMapping >> baseRepoName [
 	^ self map second
+]
+
+{ #category : #mapping }
+GtMetabookMapping >> gtBookMapping [
+	<metabookMapping>
+	^ GtMetabookMapping
+		forMap: {'Glamorous Toolkit Book'.
+				'gtoolkit'.
+				'feenkcom/gtoolkit-metabook/gtmetabook'.
+				'gtoolkit-metabook'}
 ]
 
 { #category : #printing }

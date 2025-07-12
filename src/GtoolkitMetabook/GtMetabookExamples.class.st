@@ -8,7 +8,6 @@ Class {
 GtMetabookExamples >> gtBookMainPage [
 	<gtExample>
 	| page |
-	self reset.
 	page := LeDatabase gtBook pageNamed: 'Glamorous Toolkit'.
 	self assert: page hasMetadatabase.
 	self assert: page isMetapage not.
@@ -20,8 +19,7 @@ GtMetabookExamples >> gtBookMainPage [
 GtMetabookExamples >> gtBookMapping [
 	<gtExample>
 	| map |
-	self reset.
-	map := GtMetabookRegistry new gtBookMapping.
+	map := GtMetabookMapping new gtBookMapping.
 	self assert: map baseDatabase equals: LeDatabase gtBook.
 	^ map
 ]
@@ -56,17 +54,9 @@ GtMetabookExamples >> projectMainPage [
 
 	<gtExample>
 	| page |
-	self reset.
 	page := (LeDatabase databaseNamed: 'feenkcom/gtoolkit-metabook/lepiter')
 			pageNamed: 'Metabook project'.
 	self assert: page hasMetadatabase not.
 	self assert: page repoName isNil.
 	^ page
-]
-
-{ #category : #'as yet unclassified' }
-GtMetabookExamples >> reset [
-	"Ensure that examples always run in a clean state."
-
-	GtMetabookRegistry uniqueInstance reset
 ]
