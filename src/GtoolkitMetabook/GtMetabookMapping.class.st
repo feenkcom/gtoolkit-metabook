@@ -125,12 +125,12 @@ GtMetabookMapping >> gtDisplayOn: aStream [
 ]
 
 { #category : #views }
-GtMetabookMapping >> gtOrphanedMetaPagesFor: aView [
+GtMetabookMapping >> gtStandaloneMetaPagesFor: aView [
 	"These pages have no base page. They might be standalone pages, or orphaned metapages whose base page has changed name."
 
 	<gtView>
 	^ aView columnedList
-		title: 'Orphaned metapages';
+		title: 'Standalone metapages';
 		priority: 20;
 		items: [ (self metadatabase pages reject: #hasBasePage) collect: #page ];
 		column: 'Value' text: [ :each | each title ]

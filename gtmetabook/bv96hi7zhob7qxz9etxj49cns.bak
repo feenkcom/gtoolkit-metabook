@@ -140,166 +140,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-09T13:55:12.538391+02:00"
+						"dateAndTimeString" : "2025-07-09T13:55:17.750501+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "HgbM8cz1DQC5ZVmOCKPiqQ=="
 				},
-				"code" : "GtMetabookExamples new gtB"
+				"code" : "GtMetabookExamples new gtBookMapping"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "commentSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-06-25T11:46:24.913457+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-06-25T11:46:44.788735+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "WeQeDsT0DQCmjjFuBGpMcA=="
-										},
-										"string" : "@tudor girba , you had asked for feedback.  This response could fall in the category of ... be careful what you ask for since you might get it.\n\nAs a new user trying to learn my way around GT, it has taken some time to either find the information I needed or figure things out to get over the initial learning curve.  There are a couple of dozen pages and videos in the book that are great for beginners but they are scattered around the book and, when you find one, it does not always have links to the others that are useful to beginners.  Here is a partial mapping of the resources that helped me find my way (by repurposing the Wardley Map snippet since I did not find any other ways to create a table or a map).  If this is useful, I can link them in a suggested order but, in general, the order is from bottom left to top right.\n(see diagram on Discord)",
-										"isHidden" : true
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T10:59:39.998008+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T11:01:13.925349+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "LknvZsP0DQCkOW8XBGpMcA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "[Carll on maps of the pages](https://discord.com/channels/729445214812504107/737255889517543545/1341552433247289415)"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "commentSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-06-25T10:58:26.610203+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-06-25T10:58:27.785528+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "GnmPYsP0DQCkBbboBGpMcA=="
-										},
-										"string" : "I think there are a couple of easy changes that would make GT more accessible to people who are not familiar with the smalltalk/pharo/GT world.\n1. Add a \"Navigating in GT\" page that covers the basics like the hamburger menu in the top right, views, actions, the Spotter in the top right that is broader in scope than any of the panes below it (even Coder), Views, Actions, and interactions like Alt-Click, Shift-Scroll, and any other things that are universal for the GT environment.\n2. Add a Quick Start section or tag some pages with Quick Start links and add a Quick Start page to gather them all in one place.  The \"Get Started\" page that jumps right into case studies assumes the user has a lot of knowledge about the environment already.\n3. Rename \"A Tour of the Environment\" since the slide show on it is more a tour of moldable development or moldability and not the GT environment itself.  A tour of the environment would be great but, for a newcomer, it would need to cover the things they would interact with like Lepiter, Inspectors, Spotter, and Coder instead.",
-										"isHidden" : true
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T10:56:12.337584+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T11:45:58.630477+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "fqaOWsP0DQCj7vafBGpMcA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : " [Carll on navigating GT](https://discord.com/channels/729445214812504107/737255889517543545/1341748687331922084) 2025-02-19"
-						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -314,7 +168,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T10:58:42.657963+02:00"
+									"dateAndTimeString" : "2025-07-18T16:10:14.635009+02:00"
 								}
 							},
 							"editEmail" : {
@@ -325,12 +179,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-06-25T10:58:42.657963+02:00"
+									"dateAndTimeString" : "2025-07-18T16:10:14.635009+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "nlaEY8P0DQCkFSygBGpMcA=="
+								"uidString" : "Y+z+a5b2DQCRROkBA3/f2w=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -347,7 +201,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T10:55:50.815008+02:00"
+						"dateAndTimeString" : "2025-07-18T16:10:08.718771+02:00"
 					}
 				},
 				"editEmail" : {
@@ -358,17 +212,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-25T11:46:51.165902+02:00"
+						"dateAndTimeString" : "2025-07-18T16:10:13.016857+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "LTtGWcP0DQCjwKKtBGpMcA=="
+					"uidString" : "1qSka5b2DQCREsQeA3/f2w=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Tips from users"
+				"string" : "#Roadmaps"
 			},
 			{
 				"__type" : "textSnippet",
@@ -630,6 +484,190 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# High priority actions"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-25T11:46:24.913457+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-25T11:46:44.788735+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "WeQeDsT0DQCmjjFuBGpMcA=="
+										},
+										"string" : "@tudor girba , you had asked for feedback.  This response could fall in the category of ... be careful what you ask for since you might get it.\n\nAs a new user trying to learn my way around GT, it has taken some time to either find the information I needed or figure things out to get over the initial learning curve.  There are a couple of dozen pages and videos in the book that are great for beginners but they are scattered around the book and, when you find one, it does not always have links to the others that are useful to beginners.  Here is a partial mapping of the resources that helped me find my way (by repurposing the Wardley Map snippet since I did not find any other ways to create a table or a map).  If this is useful, I can link them in a suggested order but, in general, the order is from bottom left to top right.\n(see diagram on Discord)",
+										"isHidden" : true
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-25T10:59:39.998008+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-25T11:01:13.925349+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LknvZsP0DQCkOW8XBGpMcA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[Carll on maps of the pages](https://discord.com/channels/729445214812504107/737255889517543545/1341552433247289415)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "commentSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-25T10:58:26.610203+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-06-25T10:58:27.785528+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "GnmPYsP0DQCkBbboBGpMcA=="
+										},
+										"string" : "I think there are a couple of easy changes that would make GT more accessible to people who are not familiar with the smalltalk/pharo/GT world.\n1. Add a \"Navigating in GT\" page that covers the basics like the hamburger menu in the top right, views, actions, the Spotter in the top right that is broader in scope than any of the panes below it (even Coder), Views, Actions, and interactions like Alt-Click, Shift-Scroll, and any other things that are universal for the GT environment.\n2. Add a Quick Start section or tag some pages with Quick Start links and add a Quick Start page to gather them all in one place.  The \"Get Started\" page that jumps right into case studies assumes the user has a lot of knowledge about the environment already.\n3. Rename \"A Tour of the Environment\" since the slide show on it is more a tour of moldable development or moldability and not the GT environment itself.  A tour of the environment would be great but, for a newcomer, it would need to cover the things they would interact with like Lepiter, Inspectors, Spotter, and Coder instead.",
+										"isHidden" : true
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-25T10:56:12.337584+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-25T11:45:58.630477+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fqaOWsP0DQCj7vafBGpMcA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : " [Carll on navigating GT](https://discord.com/channels/729445214812504107/737255889517543545/1341748687331922084) 2025-02-19"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-25T10:55:50.815008+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-06-25T11:46:51.165902+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "LTtGWcP0DQCjwKKtBGpMcA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Tips from users"
 			}
 		]
 	},
