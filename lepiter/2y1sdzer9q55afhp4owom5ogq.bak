@@ -405,7 +405,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:05:19.522031+02:00"
+									"dateAndTimeString" : "2025-07-12T10:23:14.25971+02:00"
 								}
 							},
 							"uid" : {
@@ -413,40 +413,6 @@
 								"uidString" : "P5+wwN71DQCHi5NTDUSfpA=="
 							},
 							"code" : "GtMetabookExamples new gtBookMapping"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:43:28.426237+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-09T13:43:44.490133+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "T3eIUt/1DQCQGjK9C34MrQ=="
-							},
-							"code" : "GtMetabookRegistry uniqueInstance reset "
 						},
 						{
 							"__type" : "textSnippet",

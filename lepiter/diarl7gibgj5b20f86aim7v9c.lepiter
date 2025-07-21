@@ -79,6 +79,40 @@
 				"string" : "Repo: [](https://github.com/feenkcom/gtoolkit-metabook)"
 			},
 			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-21T15:29:27.619746+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-21T15:29:33.793898+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "qo6qM9L2DQCab9/mBm9IdQ=="
+				},
+				"code" : "Metacello new\n\trepository: 'github://feenkcom/gtoolkit-metabook:main/src';\n\tbaseline: 'GtoolkitMetabook';\n\tload.\n#BaselineOfGtoolkitMetabook asClass loadLepiter.\n#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook."
+			},
+			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
