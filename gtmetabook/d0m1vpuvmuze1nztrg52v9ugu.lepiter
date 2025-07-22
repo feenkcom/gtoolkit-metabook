@@ -593,7 +593,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-18T16:26:00.239277+02:00"
+									"dateAndTimeString" : "2025-07-22T17:38:08.805192+02:00"
 								}
 							},
 							"uid" : {
@@ -603,7 +603,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "— Introduction (page, slides, video)\n— Use case\n— Tutorial\n— Exercise\n— How-to / FAQ"
+							"string" : "— Introduction (page, slides, video)\n— Use case\n— Tutorial\n— Exercise\n— How-to / FAQ\n— Stub"
 						}
 					]
 				},

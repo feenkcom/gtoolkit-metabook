@@ -481,7 +481,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-18T16:24:48.399089+02:00"
+									"dateAndTimeString" : "2025-07-18T16:26:10.962128+02:00"
 								}
 							},
 							"uid" : {
@@ -491,7 +491,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "— Understanding Moldable Development\n— Programming Smalltalk\n— Example-Driven Development\n"
+							"string" : "— Understanding Moldable Development\n— Programming Smalltalk\n— Example-Driven Development\n— ..."
 						}
 					]
 				},

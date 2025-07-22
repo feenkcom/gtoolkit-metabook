@@ -460,7 +460,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-21T17:11:03.688527+02:00"
+									"dateAndTimeString" : "2025-07-21T17:11:09.003072+02:00"
 								}
 							},
 							"uid" : {
@@ -470,7 +470,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "*todo:* `addMessage:` and `sendMessage:` should both really take a message as argument ... @Veit? Add `asMessage` to String "
+							"string" : "*todo:* `addMessage:` and `sendMessage:` should both really take a message as argument ... @Veit? Add `asMessage` to String as conversion  method."
 						},
 						{
 							"__type" : "textSnippet",
