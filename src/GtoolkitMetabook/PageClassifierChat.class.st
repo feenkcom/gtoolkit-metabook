@@ -5,8 +5,7 @@ Class {
 	#name : #PageClassifierChat,
 	#superclass : #Object,
 	#instVars : [
-		'book',
-		'pageName',
+		'page',
 		'prompt',
 		'attribute',
 		'chat',
@@ -25,18 +24,6 @@ PageClassifierChat >> attribute: aString [
 	"The name of an attribute, such as 'Topic' or 'Category'"
 
 	attribute := aString
-]
-
-{ #category : #accessing }
-PageClassifierChat >> book [
-	^ book ifNil: [ self defaultBook ]
-]
-
-{ #category : #initialization }
-PageClassifierChat >> book: aLepiterDatabase [
-	"E.g., LeDatabase gtBook"
-
-	book := aLepiterDatabase
 ]
 
 { #category : #accessing }
@@ -82,16 +69,13 @@ PageClassifierChat >> gtSummaryFor: aView [
 		items: [ {{'Attribute'.
 					self attribute}.
 				{'Book'.
-					self book databaseName.
-					self book}.
-			{'Page'.
-				self pageName.
-				self page}.
-			{'Prompt'.
-				self prompt}.
-
-			{'Chat'.
-				self chat} }];
+					self page database}.
+				{'Page'.
+					self page}.
+				{'Prompt'.
+					self prompt}.
+				{'Chat'.
+					self chat}} ];
 		actionUpdateButtonTooltip: 'Update item list';
 		column: 'Index'
 			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
@@ -103,19 +87,14 @@ PageClassifierChat >> gtSummaryFor: aView [
 		send: #last
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 PageClassifierChat >> page [
-	^ self book pageNamed: self pageName
+	^ page
 ]
 
 { #category : #accessing }
-PageClassifierChat >> pageName [
-	^ pageName
-]
-
-{ #category : #initialization }
-PageClassifierChat >> pageName: anObject [
-	pageName := anObject
+PageClassifierChat >> page: aLePage [
+	page := aLePage
 ]
 
 { #category : #accessing }
