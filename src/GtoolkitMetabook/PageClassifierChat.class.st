@@ -51,11 +51,21 @@ PageClassifierChat >> format [
 ]
 
 { #category : #views }
+PageClassifierChat >> gtPageFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Page';
+		priority: 20;
+		object: [ self page ];
+		view: #gtLiveFor:
+]
+
+{ #category : #views }
 PageClassifierChat >> gtResultsFor: aView [
 	<gtView>
 	^ aView columnedList
 		title: 'Results';
-		priority: 20;
+		priority: 30;
 		items: [ self results ];
 		column: 'Value' text: [ :each | each gtDisplayString ]
 ]
@@ -127,4 +137,15 @@ PageClassifierChat >> results [
 	^ results
 		ifNil: [ self requestResults.
 			results := self chat messages last contentJson at: 'results' ]
+]
+
+{ #category : #accessing }
+PageClassifierChat >> withPrompt: aString [
+	"Spawn a copy of myself with a new prompt."
+
+	^ self class new
+		attribute: self attribute;
+		page: self page;
+		prompt: aString;
+		yourself
 ]
