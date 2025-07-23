@@ -413,6 +413,40 @@
 							"string" : "We now want to handle a bunch of pages. Each classifier manages one set of pages and chats for a given prompt, but can also spawn other prompts."
 						},
 						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-23T13:17:22.173518+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-23T13:18:44.781208+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "E5f0lvj2DQC667vVDkb2IA=="
+							},
+							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 10.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+						},
+						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -426,7 +460,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:42:29.94757+02:00"
+									"dateAndTimeString" : "2025-07-23T13:19:11.827472+02:00"
 								}
 							},
 							"editEmail" : {
@@ -437,259 +471,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:43:26.678661+02:00"
+									"dateAndTimeString" : "2025-07-23T13:19:11.827472+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "YsE/Gvj2DQCugRtPDkb2IA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "To experiment we want to start with pages that have at least 1000 chars. Note that this is  only 330 pages out of 1600!"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:37:10.624392+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:42:17.255004+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Y0A3B/j2DQCqSGiaDkb2IA=="
-							},
-							"code" : "pages := LeDatabase gtBook pages\r\t\tselect: [ :p | p asMarkdownString size >= 1000 and: [ p asMarkdownString size < 1100 ] ]"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:42:59.524322+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:43:05.527961+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "5Q8DHPj2DQCv/TAwDkb2IA=="
-							},
-							"code" : "pages := LeDatabase gtBook pages\r\t\tselect: [ :p | p asMarkdownString size >= 1000 ]"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:36:49.661517+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:37:10.625562+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "JGD3Bfj2DQCqQP5DDkb2IA=="
-							},
-							"code" : "randomPages := (1 to: 10) collect: [ :i | pages atRandom ]."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:59.660865+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:44:44.409569+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "qGZktvb2DQCKVin1ARQ6PQ=="
-							},
-							"code" : "PageClassifier new\r\tattribute: 'Topic';\r\tpages: randomPages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:56.625118+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:56.625118+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Fg02tvb2DQCKR9o7ARQ6PQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:56.846889+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:56.846889+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "83k5tvb2DQCKTCTrARQ6PQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:57.064727+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:02:57.064727+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "isw8tvb2DQCKUYBzARQ6PQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -750,12 +537,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:44:55.52203+02:00"
+			"dateAndTimeString" : "2025-07-23T13:15:38.469317+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Implement PageClassifier classes"
+		"title" : "Implement PageClassifier classes"
 	},
 	"uid" : {
 		"__type" : "uuid",
