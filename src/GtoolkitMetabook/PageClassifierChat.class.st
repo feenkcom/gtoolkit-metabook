@@ -9,10 +9,16 @@ Class {
 		'prompt',
 		'attribute',
 		'chat',
-		'results'
+		'results',
+		'announcer'
 	],
 	#category : #'GtoolkitMetabook-TopicMining'
 }
+
+{ #category : #announcements }
+PageClassifierChat >> announcer [
+	^ announcer
+]
 
 { #category : #accessing }
 PageClassifierChat >> attribute [
@@ -31,9 +37,9 @@ PageClassifierChat >> chat [
 	^ chat ifNil: [ chat := GtLlmChat new ]
 ]
 
-{ #category : #accessing }
-PageClassifierChat >> defaultBook [
-	^ LeDatabase gtBook
+{ #category : #initialization }
+PageClassifierChat >> defaultResults [
+	^ #()
 ]
 
 { #category : #constants }
@@ -51,6 +57,16 @@ PageClassifierChat >> format [
 ]
 
 { #category : #views }
+PageClassifierChat >> gtChatFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Chat';
+		priority: 30;
+		object: [ self chat ];
+		view: #gtMessagesWidgetFor:
+]
+
+{ #category : #view }
 PageClassifierChat >> gtPageFor: aView [
 	<gtView>
 	^ aView forward
@@ -60,17 +76,31 @@ PageClassifierChat >> gtPageFor: aView [
 		view: #gtLiveFor:
 ]
 
-{ #category : #views }
+{ #category : #view }
 PageClassifierChat >> gtResultsFor: aView [
 	<gtView>
 	^ aView columnedList
 		title: 'Results';
-		priority: 30;
+		priority: 40;
 		items: [ self results ];
-		column: 'Value' text: [ :each | each gtDisplayString ]
+		column: 'Value' text: [ :each | each gtDisplayString ];
+		actionUpdateButton;
+		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #action }
+PageClassifierChat >> gtSendRequestAction: anAction [
+	<gtAction>
+	^ anAction button
+		tooltip: 'Send the request';
+		priority: 20;
+		icon: BrGlamorousVectorIcons play;
+		action: [ :aButton | 
+			self requestResults.
+			"aButton phlow spawnObject: self moves last "]
+]
+
+{ #category : #view }
 PageClassifierChat >> gtSummaryFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -95,6 +125,18 @@ PageClassifierChat >> gtSummaryFor: aView [
 			width: 100;
 		column: 'Value' text: #second;
 		send: #last
+]
+
+{ #category : #initialization }
+PageClassifierChat >> initialize [
+	super initialize.
+	announcer := Announcer new.
+	results := self defaultResults
+]
+
+{ #category : #announcements }
+PageClassifierChat >> notifyResultsUpdated [
+	self announcer announce: PCResultsUpdatedAnnouncement new
 ]
 
 { #category : #accessing }
@@ -126,17 +168,20 @@ PageClassifierChat >> prompt: anObject [
 
 { #category : #computing }
 PageClassifierChat >> requestResults [
+	"Run the query. If we already have results, reset the chat."
+
+	results ifNotEmpty: [ chat := nil ].
 	self chat provider format: self format.
 	self chat addMessage: (GtLlmUserMessage new content: self pageString).
 	self chat sendMessage: self prompt.
-	self chat provider executions last wait
+	self chat provider executions last wait.
+	results := self chat messages last contentJson at: 'results'.
+	self notifyResultsUpdated
 ]
 
 { #category : #accessing }
 PageClassifierChat >> results [
 	^ results
-		ifNil: [ self requestResults.
-			results := self chat messages last contentJson at: 'results' ]
 ]
 
 { #category : #accessing }
