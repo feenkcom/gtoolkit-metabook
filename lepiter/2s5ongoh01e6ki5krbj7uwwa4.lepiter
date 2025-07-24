@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-24T16:05:08.852757+02:00"
+						"dateAndTimeString" : "2025-07-24T16:05:13.792029+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "***TO DO*** Control t"
+				"string" : "***TO DO*** Control the computation. See below."
 			},
 			{
 				"__type" : "textSnippet",

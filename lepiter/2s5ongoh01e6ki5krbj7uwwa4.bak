@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-24T16:05:01.144339+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-24T16:05:08.852757+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "MLFbDA/3DQCfHvBdCoLdSA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "***TO DO*** Control t"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-07-22T17:46:04.303395+02:00"
 					}
 				},
@@ -445,44 +482,45 @@
 								"uidString" : "E5f0lvj2DQC667vVDkb2IA=="
 							},
 							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 10.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T16:04:38.791489+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T16:04:38.791489+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "bZoGCw/3DQCecCFXCoLdSA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-23T11:01:08.959911+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-23T11:17:11.809438+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "m6pkr/b2DQCIiZJqARQ6PQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Encapsulating a page collection as a PageClassifier"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -530,7 +568,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-23T11:01:08.959911+02:00"
+						"dateAndTimeString" : "2025-07-24T16:04:38.791489+02:00"
 					}
 				},
 				"editEmail" : {
@@ -541,17 +579,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-23T11:17:11.809438+02:00"
+						"dateAndTimeString" : "2025-07-24T16:04:50.256987+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "m6pkr/b2DQCIiZJqARQ6PQ=="
+					"uidString" : "bZoGCw/3DQCecCFXCoLdSA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Encapsulating a page collection as a PageClassifier"
+				"string" : "# Controlling the computation"
 			}
 		]
 	},
