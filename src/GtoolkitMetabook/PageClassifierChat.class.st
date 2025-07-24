@@ -37,7 +37,14 @@ PageClassifierChat >> chat [
 	^ chat ifNil: [ chat := GtLlmChat new ]
 ]
 
-{ #category : #initialization }
+{ #category : #defaults }
+PageClassifierChat >> defaultResultValue [
+	| default |
+	default := '-'.
+	^ default
+]
+
+{ #category : #defaults }
 PageClassifierChat >> defaultResults [
 	^ #()
 ]
@@ -182,6 +189,13 @@ PageClassifierChat >> requestResults [
 { #category : #accessing }
 PageClassifierChat >> results [
 	^ results
+]
+
+{ #category : #accessing }
+PageClassifierChat >> resultsWithDefaults: newSize [
+	"To be used by views that expect results to be of a certain length."
+	^ (1 to: newSize)
+		collect: [ :i | self results at: i ifAbsent: self defaultResultValue ]
 ]
 
 { #category : #accessing }
