@@ -39,10 +39,10 @@ PageClassifier >> gtChatsFor: aView [
 		title: 'Chats';
 		priority: 10;
 		items: [ self chats ];
-		column: 'Page' text: [ :each | each page title ] width: 400;
-		column: 'Result[1]' text: [ :each | each results first ] width: 200;
-		column: 'Result[2]' text: [ :each | each results second ] width: 200;
-		column: 'Result[rest]' text: [ :each | '; ' join: (each results allButFirst: 2)] width: 400;
+		column: 'Page' text: [ :each | each page title ] width: 300;
+		column: 'Result[1]' text: [ :each | each results first ] width: 150;
+		column: 'Result[2]' text: [ :each | each results second ] width: 150;
+		column: 'Result[rest]' text: [ :each | '; ' join: (each results allButFirst: 2)] width: 150;
 		actionUpdateButton
 ]
 
