@@ -247,14 +247,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T12:44:44.409569+02:00"
+									"dateAndTimeString" : "2025-07-25T11:27:48.267928+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "qGZktvb2DQCKVin1ARQ6PQ=="
 							},
-							"code" : "PageClassifier new\r\tattribute: 'Topic';\r\tpages: randomPages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "PageClassifier new\r\tresultType: 'Topic';\r\tpages: randomPages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						}
 					]
 				},

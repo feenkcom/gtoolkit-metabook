@@ -409,7 +409,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:25:05.395735+02:00"
+												"dateAndTimeString" : "2025-07-25T11:22:34.466872+02:00"
 											}
 										},
 										"uid" : {
@@ -419,7 +419,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : ""
+										"string" : "[[VH Prompt optimization huddle 2025-07-25]] "
 									}
 								]
 							},

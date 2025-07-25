@@ -108,14 +108,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T17:37:23.793582+02:00"
+									"dateAndTimeString" : "2025-07-25T11:27:40.088452+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Myq0VhD3DQCMhAhADiY+7A=="
 							},
-							"code" : "PageClassifierChat new\r\tattribute: 'Topic';\r\tpage: (LeDatabase gtBook pageNamed: 'Developers spend most of their time figuring systems out');\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "PageClassifierChat new\r\tresultType: 'Topic';\r\tpage: (LeDatabase gtBook pageNamed: 'Developers spend most of their time figuring systems out');\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						},
 						{
 							"__type" : "textSnippet",
@@ -216,14 +216,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-25T09:35:59.811776+02:00"
+									"dateAndTimeString" : "2025-07-25T11:00:10.924275+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "dflxlhD3DQCU6RbfDiY+7A=="
 							},
-							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 5.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 5.\rPageClassifier new\r\tresultType: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						},
 						{
 							"__type" : "textSnippet",

@@ -291,14 +291,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T11:20:57.577542+02:00"
+									"dateAndTimeString" : "2025-07-25T11:27:13.200276+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "IJb9I/b2DQC9COIXARQ6PQ=="
 							},
-							"code" : "PageClassifierChat new\r\tattribute: 'Topic';\r\tpage: (LeDatabase gtBook pageNamed: 'Developers spend most of their time figuring systems out');\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "PageClassifierChat new\r\tresultType: 'Topic';\r\tpage: (LeDatabase gtBook pageNamed: 'Developers spend most of their time figuring systems out');\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						},
 						{
 							"__type" : "textSnippet",
@@ -537,12 +537,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-24T16:03:29.666258+02:00"
+			"dateAndTimeString" : "2025-07-24T18:29:15.023133+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Implement PageClassifier classes"
+		"title" : "Implement PageClassifier classes"
 	},
 	"uid" : {
 		"__type" : "uuid",

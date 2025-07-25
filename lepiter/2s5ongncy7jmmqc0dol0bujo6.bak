@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-24T16:10:14.189199+02:00"
+						"dateAndTimeString" : "2025-07-24T16:10:28.701752+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "NB: TG suggest me to look at "
+				"string" : "NB: TG suggest me to look at [The Prompt Report](https://arxiv.org/abs/2406.06608)."
 			},
 			{
 				"__type" : "textSnippet",
