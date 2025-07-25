@@ -216,14 +216,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T17:57:07.509496+02:00"
+									"dateAndTimeString" : "2025-07-25T09:35:59.811776+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "dflxlhD3DQCU6RbfDiY+7A=="
 							},
-							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 10.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 5.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						},
 						{
 							"__type" : "textSnippet",
@@ -362,7 +362,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:25:53.731417+02:00"
+									"dateAndTimeString" : "2025-07-25T09:50:55.642613+02:00"
 								}
 							},
 							"uid" : {
@@ -372,7 +372,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We add an action to send requests to all chats. We should use multiple jobs. See {{gtMethod:name=PageClassifier>>#requestResults}}. "
+							"string" : "We add an action to send requests to all chats. We should use multiple jobs. See {{gtMethod:name=PageClassifier>>#requestResults}}.  We fix a bug in which we forget to put each requests within a block! We add a mutex to avoid running request twice."
 						},
 						{
 							"__type" : "textSnippet",
@@ -388,7 +388,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:40:09.717492+02:00"
+									"dateAndTimeString" : "2025-07-25T10:02:20.649033+02:00"
 								}
 							},
 							"editEmail" : {
@@ -399,83 +399,49 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:40:36.121503+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "N/vlExH3DQCys6VRCeeCQA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "This should show a progress bar, as in the demo below,  but for some reason it doesn't ..."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:40:41.005045+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:40:41.430461+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "c6UOORH3DQCkMdYOBWUOAQ=="
-							},
-							"code" : "title := 'Progress bar demo'.\rjobs := {[ 3 seconds asDelay wait ].\r\t\t[ 2 seconds asDelay wait ].\r\t\t[ 1 seconds asDelay wait ]}.\rdemoProcess := [ [ :job | \r\tjob title: title.\r\tjobs\r\t\twithIndexDo: [ :each :index | \r\t\t\tjob\r\t\t\t\tprogress: index / jobs size;\r\t\t\t\ttitle: each printString.\r\t\t\teach value ] ] asJob run ] fork."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:31:30.815257+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:31:30.815257+02:00"
+									"dateAndTimeString" : "2025-07-25T10:03:23.196951+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "DGtDGBH3DQCzivmZCeeCQA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We change the PCChat behavior to only send requests if there are no results yet. We have a separate action to spawn a copy with a new request for comparison."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-25T10:17:11.105789+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-25T10:17:11.105789+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mvlJrB33DQCezqFLDpyX0g=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -577,7 +543,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-24T18:30:14.814223+02:00"
+						"dateAndTimeString" : "2025-07-25T10:02:23.854124+02:00"
 					}
 				},
 				"uid" : {
@@ -587,7 +553,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Running the rquest jobs"
+				"string" : "# Running the request jobs"
 			}
 		]
 	},

@@ -187,7 +187,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-24T16:03:29.674532+02:00"
+												"dateAndTimeString" : "2025-07-24T18:29:15.039348+02:00"
 											}
 										},
 										"uid" : {
@@ -197,7 +197,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Implement PageClassifier classes]] "
+										"string" : "[[Implement PageClassifier classes]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -224,7 +224,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-24T18:28:41.498387+02:00"
+												"dateAndTimeString" : "2025-07-24T18:29:20.604+02:00"
 											}
 										},
 										"uid" : {
@@ -234,7 +234,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Control the computation]] "
+										"string" : "[[*** Control the computation]] "
 									},
 									{
 										"__type" : "textSnippet",

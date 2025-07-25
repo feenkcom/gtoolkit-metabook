@@ -224,7 +224,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-24T18:29:20.604+02:00"
+												"dateAndTimeString" : "2025-07-25T10:17:17.586788+02:00"
 											}
 										},
 										"uid" : {
@@ -234,7 +234,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Control the computation]] "
+										"string" : "[[Control the computation]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -261,7 +261,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-24T18:26:36.773397+02:00"
+												"dateAndTimeString" : "2025-07-25T10:17:29.410445+02:00"
 											}
 										},
 										"uid" : {
@@ -271,7 +271,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Implement JSON export]]"
+										"string" : "[[*** Implement JSON export]]"
 									},
 									{
 										"__type" : "textSnippet",

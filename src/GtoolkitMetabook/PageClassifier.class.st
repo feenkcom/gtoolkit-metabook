@@ -2,12 +2,13 @@ Class {
 	#name : #PageClassifier,
 	#superclass : #Object,
 	#instVars : [
-		'attribute',
 		'prompt',
 		'pages',
 		'announcer',
 		'chats',
-		'backgroundProcess'
+		'mutex',
+		'process',
+		'resultType'
 	],
 	#category : #'GtoolkitMetabook-TopicMining'
 }
@@ -19,12 +20,14 @@ PageClassifier >> announcer [
 
 { #category : #accessing }
 PageClassifier >> attribute [
-	^ attribute
+	self deprecated: 'Use resultType'.
+	^ resultType
 ]
 
 { #category : #accessing }
 PageClassifier >> attribute: aString [
-	attribute := aString
+	self deprecated: 'Use resultType:'.
+	resultType := aString
 ]
 
 { #category : #accessing }
@@ -34,7 +37,7 @@ PageClassifier >> chats [
 					collect: [ :p | 
 						| pcChat |
 						pcChat := PageClassifierChat new
-								attribute: self attribute;
+								resultType: self resultType;
 								page: p;
 								prompt: self prompt;
 								yourself.
@@ -72,16 +75,22 @@ PageClassifier >> gtChatsFor: aView [
 PageClassifier >> gtSendRequestAction: anAction [
 	<gtAction>
 	^ anAction button
-		tooltip: 'Send requests to all chats';
+		tooltip: 'Send requests to chats' " missing results (' , self missingResults printString , ')'";
 		priority: 20;
 		icon: BrGlamorousVectorIcons play;
-		action: [ :aButton | [ self requestResults ] fork ]
+		action: [ :aButton | self requestResults ]
 ]
 
 { #category : #initialization }
 PageClassifier >> initialize [
 	super initialize.
-	announcer := Announcer new
+	announcer := Announcer new.
+	mutex := Mutex new
+]
+
+{ #category : #accessing }
+PageClassifier >> missingResults [
+	^ (self chats reject: #hasResults) size
 ]
 
 { #category : #announcements }
@@ -111,29 +120,40 @@ PageClassifier >> prompt: aString [
 
 { #category : #action }
 PageClassifier >> requestResults [
-	"TODO: Need a mutex to avoid running request twice.
-	TODO: only update if no results yet."
+	"TODO: only update if no results yet."
 
 	| title jobs |
-	self assert: backgroundProcess isNil.
-	title := 'Sending chat requests'.
-	jobs := chats collect: [ :chat | chat requestResults ].
-	backgroundProcess := [ [ :job | 
-		job title: title.
-		jobs
-			withIndexDo: [ :each :index | 
-				job
-					progress: index / jobs size;
-					title: each printString.
-				each value ] ] asJob run.
-		backgroundProcess := nil ] fork
+	mutex
+		critical: [ process
+				ifNil: [ title := 'Sending chat requests'.
+					jobs := chats collect: [ :chat | [ chat requestResults ] ].
+					process := [ [ :job | 
+						job title: title.
+						jobs
+							withIndexDo: [ :each :index | 
+								job
+									progress: index / jobs size;
+									title: each printString.
+								each value ] ] asJob run.	"NB: second CS is within the forked process"
+						mutex critical: [ process := nil ] ] fork ]
+				ifNotNil: [ self inform: 'A request is already running!' ] ]
+]
+
+{ #category : #accessing }
+PageClassifier >> resultType [
+	^ resultType
+]
+
+{ #category : #accessing }
+PageClassifier >> resultType: aString [
+	resultType := aString
 ]
 
 { #category : #accessing }
 PageClassifier >> withPrompt: aString [
 	"Spawn a copy of myself with a new prompt."
 	^ self class new
-		attribute: self attribute;
+		resultType: self resultType;
 		pages: self pages;
 		prompt: aString;
 		yourself

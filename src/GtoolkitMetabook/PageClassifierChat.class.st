@@ -7,10 +7,10 @@ Class {
 	#instVars : [
 		'page',
 		'prompt',
-		'attribute',
 		'chat',
 		'results',
-		'announcer'
+		'announcer',
+		'resultType'
 	],
 	#category : #'GtoolkitMetabook-TopicMining'
 }
@@ -22,14 +22,16 @@ PageClassifierChat >> announcer [
 
 { #category : #accessing }
 PageClassifierChat >> attribute [
-	^ attribute
+	self deprecated: 'Use resultType'.
+	^ resultType
 ]
 
 { #category : #initialization }
 PageClassifierChat >> attribute: aString [
 	"The name of an attribute, such as 'Topic' or 'Category'"
 
-	attribute := aString
+	self deprecated: 'Use resultType:'.
+	resultType := aString
 ]
 
 { #category : #accessing }
@@ -61,6 +63,17 @@ PageClassifierChat >> format [
 								'items' -> {'type' -> 'string'} asDictionary} asDictionary} asDictionary.
 		'required' -> {'results'}.
 		'additionalProperties' -> false} asDictionary
+]
+
+{ #category : #'as yet unclassified' }
+PageClassifierChat >> freshCopy [
+	"Return a copy with uninitialized chats and results."
+
+	^ self class new
+		resultType: self resultType;
+		page: self page;
+		prompt: self prompt;
+		yourself
 ]
 
 { #category : #views }
@@ -102,9 +115,17 @@ PageClassifierChat >> gtSendRequestAction: anAction [
 		tooltip: 'Send the request';
 		priority: 20;
 		icon: BrGlamorousVectorIcons play;
-		action: [ :aButton | 
-			self requestResults.
-			"aButton phlow spawnObject: self moves last "]
+		action: [ :aButton | self requestResults ]
+]
+
+{ #category : #action }
+PageClassifierChat >> gtSpawnCopyAction: anAction [
+	<gtAction>
+	^ anAction button
+		tooltip: 'Spawn a copy and send a new request';
+		priority: 21;
+		icon: BrGlamorousVectorIcons playinspect;
+		action: [ :aButton | aButton phlow spawnObject: self freshCopy requestResults ]
 ]
 
 { #category : #view }
@@ -113,8 +134,8 @@ PageClassifierChat >> gtSummaryFor: aView [
 	^ aView columnedList
 		title: 'Summary';
 		priority: 10;
-		items: [ {{'Attribute'.
-					self attribute}.
+		items: [ {{'Result type'.
+					self resultType}.
 				{'Book'.
 					self page database}.
 				{'Page'.
@@ -132,6 +153,11 @@ PageClassifierChat >> gtSummaryFor: aView [
 			width: 100;
 		column: 'Value' text: #second;
 		send: #last
+]
+
+{ #category : #accessing }
+PageClassifierChat >> hasResults [
+	^ self results notEmpty
 ]
 
 { #category : #initialization }
@@ -175,15 +201,28 @@ PageClassifierChat >> prompt: anObject [
 
 { #category : #computing }
 PageClassifierChat >> requestResults [
-	"Run the query. If we already have results, reset the chat."
+	"Run the query. If we already have results, ignore the request.
+	We should instead spawn a new chat for comparison."
 
-	results ifNotEmpty: [ chat := nil ].
+	results ifNotEmpty: [ ^ self ].
 	self chat provider format: self format.
 	self chat addMessage: (GtLlmUserMessage new content: self pageString).
 	self chat sendMessage: self prompt.
 	self chat provider executions last wait.
 	results := self chat messages last contentJson at: 'results'.
 	self notifyResultsUpdated
+]
+
+{ #category : #accessing }
+PageClassifierChat >> resultType [
+	^ resultType
+]
+
+{ #category : #initialization }
+PageClassifierChat >> resultType: aString [
+	"The name of an attribute, such as 'Topic' or 'Category'"
+
+	resultType := aString
 ]
 
 { #category : #accessing }
@@ -203,7 +242,7 @@ PageClassifierChat >> withPrompt: aString [
 	"Spawn a copy of myself with a new prompt."
 
 	^ self class new
-		attribute: self attribute;
+		resultType: self resultType;
 		page: self page;
 		prompt: aString;
 		yourself
