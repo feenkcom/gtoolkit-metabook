@@ -71,6 +71,26 @@ PageClassifier >> gtChatsFor: aView [
 		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]
 
+{ #category : #views }
+PageClassifier >> gtJsonFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'JSON object';
+		priority: 40;
+		object: [ self jsonObject asGtJson ];
+		view: #gtJsonObjectFor:context:
+]
+
+{ #category : #views }
+PageClassifier >> gtJsonStringFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'JSON string';
+		priority: 41;
+		object: [ self jsonObject asGtJson ];
+		view: #gtJsonStringFor:
+]
+
 { #category : #action }
 PageClassifier >> gtSendRequestAction: anAction [
 	<gtAction>
@@ -86,6 +106,23 @@ PageClassifier >> initialize [
 	super initialize.
 	announcer := Announcer new.
 	mutex := Mutex new
+]
+
+{ #category : #converting }
+PageClassifier >> jsonObject [
+	^ {'resultType' -> self resultType.
+		'bookName' -> self pages first database databaseName.
+		'prompt' -> self prompt.
+		'chats'
+			-> (self chats
+					collect: [ :chat | 
+						{'pageName' -> chat page title.
+							'results' -> chat results asArray} asDictionary ]) asArray} asDictionary
+]
+
+{ #category : #printing }
+PageClassifier >> jsonString [
+	^ STON toJsonString: self jsonObject
 ]
 
 { #category : #accessing }
