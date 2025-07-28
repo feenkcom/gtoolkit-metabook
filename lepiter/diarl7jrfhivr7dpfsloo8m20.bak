@@ -261,7 +261,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T11:17:25.215333+02:00"
+												"dateAndTimeString" : "2025-07-28T11:17:41.814817+02:00"
 											}
 										},
 										"uid" : {
@@ -271,7 +271,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Test database"
+										"string" : "[[*** Test database for examples]]"
 									},
 									{
 										"__type" : "textSnippet",

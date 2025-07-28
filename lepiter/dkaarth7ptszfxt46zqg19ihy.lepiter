@@ -163,7 +163,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:05:22.959706+02:00"
+						"dateAndTimeString" : "2025-07-28T12:10:39.610699+02:00"
 					}
 				},
 				"editEmail" : {
@@ -174,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:05:22.959706+02:00"
+						"dateAndTimeString" : "2025-07-28T12:10:54.920117+02:00"
 					}
 				},
 				"uid" : {
@@ -184,7 +184,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We introduce some test cases using {{gtMethod:name=PageClassifierExamples>>#exampleDatabase}}. "
 			}
 		]
 	},
@@ -207,12 +207,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T11:17:41.807568+02:00"
+			"dateAndTimeString" : "2025-07-28T12:06:14.230456+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Test database for examples"
+		"title" : "Test database for examples"
 	},
 	"uid" : {
 		"__type" : "uuid",

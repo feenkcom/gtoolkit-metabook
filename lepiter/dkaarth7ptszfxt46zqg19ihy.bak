@@ -163,7 +163,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:37.116363+02:00"
+						"dateAndTimeString" : "2025-07-28T12:10:39.610699+02:00"
 					}
 				},
 				"editEmail" : {
@@ -174,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:56.507982+02:00"
+						"dateAndTimeString" : "2025-07-28T12:10:54.920117+02:00"
 					}
 				},
 				"uid" : {
@@ -184,7 +184,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Current pages:"
+				"string" : "We introduce some test cases using {{gtMethod:name=PageClassifierExamples>>#exampleDatabase}}. "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -200,7 +200,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:33.670341+02:00"
+						"dateAndTimeString" : "2025-07-28T12:11:04.514577+02:00"
 					}
 				},
 				"editEmail" : {
@@ -211,14 +211,48 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:05:04.451538+02:00"
+						"dateAndTimeString" : "2025-07-28T12:11:04.514577+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IGfHJ1z3DQC1mM5SCCfftg=="
+					"uidString" : "hTYTP1z3DQCj3iHaD9RWfA=="
 				},
-				"code" : "exampleDatabase pages"
+				"code" : ""
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T12:06:42.51234+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T12:06:59.365474+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ll91L1z3DQCi3jNqD9RWfA=="
+				},
+				"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 2.\rpc := PageClassifier new\r\tresultType: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 			}
 		]
 	},
@@ -241,12 +275,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T11:17:41.807568+02:00"
+			"dateAndTimeString" : "2025-07-28T12:06:14.230456+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Test database for examples"
+		"title" : "Test database for examples"
 	},
 	"uid" : {
 		"__type" : "uuid",

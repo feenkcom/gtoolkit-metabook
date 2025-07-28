@@ -739,6 +739,43 @@
 							"string" : "We should assume there is a repo-folder. It should contain a folder holding the JSON files. Presumably this JSON folder is inside the `data` folder."
 						},
 						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T12:17:22.438738+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T12:17:40.044409+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "296ZVVz3DQClNhEQD9RWfA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We create a test case with a jsonFile."
+						},
+						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -752,7 +789,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-28T11:03:55.476247+02:00"
+									"dateAndTimeString" : "2025-07-28T12:17:15.741997+02:00"
 								}
 							},
 							"editEmail" : {
@@ -763,14 +800,82 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-28T11:12:43.837299+02:00"
+									"dateAndTimeString" : "2025-07-28T12:18:05.661362+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "5PPsTlv3DQCwx3XOBpYa5Q=="
+								"uidString" : "srEzVVz3DQCk8cL2D9RWfA=="
 							},
-							"code" : "jsonFile := 'feenkcom/gtoolkit-metabook/data/pc-json/test1.json'.\rFileLocator gtResource / jsonFile\r"
+							"code" : "pc := PageClassifierExamples new basicPageClassifier.\rpc jsonFile: 'feenkcom/gtoolkit-metabook/data/pc-json/test1.json'."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T12:18:08.357187+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T12:18:08.357187+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "jolWWFz3DQCmrNjTD9RWfA=="
+							},
+							"code" : ""
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T11:13:49.494482+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-28T12:18:11.923145+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "RvRUclv3DQC57IiuBpYa5Q=="
+							},
+							"code" : "jsonFile := 'feenkcom/gtoolkit-metabook/data/pc-json/test1.json'.\rFileLocator gtResource / jsonFile."
 						}
 					]
 				},
