@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:17:34.321655+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964918+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:19:09.8988+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964918+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "C5C7f1v3DQC6hoRbBpYa5Q=="
+					"uidString" : "+cgIFlz3DQC1gzuyCCfftg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We need a dedicated test database of cloned GT Book pages for:\n— test examples (need these to be stable in the face of changes to the book)\n— example prompts (prompts built from examples also need a stable set of examples and answers)"
+				"string" : "On the rare occasion of a system crash (or forced-quit) you can normally recover most of your changes."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:19:13.83062+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964927+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:48:35.356003+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964927+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "CO2phVv3DQC/uHylBpYa5Q=="
+					"uidString" : "AskIFlz3DQC1hFXlCCfftg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We add a `gtbook-examples` database and {{gtMethod:name=BaselineOfGtoolkitMetabook class>>#loadLepiterGtbookExamples}}. "
+				"string" : "Changes to Lepiter notebook pages are regularly written to disk, so unless the VM crashed before the  database monitor could sync, there is nothing to do there."
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:48:36.409853+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964933+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,51 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:50.738237+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964933+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HcS47lv3DQCu/Ua2CCfftg=="
+					"uidString" : "BskIFlz3DQC1hUACCCfftg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We copy some selected pages from the GT Book using this script."
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:49:49.227122+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T11:59:34.939067+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "fN4P81v3DQCwC8UmCCfftg=="
-				},
-				"code" : "pagesToCopy := {'Getting started with GT in 7'''.\r\t\t'Working with a REST API: the GitHub case study'.\r\t\t'A gentle introduction to Pharo Smalltalk'.\r\t\t'How do I recover my work after a crash?'.\r\t\t'Coder'.\r\t\t'Java'}.\rexampleDatabase := LeDatabase\r\t\tdatabaseNamed: 'feenkcom/gtoolkit-metabook/gtbook-examples'.\rpagesToCopy\r\tdo: [ :title | \r\t\tpage := LeDatabase gtBook pageNamed: title.\r\t\texampleDatabase addPage: (Smalltalk compiler evaluate: page storeString) ].\rexampleDatabase"
+				"string" : "Any code changes, i.e., added or changed methods or classes, are also written to disk in the image's *changes* file every time you commit."
 			},
 			{
 				"__type" : "textSnippet",
@@ -163,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:37.116363+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964936+02:00"
 					}
 				},
 				"editEmail" : {
@@ -174,20 +140,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:56.507982+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964936+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "d/v7J1z3DQC1nahwCCfftg=="
+					"uidString" : "CckIFlz3DQC1hm6tCCfftg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Current pages:"
+				"string" : "To recover your changes, you need to open the `Code Changes` tool from the GtHome menu."
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -200,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:04:33.670341+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964938+02:00"
 					}
 				},
 				"editEmail" : {
@@ -211,14 +177,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:05:04.451538+02:00"
+						"dateAndTimeString" : "2025-07-28T11:59:35.964938+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IGfHJ1z3DQC1mM5SCCfftg=="
+					"uidString" : "DMkIFlz3DQC1h0X9CCfftg=="
 				},
-				"code" : "exampleDatabase pages"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "There you will find the logs of all your changes. Explore them, select the changes you want to replay, and `Apply` them."
+			},
+			{
+				"__type" : "elementSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T11:59:35.964965+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T11:59:35.964965+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "J8kIFlz3DQC1iCIgCCfftg=="
+				},
+				"code" : "GtEpiceaStencil new",
+				"elementHeight" : 300,
+				"codeHeight" : 50,
+				"codeVisible" : false
 			}
 		]
 	},
@@ -230,7 +236,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T11:17:34.286755+02:00"
+			"dateAndTimeString" : "2025-07-28T11:59:35.96491+02:00"
 		}
 	},
 	"editEmail" : {
@@ -241,15 +247,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T11:17:41.807568+02:00"
+			"dateAndTimeString" : "2025-07-28T11:59:35.96491+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Test database for examples"
+		"title" : "How do I recover my work after a crash?"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "e606bb7f-5bf7-0d00-ba85-f11006961ae5"
+		"uuid" : "b6c50816-5cf7-0d00-b582-37950827dfb6"
 	}
 }

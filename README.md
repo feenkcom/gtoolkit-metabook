@@ -10,5 +10,6 @@ Metacello new
 	baseline: 'GtoolkitMetabook';
 	load.
 #BaselineOfGtoolkitMetabook asClass loadLepiter.
-#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook
+#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook.
+#BaselineOfGtoolkitMetabook asClass loadLepiterGtbookExamples.
 ```
