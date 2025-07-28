@@ -1,6 +1,6 @@
 Class {
 	#name : #PageClassifier,
-	#superclass : #Object,
+	#superclass : #PCEntity,
 	#instVars : [
 		'prompt',
 		'pages',
@@ -8,7 +8,8 @@ Class {
 		'chats',
 		'mutex',
 		'process',
-		'resultType'
+		'resultType',
+		'jsonFile'
 	],
 	#category : #'GtoolkitMetabook-TopicMining'
 }
@@ -71,26 +72,6 @@ PageClassifier >> gtChatsFor: aView [
 		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]
 
-{ #category : #views }
-PageClassifier >> gtJsonFor: aView [
-	<gtView>
-	^ aView forward
-		title: 'JSON object';
-		priority: 40;
-		object: [ self jsonObject asGtJson ];
-		view: #gtJsonObjectFor:context:
-]
-
-{ #category : #views }
-PageClassifier >> gtJsonStringFor: aView [
-	<gtView>
-	^ aView forward
-		title: 'JSON string';
-		priority: 41;
-		object: [ self jsonObject asGtJson ];
-		view: #gtJsonStringFor:
-]
-
 { #category : #action }
 PageClassifier >> gtSendRequestAction: anAction [
 	<gtAction>
@@ -108,16 +89,26 @@ PageClassifier >> initialize [
 	mutex := Mutex new
 ]
 
+{ #category : #accessing }
+PageClassifier >> jsonFile [
+	^ jsonFile
+]
+
+{ #category : #accessing }
+PageClassifier >> jsonFile: anObject [
+	jsonFile := anObject
+]
+
 { #category : #converting }
 PageClassifier >> jsonObject [
-	^ {'resultType' -> self resultType.
-		'bookName' -> self pages first database databaseName.
-		'prompt' -> self prompt.
-		'chats'
-			-> (self chats
-					collect: [ :chat | 
-						{'pageName' -> chat page title.
-							'results' -> chat results asArray} asDictionary ]) asArray} asDictionary
+	| json |
+	json := {'resultType' -> self resultType.
+			'bookName' -> self pages first database databaseName.
+			'prompt' -> self prompt.
+			'chats' -> (self chats collect: [ :chat | chat jsonObject ]) asArray}
+			asDictionary.
+	self jsonFile ifNotNil: [ json at: 'jsonFile' put: jsonFile ].
+	^ json
 ]
 
 { #category : #printing }

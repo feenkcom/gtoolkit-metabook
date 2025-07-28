@@ -3,7 +3,7 @@ I encapsulate a chat that classifies a page according some attribute of interest
 "
 Class {
 	#name : #PageClassifierChat,
-	#superclass : #Object,
+	#superclass : #PCEntity,
 	#instVars : [
 		'page',
 		'prompt',
@@ -48,7 +48,9 @@ PageClassifierChat >> defaultResultValue [
 
 { #category : #defaults }
 PageClassifierChat >> defaultResults [
-	^ #()
+	"NB: ensure that chats do not share the same results reference!"
+
+	^ Array new
 ]
 
 { #category : #constants }
@@ -101,7 +103,7 @@ PageClassifierChat >> gtResultsFor: aView [
 	<gtView>
 	^ aView columnedList
 		title: 'Results';
-		priority: 40;
+		priority: 35;
 		items: [ self results ];
 		column: 'Value' text: [ :each | each gtDisplayString ];
 		actionUpdateButton;
@@ -165,6 +167,12 @@ PageClassifierChat >> initialize [
 	super initialize.
 	announcer := Announcer new.
 	results := self defaultResults
+]
+
+{ #category : #accessing }
+PageClassifierChat >> jsonObject [
+	^ {'pageName' -> self page title.
+		'results' -> self results asArray} asDictionary
 ]
 
 { #category : #announcements }
