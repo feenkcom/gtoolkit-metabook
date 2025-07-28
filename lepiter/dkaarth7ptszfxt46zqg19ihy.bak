@@ -187,7 +187,7 @@
 				"string" : "We introduce some test cases using {{gtMethod:name=PageClassifierExamples>>#exampleDatabase}}. "
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -200,7 +200,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:11:04.514577+02:00"
+						"dateAndTimeString" : "2025-07-28T18:09:19.669407+02:00"
 					}
 				},
 				"editEmail" : {
@@ -211,14 +211,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:11:04.514577+02:00"
+						"dateAndTimeString" : "2025-07-28T18:09:28.945833+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "hTYTP1z3DQCj3iHaD9RWfA=="
+					"uidString" : "hzpJQGH3DQCZBmnfCCTi2Q=="
 				},
-				"code" : ""
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Additional pages for testing."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -234,7 +237,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:06:42.51234+02:00"
+						"dateAndTimeString" : "2025-07-28T18:09:30.34231+02:00"
 					}
 				},
 				"editEmail" : {
@@ -245,14 +248,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T12:06:59.365474+02:00"
+						"dateAndTimeString" : "2025-07-28T18:11:33.940378+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ll91L1z3DQCi3jNqD9RWfA=="
+					"uidString" : "/hXsQGH3DQCZnF8kCCTi2Q=="
 				},
-				"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 2.\rpc := PageClassifier new\r\tresultType: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+				"code" : "pagesToCopy := {'A single starting point for scripting, linking and documenting'.\r'How to find stuff in GT in 7'''.\r'Working with AT Protocol'.\r'Querying objects'.\r'How to create a Lepiter page?'.\r'Debugger'.\r\r}.\rexampleDatabase := LeDatabase\r\t\tdatabaseNamed: 'feenkcom/gtoolkit-metabook/gtbook-examples'.\rpagesToCopy\r\tdo: [ :title | \r\t\tpage := LeDatabase gtBook pageNamed: title.\r\t\texampleDatabase addPage: (Smalltalk compiler evaluate: page storeString) ].\rexampleDatabase"
 			}
 		]
 	},

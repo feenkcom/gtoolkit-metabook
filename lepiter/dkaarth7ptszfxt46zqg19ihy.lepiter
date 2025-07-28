@@ -185,6 +185,77 @@
 					"__type" : "textStyle"
 				},
 				"string" : "We introduce some test cases using {{gtMethod:name=PageClassifierExamples>>#exampleDatabase}}. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:09:19.669407+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:09:28.945833+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "hzpJQGH3DQCZBmnfCCTi2Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Additional pages for testing."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:09:30.34231+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:11:46.023574+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "/hXsQGH3DQCZnF8kCCTi2Q=="
+				},
+				"code" : "pagesToCopy := {'A single starting point for scripting, linking and documenting'.\r\t\t'How to find stuff in GT in 7'''.\r\t\t'Working with AT Protocol'.\r\t\t'Querying objects'.\r\t\t'How to create a Lepiter page?'.\r\t\t'Debugger'.\r\t\t'Bloc'}.\rexampleDatabase := LeDatabase\r\t\tdatabaseNamed: 'feenkcom/gtoolkit-metabook/gtbook-examples'.\rpagesToCopy\r\tdo: [ :title | \r\t\tpage := LeDatabase gtBook pageNamed: title.\r\t\texampleDatabase addPage: (Smalltalk compiler evaluate: page storeString) ].\rexampleDatabase"
 			}
 		]
 	},

@@ -1,3 +1,7 @@
+"
+I am a page classifier that classifies lepiter pages using a generative AI chat with a given prompt.
+The classification could be into topics (such as EDD orMoldable Development) or it could be into the type of page (exercise, use case, tutorial etc).
+"
 Class {
 	#name : #PageClassifier,
 	#superclass : #PCEntity,

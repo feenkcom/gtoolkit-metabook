@@ -7,9 +7,14 @@ Class {
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #converting }
+PCSimplePrompt >> asPrompt [
+	^ self
+]
+
+{ #category : #converting }
 PCSimplePrompt >> jsonObject [
-	^ self promptString
+	^ {'promptString' -> self promptString} asDictionary
 ]
 
 { #category : #accessing }

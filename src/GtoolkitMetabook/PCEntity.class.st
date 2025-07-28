@@ -1,3 +1,6 @@
+"
+I am a common superclass for Page Classifier entities with JSON representation.
+"
 Class {
 	#name : #PCEntity,
 	#superclass : #Object,
@@ -21,7 +24,8 @@ PCEntity >> gtJsonStringFor: aView [
 		title: 'JSON string';
 		priority: 41;
 		object: [ self jsonObject asGtJson ];
-		view: #gtJsonStringFor:
+		view: #gtJsonStringFor:;
+		actionUpdateButton
 ]
 
 { #category : #converting }

@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:07.627659+02:00"
+						"dateAndTimeString" : "2025-07-28T17:22:10.969282+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We introduce {{gtClass:name=PCSimplePrompt}} and {{gtMethod:name=ByteString>>#asPrompt}}, and we delegate json generation to the prompt within {{gtMethod:name=PageClassifier>>#jsonObject}}. "
+				"string" : "We introduce {{gtClass:name=PCSimplePrompt}} and {{gtMethod:name=ByteString>>#asPrompt}}, and we delegate JSON generation to the prompt within {{gtMethod:name=PageClassifier>>#jsonObject}}. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -129,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:14.555577+02:00"
+						"dateAndTimeString" : "2025-07-28T17:22:27.927604+02:00"
 					}
 				},
 				"editEmail" : {
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:14.555577+02:00"
+						"dateAndTimeString" : "2025-07-28T17:23:51.94834+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We would like to instantiate it like this:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:23:55.872765+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:32:25.881152+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "omfvnWD3DQC/kbx0CCTi2Q=="
+				},
+				"code" : "PCExampleBasedPrompt new\r\tpromptString: 'Please classify notebook pages into categories reflecting the kind of information they express, as in the following examples:';\r\texampleDatabaseNamed: 'feenkcom/gtoolkit-metabook/gtbook-examples';\r\texamples: {'Glamorous Toolkit' -> 'Introduction'.\r\t\t\t'Getting started with GT in 7''' -> 'Video'.\r\t\t\t'Working with a REST API: the GitHub case study' -> 'Case study'.\r\t\t\t'A gentle introduction to Pharo Smalltalk' -> 'Tutorial'.\r\t\t\t'How do I recover my work after a crash?' -> 'FAQ'.\r\t\t\t'Coder' -> 'Terminology'.\r\t\t\t'Java' -> 'Tag'} asDictionary;\r\tyourself"
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,12 +211,191 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:14.781184+02:00"
+						"dateAndTimeString" : "2025-07-28T17:54:01.893788+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "lVrkTl/3DQCWR040AlZjVw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "There is a slight problem. Page like this contain triple backquotes as well, so we need to strip them out or convert them to single backquotes:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:54:05.178962+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:56:35.465125+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZTnHCWH3DQCT8ZNJCCTi2Q=="
+				},
+				"code" : "page := (LeDatabase databaseNamed: 'feenkcom/gtoolkit-metabook/gtbook-examples')\r\t\tpageNamed: 'A gentle introduction to Pharo Smalltalk'.\rpageString := GtLlmPageExporter new\r\t\tpage: page;\r\t\texport.\rpageString copyReplaceAll: '```' with: '`'"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T15:50:14.98761+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:59:56.276216+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mIHnTl/3DQCWTALYAlZjVw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "For the moment we implement {{gtMethod:name=PCExampleBasedPrompt>>#prompt}} to replace triple backquotes by single ones."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:59:33.517661+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:04:02.270273+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "B0dZHWH3DQCVwq02CCTi2Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We turn this into an example: {{gtMethod:name=PageClassifierExamples>>#simpleExampleBasedPrompt}} and we can use it in a classifier."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:00:47.314627+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T18:05:06.587294+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ulS/IWH3DQCX/HuVCCTi2Q=="
+				},
+				"code" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:59:33.724392+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:59:33.724392+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "f29cHWH3DQCVx82WCCTi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -203,7 +416,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:14.98761+02:00"
+						"dateAndTimeString" : "2025-07-28T17:59:33.933261+02:00"
 					}
 				},
 				"editEmail" : {
@@ -214,12 +427,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:50:14.98761+02:00"
+						"dateAndTimeString" : "2025-07-28T17:59:33.933261+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "mIHnTl/3DQCWTALYAlZjVw=="
+					"uidString" : "1J5fHWH3DQCVzJQFCCTi2Q=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -262,40 +475,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "{{gtClass:name=PageClassifierExamples}}"
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:41:37.555646+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:48:38.775571+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Oh0QMF/3DQCTF/3pAlZjVw=="
-				},
-				"code" : "PageClassifierExamples new basicPageClassifier jsonObject"
 			},
 			{
 				"__type" : "textSnippet",
