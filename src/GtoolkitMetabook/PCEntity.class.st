@@ -31,5 +31,5 @@ PCEntity >> jsonObject [
 
 { #category : #printing }
 PCEntity >> jsonString [
-	self subclassResponsibility
+	^ STON toJsonString: self jsonObject
 ]

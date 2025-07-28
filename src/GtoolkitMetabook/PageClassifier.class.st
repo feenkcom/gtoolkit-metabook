@@ -146,16 +146,11 @@ PageClassifier >> jsonObject [
 	| json |
 	json := {'resultType' -> self resultType.
 			'bookName' -> self pages first database databaseName.
-			'prompt' -> self prompt.
+			'prompt' -> self prompt jsonObject.
 			'chats' -> (self chats collect: [ :chat | chat jsonObject ]) asArray}
 			asDictionary.
 	self jsonFile ifNotNil: [ json at: 'jsonFile' put: jsonFile ].
 	^ json
-]
-
-{ #category : #printing }
-PageClassifier >> jsonString [
-	^ STON toJsonString: self jsonObject
 ]
 
 { #category : #accessing }
@@ -185,7 +180,7 @@ PageClassifier >> prompt [
 
 { #category : #accessing }
 PageClassifier >> prompt: aString [
-	prompt := aString
+	prompt := aString asPrompt
 ]
 
 { #category : #action }
