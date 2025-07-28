@@ -14,6 +14,17 @@ Class {
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
+{ #category : #'instance creation' }
+PageClassifier class >> fromJsonFilePath: aFilePath [
+	^ self
+		newFromJson: (STONJSON fromString: (FileLocator gtResource / aFilePath) contents)
+]
+
+{ #category : #'instance creation' }
+PageClassifier class >> newFromJson: json [
+	^ self new fromJson: json
+]
+
 { #category : #accessing }
 PageClassifier >> announcer [
 	^ announcer
@@ -49,6 +60,26 @@ PageClassifier >> chats [
 						pcChat ] ]
 ]
 
+{ #category : #initialization }
+PageClassifier >> fromJson: json [
+	"NB: First we build the classifier and its pages. Then we lazily initialize the chats
+	as usual, and finally update the results from the json."
+
+	| database resultDict |
+	self resultType: (json at: 'resultType').
+	self prompt: (json at: 'prompt').
+	self jsonFile: (json at: 'jsonFile' ifAbsent: nil).
+	database := LeDatabase databaseNamed: (json at: 'bookName').
+	resultDict := Dictionary new.
+	pages := (json at: 'chats')
+			collect: [ :j | 
+				resultDict at: (j at: 'pageName') put: (j at: 'results').
+				database pageNamed: (j at: 'pageName') ].
+	self chats
+		do: [ :chat | chat initializeResults: (resultDict at: chat page title) ].
+	^ self
+]
+
 { #category : #views }
 PageClassifier >> gtChatsFor: aView [
 	<gtView>
@@ -82,6 +113,17 @@ PageClassifier >> gtSendRequestAction: anAction [
 		action: [ :aButton | self requestResults ]
 ]
 
+{ #category : #action }
+PageClassifier >> gtStoreJSONAction: anAction [
+	<gtAction>
+	self jsonFile ifNil: [ ^ anAction empty ].
+	^ anAction button
+		tooltip: 'Store JSON';
+		priority: 30;
+		icon: BrGlamorousIcons save;
+		action: [ :aButton | aButton phlow spawnObject: self saveToJSONfile ]
+]
+
 { #category : #initialization }
 PageClassifier >> initialize [
 	super initialize.
@@ -95,8 +137,8 @@ PageClassifier >> jsonFile [
 ]
 
 { #category : #accessing }
-PageClassifier >> jsonFile: anObject [
-	jsonFile := anObject
+PageClassifier >> jsonFile: aString [
+	jsonFile := aString
 ]
 
 { #category : #converting }
@@ -175,6 +217,15 @@ PageClassifier >> resultType [
 { #category : #accessing }
 PageClassifier >> resultType: aString [
 	resultType := aString
+]
+
+{ #category : #serialization }
+PageClassifier >> saveToJSONfile [
+	| file |
+	file := (FileLocator gtResource / self jsonFile) ensureCreateFile
+			asFileReference fileReference.
+	file writeStreamDo: [ :aStream | aStream nextPutAll: self jsonString ].
+	^ file
 ]
 
 { #category : #accessing }

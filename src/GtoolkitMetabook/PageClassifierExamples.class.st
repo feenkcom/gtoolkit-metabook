@@ -34,6 +34,22 @@ PageClassifierExamples >> basicPageClassifierWithJsonFile [
 ]
 
 { #category : #examples }
+PageClassifierExamples >> basicPageClassifierWithResults [
+	"Rebuilt from the JSON file"
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier
+			fromJsonFilePath: PageClassifierExamples new jsonTestFilePathWithResults.
+
+	self assert: pc pages size equals: self exampleDatabase pages size.
+	self assert: (pc chats flatCollect: #results) isNotEmpty.
+	self assert: (pc jsonString) equals: (self jsonTestFileWithResults contents).
+	
+	^ pc
+]
+
+{ #category : #examples }
 PageClassifierExamples >> exampleDatabase [
 	"The example database is a collection of sample pages from the GT Book.
 	NB: if this fails, then a sample page has been renamed in or removed from the book."
@@ -48,6 +64,12 @@ PageClassifierExamples >> exampleDatabase [
 ]
 
 { #category : #examples }
+PageClassifierExamples >> jsonTestDirPath [
+	<gtExample>
+	^ 'feenkcom/gtoolkit-metabook/data/pc-json'
+]
+
+{ #category : #examples }
 PageClassifierExamples >> jsonTestFile [
 	<gtExample>
 	^ FileLocator gtResource / self jsonTestFilePath
@@ -56,5 +78,28 @@ PageClassifierExamples >> jsonTestFile [
 { #category : #examples }
 PageClassifierExamples >> jsonTestFilePath [
 	<gtExample>
-	^ 'feenkcom/gtoolkit-metabook/data/pc-json/basicPageClassifierExample.json'
+	^ self jsonTestDirPath, '/basicPageClassifierExample.json'
+]
+
+{ #category : #examples }
+PageClassifierExamples >> jsonTestFilePathWithResults [
+	<gtExample>
+	^ self jsonTestDirPath, '/basicPageClassifierExampleWithResults.json'
+]
+
+{ #category : #examples }
+PageClassifierExamples >> jsonTestFileWithResults [
+	<gtExample>
+	^ FileLocator gtResource / self jsonTestFilePathWithResults
+]
+
+{ #category : #examples }
+PageClassifierExamples >> newBasicPageClassifierFromJson [
+	<gtExample>
+	| pc newPC |
+	pc := self basicPageClassifier.
+	newPC := PageClassifier newFromJson: pc jsonObject.
+	self assert: pc jsonObject equals: newPC jsonObject.
+	self assert: pc jsonString equals: newPC jsonString.
+	^ pc
 ]

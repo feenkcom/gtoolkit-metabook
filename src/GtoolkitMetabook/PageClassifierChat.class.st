@@ -169,6 +169,11 @@ PageClassifierChat >> initialize [
 	results := self defaultResults
 ]
 
+{ #category : #initialization }
+PageClassifierChat >> initializeResults: anArray [
+	results := anArray
+]
+
 { #category : #accessing }
 PageClassifierChat >> jsonObject [
 	^ {'pageName' -> self page title.
