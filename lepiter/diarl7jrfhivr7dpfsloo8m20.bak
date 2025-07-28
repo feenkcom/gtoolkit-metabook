@@ -261,7 +261,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T11:17:41.814817+02:00"
+												"dateAndTimeString" : "2025-07-28T12:06:14.238979+02:00"
 											}
 										},
 										"uid" : {
@@ -271,7 +271,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Test database for examples]]"
+										"string" : "[[Test database for examples]]"
 									},
 									{
 										"__type" : "textSnippet",
@@ -298,7 +298,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-25T10:17:29.410445+02:00"
+												"dateAndTimeString" : "2025-07-28T15:18:09.20048+02:00"
 											}
 										},
 										"uid" : {
@@ -308,7 +308,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Implement JSON export]]"
+										"string" : "[[Implement JSON export]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -324,7 +324,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:34:26.517104+02:00"
+												"dateAndTimeString" : "2025-07-28T15:18:10.030517+02:00"
 											}
 										},
 										"editEmail" : {
@@ -335,17 +335,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-23T13:15:43.52143+02:00"
+												"dateAndTimeString" : "2025-07-28T15:18:36.70513+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "twZ6EOj2DQCNI5akBn3+Lg=="
+											"uidString" : "MP4q3F73DQCE4CBpC1iUZQ=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine topics from the GT Book pages]] "
+										"string" : "***Implement example-based prompts"
 									},
 									{
 										"__type" : "textSnippet",
@@ -372,7 +372,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:43:44.747755+02:00"
+												"dateAndTimeString" : "2025-07-28T15:17:55.460974+02:00"
 											}
 										},
 										"uid" : {
@@ -382,7 +382,44 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Mine categories from the GT Book pages]] "
+										"string" : "[[*** Mine categories from the GT Book pages]] "
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-22T17:34:26.517104+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-28T15:17:41.082148+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "twZ6EOj2DQCNI5akBn3+Lg=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Mine topics from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",

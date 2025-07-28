@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:19:04.256598+02:00"
+						"dateAndTimeString" : "2025-07-22T17:40:40.859965+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We mine categories for a subset of the pages, using examples. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
+				"string" : "Similarly we mine categories for a subset of the pages, iteratinbg the prompt. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
 			}
 		]
 	},
@@ -62,12 +62,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-07-28T15:17:55.445259+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "*** Mine categories from the GT Book pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

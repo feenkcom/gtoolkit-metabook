@@ -1057,7 +1057,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-28T14:22:32.62816+02:00"
+									"dateAndTimeString" : "2025-07-28T15:16:31.270998+02:00"
 								}
 							},
 							"uid" : {
@@ -1067,7 +1067,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "And now we can reconstruct a classifier from the JSON file: {{gtMethod:name=PageClassifierExamples>>#basicPageClassifierWithResults}}"
 						},
 						{
 							"__type" : "textSnippet",

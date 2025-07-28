@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:40:38.285812+02:00"
+						"dateAndTimeString" : "2025-07-28T15:18:40.937771+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:19:04.256598+02:00"
+						"dateAndTimeString" : "2025-07-28T15:19:38.016216+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DcaiJuj2DQCex/AaBn3+Lg=="
+					"uidString" : "ZJsC3l73DQCGB0O0C1iUZQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We mine categories for a subset of the pages, using examples. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
+				"string" : "We need to encapsulate prompts so we can have simple text prompts as well as prompts generated form examples. The JSON for the latte"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:40:38.250031+02:00"
+			"dateAndTimeString" : "2025-07-28T15:18:40.898778+02:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-07-28T15:18:40.898778+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "*** Implement example-based prompts"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "ce39a226-e8f6-0d00-9ec6-27c4067dfe2e"
+		"uuid" : "510202de-5ef7-0d00-8606-3cf20b589465"
 	}
 }
