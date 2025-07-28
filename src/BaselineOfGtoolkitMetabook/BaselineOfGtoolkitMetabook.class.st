@@ -20,6 +20,21 @@ BaselineOfGtoolkitMetabook class >> loadLepiter [
 ]
 
 { #category : #loading }
+BaselineOfGtoolkitMetabook class >> loadLepiterGtbookExamples [
+	IceRepository registry  
+		detect: [ :aRepository |
+			aRepository name = 'gtoolkit-metabook' ]
+		ifFound: [ :aRepository | 
+			| defaultDatabase currentProperties |
+			defaultDatabase := LeDatabasesRegistry defaultLogicalDatabase.
+			currentProperties := defaultDatabase properties.
+			currentProperties addRegisteredDirectory: aRepository repositoryDirectory / 'gtbook-examples'.
+			defaultDatabase reload ]
+		ifNone: [
+			self inform: 'Repository not found.' ]
+]
+
+{ #category : #loading }
 BaselineOfGtoolkitMetabook class >> loadLepiterMetabook [
 	IceRepository registry  
 		detect: [ :aRepository |
