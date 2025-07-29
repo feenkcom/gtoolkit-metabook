@@ -93,16 +93,45 @@ PageClassifierExamples >> basicPageClassifierWithResultsJSONFileReference [
 
 { #category : #examples }
 PageClassifierExamples >> exampleBasedPageClassifier [
-	"A basic classifier for categories. The chats have not yet been activated."
-
 	<gtExample>
 	| pc |
 	pc := PageClassifier new
 			resultType: 'Category';
 			pages: self testPages;
 			prompt: self simpleExampleBasedPrompt;
-			jsonFile: '';
+			jsonFile: self exampleBasedPageClassifierJsonFilePath;
 			yourself.
+	self assert: (pc prompt isKindOf: PCExampleBasedPrompt).
+	self assert: (pc chats flatCollect: #results) isEmpty.
+	^ pc
+]
+
+{ #category : #examples }
+PageClassifierExamples >> exampleBasedPageClassifierJsonFilePath [
+	<gtExample>
+	^ self jsonTestDirPath , '/exampleBasedPageClassifierWithResults.json'
+]
+
+{ #category : #examples }
+PageClassifierExamples >> exampleBasedPageClassifierJsonFileReference [
+	<gtExample>
+	^ FileLocator gtResource / self exampleBasedPageClassifierJsonFilePath
+]
+
+{ #category : #examples }
+PageClassifierExamples >> exampleBasedPageClassifierWithResultsFromJSON [
+	"Rebuilt from the JSON file.
+	NB: comparing the JSON strings is fragile, so we don't do it.
+	Comparing dictionaries should work, but seems to be fragile too."
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier
+			fromJsonFilePath: PageClassifierExamples new exampleBasedPageClassifierJsonFilePath.
+
+	self assert: pc pages size <= self exampleDatabase pages size.
+	self assert: (pc chats flatCollect: #results) isNotEmpty.
+
 	^ pc
 ]
 

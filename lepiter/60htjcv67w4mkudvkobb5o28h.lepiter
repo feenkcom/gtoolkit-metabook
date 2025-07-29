@@ -575,7 +575,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T10:38:02.394078+02:00"
+						"dateAndTimeString" : "2025-07-29T10:42:33.404001+02:00"
 					}
 				},
 				"uid" : {
@@ -585,7 +585,44 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We still need to test that an example -based classifier works correctly: {{gtMethod:name=PageClassifierExamples>>#exampleBasedPageClassifier}}"
+				"string" : "We still need to test that an example-based classifier works correctly: {{gtMethod:name=PageClassifierExamples>>#exampleBasedPageClassifier}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-29T10:55:06.975847+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-29T10:56:30.022878+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "lQ9ETW/3DQCusyblBdnJZg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "and we need to recreate it from the JSON: {{gtMethod:name=PageClassifierExamples>>#exampleBasedPageClassifierWithResultsFromJSON}}"
 			}
 		]
 	},
@@ -608,12 +645,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:40.898778+02:00"
+			"dateAndTimeString" : "2025-07-29T11:05:09.580632+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Implement example-based prompts"
+		"title" : "Implement example-based prompts"
 	},
 	"uid" : {
 		"__type" : "uuid",

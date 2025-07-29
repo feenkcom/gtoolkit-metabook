@@ -7,7 +7,7 @@ Dictionary >> asPrompt [
 	^ (self includesKey: 'examples')
 		ifTrue: [ PCExampleBasedPrompt new
 				promptString: (self at: 'promptString');
-				exampleDatabaseNamed: (self at: 'exampleDatabaseNamed');
+				exampleDatabaseNamed: (self at: 'exampleDatabaseName');
 				examples: ((self at: 'examples') collect: [ :d | (d at: 'pageName') -> (d at: 'answer') ])
 						asDictionary;
 				yourself ]

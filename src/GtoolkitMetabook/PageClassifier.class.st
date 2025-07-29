@@ -121,6 +121,7 @@ PageClassifier >> gtSendRequestAction: anAction [
 PageClassifier >> gtStoreJSONAction: anAction [
 	<gtAction>
 	self jsonFile ifNil: [ ^ anAction empty ].
+	self jsonFile ifEmpty: [ ^ anAction empty ].
 	^ anAction button
 		tooltip: 'Store JSON';
 		priority: 30;
@@ -143,6 +144,11 @@ PageClassifier >> jsonFile [
 { #category : #accessing }
 PageClassifier >> jsonFile: aString [
 	jsonFile := aString
+]
+
+{ #category : #serialization }
+PageClassifier >> jsonFileReference [
+	^ FileLocator gtResource / self jsonFile
 ]
 
 { #category : #converting }
@@ -231,8 +237,7 @@ PageClassifier >> resultType: aString [
 { #category : #serialization }
 PageClassifier >> saveToJSONfile [
 	| file |
-	file := (FileLocator gtResource / self jsonFile) ensureCreateFile
-			asFileReference fileReference.
+	file := self jsonFileReference ensureCreateFile asFileReference fileReference.
 	file writeStreamDo: [ :aStream | aStream nextPutAll: self jsonString ].
 	^ file
 ]

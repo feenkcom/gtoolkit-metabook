@@ -335,7 +335,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T15:18:39.541188+02:00"
+												"dateAndTimeString" : "2025-07-29T11:05:09.589058+02:00"
 											}
 										},
 										"uid" : {
@@ -345,7 +345,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Implement example-based prompts]]"
+										"string" : "[[Implement example-based prompts]]"
 									},
 									{
 										"__type" : "textSnippet",
