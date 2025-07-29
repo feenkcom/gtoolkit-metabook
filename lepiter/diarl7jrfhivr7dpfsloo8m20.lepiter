@@ -314,7 +314,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-07-29T13:39:52.013525+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-07-29T14:11:38.059234+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "RsR1mnH3DQCuK19vA/W/yA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Auto-import values from JSON files]] "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -335,7 +373,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-29T11:05:09.589058+02:00"
+												"dateAndTimeString" : "2025-07-29T13:39:35.905929+02:00"
 											}
 										},
 										"uid" : {
@@ -345,7 +383,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Implement example-based prompts]]"
+										"string" : "[[Implement example-based prompts]] "
 									},
 									{
 										"__type" : "textSnippet",

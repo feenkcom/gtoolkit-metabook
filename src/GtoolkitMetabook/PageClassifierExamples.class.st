@@ -1,7 +1,7 @@
 Class {
 	#name : #PageClassifierExamples,
 	#superclass : #Object,
-	#category : #'GtoolkitMetabook-Examples'
+	#category : #'GtoolkitMetabook-TopicMining'
 }
 
 { #category : #examples }
@@ -69,10 +69,12 @@ PageClassifierExamples >> basicPageClassifierWithResultsFromJSON [
 
 	<gtExample>
 	| pc |
-	pc := PageClassifier
-			fromJsonFilePath: PageClassifierExamples new basicPageClassifierWithResultsJSONFilePath.
-
+	"pc := PageClassifier
+			fromJsonFilePath: PageClassifierExamples new basicPageClassifierWithResultsJSONFilePath."
+	pc := self basicPageClassifier.
 	self assert: pc pages size <= self exampleDatabase pages size.
+	self assert: (pc chats flatCollect: #results) isEmpty.
+	pc jsonFile: self basicPageClassifierWithResultsJSONFilePath.
 	self assert: (pc chats flatCollect: #results) isNotEmpty.
 	self assert: (pc jsonString) equals: (self jsonTestFileWithResults contents).
 	
@@ -93,16 +95,36 @@ PageClassifierExamples >> basicPageClassifierWithResultsJSONFileReference [
 
 { #category : #examples }
 PageClassifierExamples >> exampleBasedPageClassifier [
+	"NB: the results are only initialized after the jsonFile path is set."
 	<gtExample>
 	| pc |
 	pc := PageClassifier new
 			resultType: 'Category';
 			pages: self testPages;
 			prompt: self simpleExampleBasedPrompt;
-			jsonFile: self exampleBasedPageClassifierJsonFilePath;
 			yourself.
 	self assert: (pc prompt isKindOf: PCExampleBasedPrompt).
 	self assert: (pc chats flatCollect: #results) isEmpty.
+	pc jsonFile: self exampleBasedPageClassifierJsonFilePath.
+	self assert: (pc chats flatCollect: #results) isNotEmpty.
+	^ pc
+]
+
+{ #category : #examples }
+PageClassifierExamples >> exampleBasedPageClassifierFromJson [
+	"Is everything properly initialized if we only provide the Json?"
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier new
+			jsonFile: self exampleBasedPageClassifierJsonFilePath;
+			yourself.
+	self assert: pc resultType equals: 'Category'.
+	self assert: pc jsonFile equals: self exampleBasedPageClassifierJsonFilePath.
+	self assert: pc pages asSet equals: self testPages asSet.
+	self assert: (pc prompt isKindOf: PCExampleBasedPrompt).
+	self assert: pc prompt exampleDatabase equals: self exampleDatabase.
+	self assert: (pc chats flatCollect: #results) isNotEmpty.
 	^ pc
 ]
 
@@ -116,23 +138,6 @@ PageClassifierExamples >> exampleBasedPageClassifierJsonFilePath [
 PageClassifierExamples >> exampleBasedPageClassifierJsonFileReference [
 	<gtExample>
 	^ FileLocator gtResource / self exampleBasedPageClassifierJsonFilePath
-]
-
-{ #category : #examples }
-PageClassifierExamples >> exampleBasedPageClassifierWithResultsFromJSON [
-	"Rebuilt from the JSON file.
-	NB: comparing the JSON strings is fragile, so we don't do it.
-	Comparing dictionaries should work, but seems to be fragile too."
-
-	<gtExample>
-	| pc |
-	pc := PageClassifier
-			fromJsonFilePath: PageClassifierExamples new exampleBasedPageClassifierJsonFilePath.
-
-	self assert: pc pages size <= self exampleDatabase pages size.
-	self assert: (pc chats flatCollect: #results) isNotEmpty.
-
-	^ pc
 ]
 
 { #category : #examples }

@@ -26,7 +26,9 @@ PageClassifier class >> fromJsonFilePath: aFilePath [
 
 { #category : #'instance creation' }
 PageClassifier class >> newFromJson: json [
-	^ self new fromJson: json
+	^ self new
+		initializeFromJson: json;
+		yourself
 ]
 
 { #category : #accessing }
@@ -62,26 +64,6 @@ PageClassifier >> chats [
 							send: #notifyResultsUpdated
 							to: self.
 						pcChat ] ]
-]
-
-{ #category : #initialization }
-PageClassifier >> fromJson: json [
-	"NB: First we build the classifier and its pages. Then we lazily initialize the chats
-	as usual, and finally update the results from the json."
-
-	| database resultDict |
-	self resultType: (json at: 'resultType').
-	self prompt: (json at: 'prompt').
-	self jsonFile: (json at: 'jsonFile' ifAbsent: nil).
-	database := LeDatabase databaseNamed: (json at: 'bookName').
-	resultDict := Dictionary new.
-	pages := (json at: 'chats')
-			collect: [ :j | 
-				resultDict at: (j at: 'pageName') put: (j at: 'results').
-				database pageNamed: (j at: 'pageName') ].
-	self chats
-		do: [ :chat | chat initializeResults: (resultDict at: chat page title) ].
-	^ self
 ]
 
 { #category : #views }
@@ -136,6 +118,34 @@ PageClassifier >> initialize [
 	mutex := Mutex new
 ]
 
+{ #category : #initialization }
+PageClassifier >> initializeFromJson: json [
+	"NB: we only set attributes not already initialized.
+	The page set in the json may not be identical to the pages attribute if
+	it has already been separately set, so we must check each page and chat for results."
+
+	| database resultDict |
+	jsonFile ifNil: [ jsonFile := json at: 'jsonFile' ifAbsent: nil ].
+	resultType ifNil: [ resultType := json at: 'resultType' ].
+	prompt ifNil: [ prompt := (json at: 'prompt') asPrompt ].
+
+
+	database := LeDatabase databaseNamed: (json at: 'bookName').
+	resultDict := Dictionary new.
+
+	pages ifNil: [ pages := OrderedCollection new ].
+	(json at: 'chats')
+		do: [ :j | 
+			resultDict at: (j at: 'pageName') put: (j at: 'results').
+			pages addIfNotPresent: (database pageNamed: (j at: 'pageName')) ].
+
+	chats := nil.	"Force regeneration."
+	self chats
+		do: [ :chat | chat initializeResults: (resultDict at: chat page title ifAbsent: nil) ].
+
+	^ self
+]
+
 { #category : #accessing }
 PageClassifier >> jsonFile [
 	^ jsonFile
@@ -143,7 +153,12 @@ PageClassifier >> jsonFile [
 
 { #category : #accessing }
 PageClassifier >> jsonFile: aString [
-	jsonFile := aString
+	| contents |
+	jsonFile := aString.
+	(self jsonFileReference exists
+		and: [ contents := self jsonFileReference contents.
+			contents notEmpty ])
+		ifTrue: [ self initializeFromJson: (STONJSON fromString: contents) ]
 ]
 
 { #category : #serialization }
