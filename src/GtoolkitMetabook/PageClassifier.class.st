@@ -183,13 +183,16 @@ PageClassifier >> prompt [
 ]
 
 { #category : #accessing }
-PageClassifier >> prompt: aString [
-	prompt := aString asPrompt
+PageClassifier >> prompt: aStringOrDictionary [
+	"If a string, convert to a simple prompt.
+	If a (JSON) dictionary, decide which kind of prompt to create."
+
+	prompt := aStringOrDictionary asPrompt
 ]
 
 { #category : #action }
 PageClassifier >> requestResults [
-	"TODO: only update if no results yet."
+	"NB: Async version"
 
 	| title jobs |
 	mutex
@@ -206,6 +209,13 @@ PageClassifier >> requestResults [
 								each value ] ] asJob run.	"NB: second CS is within the forked process"
 						mutex critical: [ process := nil ] ] fork ]
 				ifNotNil: [ self inform: 'A request is already running!' ] ]
+]
+
+{ #category : #action }
+PageClassifier >> requestResultsSync [
+	"Sync version for testing."
+
+	chats do: [ :chat | chat requestResults ]
 ]
 
 { #category : #accessing }

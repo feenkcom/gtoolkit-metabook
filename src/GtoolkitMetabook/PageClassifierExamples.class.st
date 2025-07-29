@@ -47,6 +47,24 @@ PageClassifierExamples >> basicPageClassifierWithJsonFileReference [
 
 { #category : #examples }
 PageClassifierExamples >> basicPageClassifierWithResults [
+	"(Re-)Generate JSON file for use in basicPageClassifierWithResultsFromJSON.
+	NB: run this manually. Not a test."
+
+	<gtExample>
+	<noTest>
+	| pc |
+	pc := self basicPageClassifier.
+	pc jsonFile: self basicPageClassifierWithResultsJSONFilePath.
+	pc requestResultsSync.
+	pc saveToJSONfile.
+	self assert: (pc chats flatCollect: #results) isNotEmpty.
+	self assert: self jsonTestFileWithResults exists.
+	self assert: self jsonTestFileWithResults contents isNotEmpty.
+	^ pc
+]
+
+{ #category : #examples }
+PageClassifierExamples >> basicPageClassifierWithResultsFromJSON [
 	"Rebuilt from the JSON file"
 
 	<gtExample>
@@ -65,6 +83,12 @@ PageClassifierExamples >> basicPageClassifierWithResults [
 PageClassifierExamples >> basicPageClassifierWithResultsJSONFilePath [
 	<gtExample>
 	^ self jsonTestDirPath, '/basicPageClassifierExampleWithResults.json'
+]
+
+{ #category : #examples }
+PageClassifierExamples >> basicPageClassifierWithResultsJSONFileReference [
+	<gtExample>
+	^ FileLocator gtResource / self basicPageClassifierWithResultsJSONFilePath
 ]
 
 { #category : #examples }

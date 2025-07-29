@@ -26,3 +26,8 @@ PCSimplePrompt >> promptString [
 PCSimplePrompt >> promptString: anObject [
 	promptString := anObject
 ]
+
+{ #category : #accessing }
+PCSimplePrompt >> value [
+	^ self promptString
+]

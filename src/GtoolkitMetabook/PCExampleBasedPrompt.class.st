@@ -63,7 +63,7 @@ PCExampleBasedPrompt >> jsonObject [
 ]
 
 { #category : #accessing }
-PCExampleBasedPrompt >> prompt [
+PCExampleBasedPrompt >> value [
 	"Problem -- the page contents may also contain triple backquotes."
 
 	| writeStream |

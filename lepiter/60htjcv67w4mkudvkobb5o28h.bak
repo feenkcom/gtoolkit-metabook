@@ -282,7 +282,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T17:59:56.276216+02:00"
+						"dateAndTimeString" : "2025-07-29T09:54:08.462831+02:00"
 					}
 				},
 				"uid" : {
@@ -292,7 +292,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "For the moment we implement {{gtMethod:name=PCExampleBasedPrompt>>#prompt}} to replace triple backquotes by single ones."
+				"string" : "For the moment we implement {{gtMethod:name=PCExampleBasedPrompt>>#value}} to replace triple backquotes by single ones."
 			},
 			{
 				"__type" : "textSnippet",
@@ -332,6 +332,80 @@
 				"string" : "We turn this into an example: {{gtMethod:name=PageClassifierExamples>>#simpleExampleBasedPrompt}} and we can use it in a classifier."
 			},
 			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-28T17:59:33.724392+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-29T09:33:55.488654+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "f29cHWH3DQCVx82WCCTi2Q=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Check all examples still running. {{gtClass:name=PageClassifierExamples}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-29T09:40:21.401449+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-29T09:40:57.4005+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YKDnQW73DQCSC7PMCo0heQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "{{gtMethod:name=PageClassifierExamples>>#basicPageClassifier}} fails to run the chats with the error *key 'results' not found in Dictionary*. "
+			},
+			{
 				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
@@ -345,7 +419,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T18:00:47.314627+02:00"
+						"dateAndTimeString" : "2025-07-29T09:47:08.523813+02:00"
 					}
 				},
 				"editEmail" : {
@@ -356,14 +430,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T18:04:22.824689+02:00"
+						"dateAndTimeString" : "2025-07-29T10:00:04.517296+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ulS/IWH3DQCX/HuVCCTi2Q=="
+					"uidString" : "bdIrWm73DQCVN49KCo0heQ=="
 				},
-				"code" : "\r\t| pc |\r\tpc := PageClassifier new\r\t\t\tresultType: 'Category';\r\t\t\tpages: self exampleDatabase pages;\r\t\t\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\t\t\tyourself.\r\tself assert: pc pages size equals: self exampleDatabase pages size.\r\tself assert: (pc chats flatCollect: #results) isEmpty.\r\t^ pc"
+				"code" : "chat := PageClassifierExamples new basicPageClassifier chats first.\rchat requestResults"
 			},
 			{
 				"__type" : "textSnippet",
@@ -379,7 +453,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T17:59:33.724392+02:00"
+						"dateAndTimeString" : "2025-07-29T09:48:21.199331+02:00"
 					}
 				},
 				"editEmail" : {
@@ -390,17 +464,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T17:59:33.724392+02:00"
+						"dateAndTimeString" : "2025-07-29T10:00:45.117632+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "f29cHWH3DQCVx82WCCTi2Q=="
+					"uidString" : "S8nsQW73DQCSELS/Co0heQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "There is an error  in {{gtMethod:name=PageClassifierChat>>#requestResults}} in constructing the prompt. We now need to send `value` to the prompt object to get the actual prompt string. We add {{gtMethod:name=PCSimplePrompt>>#value}} and we patch `requestResults` to send it."
 			},
 			{
 				"__type" : "textSnippet",
@@ -416,7 +490,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T17:59:33.933261+02:00"
+						"dateAndTimeString" : "2025-07-29T09:33:52.903226+02:00"
 					}
 				},
 				"editEmail" : {
@@ -427,17 +501,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T17:59:33.933261+02:00"
+						"dateAndTimeString" : "2025-07-29T10:35:43.081919+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "1J5fHWH3DQCVzJQFCCTi2Q=="
+					"uidString" : "eZq/Km73DQCQyLaMCo0heQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "{{gtMethod:name=PageClassifierExamples>>#basicPageClassifierWithResultsFromJSON}} fails. We need to regenerate the JSON file. We'll need an example for this. We add {{gtMethod:name=PageClassifierExamples>>#basicPageClassifierWithResults}}, which needs to be run manually to create the JSON file."
 			},
 			{
 				"__type" : "textSnippet",
@@ -453,7 +527,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:39:29.450647+02:00"
+						"dateAndTimeString" : "2025-07-29T10:13:37.049594+02:00"
 					}
 				},
 				"editEmail" : {
@@ -464,17 +538,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:39:59.03188+02:00"
+						"dateAndTimeString" : "2025-07-29T10:36:08.820569+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "HWRtKF/3DQCSqae/AlZjVw=="
+					"uidString" : "ec3auG73DQCe9TGFCo0heQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "{{gtClass:name=PageClassifierExamples}}"
+				"string" : "Everything seems to be ok now ..."
 			},
 			{
 				"__type" : "textSnippet",
@@ -490,7 +564,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:39:29.666646+02:00"
+						"dateAndTimeString" : "2025-07-29T10:36:27.12241+02:00"
 					}
 				},
 				"editEmail" : {
@@ -501,17 +575,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:39:29.666646+02:00"
+						"dateAndTimeString" : "2025-07-29T10:38:00.698699+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "cq9wKF/3DQCSrpPQAlZjVw=="
+					"uidString" : "iXSECm/3DQChqBF6Co0heQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We still need to test that an example -based classifier works correctly: {{gtM"
 			}
 		]
 	},

@@ -220,7 +220,7 @@ PageClassifierChat >> requestResults [
 	results ifNotEmpty: [ ^ self ].
 	self chat provider format: self format.
 	self chat addMessage: (GtLlmUserMessage new content: self pageString).
-	self chat sendMessage: self prompt.
+	self chat sendMessage: self prompt value.
 	self chat provider executions last wait.
 	results := self chat messages last contentJson at: 'results'.
 	self notifyResultsUpdated
