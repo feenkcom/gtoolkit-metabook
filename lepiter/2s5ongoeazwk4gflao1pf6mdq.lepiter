@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:13:07.857016+02:00"
+						"dateAndTimeString" : "2025-07-29T16:21:38.943485+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "iWVuEHL3DQC4h9YwA/W/yA=="
 				},
-				"code" : "CategoryMinerExamples"
+				"code" : "CategoryClassifierExamples"
 			}
 		]
 	},
