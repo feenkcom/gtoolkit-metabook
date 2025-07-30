@@ -236,9 +236,9 @@ PageClassifierChat >> requestResults [
 	We should instead spawn a new chat for comparison."
 
 	results ifNotEmpty: [ ^ self ].
+	self chat provider instructions: self prompt value.
 	self chat provider format: self format.
-	self chat addMessage: (GtLlmUserMessage new content: self pageString).
-	self chat sendMessage: self prompt value.
+	self chat sendMessage: self pageString.
 	self chat provider executions last wait.
 	results := self chat messages last contentJson at: 'results'.
 	self notifyResultsUpdated
