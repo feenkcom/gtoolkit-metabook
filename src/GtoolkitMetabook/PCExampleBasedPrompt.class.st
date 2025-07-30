@@ -75,26 +75,30 @@ PCExampleBasedPrompt >> value [
 		associationsDo: [ :keyVal | 
 			| page pageString |
 			page := self exampleDatabase pageNamed: keyVal key.
-			pageString := (GtLlmPageExporter new
+			pageString := ((GtLlmPageExporter new
 					page: page;
-					export) copyReplaceAll: '```' with: '`'.
+					export) copyReplaceAll: '```' with: '`')
+					copyReplaceAll: String cr
+					with: String lf.
 			writeStream
-				cr;
+				lf;
+				lf;
 				nextPutAll: 'User:';
-				cr;
+				lf;
 				nextPutAll: '```';
-				cr;
+				lf;
 				nextPutAll: pageString;
-				cr;
+				lf;
 				nextPutAll: '```';
-				cr;
+				lf;
+				lf;
 				nextPutAll: 'Assistant:';
-				cr;
+				lf;
 				nextPutAll: '```';
-				cr;
+				lf;
 				nextPutAll: keyVal value;
-				cr;
+				lf;
 				nextPutAll: '```';
-				cr ].
+				lf ].
 	^ writeStream contents
 ]

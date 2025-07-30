@@ -66,7 +66,7 @@ PageClassifier >> chats [
 						pcChat ] ]
 ]
 
-{ #category : #views }
+{ #category : #view }
 PageClassifier >> gtChatsFor: aView [
 	<gtView>
 	^ aView columnedList
@@ -89,6 +89,16 @@ PageClassifier >> gtChatsFor: aView [
 		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]
 
+{ #category : #action }
+PageClassifier >> gtClearResultsAction: anAction [
+	<gtAction>
+	^ anAction button
+		tooltip: 'Clear the results';
+		priority: 21;
+		icon: BrGlamorousVectorIcons repair;
+		action: [ :aButton | self chats do: #clearResults ]
+]
+
 { #category : #printing }
 PageClassifier >> gtDisplayOn: stream [
 	super gtDisplayOn: stream.
@@ -99,12 +109,12 @@ PageClassifier >> gtDisplayOn: stream [
 		nextPut: $)
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #view }
 PageClassifier >> gtPromptStringFor: aView [
 	<gtView>
 	^ aView forward
 		title: 'Prompt';
-		priority: 45;
+		priority: 42;
 		object: [ self prompt ];
 		view: #gtPromptFor:;
 		actionUpdateButton

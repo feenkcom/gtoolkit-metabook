@@ -39,6 +39,12 @@ PageClassifierChat >> chat [
 	^ chat ifNil: [ chat := GtLlmChat new ]
 ]
 
+{ #category : #accessing }
+PageClassifierChat >> clearResults [
+	results := self defaultResults.
+	^ self notifyResultsUpdated
+]
+
 { #category : #defaults }
 PageClassifierChat >> defaultResultValue [
 	| default |
@@ -67,7 +73,7 @@ PageClassifierChat >> format [
 		'additionalProperties' -> false} asDictionary
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'instance creation' }
 PageClassifierChat >> freshCopy [
 	"Return a copy with uninitialized chats and results."
 
@@ -78,7 +84,7 @@ PageClassifierChat >> freshCopy [
 		yourself
 ]
 
-{ #category : #views }
+{ #category : #view }
 PageClassifierChat >> gtChatFor: aView [
 	<gtView>
 	^ aView forward
@@ -95,9 +101,7 @@ PageClassifierChat >> gtClearResultsAction: anAction [
 		tooltip: 'Clear the results';
 		priority: 10;
 		icon: BrGlamorousVectorIcons repair;
-		action: [ :aButton | 
-			results := self defaultResults.
-			self notifyResultsUpdated ]
+		action: [ :aButton | self clearResults ]
 ]
 
 { #category : #view }

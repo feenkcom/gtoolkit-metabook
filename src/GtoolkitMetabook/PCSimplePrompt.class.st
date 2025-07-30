@@ -19,7 +19,7 @@ PCSimplePrompt >> jsonObject [
 
 { #category : #accessing }
 PCSimplePrompt >> promptString [
-	^ promptString
+	^ promptString copyReplaceAll: String cr with: String lf
 ]
 
 { #category : #accessing }
