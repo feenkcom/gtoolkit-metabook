@@ -46,11 +46,12 @@ PCExampleBasedPrompt >> examplesJSON [
 { #category : #views }
 PCExampleBasedPrompt >> gtPromptFor: aView [
 	<gtView>
-	^ aView forward
+	^ aView textEditor
 		title: 'Prompt';
 		priority: 50;
-		object: [ self prompt ];
-		view: #gtStringFor:
+		text: [ self value ];
+		"styler: BrRBTextStyler new;"
+		aptitude: [ BrGlamorousCodeEditorAptitude ]
 ]
 
 { #category : #converting }

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:40:38.285812+02:00"
+						"dateAndTimeString" : "2025-07-30T13:35:19.206595+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,51 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:19:04.256598+02:00"
+						"dateAndTimeString" : "2025-07-30T13:35:48.438787+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DcaiJuj2DQCex/AaBn3+Lg=="
+					"uidString" : "23IKqIX3DQCPX6ftDwJOFw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We mine categories for a subset of the pages, using examples. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
+				"string" : "Load the Metabook project:"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T13:35:22.479891+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T13:35:24.631805+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "QFs8qIX3DQCPYTAhDwJOFw=="
+				},
+				"code" : "Metacello new\r\trepository: 'github://feenkcom/gtoolkit-metabook:main/src';\r\tbaseline: 'GtoolkitMetabook';\r\tload.\r#BaselineOfGtoolkitMetabook asClass loadLepiter.\r#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook.\r#BaselineOfGtoolkitMetabook asClass loadLepiterGtbookExamples"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +89,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:11:47.08119+02:00"
+						"dateAndTimeString" : "2025-07-30T13:35:52.497526+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +100,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:36.383296+02:00"
+						"dateAndTimeString" : "2025-07-30T13:36:06.049702+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IGGbDHL3DQC3BirvA/W/yA=="
+					"uidString" : "O2cGqoX3DQCP+BrdDwJOFw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We create a dedicated class {{gtClass:name=CategoryClassifierExperiments}} for the experiments. Examples but not tests."
+				"string" : "Inspect the saved example and go to the *Prompt* view:"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:07.657033+02:00"
+						"dateAndTimeString" : "2025-07-30T13:35:39.949649+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,91 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
+						"dateAndTimeString" : "2025-07-30T13:35:40.568907+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jGkusYL3DQCHmyQlDPGZtw=="
+					"uidString" : "sfRGqYX3DQCPbWH7DwJOFw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:04:14.285925+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:32:43.127746+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "2RYntYL3DQCIvLhRDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#detailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Yt66roL3DQCF8coJDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
 			}
 		]
 	},
@@ -199,7 +156,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:40:38.250031+02:00"
+			"dateAndTimeString" : "2025-07-30T13:35:19.154165+02:00"
 		}
 	},
 	"editEmail" : {
@@ -210,15 +167,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-07-30T13:35:19.154165+02:00"
 		}
 	},
 	"pageType" : {
-		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"__type" : "unnamedPage",
+		"defaultTitle" : "Page"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "ce39a226-e8f6-0d00-9ec6-27c4067dfe2e"
+		"uuid" : "fea409a8-85f7-0d00-8f5e-6eba0f024e17"
 	}
 }

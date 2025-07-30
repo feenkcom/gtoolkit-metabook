@@ -99,6 +99,17 @@ PageClassifier >> gtDisplayOn: stream [
 		nextPut: $)
 ]
 
+{ #category : #'as yet unclassified' }
+PageClassifier >> gtPromptStringFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Prompt';
+		priority: 45;
+		object: [ self prompt ];
+		view: #gtPromptFor:;
+		actionUpdateButton
+]
+
 { #category : #action }
 PageClassifier >> gtSendRequestAction: anAction [
 	<gtAction>
