@@ -187,7 +187,6 @@ PageClassifierChat >> initialize [
 
 { #category : #initialization }
 PageClassifierChat >> initializeResults: anArray [
-self haltOnce.
 	results := anArray.
 	self notifyResultsUpdated
 ]
