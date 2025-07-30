@@ -42,7 +42,7 @@
 				"string" : "First, we need a way to browse all the json files. We create {{gtMethod:name=PageClassifierExamples>>#browseStoredPCs}}"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:48:25.506509+02:00"
+						"dateAndTimeString" : "2025-07-30T15:39:19.246322+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:48:25.506509+02:00"
+						"dateAndTimeString" : "2025-07-30T15:39:52.043215+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "GX4tU4P3DQC6HY1tDPGZtw=="
+					"uidString" : "lW+AY4f3DQCmmotHDiw34A=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "pcList := PageClassifierExamples new browseStoredPCs.\rpcList collect: #jsonFileBasename"
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:48:25.741066+02:00"
+						"dateAndTimeString" : "2025-07-30T15:41:41.327724+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "There can be an optional suffix before the `.json` extension of the form `-01`, `-02` etc. The idea is to strip this off, if it exists. Increment till a "
 			},
 			{
 				"__type" : "textSnippet",
@@ -151,40 +148,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : ""
-			},
-			{
-				"__type" : "pharoSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:41:15.082487+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:46:48.048513+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "37+FOYP3DQC2Vah7DPGZtw=="
-				},
-				"code" : "(FileLocator gtResource / PageClassifierExamples new jsonTestDirPath) files\r\tcollect: [ :jf | PageClassifier new jsonFile: jf path pathString ]"
 			}
 		]
 	},
