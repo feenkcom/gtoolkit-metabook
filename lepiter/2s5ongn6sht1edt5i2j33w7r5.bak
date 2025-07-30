@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:30:43.776323+02:00"
+						"dateAndTimeString" : "2025-07-30T09:22:53.650964+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Instead of manual assigning topics and categories to the 1615 (!) pages of the book, we can try to use an AI assistant. A first experiment with Veit showed how this could work. See [[Topic mining experiment with gt4llm]]."
+				"string" : "Instead of manual assigning topics and categories to the 1615 (!) pages of the book, we can try to use an AI assistant. A first experiment with Veit showed how this could work. See [[Topic mining experiment with gt4llm 2025-07-21]]."
 			},
 			{
 				"__type" : "textSnippet",
@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-24T18:29:15.033168+02:00"
+									"dateAndTimeString" : "2025-07-30T09:35:07.936339+02:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Implement PageClassifier classes]] "
+							"string" : "[[PageClassifier implementation]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -296,7 +296,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-28T15:17:55.458017+02:00"
+									"dateAndTimeString" : "2025-07-28T15:18:47.812735+02:00"
 								}
 							},
 							"uid" : {
@@ -306,7 +306,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Mine categories from the GT Book pages]] "
+							"string" : "[[* Mine categories from the GT Book pages]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -437,12 +437,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:25:29.27915+02:00"
+			"dateAndTimeString" : "2025-07-30T09:24:55.528243+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic and category mining"
+		"title" : "Experiments: Topic and category mining"
 	},
 	"uid" : {
 		"__type" : "uuid",

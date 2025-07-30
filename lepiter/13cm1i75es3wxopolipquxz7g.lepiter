@@ -1044,12 +1044,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-24T08:13:27.1119+02:00"
+			"dateAndTimeString" : "2025-07-30T09:37:13.866446+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Implementation steps"
+		"title" : "Metabook initial implementation"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -709,7 +709,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-21T16:26:40.837044+02:00"
+						"dateAndTimeString" : "2025-07-30T09:22:49.994819+02:00"
 					}
 				},
 				"uid" : {
@@ -1178,12 +1178,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T09:10:37.640782+02:00"
+			"dateAndTimeString" : "2025-07-30T09:22:53.636322+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Topic mining experiment with gt4llm"
+		"title" : "Topic mining experiment with gt4llm 2025-07-21"
 	},
 	"uid" : {
 		"__type" : "uuid",

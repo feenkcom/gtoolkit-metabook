@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-09T12:39:58.359492+02:00"
+						"dateAndTimeString" : "2025-07-09T12:40:11.092535+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "NB: "
+				"string" : "NB: some methods and classes have been renamed in later refactorings."
 			},
 			{
 				"__type" : "textSnippet",
@@ -1044,12 +1044,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-06-24T08:13:27.1119+02:00"
+			"dateAndTimeString" : "2025-07-30T09:36:50.950118+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Implementation steps"
+		"title" : "Metabook implementation steps"
 	},
 	"uid" : {
 		"__type" : "uuid",

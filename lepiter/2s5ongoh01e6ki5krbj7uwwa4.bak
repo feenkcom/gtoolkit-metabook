@@ -437,14 +437,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-23T13:18:44.781208+02:00"
+									"dateAndTimeString" : "2025-07-25T11:27:29.807106+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "E5f0lvj2DQC667vVDkb2IA=="
 							},
-							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 10.\rPageClassifier new\r\tattribute: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
+							"code" : "pages := LeDatabase gtBook pages copyFrom: 1 to: 10.\rPageClassifier new\r\tresultType: 'Topic';\r\tpages: pages;\r\tprompt: 'Propose up to three keywords for the above text, which is a page in the Glamorous Toolkit book.';\r\tyourself"
 						}
 					]
 				},
@@ -537,12 +537,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-24T18:29:15.023133+02:00"
+			"dateAndTimeString" : "2025-07-30T09:35:07.921423+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Implement PageClassifier classes"
+		"title" : "PageClassifier implementation"
 	},
 	"uid" : {
 		"__type" : "uuid",

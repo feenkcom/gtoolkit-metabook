@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-09T09:48:45.327795+02:00"
+						"dateAndTimeString" : "2025-07-21T16:22:21.789515+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Now that we have a summary object, it makes sense to rethink the domain modeling, and refactor the implementation."
+				"string" : "\nNow that we have a summary object, it makes sense to rethink the domain modeling, and refactor the implementation."
 			},
 			{
 				"__type" : "textSnippet",
