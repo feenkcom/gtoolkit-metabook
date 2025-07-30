@@ -42,7 +42,7 @@ PageClassifierChat >> chat [
 { #category : #accessing }
 PageClassifierChat >> clearResults [
 	results := self defaultResults.
-	^ self notifyResultsUpdated
+	self notifyResultsUpdated
 ]
 
 { #category : #defaults }
@@ -187,7 +187,9 @@ PageClassifierChat >> initialize [
 
 { #category : #initialization }
 PageClassifierChat >> initializeResults: anArray [
-	results := anArray
+self haltOnce.
+	results := anArray.
+	self notifyResultsUpdated
 ]
 
 { #category : #accessing }

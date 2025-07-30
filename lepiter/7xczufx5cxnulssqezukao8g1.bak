@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T09:33:33.703914+02:00"
+						"dateAndTimeString" : "2025-07-30T14:45:47.180707+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Tasks with separate pages are listed in the ToC."
+				"string" : "More tasks with separate pages are listed in the ToC."
 			},
 			{
 				"__type" : "textSnippet",
@@ -87,7 +87,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-30T09:25:58.449179+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-07-30T09:25:58.449179+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "gWFPLIL3DQC8MgGNAjLkhQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Remove pages from PC as an ivar and just retrieve them from the chats. Make sure the actual chats are initialized lazily. "
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -97,7 +135,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:25:58.449179+02:00"
+									"dateAndTimeString" : "2025-07-30T14:47:16.111686+02:00"
 								}
 							},
 							"editEmail" : {
@@ -108,17 +146,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:25:58.449179+02:00"
+									"dateAndTimeString" : "2025-07-30T14:49:59.388893+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "gWFPLIL3DQC8MgGNAjLkhQ=="
+								"uidString" : "UStZqYb3DQCXLXIPDwJOFw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Remove pages from PC as an ivar and just retrieve them from the chats. Make sure the actual chats are initialized lazily. "
+							"string" : "[[Remove the pages ivar from the PC class.]]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -369,7 +407,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T10:56:49.799209+02:00"
+									"dateAndTimeString" : "2025-07-30T10:56:56.609402+02:00"
 								}
 							},
 							"uid" : {
@@ -379,7 +417,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Add an example method {{gtMethod:name=PageClassifierExamples>>#browseStoredPCs}} t"
+							"string" : "Add an example method {{gtMethod:name=PageClassifierExamples>>#browseStoredPCs}} to browse the stored PCs"
 						},
 						{
 							"__type" : "textSnippet",

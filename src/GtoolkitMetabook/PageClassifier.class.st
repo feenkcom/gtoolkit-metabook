@@ -7,7 +7,6 @@ Class {
 	#superclass : #PCEntity,
 	#instVars : [
 		'prompt',
-		'pages',
 		'announcer',
 		'chats',
 		'mutex',
@@ -49,21 +48,23 @@ PageClassifier >> attribute: aString [
 ]
 
 { #category : #accessing }
+PageClassifier >> chatForPage: aLePage [
+	| pcChat |
+	pcChat := PageClassifierChat new
+			resultType: self resultType;
+			page: aLePage;
+			prompt: self prompt;
+			yourself.
+	pcChat announcer
+		when: PCResultsUpdatedAnnouncement
+		send: #notifyResultsUpdated
+		to: self.
+	^ pcChat
+]
+
+{ #category : #accessing }
 PageClassifier >> chats [
 	^ chats
-		ifNil: [ chats := self pages
-					collect: [ :p | 
-						| pcChat |
-						pcChat := PageClassifierChat new
-								resultType: self resultType;
-								page: p;
-								prompt: self prompt;
-								yourself.
-						pcChat announcer
-							when: PCResultsUpdatedAnnouncement
-							send: #notifyResultsUpdated
-							to: self.
-						pcChat ] ]
 ]
 
 { #category : #view }
@@ -102,8 +103,9 @@ PageClassifier >> gtClearResultsAction: anAction [
 { #category : #printing }
 PageClassifier >> gtDisplayOn: stream [
 	super gtDisplayOn: stream.
-	stream nextPut: $(;
-		nextPutAll: self jsonFileReference basenameWithoutExtension;
+	stream
+		nextPut: $(;
+		nextPutAll: self jsonFileBasename;
 		nextPutAll: ' — ';
 		nextPutAll: self resultType;
 		nextPut: $)
@@ -146,34 +148,27 @@ PageClassifier >> gtStoreJSONAction: anAction [
 PageClassifier >> initialize [
 	super initialize.
 	announcer := Announcer new.
-	mutex := Mutex new
+	mutex := Mutex new.
+	chats := OrderedCollection new.
 ]
 
 { #category : #initialization }
 PageClassifier >> initializeFromJson: json [
-	"NB: we only set attributes not already initialized.
-	The page set in the json may not be identical to the pages attribute if
-	it has already been separately set, so we must check each page and chat for results."
+	"NB: we only set attributes not already initialized."
 
-	| database resultDict |
+	| database |
 	jsonFile ifNil: [ jsonFile := json at: 'jsonFile' ifAbsent: nil ].
 	resultType ifNil: [ resultType := json at: 'resultType' ].
 	prompt ifNil: [ prompt := (json at: 'prompt') asPrompt ].
-
-
 	database := LeDatabase databaseNamed: (json at: 'bookName').
-	resultDict := Dictionary new.
-
-	pages ifNil: [ pages := OrderedCollection new ].
 	(json at: 'chats')
 		do: [ :j | 
-			resultDict at: (j at: 'pageName') put: (j at: 'results').
-			pages addIfNotPresent: (database pageNamed: (j at: 'pageName')) ].
-
-	chats := nil.	"Force regeneration."
-	self chats
-		do: [ :chat | chat initializeResults: (resultDict at: chat page title ifAbsent: nil) ].
-
+			| page chat |
+			page := database pageNamed: (j at: 'pageName').
+			chat := self chats
+					detect: [ :c | c page = page ]
+					ifNone: [ chats addLast: (self chatForPage: page) ].
+			chat initializeResults: (j at: 'results') ].
 	^ self
 ]
 
@@ -190,6 +185,13 @@ PageClassifier >> jsonFile: aString [
 		and: [ contents := self jsonFileReference contents.
 			contents notEmpty ])
 		ifTrue: [ self initializeFromJson: (STONJSON fromString: contents) ]
+]
+
+{ #category : #accessing }
+PageClassifier >> jsonFileBasename [
+	^ self jsonFile
+		ifNil: [ '<no json file>' ]
+		ifNotNil: [ self jsonFileReference basenameWithoutExtension ]
 ]
 
 { #category : #serialization }
@@ -221,12 +223,15 @@ PageClassifier >> notifyResultsUpdated [
 
 { #category : #accessing }
 PageClassifier >> pages [
-	^ pages
+	^ self chats collect: #page
 ]
 
 { #category : #accessing }
 PageClassifier >> pages: aLePageCollection [
-	pages := aLePageCollection
+	"NB: If this is sent after sending @jsonFile: then it will replace any initialized chats."
+
+	chats := aLePageCollection asOrderedCollection
+			collect: [ :aLePage | self chatForPage: aLePage ]
 ]
 
 { #category : #accessing }

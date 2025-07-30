@@ -52,9 +52,9 @@ CategoryClassifierExperiments >> detailedPromptCategoryClassifier1 [
 	| pc |
 	pc := PageClassifier new
 			resultType: 'Category';
-			jsonFile: self jsonFilePath;
 			prompt: self detailedPrompt1;
 			pages: self gtBookSamplePages1;
+			jsonFile: self jsonFilePath;
 			yourself.
 	^ pc
 ]
@@ -93,9 +93,9 @@ CategoryClassifierExperiments >> simpleCategoryClassifier1 [
 	| pc |
 	pc := PageClassifier new
 			resultType: 'Category';
-			jsonFile: self jsonFilePath;
 			prompt: self simplePrompt;
 			pages: self gtBookSamplePages1;
+			jsonFile: self jsonFilePath;
 			yourself.
 	^ pc
 ]

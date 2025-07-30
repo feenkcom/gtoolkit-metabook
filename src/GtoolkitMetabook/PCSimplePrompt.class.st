@@ -12,6 +12,17 @@ PCSimplePrompt >> asPrompt [
 	^ self
 ]
 
+{ #category : #views }
+PCSimplePrompt >> gtPromptFor: aView [
+	<gtView>
+	^ aView textEditor
+		title: 'Prompt';
+		priority: 50;
+		text: [ self value ];
+		"styler: BrRBTextStyler new;"
+		aptitude: [ BrGlamorousCodeEditorAptitude ]
+]
+
 { #category : #converting }
 PCSimplePrompt >> jsonObject [
 	^ {'promptString' -> self promptString} asDictionary

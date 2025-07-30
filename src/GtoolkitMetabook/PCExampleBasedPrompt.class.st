@@ -43,17 +43,6 @@ PCExampleBasedPrompt >> examplesJSON [
 				'answer' -> keyVal value} asDictionary ]) asArray
 ]
 
-{ #category : #views }
-PCExampleBasedPrompt >> gtPromptFor: aView [
-	<gtView>
-	^ aView textEditor
-		title: 'Prompt';
-		priority: 50;
-		text: [ self value ];
-		"styler: BrRBTextStyler new;"
-		aptitude: [ BrGlamorousCodeEditorAptitude ]
-]
-
 { #category : #converting }
 PCExampleBasedPrompt >> jsonObject [
 	| json |
