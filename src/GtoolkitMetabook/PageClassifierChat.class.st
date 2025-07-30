@@ -88,6 +88,18 @@ PageClassifierChat >> gtChatFor: aView [
 		view: #gtMessagesWidgetFor:
 ]
 
+{ #category : #action }
+PageClassifierChat >> gtClearResultsAction: anAction [
+	<gtAction>
+	^ anAction button
+		tooltip: 'Clear the results';
+		priority: 10;
+		icon: BrGlamorousVectorIcons repair;
+		action: [ :aButton | 
+			results := self defaultResults.
+			self notifyResultsUpdated ]
+]
+
 { #category : #view }
 PageClassifierChat >> gtPageFor: aView [
 	<gtView>

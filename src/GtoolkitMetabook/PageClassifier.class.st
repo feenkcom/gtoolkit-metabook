@@ -89,6 +89,16 @@ PageClassifier >> gtChatsFor: aView [
 		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]
 
+{ #category : #printing }
+PageClassifier >> gtDisplayOn: stream [
+	super gtDisplayOn: stream.
+	stream nextPut: $(;
+		nextPutAll: self jsonFileReference basenameWithoutExtension;
+		nextPutAll: ' — ';
+		nextPutAll: self resultType;
+		nextPut: $)
+]
+
 { #category : #action }
 PageClassifier >> gtSendRequestAction: anAction [
 	<gtAction>

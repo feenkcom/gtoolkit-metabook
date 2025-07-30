@@ -94,6 +94,14 @@ PageClassifierExamples >> basicPageClassifierWithResultsJSONFileReference [
 ]
 
 { #category : #examples }
+PageClassifierExamples >> browseStoredPCs [
+	<gtExample>
+	<noTest>
+	^ (FileLocator gtResource / self jsonTestDirPath) files
+		collect: [ :jf | PageClassifier new jsonFile: jf path pathString ]
+]
+
+{ #category : #examples }
 PageClassifierExamples >> exampleBasedPageClassifier [
 	"NB: the results are only initialized after the jsonFile path is set."
 	<gtExample>

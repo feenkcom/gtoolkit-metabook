@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:12:37.121726+02:00"
+						"dateAndTimeString" : "2025-07-30T10:02:36.383296+02:00"
 					}
 				},
 				"uid" : {
@@ -76,10 +76,10 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We create a dedicated class for the experiments. Examples but not tests."
+				"string" : "We create a dedicated class {{gtClass:name=CategoryClassifierExperiments}} for the experiments. Examples but not tests."
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:12:51.241878+02:00"
+						"dateAndTimeString" : "2025-07-30T10:03:07.657033+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,14 +103,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T16:21:38.943485+02:00"
+						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "iWVuEHL3DQC4h9YwA/W/yA=="
+					"uidString" : "jGkusYL3DQCHmyQlDPGZtw=="
 				},
-				"code" : "CategoryClassifierExamples"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:04:14.285925+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:32:43.127746+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "2RYntYL3DQCIvLhRDPGZtw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#detailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Yt66roL3DQCF8coJDPGZtw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},

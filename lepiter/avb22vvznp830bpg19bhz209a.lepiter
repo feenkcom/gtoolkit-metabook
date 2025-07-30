@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:40:38.285812+02:00"
+						"dateAndTimeString" : "2025-07-30T10:40:26.398211+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:19:04.256598+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:33.067434+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DcaiJuj2DQCex/AaBn3+Lg=="
+					"uidString" : "MeaeNoP3DQC1Q7I2DPGZtw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We mine categories for a subset of the pages, using examples. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
+				"string" : "First, we need a way to browse all the json files. We create {{gtMethod:name=PageClassifierExamples>>#browseStoredPCs}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:11:47.08119+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.506509+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,17 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:36.383296+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.506509+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IGGbDHL3DQC3BirvA/W/yA=="
+					"uidString" : "GX4tU4P3DQC6HY1tDPGZtw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We create a dedicated class {{gtClass:name=CategoryClassifierExperiments}} for the experiments. Examples but not tests."
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:07.657033+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.741066+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.741066+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jGkusYL3DQCHmyQlDPGZtw=="
+					"uidString" : "JhIxU4P3DQC6IsN9DPGZtw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
+				"string" : ""
 			},
 			{
 				"__type" : "textSnippet",
@@ -129,7 +129,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:04:14.285925+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.984176+02:00"
 					}
 				},
 				"editEmail" : {
@@ -140,49 +140,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:32:13.986248+02:00"
+						"dateAndTimeString" : "2025-07-30T10:48:25.984176+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "2RYntYL3DQCIvLhRDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#prompt2}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "Yt66roL3DQCF8coJDPGZtw=="
+					"uidString" : "+sY0U4P3DQC6J0VaDPGZtw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
@@ -199,7 +162,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:40:38.250031+02:00"
+			"dateAndTimeString" : "2025-07-30T10:40:26.357925+02:00"
 		}
 	},
 	"editEmail" : {
@@ -210,15 +173,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-07-30T10:40:30.725423+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "Add an action to clone a PC with a newly numbered json file"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "ce39a226-e8f6-0d00-9ec6-27c4067dfe2e"
+		"uuid" : "ce449e36-83f7-0d00-b542-bd6a0cf199b7"
 	}
 }

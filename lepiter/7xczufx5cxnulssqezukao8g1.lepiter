@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T09:41:02.271117+02:00"
+						"dateAndTimeString" : "2025-07-30T09:41:06.218022+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Package: {{gtPackage:name=}}"
+				"string" : "Package: {{gtPackage:name=GtoolkitMetabook}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -134,43 +134,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:25:59.953489+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:25:59.953489+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "EFhmLIL3DQC8OroAAjLkhQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Add an action to clone a PC with a newly numbered json file. "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-07-30T09:26:01.018122+02:00"
 								}
 							},
@@ -193,43 +156,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Add an action to view all the PCs with the same JSON file base. "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:26:02.085458+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:26:02.085458+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "AuCGLIL3DQC8StrgAjLkhQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Create an abstract parent for the experiments with utility methods. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -343,6 +269,192 @@
 				"children" : {
 					"__type" : "snippets",
 					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T09:25:59.953489+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T10:40:30.744246+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EFhmLIL3DQC8OroAAjLkhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[Add an action to clone a PC with a newly numbered json file]]"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:40:08.009042+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-07-30T10:40:13.881211+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "SUWGNYP3DQC05W0lDPGZtw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# In progress"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T10:56:31.292304+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T10:56:56.609402+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "N/4hcIP3DQC74cPFDPGZtw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add an example method {{gtMethod:name=PageClassifierExamples>>#browseStoredPCs}} to browse the stored PCs"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T10:38:56.362995+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T10:39:07.087971+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "RgtBMYP3DQCz8MuADPGZtw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add an action to clear the results of a chat."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T09:26:02.085458+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T09:26:02.085458+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "AuCGLIL3DQC8StrgAjLkhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Create an abstract parent for the experiments with utility methods. "
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
