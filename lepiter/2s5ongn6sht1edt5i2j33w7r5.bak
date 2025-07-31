@@ -146,7 +146,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:35:07.936339+02:00"
+									"dateAndTimeString" : "2025-07-30T09:38:34.290261+02:00"
 								}
 							},
 							"uid" : {
@@ -156,7 +156,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[PageClassifier implementation]] "
+							"string" : "[[PageClassifier initial implementation]] "
 						},
 						{
 							"__type" : "textSnippet",

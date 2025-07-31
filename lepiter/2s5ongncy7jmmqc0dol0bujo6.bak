@@ -421,12 +421,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-23T13:15:43.507268+02:00"
+			"dateAndTimeString" : "2025-07-28T15:17:41.066585+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine topics from the GT Book pages"
+		"title" : "Mine topics from the GT Book pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

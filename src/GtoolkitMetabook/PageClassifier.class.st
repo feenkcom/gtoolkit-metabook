@@ -12,7 +12,8 @@ Class {
 		'mutex',
 		'process',
 		'resultType',
-		'jsonFile'
+		'jsonFile',
+		'definingMethod'
 	],
 	#category : #'GtoolkitMetabook-TopicMining'
 }
@@ -72,6 +73,11 @@ PageClassifier >> chatWithPage: aLePage [
 { #category : #accessing }
 PageClassifier >> chats [
 	^ chats
+]
+
+{ #category : #accessing }
+PageClassifier >> definingMethod [
+	^ definingMethod
 ]
 
 { #category : #'instance creation' }
@@ -210,7 +216,9 @@ PageClassifier >> gtSummaryFor: aView [
 					self prompt}.
 				{'JSON file'.
 					self jsonFileBasename.
-					self jsonFileReference}} ];
+					self jsonFileReference}.
+				{'Defining method'.
+					self definingMethod}} ];
 		actionUpdateButtonTooltip: 'Update item list';
 		column: 'Index'
 			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
@@ -228,6 +236,20 @@ PageClassifier >> initialize [
 	announcer := Announcer new.
 	mutex := Mutex new.
 	chats := OrderedCollection new.
+	self initializeDefiningMethod
+]
+
+{ #category : #initialization }
+PageClassifier >> initializeDefiningMethod [
+	"Walk up the stack looking for a method  with a gtExample pragma.
+	Leave it nil if not found."
+
+	| context |
+	context := thisContext.
+	[ context sender isNil ]
+		whileFalse: [ context := context sender.
+			(context method hasPragmaNamed: #gtExample)
+				ifTrue: [ ^ definingMethod := context method ] ]
 ]
 
 { #category : #initialization }

@@ -4,7 +4,7 @@ Each example is an experiment stored in a json file.
 "
 Class {
 	#name : #CategoryClassifierExperiments,
-	#superclass : #PCExperiments,
+	#superclass : #PCAbstractExamples,
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
@@ -18,13 +18,13 @@ We are interested in categorizing the pages according to the kind of information
 
 Here is an incomplete list of some of the categories:
 
-Introduction: a page that introduces a topic
-Video: a page pointing the reader to an on-line video for a given topic
-Case study: a page describing an existing case study that illustrates a topic
-Tutorial: a page containing a step-by-step series of explanations and exercises to teach the reader about a topic
-FAQ: a page containing a "how to" question related to a topic, with a detailed answer to just that question
-Definition: a page whose title is a term and whose contents consists of a concise definition of that term
-Tag: a page with a single word title identifying a topic and little or no contents, to be used as a tag in other pages on that topic
+Introduction: a page that introduces a topic, usually with little or no code.
+Video: a page pointing the reader to an on-line video for a given topic.
+Case study: a page describing an existing case study that illustrates a topic, with detailed code examples.
+Tutorial: a page containing a step-by-step series of explanations and exercises with code to teach the reader about a topic. Whereas a case study focuses on a specific application, a tutorial focuses on how to acquire a specfic skill.
+FAQ: a page containing a "how to" question related to a topic, with a detailed answer to just that question.
+Definition: a page whose title is a term and whose contents consists of a concise definition of that term.
+Tag: a page with a single word title identifying a topic and little or no contents, to be used as a tag in other pages on that topic.
 
 These are some of the most important categories, but there may be others as well.
 

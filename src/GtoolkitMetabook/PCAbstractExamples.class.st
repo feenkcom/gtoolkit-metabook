@@ -1,20 +1,20 @@
 "
-I am an abstract parent for PageClassifier experiments. I contain some utility methods that can be shared amongst the experiments.
+I serve as an abstract parent for all PageClassifier examples and experiments, providing some useful utility methods.
 "
 Class {
-	#name : #PCExperiments,
+	#name : #PCAbstractExamples,
 	#superclass : #Object,
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
 { #category : #utility }
-PCExperiments >> jsonFilePath [
+PCAbstractExamples >> jsonFilePath [
 	<gtExample>
 	^ self jsonTestDirPath , '/' , thisContext sender selector , '.json'
 ]
 
 { #category : #examples }
-PCExperiments >> jsonTestDirPath [
+PCAbstractExamples >> jsonTestDirPath [
 	<gtExample>
 	^ 'feenkcom/gtoolkit-metabook/data/pc-json'
 ]

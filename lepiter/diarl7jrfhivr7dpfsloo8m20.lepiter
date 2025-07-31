@@ -76,7 +76,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T15:17:41.082148+02:00"
+												"dateAndTimeString" : "2025-07-31T17:54:50.827306+02:00"
 											}
 										},
 										"uid" : {
@@ -86,7 +86,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Mine topics from the GT Book pages]] "
+										"string" : "[[* Mine topics from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",

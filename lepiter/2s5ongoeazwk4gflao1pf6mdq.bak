@@ -153,7 +153,7 @@
 				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#detailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -166,7 +166,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
+						"dateAndTimeString" : "2025-07-30T13:26:28.96212+02:00"
 					}
 				},
 				"editEmail" : {
@@ -177,17 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:26.530596+02:00"
+						"dateAndTimeString" : "2025-07-30T13:26:49.986782+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Yt66roL3DQCF8coJDPGZtw=="
+					"uidString" : "XIZviIX3DQCOJqivDwJOFw=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
 			}
 		]
 	},

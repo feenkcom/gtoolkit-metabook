@@ -1,6 +1,6 @@
 Class {
 	#name : #PageClassifierExamples,
-	#superclass : #Object,
+	#superclass : #PCAbstractExamples,
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
@@ -166,12 +166,6 @@ PageClassifierExamples >> exampleDatabase [
 	exampleDatabase pages
 		do: [ :page | self assert: (LeDatabase gtBook hasPageNamed: page title) ].
 	^ exampleDatabase
-]
-
-{ #category : #examples }
-PageClassifierExamples >> jsonTestDirPath [
-	<gtExample>
-	^ 'feenkcom/gtoolkit-metabook/data/pc-json'
 ]
 
 { #category : #examples }
