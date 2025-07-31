@@ -27,6 +27,7 @@ PageClassifier class >> fromJsonFilePath: aFilePath [
 PageClassifier class >> newFromJson: json [
 	^ self new
 		initializeFromJson: json;
+		initializeResultsFromJson: json;
 		yourself
 ]
 
@@ -47,7 +48,7 @@ PageClassifier >> attribute: aString [
 	resultType := aString
 ]
 
-{ #category : #accessing }
+{ #category : #'instance creation' }
 PageClassifier >> chatForPage: aLePage [
 	| pcChat |
 	pcChat := PageClassifierChat new
@@ -62,9 +63,27 @@ PageClassifier >> chatForPage: aLePage [
 	^ pcChat
 ]
 
+{ #category : #querying }
+PageClassifier >> chatWithPage: aLePage [
+	"NB: will produce error if no such chat exists."
+	^ self chats detect: [ :c | c page = aLePage ]
+]
+
 { #category : #accessing }
 PageClassifier >> chats [
 	^ chats
+]
+
+{ #category : #'instance creation' }
+PageClassifier >> freshCopy [
+	"Return a copy with uninitialized chats and results."
+	self shouldBeImplemented.
+
+	^ self class new
+		resultType: self resultType;
+		"page: self page;"
+		prompt: self prompt;
+		yourself
 ]
 
 { #category : #view }
@@ -95,8 +114,8 @@ PageClassifier >> gtClearResultsAction: anAction [
 	<gtAction>
 	^ anAction button
 		tooltip: 'Clear the results';
-		priority: 21;
-		icon: BrGlamorousVectorIcons repair;
+		priority: 30;
+		icon: BrGlamorousVectorIcons close;
 		action: [ :aButton | self chats do: #clearResults ]
 ]
 
@@ -109,6 +128,18 @@ PageClassifier >> gtDisplayOn: stream [
 		nextPutAll: ' — ';
 		nextPutAll: self resultType;
 		nextPut: $)
+]
+
+{ #category : #action }
+PageClassifier >> gtLoadResultsAction: anAction [
+	<gtAction>
+	self jsonFile ifNil: [ ^ anAction empty ].
+	self jsonFile ifEmpty: [ ^ anAction empty ].
+	^ anAction button
+		tooltip: 'Load results from stored JSON';
+		priority: 32;
+		icon: BrGlamorousIcons loadfromdisk;
+		action: [ :aButton | aButton phlow spawnObject: self loadJSONresults ]
 ]
 
 { #category : #view }
@@ -133,15 +164,62 @@ PageClassifier >> gtSendRequestAction: anAction [
 ]
 
 { #category : #action }
+PageClassifier >> gtSpawnCopyAction: anAction [
+	<gtAction>
+	^ anAction button
+		tooltip: 'Spawn a copy and send a new request';
+		priority: 21;
+		icon: BrGlamorousVectorIcons playinspect;
+		action: [ :aButton | aButton phlow spawnObject: self freshCopy requestResults ]
+]
+
+{ #category : #action }
 PageClassifier >> gtStoreJSONAction: anAction [
 	<gtAction>
 	self jsonFile ifNil: [ ^ anAction empty ].
 	self jsonFile ifEmpty: [ ^ anAction empty ].
 	^ anAction button
 		tooltip: 'Store JSON';
-		priority: 30;
-		icon: BrGlamorousIcons save;
+		priority: 40;
+		icon: BrGlamorousIcons savetodisk;
 		action: [ :aButton | aButton phlow spawnObject: self saveToJSONfile ]
+]
+
+{ #category : #'as yet unclassified' }
+PageClassifier >> gtSummaryFor: aView [
+	<gtView>
+	| book |
+	self chats
+		ifEmpty: [ book := '-' ]
+		ifNotEmpty: [ book := self chats first page database ].
+
+	^ aView columnedList
+		title: 'Summary';
+		priority: 20;
+		items: [ {{'Result type'.
+					self resultType}.
+				{'Book'.
+					book}.
+				{'Pages'.
+					self pages size printString , ' pages'.
+					self pages}.
+				{'Chats'.
+					self chats size printString , ' chats'.
+					self chats}.
+				{'Prompt'.
+					self prompt}.
+				{'JSON file'.
+					self jsonFileBasename.
+					self jsonFileReference}} ];
+		actionUpdateButtonTooltip: 'Update item list';
+		column: 'Index'
+			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
+			width: 45;
+		column: 'Key'
+			text: #first
+			width: 100;
+		column: 'Value' text: #second;
+		send: #last
 ]
 
 { #category : #initialization }
@@ -154,7 +232,8 @@ PageClassifier >> initialize [
 
 { #category : #initialization }
 PageClassifier >> initializeFromJson: json [
-	"NB: we only set attributes not already initialized."
+	"NB: we only set attributes not already initialized.
+	To initialize the results there is now a separate method."
 
 	| database |
 	jsonFile ifNil: [ jsonFile := json at: 'jsonFile' ifAbsent: nil ].
@@ -168,8 +247,18 @@ PageClassifier >> initializeFromJson: json [
 			chat := self chats
 					detect: [ :c | c page = page ]
 					ifNone: [ chats addLast: (self chatForPage: page) ].
-			chat initializeResults: (j at: 'results') ].
+			"chat initializeResults: (j at: 'results')" ].
 	^ self
+]
+
+{ #category : #initialization }
+PageClassifier >> initializeResultsFromJson: json [
+	| database |
+	database := LeDatabase databaseNamed: (json at: 'bookName').
+	(json at: 'chats')
+		do: [ :j | 
+			(self chatWithPage: (database pageNamed: (j at: 'pageName')))
+				initializeResults: (j at: 'results') ]
 ]
 
 { #category : #accessing }
@@ -209,6 +298,13 @@ PageClassifier >> jsonObject [
 			asDictionary.
 	self jsonFile ifNotNil: [ json at: 'jsonFile' put: jsonFile ].
 	^ json
+]
+
+{ #category : #'as yet unclassified' }
+PageClassifier >> loadJSONresults [
+	self
+		initializeResultsFromJson: (STONJSON fromString: self jsonFileReference contents).
+		^ self jsonFileReference
 ]
 
 { #category : #accessing }

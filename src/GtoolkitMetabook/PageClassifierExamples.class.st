@@ -65,7 +65,8 @@ PageClassifierExamples >> basicPageClassifierWithResults [
 
 { #category : #examples }
 PageClassifierExamples >> basicPageClassifierWithResultsFromJSON [
-	"Rebuilt from the JSON file"
+	"Rebuilt from the JSON file.
+	NB: the results are only loaded after explicitly sending loadJSONresults."
 
 	<gtExample>
 	| pc |
@@ -75,6 +76,8 @@ PageClassifierExamples >> basicPageClassifierWithResultsFromJSON [
 	self assert: pc pages size <= self exampleDatabase pages size.
 	self assert: (pc chats flatCollect: #results) isEmpty.
 	pc jsonFile: self basicPageClassifierWithResultsJSONFilePath.
+	self assert: (pc chats flatCollect: #results) isEmpty.
+	pc loadJSONresults.
 	self assert: (pc chats flatCollect: #results) isNotEmpty.
 	self assert: (pc jsonString) equals: (self jsonTestFileWithResults contents).
 	
@@ -104,6 +107,7 @@ PageClassifierExamples >> browseStoredPCs [
 { #category : #examples }
 PageClassifierExamples >> exampleBasedPageClassifier [
 	"NB: the results are only initialized after the jsonFile path is set."
+
 	<gtExample>
 	| pc |
 	pc := PageClassifier new
@@ -114,6 +118,7 @@ PageClassifierExamples >> exampleBasedPageClassifier [
 	self assert: (pc prompt isKindOf: PCExampleBasedPrompt).
 	self assert: (pc chats flatCollect: #results) isEmpty.
 	pc jsonFile: self exampleBasedPageClassifierJsonFilePath.
+	pc loadJSONresults.
 	self assert: (pc chats flatCollect: #results) isNotEmpty.
 	^ pc
 ]
@@ -126,6 +131,7 @@ PageClassifierExamples >> exampleBasedPageClassifierFromJson [
 	| pc |
 	pc := PageClassifier new
 			jsonFile: self exampleBasedPageClassifierJsonFilePath;
+			loadJSONresults;
 			yourself.
 	self assert: pc resultType equals: 'Category'.
 	self assert: pc jsonFile equals: self exampleBasedPageClassifierJsonFilePath.

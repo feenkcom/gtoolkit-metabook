@@ -55,6 +55,7 @@ CategoryClassifierExperiments >> detailedPromptCategoryClassifier1 [
 			prompt: self detailedPrompt1;
 			pages: self gtBookSamplePages1;
 			jsonFile: self jsonFilePath;
+			loadJSONresults;
 			yourself.
 	^ pc
 ]
@@ -96,6 +97,7 @@ CategoryClassifierExperiments >> simpleCategoryClassifier1 [
 			prompt: self simplePrompt;
 			pages: self gtBookSamplePages1;
 			jsonFile: self jsonFilePath;
+			loadJSONresults;
 			yourself.
 	^ pc
 ]

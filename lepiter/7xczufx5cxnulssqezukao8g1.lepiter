@@ -97,43 +97,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:26:01.018122+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:26:01.018122+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "FJh2LIL3DQC8QutlAjLkhQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Add an action to view all the PCs with the same JSON file base. "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-07-30T09:26:03.41862+02:00"
 								}
 							},
@@ -182,7 +145,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:26:05.474224+02:00"
+									"dateAndTimeString" : "2025-07-31T09:26:38.870544+02:00"
 								}
 							},
 							"uid" : {
@@ -192,7 +155,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Reorganize the classes to store their state directly in a JSON and to access state from their JSON or their parent's JSON. Instantiate from a JSON plus a parent JSON. "
+							"string" : "? Reorganize the classes to store their state directly in a JSON and to access state from their JSON or their parent's JSON. Instantiate from a JSON plus a parent JSON. "
 						}
 					]
 				},
@@ -246,7 +209,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T09:25:59.953489+02:00"
+									"dateAndTimeString" : "2025-07-31T09:26:50.176717+02:00"
 								}
 							},
 							"editEmail" : {
@@ -257,56 +220,18 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-30T10:40:30.744246+02:00"
+									"dateAndTimeString" : "2025-07-31T17:07:29.059609+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "EFhmLIL3DQC8OroAAjLkhQ=="
+								"uidString" : "FJh2LIL3DQC8QutlAjLkhQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Add an action to clone a PC with a newly numbered json file]]"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:40:08.009042+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:40:13.881211+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "SUWGNYP3DQC05W0lDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "# In progress"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
+							"string" : "[[Separate setting the jsonFile and initializing state or results from the JSON]] "
+						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
