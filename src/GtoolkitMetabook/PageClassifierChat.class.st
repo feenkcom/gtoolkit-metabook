@@ -100,7 +100,7 @@ PageClassifierChat >> gtClearResultsAction: anAction [
 	^ anAction button
 		tooltip: 'Clear the results';
 		priority: 10;
-		icon: BrGlamorousVectorIcons repair;
+		icon: BrGlamorousVectorIcons close;
 		action: [ :aButton | self clearResults ]
 ]
 
@@ -220,6 +220,11 @@ PageClassifierChat >> pageString [
 ]
 
 { #category : #accessing }
+PageClassifierChat >> pageTitle [
+	^self page title
+]
+
+{ #category : #accessing }
 PageClassifierChat >> prompt [
 	^ prompt
 ]
@@ -258,6 +263,11 @@ PageClassifierChat >> resultType: aString [
 { #category : #accessing }
 PageClassifierChat >> results [
 	^ results
+]
+
+{ #category : #querying }
+PageClassifierChat >> resultsJoined [
+	^ String cr join: self results
 ]
 
 { #category : #accessing }

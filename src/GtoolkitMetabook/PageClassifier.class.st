@@ -4,13 +4,11 @@ The classification could be into topics (such as EDD orMoldable Development) or 
 "
 Class {
 	#name : #PageClassifier,
-	#superclass : #PCEntity,
+	#superclass : #AbstractPCChatGroup,
 	#instVars : [
 		'prompt',
 		'announcer',
 		'chats',
-		'mutex',
-		'process',
 		'resultType',
 		'jsonFile',
 		'definingMethod'
@@ -92,39 +90,6 @@ PageClassifier >> freshCopy [
 		yourself
 ]
 
-{ #category : #view }
-PageClassifier >> gtChatsFor: aView [
-	<gtView>
-	^ aView columnedList
-		title: 'Chats';
-		priority: 10;
-		items: [ self chats ];
-		column: 'Page'
-			text: [ :each | each page title ]
-			width: 300;
-		column: 'Result[1]'
-			text: [ :each | (each resultsWithDefaults: 3) first ]
-			width: 150;
-		column: 'Result[2]'
-			text: [ :each | (each resultsWithDefaults: 3) second ]
-			width: 150;
-		column: 'Result[rest]'
-			text: [ :each | '; ' join: ((each resultsWithDefaults: 3) allButFirst: 2) ]
-			width: 150;
-		actionUpdateButton;
-		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
-]
-
-{ #category : #action }
-PageClassifier >> gtClearResultsAction: anAction [
-	<gtAction>
-	^ anAction button
-		tooltip: 'Clear the results';
-		priority: 30;
-		icon: BrGlamorousVectorIcons close;
-		action: [ :aButton | self chats do: #clearResults ]
-]
-
 { #category : #printing }
 PageClassifier >> gtDisplayOn: stream [
 	super gtDisplayOn: stream.
@@ -137,39 +102,6 @@ PageClassifier >> gtDisplayOn: stream [
 ]
 
 { #category : #action }
-PageClassifier >> gtLoadResultsAction: anAction [
-	<gtAction>
-	self jsonFile ifNil: [ ^ anAction empty ].
-	self jsonFile ifEmpty: [ ^ anAction empty ].
-	^ anAction button
-		tooltip: 'Load results from stored JSON';
-		priority: 32;
-		icon: BrGlamorousIcons loadfromdisk;
-		action: [ :aButton | aButton phlow spawnObject: self loadJSONresults ]
-]
-
-{ #category : #view }
-PageClassifier >> gtPromptStringFor: aView [
-	<gtView>
-	^ aView forward
-		title: 'Prompt';
-		priority: 42;
-		object: [ self prompt ];
-		view: #gtPromptFor:;
-		actionUpdateButton
-]
-
-{ #category : #action }
-PageClassifier >> gtSendRequestAction: anAction [
-	<gtAction>
-	^ anAction button
-		tooltip: 'Send requests to chats' " missing results (' , self missingResults printString , ')'";
-		priority: 20;
-		icon: BrGlamorousVectorIcons play;
-		action: [ :aButton | self requestResults ]
-]
-
-{ #category : #action }
 PageClassifier >> gtSpawnCopyAction: anAction [
 	<gtAction>
 	^ anAction button
@@ -179,19 +111,7 @@ PageClassifier >> gtSpawnCopyAction: anAction [
 		action: [ :aButton | aButton phlow spawnObject: self freshCopy requestResults ]
 ]
 
-{ #category : #action }
-PageClassifier >> gtStoreJSONAction: anAction [
-	<gtAction>
-	self jsonFile ifNil: [ ^ anAction empty ].
-	self jsonFile ifEmpty: [ ^ anAction empty ].
-	^ anAction button
-		tooltip: 'Store JSON';
-		priority: 40;
-		icon: BrGlamorousIcons savetodisk;
-		action: [ :aButton | aButton phlow spawnObject: self saveToJSONfile ]
-]
-
-{ #category : #'as yet unclassified' }
+{ #category : #view }
 PageClassifier >> gtSummaryFor: aView [
 	<gtView>
 	| book |
@@ -234,7 +154,6 @@ PageClassifier >> gtSummaryFor: aView [
 PageClassifier >> initialize [
 	super initialize.
 	announcer := Announcer new.
-	mutex := Mutex new.
 	chats := OrderedCollection new.
 	self initializeDefiningMethod
 ]
@@ -322,7 +241,7 @@ PageClassifier >> jsonObject [
 	^ json
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #serialization }
 PageClassifier >> loadJSONresults [
 	self
 		initializeResultsFromJson: (STONJSON fromString: self jsonFileReference contents).
@@ -352,6 +271,16 @@ PageClassifier >> pages: aLePageCollection [
 			collect: [ :aLePage | self chatForPage: aLePage ]
 ]
 
+{ #category : #search }
+PageClassifier >> pcChatGroupWithItems: aChatCollection [
+	"For use in Spotter searches"
+
+	^ PCChatGroup new
+		pageClassifier: self;
+		initializeWith: aChatCollection;
+		yourself
+]
+
 { #category : #accessing }
 PageClassifier >> prompt [
 	^ prompt
@@ -363,27 +292,6 @@ PageClassifier >> prompt: aStringOrDictionary [
 	If a (JSON) dictionary, decide which kind of prompt to create."
 
 	prompt := aStringOrDictionary asPrompt
-]
-
-{ #category : #action }
-PageClassifier >> requestResults [
-	"NB: Async version"
-
-	| title jobs |
-	mutex
-		critical: [ process
-				ifNil: [ title := 'Sending chat requests'.
-					jobs := chats collect: [ :chat | [ chat requestResults ] ].
-					process := [ [ :job | 
-						job title: title.
-						jobs
-							withIndexDo: [ :each :index | 
-								job
-									progress: index / jobs size;
-									title: each printString.
-								each value ] ] asJob run.	"NB: second CS is within the forked process"
-						mutex critical: [ process := nil ] ] fork ]
-				ifNotNil: [ self inform: 'A request is already running!' ] ]
 ]
 
 { #category : #action }

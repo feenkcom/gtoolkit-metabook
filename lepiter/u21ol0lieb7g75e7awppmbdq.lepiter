@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:40:38.285812+02:00"
+						"dateAndTimeString" : "2025-08-01T09:13:32.800398+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-28T15:19:04.256598+02:00"
+						"dateAndTimeString" : "2025-08-01T09:13:32.800398+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "DcaiJuj2DQCex/AaBn3+Lg=="
+					"uidString" : "jG6MO6r3DQC6FpW2C0kaDg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We mine categories for a subset of the pages, using examples. We should end up with no more than ten categories. (We already have an initial set of about six plausible categories.)"
+				"string" : "Add a PC collection wrapper for searches."
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-29T14:11:47.08119+02:00"
+						"dateAndTimeString" : "2025-08-01T09:12:50.83211+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,91 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:02:36.383296+02:00"
+						"dateAndTimeString" : "2025-08-01T09:13:32.802172+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "IGGbDHL3DQC3BirvA/W/yA=="
+					"uidString" : "ChMMOar3DQC6BtuVC0kaDg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We create a dedicated class {{gtClass:name=CategoryClassifierExperiments}} for the experiments. Examples but not tests."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:07.657033+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "jGkusYL3DQCHmyQlDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:04:14.285925+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:32:43.127746+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "2RYntYL3DQCIvLhRDPGZtw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#detailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
+				"string" : "Add searches for empty results, text in page title, page content, or chat results."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -166,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T13:26:28.96212+02:00"
+						"dateAndTimeString" : "2025-08-01T09:14:22.354284+02:00"
 					}
 				},
 				"editEmail" : {
@@ -177,12 +103,12 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T13:26:49.986782+02:00"
+						"dateAndTimeString" : "2025-08-01T09:15:04.38308+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "XIZviIX3DQCOJqivDwJOFw=="
+					"uidString" : "CZGAPqr3DQC6Kq61C0kaDg=="
 				},
 				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
 			},
@@ -200,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-31T17:52:28.701881+02:00"
+						"dateAndTimeString" : "2025-08-01T09:42:14.643176+02:00"
 					}
 				},
 				"editEmail" : {
@@ -211,61 +137,23 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-31T17:52:35.104828+02:00"
+						"dateAndTimeString" : "2025-08-01T09:42:48.886027+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "ODqNXZ33DQC3eWB7DP3PzQ=="
+					"uidString" : "nq0toqr3DQCDiYZKC0kaDg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This works reasonably well."
+				"string" : "We add an abstract parent {{gtClass:name=AbstractPCChatGroup}} for the existing {{gtClass:name=PageClassifier}} as well as the new {{gtClass:name=PCChatGroup}}. The latter uses the trait {{gtClass:name=TGtGroupWithItems}}."
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-31T17:52:39.485441+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-31T17:52:39.485441+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "m8YxXp33DQC4LRH1DP3PzQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -275,7 +163,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-31T17:52:36.193645+02:00"
+						"dateAndTimeString" : "2025-08-01T09:42:49.718945+02:00"
 					}
 				},
 				"editEmail" : {
@@ -286,17 +174,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-31T17:52:38.525219+02:00"
+						"dateAndTimeString" : "2025-08-01T10:24:15.818764+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Vov/XZ33DQC4BdXCDP3PzQ=="
+					"uidString" : "E+NEpKr3DQCErozQC0kaDg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# To do"
+				"string" : "A PCChatGroup should always refer to some existing PageClassifier as its source, and should  get its data from there. We let a PageClassifier generate and initialize a group with itself as the reference in {{gtMethod:name=PageClassifier>>#pcChatGroupWithItems:}}."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-01T10:24:18.43512+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-01T10:25:01.052001+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "frGbOKv3DQC4ifFRDJqUsg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We create a bunch of abstract methods as hooks in {{gtClass:name=AbstractPCChatGroup}} and implement them as forwarding methods in {{gtClass:name=PCChatGroup}}. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-01T10:23:44.916095+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-01T10:34:32.504009+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1DucNqv3DQC4NBd3DJqUsg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We add further spotter searches for page contents, empty results,  and chat results."
 			}
 		]
 	},
@@ -308,7 +270,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-22T17:40:38.250031+02:00"
+			"dateAndTimeString" : "2025-08-01T09:12:50.704508+02:00"
 		}
 	},
 	"editEmail" : {
@@ -319,15 +281,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-08-01T09:13:29.200784+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "Add Page Classifier Spotter search"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "ce39a226-e8f6-0d00-9ec6-27c4067dfe2e"
+		"uuid" : "1e200a39-aaf7-0d00-ba05-691c0b491a0e"
 	}
 }
