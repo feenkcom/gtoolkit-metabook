@@ -16,6 +16,16 @@ AbstractPCChatGroup class >> isAbstract [
 	^ self == AbstractPCChatGroup
 ]
 
+{ #category : #updating }
+AbstractPCChatGroup >> addPages: aLePageCollection [
+	self subclassResponsibility
+]
+
+{ #category : #updating }
+AbstractPCChatGroup >> addPagesMatching: aString [
+	self addPages: (self pagesMatching: aString)
+]
+
 { #category : #announcements }
 AbstractPCChatGroup >> announcer [
 	self subclassResponsibility
@@ -23,6 +33,11 @@ AbstractPCChatGroup >> announcer [
 
 { #category : #view }
 AbstractPCChatGroup >> chats [
+	self subclassResponsibility
+]
+
+{ #category : #accessing }
+AbstractPCChatGroup >> database [
 	self subclassResponsibility
 ]
 
@@ -182,6 +197,11 @@ AbstractPCChatGroup >> jsonFile [
 { #category : #serialization }
 AbstractPCChatGroup >> loadJSONresults [
 	self subclassResponsibility
+]
+
+{ #category : #querying }
+AbstractPCChatGroup >> pagesMatching: aString [
+	^ self database pages select: [ :p | p matchesSubstring: aString ]
 ]
 
 { #category : #serialization }

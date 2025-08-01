@@ -30,6 +30,24 @@ PageClassifier class >> newFromJson: json [
 		yourself
 ]
 
+{ #category : #updating }
+PageClassifier >> addPages: aLePageCollection [
+	"NB: Only add chats for pages not already represented."
+
+	| newChats |
+	newChats := OrderedCollection new.
+	aLePageCollection
+		do: [ :page | 
+			self chats
+				detect: [ :c | c page = page ]
+				ifNone: [ | newChat |
+					newChat := self chatForPage: page.
+					newChats addLast: newChat.
+					self chats addLast: newChat ] ].
+	self notifyResultsUpdated.
+	^ newChats
+]
+
 { #category : #accessing }
 PageClassifier >> announcer [
 	^ announcer
@@ -71,6 +89,12 @@ PageClassifier >> chatWithPage: aLePage [
 { #category : #accessing }
 PageClassifier >> chats [
 	^ chats
+]
+
+{ #category : #accessing }
+PageClassifier >> database [
+	self assert: self chats notEmpty.
+	^ self pages first database
 ]
 
 { #category : #accessing }

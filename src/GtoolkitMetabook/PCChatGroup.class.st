@@ -13,6 +13,11 @@ Class {
 }
 
 { #category : #forwarding }
+PCChatGroup >> addPages: aLePageCollection [
+	self chats addAllLast: (self pageClassifier addPages: aLePageCollection)
+]
+
+{ #category : #forwarding }
 PCChatGroup >> announcer [
 	"Should I have my own announcer?"
 
@@ -22,6 +27,11 @@ PCChatGroup >> announcer [
 { #category : #accessing }
 PCChatGroup >> chats [
 	^ self items
+]
+
+{ #category : #forwarding }
+PCChatGroup >> database [
+	^ self pageClassifier database
 ]
 
 { #category : #forwarding }

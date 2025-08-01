@@ -122,6 +122,15 @@ LePage >> isMetapage [
 ]
 
 { #category : #'*GtoolkitMetabook' }
+LePage >> matchesSubstring: aString [
+	^ (self
+		allChildrenSnippetsMatching: [ :aSnippet | aSnippet isTextSnippet or: [ aSnippet isCodeSnippet ] ])
+		detect: [ :s | s contentAsString includesSubstring: aString ]
+		ifFound: [ true ]
+		ifNone: [ false ]
+]
+
+{ #category : #'*GtoolkitMetabook' }
 LePage >> metadatabase [
 	self assert: self hasMetadatabase description: 'This page has no metadatabase.'.
 	^ self database metadatabase
