@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-01T10:52:53.995872+02:00"
+									"dateAndTimeString" : "2025-08-01T10:53:06.923876+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Add facility to add pages to an existing experiment. ]]"
+							"string" : "[[Add facility to add pages to an existing experiment]]"
 						},
 						{
 							"__type" : "textSnippet",
