@@ -94,7 +94,7 @@ TopicClassifierExperiments >> top2ClassifierWithTopicDescription [
 ]
 
 { #category : #examples }
-TopicClassifierExperiments >> top3ClassifierWithTopicDescription [
+TopicClassifierExperiments >> top3ClassifierOnEntireGtBook [
 	"Like top1 but with the complete GT book."
 
 	<gtExample>

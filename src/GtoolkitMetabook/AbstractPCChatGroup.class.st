@@ -70,7 +70,9 @@ AbstractPCChatGroup >> gtActionMenuFor: anAction [
 											pcChatGroupWithItems: (self chats select: [ :chat | chat results isEmpty ])) ].
 						'Add 10 random pages' -> [ self addRandomPages: 10 ].
 						'Browse JSON parent folder'
-							-> [ :e | e phlow spawnObject: self jsonFileReference parent ]};
+							-> [ :e | e phlow spawnObject: self jsonFileReference parent ].
+						'Browse pending chat request processes'
+							-> [ :e | e phlow spawnObject: self pendingProcesses ]};
 				yourself ]
 ]
 
@@ -232,6 +234,18 @@ AbstractPCChatGroup >> pagesStoreString [
 { #category : #serialization }
 AbstractPCChatGroup >> pcChatGroupWithItems: aChatCollection [
 	self subclassResponsibility
+]
+
+{ #category : #accessing }
+AbstractPCChatGroup >> pendingProcesses [
+	^ self class allInstances
+		collect: [ :pc | pc process ]
+		thenSelect: [ :p | p isNotNil and: [ p isTerminated not ] ]
+]
+
+{ #category : #accessing }
+AbstractPCChatGroup >> process [
+	^ process
 ]
 
 { #category : #accessing }
