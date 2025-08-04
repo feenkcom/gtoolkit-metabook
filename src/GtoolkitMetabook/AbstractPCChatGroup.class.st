@@ -26,6 +26,11 @@ AbstractPCChatGroup >> addPagesMatching: aString [
 	self addPages: (self pagesMatching: aString)
 ]
 
+{ #category : #updating }
+AbstractPCChatGroup >> addRandomPages: aLePageCollection [
+	self subclassResponsibility
+]
+
 { #category : #announcements }
 AbstractPCChatGroup >> announcer [
 	self subclassResponsibility
@@ -62,7 +67,10 @@ AbstractPCChatGroup >> gtActionMenuFor: anAction [
 							-> [ :e | 
 								e phlow
 									spawnObject: (self
-											pcChatGroupWithItems: (self chats select: [ :chat | chat results isEmpty ])) ]};
+											pcChatGroupWithItems: (self chats select: [ :chat | chat results isEmpty ])) ].
+						'Add 10 random pages' -> [ self addRandomPages: 10 ].
+						'Browse JSON parent folder'
+							-> [ :e | e phlow spawnObject: self jsonFileReference parent ]};
 				yourself ]
 ]
 
@@ -194,14 +202,31 @@ AbstractPCChatGroup >> jsonFile [
 	self subclassResponsibility
 ]
 
+{ #category : #accessing }
+AbstractPCChatGroup >> jsonFileReference [
+	self subclassResponsibility
+]
+
 { #category : #serialization }
 AbstractPCChatGroup >> loadJSONresults [
 	self subclassResponsibility
 ]
 
+{ #category : #accessing }
+AbstractPCChatGroup >> pages [
+	^ self chats collect: #page
+]
+
 { #category : #querying }
 AbstractPCChatGroup >> pagesMatching: aString [
 	^ self database pages select: [ :p | p matchesSubstring: aString ]
+]
+
+{ #category : #serialization }
+AbstractPCChatGroup >> pagesStoreString [
+	^ '{ '
+		, (' . ' join: (self pages collect: [ :p | p title storeString ]) sorted)
+		, ' }'
 ]
 
 { #category : #serialization }

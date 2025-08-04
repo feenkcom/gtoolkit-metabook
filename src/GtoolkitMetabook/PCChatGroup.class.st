@@ -3,9 +3,7 @@ I hold a collection of chats from an existing PageClassifier instance, returned 
 "
 Class {
 	#name : #PCChatGroup,
-	#superclass : #AbstractPCChatGroup,
-	#traits : 'TGtGroupWithItems',
-	#classTraits : 'TGtGroupWithItems classTrait',
+	#superclass : #TraitHolderPCChatGroup,
 	#instVars : [
 		'pageClassifier'
 	],
@@ -15,6 +13,11 @@ Class {
 { #category : #forwarding }
 PCChatGroup >> addPages: aLePageCollection [
 	self chats addAllLast: (self pageClassifier addPages: aLePageCollection)
+]
+
+{ #category : #forwarding }
+PCChatGroup >> addRandomPages: aNumber [
+	self chats addAllLast: (self pageClassifier addRandomPages: aNumber)
 ]
 
 { #category : #forwarding }
@@ -42,6 +45,11 @@ PCChatGroup >> freshCopy [
 { #category : #forwarding }
 PCChatGroup >> jsonFile [
 	^ self pageClassifier jsonFile
+]
+
+{ #category : #forwarding }
+PCChatGroup >> jsonFileReference [
+	^ self pageClassifier jsonFileReference
 ]
 
 { #category : #forwarding }

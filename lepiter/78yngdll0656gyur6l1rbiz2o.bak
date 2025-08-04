@@ -171,7 +171,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-01T11:28:29.823516+02:00"
+						"dateAndTimeString" : "2025-08-01T11:28:51.627739+02:00"
 					}
 				},
 				"uid" : {
@@ -181,7 +181,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We introduce a utility extension method {{gtMethod:name=LePage>>#matchesSubstring:}}"
+				"string" : "We introduce a utility extension method {{gtMethod:name=LePage>>#matchesSubstring:}} and us it in {{gtMethod:name=AbstractPCChatGroup>>#addPagesMatching:}}"
 			},
 			{
 				"__type" : "textSnippet",

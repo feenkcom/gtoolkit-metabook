@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
+						"dateAndTimeString" : "2025-08-04T09:24:50.414072+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
+				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#ex0SimpleCategoryClassifier1}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -253,7 +253,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-31T17:52:39.485441+02:00"
+									"dateAndTimeString" : "2025-08-01T09:06:14.95005+02:00"
 								}
 							},
 							"uid" : {
@@ -263,7 +263,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Add descriptions of newcomer profiles."
 						}
 					]
 				},

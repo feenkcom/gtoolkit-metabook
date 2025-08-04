@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T13:35:58.125173+02:00"
+						"dateAndTimeString" : "2025-07-30T13:36:06.049702+02:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Inspect the saved example"
+				"string" : "Inspect the saved example and go to the *Prompt* view:"
 			},
 			{
 				"__type" : "pharoSnippet",

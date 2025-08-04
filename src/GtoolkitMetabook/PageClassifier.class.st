@@ -49,6 +49,26 @@ PageClassifier >> addPages: aLePageCollection [
 ]
 
 { #category : #accessing }
+PageClassifier >> addRandomPages: aNumber [
+	"Add a number of random pages from the database."
+
+	| available picked pick |
+	self assert: aNumber > 0.
+	available := self database pages difference: self pages.
+	picked := OrderedCollection new.
+	1
+		to: aNumber
+		do: [ :i | 
+			| posn |
+			available ifEmpty: [ ^ self addPages: picked ].
+			posn := available size atRandom.
+			pick := available at: posn.
+			picked addLast: pick.
+			available removeAt: posn ].
+	^ self addPages: picked
+]
+
+{ #category : #accessing }
 PageClassifier >> announcer [
 	^ announcer
 ]
@@ -267,9 +287,10 @@ PageClassifier >> jsonObject [
 
 { #category : #serialization }
 PageClassifier >> loadJSONresults [
-	self
-		initializeResultsFromJson: (STONJSON fromString: self jsonFileReference contents).
-		^ self jsonFileReference
+	self jsonFileReference
+		ifExists: [ self
+				initializeResultsFromJson: (STONJSON fromString: self jsonFileReference contents) ].
+	^ self jsonFileReference
 ]
 
 { #category : #accessing }
@@ -280,11 +301,6 @@ PageClassifier >> missingResults [
 { #category : #announcements }
 PageClassifier >> notifyResultsUpdated [
 	self announcer announce: PCResultsUpdatedAnnouncement new
-]
-
-{ #category : #accessing }
-PageClassifier >> pages [
-	^ self chats collect: #page
 ]
 
 { #category : #accessing }

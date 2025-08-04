@@ -248,7 +248,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-01T10:25:42.347921+02:00"
+						"dateAndTimeString" : "2025-08-01T10:34:32.504009+02:00"
 					}
 				},
 				"uid" : {
@@ -258,7 +258,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We add further spotter searches for empty results, page contents and chat results."
+				"string" : "We add further spotter searches for page contents, empty results,  and chat results."
 			}
 		]
 	},

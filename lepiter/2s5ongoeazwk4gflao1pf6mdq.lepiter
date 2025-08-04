@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:03:54.175423+02:00"
+						"dateAndTimeString" : "2025-08-04T09:24:50.414072+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#simpleCategoryClassifier1}}"
+				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#ex0SimpleCategoryClassifier1}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T10:32:43.127746+02:00"
+						"dateAndTimeString" : "2025-08-04T09:25:13.788695+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#detailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#detailedPromptCategoryClassifier1}}. "
+				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#ex1DetailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#ex1DetailedPromptCategoryClassifier1}}. "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -177,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T13:26:49.986782+02:00"
+						"dateAndTimeString" : "2025-08-04T09:25:02.780264+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "XIZviIX3DQCOJqivDwJOFw=="
 				},
-				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
+				"code" : "CategoryClassifierExperiments new ex1DetailedPromptCategoryClassifier1"
 			},
 			{
 				"__type" : "textSnippet",
