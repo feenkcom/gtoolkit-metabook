@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T09:24:50.414072+02:00"
+						"dateAndTimeString" : "2025-08-04T11:34:43.709101+02:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#ex0SimpleCategoryClassifier1}}"
+				"string" : "The first experiment just recycles the basic test prompt: {{gtMethod:name=CategoryClassifierExperiments>>#cat0SimpleCategoryClassifier1}}"
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T09:25:13.788695+02:00"
+						"dateAndTimeString" : "2025-08-04T11:36:04.683675+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#ex1DetailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#ex1DetailedPromptCategoryClassifier1}}. "
+				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#cat1DetailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#cat1DetailedPromptCategoryClassifier1}}. "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -177,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T09:25:02.780264+02:00"
+						"dateAndTimeString" : "2025-08-04T11:36:04.68966+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "XIZviIX3DQCOJqivDwJOFw=="
 				},
-				"code" : "CategoryClassifierExperiments new ex1DetailedPromptCategoryClassifier1"
+				"code" : "CategoryClassifierExperiments new cat1DetailedPromptCategoryClassifier1"
 			},
 			{
 				"__type" : "textSnippet",
@@ -222,6 +222,155 @@
 					"__type" : "textStyle"
 				},
 				"string" : "This works reasonably well."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:11:48.644488+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:36:19.102272+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3Y4EPOj3DQCAlR/XB5vhjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We add more test cases and the *Pattern* category. See {{gtMethod:name=CategoryClassifierExperiments>>#cat2DetailedPromptCategoryClassifier2}}"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T11:15:48.58018+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T11:16:33.389417+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LLFRSuj3DQCYfXLwB5vhjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Pattern *must* have Context and Problem.\nCase study *must* have code."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:15:47.320659+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:25:53.613797+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "1Xc+Suj3DQCYc9QQB5vhjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We suggest preferences: Video > Tutorial, Video > FAQ, FAQ > Definition"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:26:01.082785+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:26:12.665486+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "xbzTbuj3DQCwI/lTB5vhjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "The results are now quite good."
 			},
 			{
 				"__type" : "textSnippet",
@@ -286,7 +435,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-31T17:52:38.525219+02:00"
+						"dateAndTimeString" : "2025-08-04T11:15:46.85789+02:00"
 					}
 				},
 				"uid" : {

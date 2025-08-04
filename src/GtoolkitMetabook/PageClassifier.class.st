@@ -125,12 +125,11 @@ PageClassifier >> definingMethod [
 { #category : #'instance creation' }
 PageClassifier >> freshCopy [
 	"Return a copy with uninitialized chats and results."
-	self shouldBeImplemented.
-
 	^ self class new
 		resultType: self resultType;
-		"page: self page;"
 		prompt: self prompt;
+		pages: self pages;
+		jsonFile: self jsonFile;
 		yourself
 ]
 

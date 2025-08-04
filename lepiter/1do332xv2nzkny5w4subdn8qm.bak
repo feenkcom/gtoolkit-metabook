@@ -137,14 +137,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-30T13:35:40.568907+02:00"
+						"dateAndTimeString" : "2025-08-04T09:25:02.811898+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "sfRGqYX3DQCPbWH7DwJOFw=="
 				},
-				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
+				"code" : "CategoryClassifierExperiments new ex1DetailedPromptCategoryClassifier1"
 			}
 		]
 	},

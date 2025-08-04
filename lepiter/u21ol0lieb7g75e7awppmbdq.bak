@@ -103,14 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-01T09:15:04.38308+02:00"
+						"dateAndTimeString" : "2025-08-04T09:25:02.812698+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "CZGAPqr3DQC6Kq61C0kaDg=="
 				},
-				"code" : "CategoryClassifierExperiments new detailedPromptCategoryClassifier1"
+				"code" : "CategoryClassifierExperiments new ex1DetailedPromptCategoryClassifier1"
 			},
 			{
 				"__type" : "textSnippet",
