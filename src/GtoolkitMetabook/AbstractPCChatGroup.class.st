@@ -255,7 +255,8 @@ AbstractPCChatGroup >> prompt [
 
 { #category : #action }
 AbstractPCChatGroup >> requestResults [
-	"NB: Async version"
+	"NB: Async version.
+	NB: Fork at priority 20."
 
 	| title jobs |
 	mutex
@@ -270,7 +271,7 @@ AbstractPCChatGroup >> requestResults [
 									progress: index / jobs size;
 									title: each printString.
 								each value ] ] asJob run.	"NB: second CS is within the forked process"
-						mutex critical: [ process := nil ] ] fork ]
+						mutex critical: [ process := nil ] ] forkAt: 20 ]
 				ifNotNil: [ self inform: 'A request is already running!' ] ]
 ]
 
