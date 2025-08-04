@@ -141,6 +141,9 @@ PageClassifier >> gtDisplayOn: stream [
 		nextPutAll: self jsonFileBasename;
 		nextPutAll: ' — ';
 		nextPutAll: self resultType;
+		nextPutAll: ' — ';
+		nextPutAll: self chats size printString;
+		nextPutAll: ' chats';
 		nextPut: $)
 ]
 

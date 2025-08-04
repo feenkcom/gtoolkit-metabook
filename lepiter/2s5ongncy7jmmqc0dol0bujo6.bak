@@ -168,7 +168,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T11:38:35.969876+02:00"
+									"dateAndTimeString" : "2025-08-04T16:22:13.52267+02:00"
 								}
 							},
 							"editEmail" : {
@@ -179,17 +179,88 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T11:39:30.436833+02:00"
+									"dateAndTimeString" : "2025-08-04T17:00:56.816025+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "rmfSm+j3DQC0EwuDB5vhjQ=="
+								"uidString" : "UqYlkuz3DQC4PvtzB5vhjQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Explain what makes a good topic. Describe a few typical topoics. Describe newcomers. Add examples."
+							"string" : "Describe a few typical topics. \nDescribe newcomers. "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T17:01:00.359014+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T17:01:08.737473+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SFvWHO33DQC4vklXB5vhjQ=="
+							},
+							"code" : "TopicClassifierExperiments new top1TopicDescriptionPrompt"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T17:01:16.938998+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-04T17:01:46.244615+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "A1XTHe33DQC40maiB5vhjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Alreday this is much better, after explicitly stating what makes good and poor topics, and requesting fewer rather than mor"
 						}
 					]
 				},
@@ -201,7 +272,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T11:27:10.339116+02:00"
+						"dateAndTimeString" : "2025-08-04T16:22:04.988392+02:00"
 					}
 				},
 				"editEmail" : {
@@ -212,17 +283,54 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T11:38:35.56806+02:00"
+						"dateAndTimeString" : "2025-08-04T16:22:04.988392+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "lYP0cuj3DQCw3HmFB5vhjQ=="
+					"uidString" : "mWyjkez3DQC4LI/8B5vhjQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "To try:"
+				"string" : "Explain what makes a good topic. "
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T11:38:35.969876+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-04T16:22:13.525042+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "rmfSm+j3DQC0EwuDB5vhjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "Add examples."
 			},
 			{
 				"__type" : "textSnippet",

@@ -17,7 +17,7 @@ PCSimplePrompt >> gtPromptFor: aView [
 	<gtView>
 	^ aView textEditor
 		title: 'Prompt';
-		priority: 50;
+		priority: 20;
 		text: [ self value ];
 		"styler: BrRBTextStyler new;"
 		aptitude: [ BrGlamorousCodeEditorAptitude ]
