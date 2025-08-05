@@ -55,7 +55,45 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-05T09:49:36.283246+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-05T09:49:36.283246+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "0RLeM/v3DQCtxQztAux2uA=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : ""
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -76,7 +114,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T15:17:41.082148+02:00"
+												"dateAndTimeString" : "2025-07-31T17:54:50.827306+02:00"
 											}
 										},
 										"uid" : {
@@ -86,7 +124,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Mine topics from the GT Book pages]] "
+										"string" : "[[* Mine topics from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",

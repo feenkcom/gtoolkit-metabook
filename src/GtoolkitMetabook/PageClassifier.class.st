@@ -38,12 +38,13 @@ PageClassifier >> addPages: aLePageCollection [
 	newChats := OrderedCollection new.
 	aLePageCollection
 		do: [ :page | 
-			self chats
-				detect: [ :c | c page = page ]
-				ifNone: [ | newChat |
-					newChat := self chatForPage: page.
-					newChats addLast: newChat.
-					self chats addLast: newChat ] ].
+			(self blackList includes: page title)
+				ifFalse: [ self chats
+						detect: [ :c | c page = page ]
+						ifNone: [ | newChat |
+							newChat := self chatForPage: page.
+							newChats addLast: newChat.
+							self chats addLast: newChat ] ] ].
 	self notifyResultsUpdated.
 	^ newChats
 ]
@@ -83,6 +84,13 @@ PageClassifier >> attribute [
 PageClassifier >> attribute: aString [
 	self deprecated: 'Use resultType:'.
 	resultType := aString
+]
+
+{ #category : #accessing }
+PageClassifier >> blackList [
+	"A list of problem pages that we need to avoid."
+
+	^ {'How to guard against inifinte loops?'}
 ]
 
 { #category : #'instance creation' }
@@ -309,7 +317,8 @@ PageClassifier >> notifyResultsUpdated [
 PageClassifier >> pages: aLePageCollection [
 	"NB: If this is sent after sending @jsonFile: then it will replace any initialized chats."
 
-	chats := aLePageCollection asOrderedCollection
+	chats := (aLePageCollection asOrderedCollection
+			reject: [ :p | self blackList includes: p title ])
 			collect: [ :aLePage | self chatForPage: aLePage ]
 ]
 
