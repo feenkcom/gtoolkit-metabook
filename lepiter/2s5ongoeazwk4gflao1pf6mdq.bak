@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T11:35:53.697659+02:00"
+						"dateAndTimeString" : "2025-08-04T11:36:04.683675+02:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#cat1DetailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#ex1DetailedPromptCategoryClassifier1}}. "
+				"string" : "We work on a more refined prompt {{gtMethod:name=CategoryClassifierExperiments>>#cat1DetailedPrompt1}} and use it in {{gtMethod:name=CategoryClassifierExperiments>>#cat1DetailedPromptCategoryClassifier1}}. "
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -177,14 +177,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T09:25:02.780264+02:00"
+						"dateAndTimeString" : "2025-08-04T11:36:04.68966+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "XIZviIX3DQCOJqivDwJOFw=="
 				},
-				"code" : "CategoryClassifierExperiments new ex1DetailedPromptCategoryClassifier1"
+				"code" : "CategoryClassifierExperiments new cat1DetailedPromptCategoryClassifier1"
 			},
 			{
 				"__type" : "textSnippet",
@@ -248,7 +248,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T11:12:35.836766+02:00"
+						"dateAndTimeString" : "2025-08-04T11:36:19.102272+02:00"
 					}
 				},
 				"uid" : {
@@ -258,7 +258,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "We add more test cases and the *Pattern* category. See {{gtMethod:name=CategoryClassifierExperiments>>#ex2DetailedPromptCategoryClassifier2}}"
+				"string" : "We add more test cases and the *Pattern* category. See {{gtMethod:name=CategoryClassifierExperiments>>#cat2DetailedPromptCategoryClassifier2}}"
 			},
 			{
 				"__type" : "textSnippet",

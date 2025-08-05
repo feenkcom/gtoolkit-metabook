@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T15:18:47.816411+02:00"
+												"dateAndTimeString" : "2025-08-05T11:20:51.669797+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine categories from the GT Book pages]] "
+										"string" : "[[Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -81,7 +81,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-05T09:49:43.463187+02:00"
+															"dateAndTimeString" : "2025-08-05T10:18:22.361604+02:00"
 														}
 													},
 													"uid" : {
@@ -91,7 +91,44 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Image freezing bug]]"
+													"string" : "[[Image freezing bug]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-05T10:18:23.577031+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-05T10:18:29.078346+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "JHzSmvv3DQClR7UTDfwUzw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Clustering topics]]"
 												}
 											]
 										},
@@ -114,7 +151,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-31T17:54:50.827306+02:00"
+												"dateAndTimeString" : "2025-08-05T11:20:58.714376+02:00"
 											}
 										},
 										"uid" : {
@@ -124,7 +161,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine topics from the GT Book pages]] "
+										"string" : "[[Mine topics from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",

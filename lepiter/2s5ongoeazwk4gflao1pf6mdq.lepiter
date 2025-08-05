@@ -468,12 +468,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-07-28T15:18:47.802227+02:00"
+			"dateAndTimeString" : "2025-08-05T11:20:51.658503+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "Mine categories from the GT Book pages"
 	},
 	"uid" : {
 		"__type" : "uuid",
