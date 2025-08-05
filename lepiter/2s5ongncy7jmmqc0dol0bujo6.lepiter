@@ -289,7 +289,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-04T17:01:47.967749+02:00"
+												"dateAndTimeString" : "2025-08-05T10:05:54.498326+02:00"
 											}
 										},
 										"uid" : {
@@ -299,7 +299,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Alreday this is much better, after explicitly stating what makes good and poor topics, and requesting fewer rather than more topics."
+										"string" : "Already this is much better, after explicitly stating what makes good and poor topics, and requesting fewer rather than more topics."
 									}
 								]
 							},
@@ -540,7 +540,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T17:16:12.525149+02:00"
+									"dateAndTimeString" : "2025-08-05T10:05:48.895164+02:00"
 								}
 							},
 							"uid" : {
@@ -550,7 +550,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We keep getting a frozen image. It turns out to be a specific page that breaks the exported. See [[Image freezing bug]]. We add a blacklist to avoid such pages."
 						}
 					]
 				},
@@ -615,7 +615,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T17:20:21.820751+02:00"
+									"dateAndTimeString" : "2025-08-05T10:10:16.450123+02:00"
 								}
 							},
 							"uid" : {
@@ -625,7 +625,41 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Next: analyze the topics suggested for all the pages and reduce them to a canonical set"
+							"string" : "Next: analyze the topics suggested for all the pages and reduce them to a canonical set. We extract the mined Topic map."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:09:05.588396+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:09:59.030321+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "n0KQefv3DQCYKLAEAvlPcA=="
+							},
+							"code" : "topicMap := TopicClassifierExperiments new top3ClassifierOnEntireGtBook jsonObject at: 'chats'"
 						},
 						{
 							"__type" : "textSnippet",
@@ -641,7 +675,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T11:38:35.969876+02:00"
+									"dateAndTimeString" : "2025-08-05T10:10:18.745521+02:00"
 								}
 							},
 							"editEmail" : {
@@ -652,7 +686,118 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-04T17:19:58.051446+02:00"
+									"dateAndTimeString" : "2025-08-05T10:10:18.745521+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+Ivsffv3DQCZhv31AvlPcA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:10:20.792533+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:10:20.792533+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "JskLfvv3DQCZilC3AvlPcA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:10:21.02814+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:10:21.02814+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "b14Pfvv3DQCZjkL3AvlPcA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:09:03.126607+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-05T10:09:03.126607+02:00"
 								}
 							},
 							"uid" : {
@@ -662,7 +807,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Add examples. Perhaps do this *after* we mine a good set of topics. "
+							"string" : ""
 						}
 					]
 				},

@@ -264,7 +264,7 @@ AbstractPCChatGroup >> requestResults [
 	How to check for rate limit errors?"
 
 	| title jobs delay |
-	delay := 500 milliseconds.
+	delay := 500 milliseconds. "Probably not needed."
 	mutex
 		critical: [ process
 				ifNil: [ title := 'Sending chat requests'.

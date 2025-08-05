@@ -3965,15 +3965,27 @@
 		},
 		{
 			"pageName" : "Introducing test examples and code cleaning",
-			"results" : [ ]
+			"results" : [
+				"Example-driven Development",
+				"Refactoring and Clean Code",
+				"Testing in Moldable Development"
+			]
 		},
 		{
 			"pageName" : "Coder",
-			"results" : [ ]
+			"results" : [
+				"Code Editing Components",
+				"Reflection and Metaprogramming",
+				"Search and Filtering Tools"
+			]
 		},
 		{
 			"pageName" : "What is Glamorous Toolkit?",
-			"results" : [ ]
+			"results" : [
+				"Understanding Moldable Development",
+				"Programming with Moldable Tools",
+				"Working with Data and Visualizations"
+			]
 		},
 		{
 			"pageName" : "Working with the Gemini API client",
@@ -3985,267 +3997,498 @@
 		},
 		{
 			"pageName" : "Profiling the synchronous execution of stylers using message tally",
-			"results" : [ ]
+			"results" : [
+				"Profiling and Performance Analysis",
+				"Text Editing and Styling",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "PharoLink snippet",
-			"results" : [ ]
+			"results" : [
+				"Working with Pharo",
+				"Cross-language Code Execution"
+			]
 		},
 		{
 			"pageName" : "Working with Python source files",
-			"results" : [ ]
+			"results" : [
+				"Working with Python",
+				"Python Integration and Bridge Architecture",
+				"Working with Source Trees and Project Structures"
+			]
 		},
 		{
 			"pageName" : "Creating the basic Ludo Board model",
-			"results" : [ ]
+			"results" : [
+				"Implementing Case Studies and Exercises",
+				"Modeling Domains in GT",
+				"Testing and Specification by Example"
+			]
 		},
 		{
 			"pageName" : "Strict Symbol Comparison with literals",
-			"results" : [ ]
+			"results" : [
+				"Programming Smalltalk",
+				"Moldable Development Patterns",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "Strict Symbol Comparison - Enabling",
-			"results" : [ ]
+			"results" : [
+				"Strict Symbol Comparison",
+				"Configuring the GT Image"
+			]
 		},
 		{
 			"pageName" : "How to create a new release for the GT Vm  from a new release of the Pharo Vm",
-			"results" : [ ]
+			"results" : [
+				"Building and Releasing the GT Virtual Machine",
+				"Integrating with the Pharo Virtual Machine",
+				"Tooling and Automation for Moldable Development"
+			]
 		},
 		{
 			"pageName" : "About this version of Glamorous Toolkit",
-			"results" : [ ]
+			"results" : [
+				"Understanding the GT Environment",
+				"Working with the GT Image",
+				"System Initialization and Versioning"
+			]
 		},
 		{
 			"pageName" : "Using Libgit-CLI as an alternative to Libgit2 FFI in Iceberg",
-			"results" : [ ]
+			"results" : [
+				"Version Control Integration",
+				"Working with Git",
+				"Iceberg Customization"
+			]
 		},
 		{
 			"pageName" : "How to implement a new snippet class ",
-			"results" : [ ]
+			"results" : [
+				"Lepiter Snippet Authoring",
+				"MVVM Pattern in GT",
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Explaining Andrej Karpathy's tokenization explanation",
-			"results" : [ ]
+			"results" : [
+				"Understanding Moldable Development",
+				"Programming Python",
+				"Custom Views and Inspector Extensions",
+				"Algorithm Explanation and Visualization"
+			]
 		},
 		{
 			"pageName" : "Investigating GemStone operation performance",
-			"results" : [ ]
+			"results" : [
+				"Measuring and Optimizing Performance",
+				"Working with GemStone",
+				"Remote Object Inspection"
+			]
 		},
 		{
 			"pageName" : "Handling custom instructions using assistants",
-			"results" : [ ]
+			"results" : [
+				"Building and Customizing Assistants",
+				"Integrating Large Language Models",
+				"Extending GT with Custom Tools"
+			]
 		},
 		{
 			"pageName" : "Using d3 to create views for local objects",
-			"results" : [ ]
+			"results" : [
+				"Creating Custom Visualizations",
+				"Working with JavaScript and Web Technologies",
+				"Interacting with External Data and Services"
+			]
 		},
 		{
 			"pageName" : "Phlow for Python",
-			"results" : [ ]
+			"results" : [
+				"Working with Python",
+				"Building Custom Views",
+				"Moldable Inspector Frameworks"
+			]
 		},
 		{
 			"pageName" : "SPL",
-			"results" : [ ]
+			"results" : [
+				"Language Design and Implementation",
+				"Parser Construction and Grammar",
+				"Case Studies in Moldable Development"
+			]
 		},
 		{
 			"pageName" : "Inspector actions",
-			"results" : [ ]
+			"results" : [
+				"Inspector actions",
+				"Inspector customization",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "Moldable Development patterns",
-			"results" : [ ]
+			"results" : [
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Using an alternative Python Bridge controller process",
-			"results" : [ ]
+			"results" : [
+				"Working with Python",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "How to fix Lepiter loading errors",
-			"results" : [ ]
+			"results" : [
+				"Troubleshooting and Debugging in GT",
+				"Lepiter Knowledgebase Management"
+			]
 		},
 		{
 			"pageName" : "Lists",
-			"results" : [ ]
+			"results" : [
+				"Building and Customizing Browsers",
+				"Displaying and Navigating Data"
+			]
 		},
 		{
 			"pageName" : "What is Reflection?",
-			"results" : [ ]
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "gt4gemstone",
-			"results" : [ ]
+			"results" : [
+				"Integrating with GemStone",
+				"Connecting to Databases",
+				"Working with External Systems"
+			]
 		},
 		{
 			"pageName" : "Extending the debugger through moldable exceptions",
-			"results" : [ ]
+			"results" : [
+				"Moldable Development Patterns",
+				"Debugger Customization",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "How to take a screenshot",
-			"results" : [ ]
+			"results" : [
+				"Working with the GT IDE",
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Understanding Lepiter in 7'",
-			"results" : [ ]
+			"results" : [
+				"Authoring with Lepiter",
+				"Living Documentation",
+				"Moldable Documentation Tools"
+			]
 		},
 		{
 			"pageName" : "Using a simulation for inspecting objects",
-			"results" : [ ]
+			"results" : [
+				"Remote Object Inspection",
+				"Simulations and Testing",
+				"Inspector Customization"
+			]
 		},
 		{
 			"pageName" : "How do I create a Table of Contents for a Lepiter database?",
-			"results" : [ ]
+			"results" : [
+				"Navigating and Organizing Notebooks"
+			]
 		},
 		{
 			"pageName" : "JavaScript debugger setup & example",
-			"results" : [ ]
+			"results" : [
+				"Debugging JavaScript",
+				"Working with JavaScript",
+				"Setting Up Development Environments"
+			]
 		},
 		{
 			"pageName" : "Adding an Anthropic API key",
-			"results" : [ ]
+			"results" : [
+				"Integrating External Services",
+				"Working with LLMs",
+				"Configuring the GT Environment"
+			]
 		},
 		{
 			"pageName" : "How to execute external commands",
-			"results" : [ ]
+			"results" : [
+				"Interacting with the Operating System",
+				"External Processes and Shell Commands"
+			]
 		},
 		{
 			"pageName" : "Moldable Tool",
-			"results" : [ ]
+			"results" : [
+				"Moldable Development Patterns",
+				"Moldable Tools",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "What to do when GT hangs?",
-			"results" : [ ]
+			"results" : [
+				"Debugging and Error Handling",
+				"GT IDE Basics"
+			]
 		},
 		{
 			"pageName" : "How to use a startup script",
-			"results" : [ ]
+			"results" : [
+				"Configuring the GT Environment"
+			]
 		},
 		{
 			"pageName" : "Exploring IMDB movie lists",
-			"results" : [ ]
+			"results" : [
+				"Working with External Data",
+				"Building Domain Models",
+				"Moldable Views and Presentations"
+			]
 		},
 		{
 			"pageName" : "Adding a feedback region to the Ludo Board",
-			"results" : [ ]
+			"results" : [
+				"User Interface Design in GT",
+				"Reactive Programming",
+				"Domain-Specific Tool Building"
+			]
 		},
 		{
 			"pageName" : "Exploring extension methods to the base image",
-			"results" : [ ]
+			"results" : [
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming",
+				"Customizing the GT Environment"
+			]
 		},
 		{
 			"pageName" : "LLM utilities",
-			"results" : [ ]
+			"results" : [
+				"LLM Integration",
+				"Utilities and Extensions"
+			]
 		},
 		{
 			"pageName" : "OpenGL",
-			"results" : [ ]
+			"results" : [
+				"Graphics and Visualization",
+				"Working with External Libraries"
+			]
 		},
 		{
 			"pageName" : "How to for gt4gemstone development",
-			"results" : [ ]
+			"results" : [
+				"Developing with gt4gemstone",
+				"Programming Smalltalk",
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Embeddings in Ollama",
-			"results" : [ ]
+			"results" : [
+				"Embeddings and Vector Search",
+				"Integration with External Tools"
+			]
 		},
 		{
 			"pageName" : "Printing VM log messages to the console",
-			"results" : [ ]
+			"results" : [
+				"Debugging and Logging",
+				"Virtual Machine Integration"
+			]
 		},
 		{
 			"pageName" : "Using PetitParser to build an AST",
-			"results" : [ ]
+			"results" : [
+				"Parsing and Abstract Syntax Trees (ASTs)",
+				"Programming Smalltalk",
+				"Testing and Debugging"
+			]
 		},
 		{
 			"pageName" : "Basic usage of the Python Bridge",
-			"results" : [ ]
+			"results" : [
+				"Working with Python",
+				"GT-Python Integration"
+			]
 		},
 		{
 			"pageName" : "Message Tally",
-			"results" : [ ]
+			"results" : [
+				"Profiling and Performance Analysis",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "Adding gtViews to the existing Python pandas DataFrame and Series class",
-			"results" : [ ]
+			"results" : [
+				"Working with Python",
+				"Moldable Development Patterns",
+				"Custom Inspector Views"
+			]
 		},
 		{
 			"pageName" : "Implementing a stack machine",
-			"results" : [ ]
+			"results" : [
+				"Programming Smalltalk",
+				"Building Custom Tools and Inspectors",
+				"Live Programming and Playground Usage"
+			]
 		},
 		{
 			"pageName" : "Playing with label aptitudes for buttons",
-			"results" : [ ]
+			"results" : [
+				"Building User Interfaces with Bloc",
+				"Widget Composition and Customization",
+				"Model-View Synchronization",
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Driller",
-			"results" : [ ]
+			"results" : [
+				"Graphical User Interface Tools",
+				"Introspection and Inspection"
+			]
 		},
 		{
 			"pageName" : "Modeling discounted prices",
-			"results" : [ ]
+			"results" : [
+				"Modeling Money and Price Hierarchies",
+				"Discounts and Pricing Strategies",
+				"Refactoring and Object-Oriented Design Patterns"
+			]
 		},
 		{
 			"pageName" : "Changes in GT for supporting in Pharo 12",
-			"results" : [ ]
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Patch Management and Upgrading",
+				"Handling Language and Framework Evolution"
+			]
 		},
 		{
 			"pageName" : "Example-driven development by example",
-			"results" : [ ]
+			"results" : [
+				"Example-Driven Development",
+				"Testing and Assertions",
+				"Documentation with Live Examples"
+			]
 		},
 		{
 			"pageName" : "Rewriting Pharo code",
-			"results" : [ ]
+			"results" : [
+				"Code Rewriting and Refactoring",
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "How to measure the size of the current knowledge base",
-			"results" : [ ]
+			"results" : [
+				"Reflection and Metaprogramming",
+				"Measuring and Analyzing the Knowledge Base"
+			]
 		},
 		{
 			"pageName" : "Loading GT server code into a non-Rowan stone",
-			"results" : [ ]
+			"results" : [
+				"Setting Up the GT Server Environment",
+				"Working with GemStone",
+				"Loading and Bootstrapping Projects"
+			]
 		},
 		{
 			"pageName" : "Explaining the squarified treemap algorithm",
-			"results" : [ ]
+			"results" : [
+				"Visualizations and Custom Views",
+				"Algorithm Explanations and Stepwise Narratives",
+				"Moldable Development Patterns"
+			]
 		},
 		{
 			"pageName" : "Developers spend most of their time figuring systems out",
-			"results" : [ ]
+			"results" : [
+				"Understanding Moldable Development",
+				"Program Comprehension and Code Reading",
+				"Software Maintenance"
+			]
 		},
 		{
 			"pageName" : "Smalltalk method syntax on a postcard",
-			"results" : [ ]
+			"results" : [
+				"Programming Smalltalk"
+			]
 		},
 		{
 			"pageName" : "stub",
-			"results" : [ ]
+			"results" : [
+				"Stub Pages"
+			]
 		},
 		{
 			"pageName" : "Analysing the image size and its evolution",
-			"results" : [ ]
+			"results" : [
+				"Analysing System Size and Performance",
+				"Reflection and Metaprogramming",
+				"Managing Project State and History"
+			]
 		},
 		{
 			"pageName" : "Scripter actions",
-			"results" : [ ]
+			"results" : [
+				"Scripting and Automation",
+				"Simulating UI Events",
+				"State Inspection and Testing"
+			]
 		},
 		{
 			"pageName" : "Glamorous Toolkit as a case study",
-			"results" : [ ]
+			"results" : [
+				"Moldable Development Patterns",
+				"Case Studies and Examples"
+			]
 		},
 		{
 			"pageName" : "Analysing the size of the code index",
-			"results" : [ ]
+			"results" : [
+				"Code Indexing and Metrics",
+				"Performance and Optimization"
+			]
 		},
 		{
 			"pageName" : "Remote Runner: checks, examples and tests",
-			"results" : [ ]
+			"results" : [
+				"Testing and Quality Assurance",
+				"Parallel and Distributed Development"
+			]
 		},
 		{
 			"pageName" : "Querying objects",
-			"results" : [ ]
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
 		},
 		{
 			"pageName" : "Technical Aspects",
-			"results" : [ ]
+			"results" : [
+				"Technical Analyses",
+				"Exploring GT Internals"
+			]
 		}
 	]
 }

@@ -35,5 +35,5 @@ PCEntity >> jsonObject [
 
 { #category : #printing }
 PCEntity >> jsonString [
-	^ STON toJsonString: self jsonObject
+	^ STON toJsonStringPretty: self jsonObject
 ]
