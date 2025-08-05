@@ -46,6 +46,11 @@ AbstractPCChatGroup >> database [
 	self subclassResponsibility
 ]
 
+{ #category : #action }
+AbstractPCChatGroup >> emptyChats [
+	^ self chats select: [ :chat | chat results isEmpty ]
+]
+
 { #category : #'instance creation' }
 AbstractPCChatGroup >> freshCopy [
 	self subclassResponsibility
@@ -64,15 +69,14 @@ AbstractPCChatGroup >> gtActionMenuFor: anAction [
 		content: [ :aButton | 
 			BrGlamorousSimpleContextMenuContent new
 				items: {'Empty result chats'
-							-> [ :e | 
-								e phlow
-									spawnObject: (self
-											pcChatGroupWithItems: (self chats select: [ :chat | chat results isEmpty ])) ].
+							-> [ :e | e phlow spawnObject: (self pcChatGroupWithItems: self emptyChats) ].
 						'Add 10 random pages' -> [ self addRandomPages: 10 ].
 						'Browse JSON parent folder'
 							-> [ :e | e phlow spawnObject: self jsonFileReference parent ].
 						'Browse pending chat request processes'
-							-> [ :e | e phlow spawnObject: self pendingProcesses ]};
+							-> [ :e | e phlow spawnObject: self pendingProcesses ].
+						'Terminate pending chat request processes'
+							-> [ :e | self class allInstances do: #terminateRequest ]};
 				yourself ]
 ]
 
@@ -255,14 +259,19 @@ AbstractPCChatGroup >> prompt [
 
 { #category : #action }
 AbstractPCChatGroup >> requestResults [
-	"NB: Async version.
-	NB: Fork at priority 20."
+	"Async version. Fork at priority 20.
+	Insert a delay to avoid rate limits -- need an exponential backoff?
+	How to check for rate limit errors?"
 
-	| title jobs |
+	| title jobs delay |
+	delay := 500 milliseconds.
 	mutex
 		critical: [ process
 				ifNil: [ title := 'Sending chat requests'.
-					jobs := self chats collect: [ :chat | [ chat requestResults ] ].
+					jobs := self emptyChats
+							collect: [ :chat | 
+								[ chat requestResults.
+								delay wait ] ].
 					process := [ [ :job | 
 						job title: title.
 						jobs
@@ -278,4 +287,12 @@ AbstractPCChatGroup >> requestResults [
 { #category : #serialization }
 AbstractPCChatGroup >> saveToJSONfile [
 	self subclassResponsibility
+]
+
+{ #category : #action }
+AbstractPCChatGroup >> terminateRequest [
+	mutex
+		critical: [ process
+				ifNotNil: [ process isTerminated ifFalse: [ process terminate ].
+					process := nil ] ]
 ]
