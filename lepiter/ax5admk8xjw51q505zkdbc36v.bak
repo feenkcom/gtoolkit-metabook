@@ -100,7 +100,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T09:50:15.263056+02:00"
+						"dateAndTimeString" : "2025-08-05T13:59:37.745057+02:00"
 					}
 				},
 				"uid" : {
@@ -110,7 +110,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "John: *I pushed a change to not inline recursive calls.*"
 			},
 			{
 				"__type" : "textSnippet",
@@ -126,7 +126,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T09:50:15.499185+02:00"
+						"dateAndTimeString" : "2025-08-05T13:59:38.316746+02:00"
 					}
 				},
 				"editEmail" : {
@@ -137,17 +137,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T09:50:15.939053+02:00"
+						"dateAndTimeString" : "2025-08-05T13:59:38.316746+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "4Hc0Nvv3DQCv7AccAux2uA=="
+					"uidString" : "CvIOsv73DQCyHPPiDtRXyA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "GtLlmPageExporter new\r\t\tpage: self page;\r\t\texport"
+				"string" : ""
 			}
 		]
 	},

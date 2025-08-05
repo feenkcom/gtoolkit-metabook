@@ -88,9 +88,10 @@ PageClassifier >> attribute: aString [
 
 { #category : #accessing }
 PageClassifier >> blackList [
-	"A list of problem pages that we need to avoid."
+	"A list of problem pages that we need to avoid.
+	NB: infinite recursion problem in page 'How to guard against inifinte loops?' has been resolved."
 
-	^ {'How to guard against inifinte loops?'}
+	^ {}
 ]
 
 { #category : #'instance creation' }
