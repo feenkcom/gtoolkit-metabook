@@ -115,6 +115,48 @@ TopicClusteringExperiments >> clus3TopicClusterChatResults [
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> clus4TopicClusterChat [
+	"We provide a specialized format for the list of groups."
+
+	<gtExample>
+	| chat |
+	chat := GtLlmChat new.
+	chat provider instructions: self clusteringPrompt4.
+	chat provider format: self clusterFormat.
+	^ chat
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clus4TopicClusterChatResults [
+	"The input here is just the list of topics, without duplicates."
+
+	<gtExample>
+	<noTest>
+	| chat results |
+	chat := self clus4TopicClusterChat.
+	chat sendMessage: self topicList.
+	chat provider executions last wait.
+	results := chat messages last contentJson at: 'results'.
+	^ results
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clusterFormat [
+	"We need a special format for the list of lists of results".
+
+	^ {'type' -> 'object'.
+		'properties'
+			-> {'results'
+						-> {'type' -> 'array'.
+								'groups'
+									-> {'type' -> 'array'.
+											'items' -> {'type' -> 'string'} asDictionary} asDictionary}
+								asDictionary} asDictionary.
+		'required' -> {'results'}.
+		'additionalProperties' -> false} asDictionary
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> clusteringPrompt1 [
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
@@ -241,6 +283,22 @@ The input that follows is a list of over 1000 topics mined from the book, which 
 Your job is to partition the existing list of mined topics into thematic groups of similar topics.
 
 Each result you return should consist of a JSON array of strings, where the first string is the topic to represent the group, and the rest are the remaining topics.
+
+Please propose no more than 40 groups of topics.'
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clusteringPrompt4 [
+	"Now the prompt should be in sync with the cluster format"
+
+	<gtExample>
+	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
+
+The input that follows is a list of over 1000 topics mined from the book, which is far too many.
+
+Your job is to partition the existing list of mined topics into thematic groups of similar topics.
+
+Each result you return should consist of an array of topics, where the one is the topic to represent the group, and the rest are the remaining topics.
 
 Please propose no more than 40 groups of topics.'
 ]

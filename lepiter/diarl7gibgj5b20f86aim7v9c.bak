@@ -8,7 +8,45 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-06-24T07:54:29.425372+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-07-30T09:27:21.299223+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "pqVpsKz0DQCTTXchB+or5A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This project adds *metapages* to an existing lepiter database. The metapages exist in a separate lepiter database, in this repo (or possibly elsewhere. For each lepiter database there can be one meta-db. If a meta-db exists, then pages will  be decorated with a button pointing to a metapage, with the same title, in the meta-db. The button changes apperance (color) if the metapage exists or not. Similarly a metapage has a back button to the basepage (if it exists)."
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -18,7 +56,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T07:54:29.425372+02:00"
+						"dateAndTimeString" : "2025-07-30T09:27:21.296049+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +67,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-06-24T07:58:29.794624+02:00"
+						"dateAndTimeString" : "2025-07-30T09:27:21.296049+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "pqVpsKz0DQCTTXchB+or5A=="
+					"uidString" : "voc/MYL3DQC8nnb6AjLkhQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "#TLDR\nThis project adds *metapages* to an existing lepiter database. The metapages exist in a separate lepiter database, in this repo (or possibly elsewhere. For each lepiter database there can be one meta-db. If a meta-db exists, then pages will  be decorated with a button pointing to a metapage, with the same title, in the meta-db. The button changes apperance (color) if the metapage exists or not. Similarly a metapage has a back button to the basepage (if it exists)."
+				"string" : "#TLDR"
 			},
 			{
 				"__type" : "textSnippet",

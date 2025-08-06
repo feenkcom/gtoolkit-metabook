@@ -141,14 +141,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-21T15:29:33.793898+02:00"
+						"dateAndTimeString" : "2025-08-06T15:42:33.004019+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "qo6qM9L2DQCab9/mBm9IdQ=="
 				},
-				"code" : "Metacello new\n\trepository: 'github://feenkcom/gtoolkit-metabook:main/src';\n\tbaseline: 'GtoolkitMetabook';\n\tload.\n#BaselineOfGtoolkitMetabook asClass loadLepiter.\n#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook."
+				"code" : "Metacello new\n\trepository: 'github://feenkcom/gtoolkit-metabook:main/src';\n\tbaseline: 'GtoolkitMetabook';\n\tload.\n#BaselineOfGtoolkitMetabook asClass loadLepiter.\n#BaselineOfGtoolkitMetabook asClass loadLepiterMetabook.\r#BaselineOfGtoolkitMetabook asClass loadLepiterGtbookExamples."
 			},
 			{
 				"__type" : "textSnippet",
