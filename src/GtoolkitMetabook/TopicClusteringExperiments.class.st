@@ -86,6 +86,33 @@ TopicClusteringExperiments >> clus2TopicClusterChatSavedResults1 [
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> clus3TopicClusterChat [
+	"This time we ask it instead to cluster or group the existing topics, 
+	and *then* propose a name to cover the group."
+
+	<gtExample>
+	| chat |
+	chat := GtLlmChat new.
+	chat provider instructions: self clusteringPrompt3.
+	chat provider format: PageClassifierChat new format.
+	^ chat
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clus3TopicClusterChatResults [
+	"The input here is just the list of topics, without duplicates."
+
+	<gtExample>
+	<noTest>
+	| chat results |
+	chat := self clus3TopicClusterChat.
+	chat sendMessage: self topicList.
+	chat provider executions last wait.
+	results := chat messages last contentJson at: 'results'.
+	^ results
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> clusteringPrompt1 [
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
@@ -164,6 +191,46 @@ Please just provide your proposal, without any further explanation.'
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> clusteringPrompt3 [
+	"TO DO: Simplify the query."
+
+	<gtExample>
+	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
+
+In order to help guide newcomers to relevant documentation, we need to offer a roadmap that maps pages to a set of topics relevant to learning about GT.
+
+A typical newcomer to GT is either:
+(i) someone who has heard of GT, and would like to learn more about it, but has no particular  goal in mind, or
+(ii) someone with a specific problem to solve, whether work-related or a personal hobby project.
+We want to provide newcomers with a roadmap of the pages organized around a set of 20-30 GT-related topics.
+
+A good topic is high-level enough that we can assign multiple pages to a topic, but specific enough to be useful for finding relevant pages.
+
+Examples of good topics:
+- Understanding Moldable Development -- a baseline for a newcomer to build on.
+- Programming Smalltalk -- something a newcomer needs to learn.
+- Working with Python -- many newcomers have Python code bases.
+- Moldable Development Patterns -- patterns offer a good way to explain moldable development, and they cross cut many tutorials and case studies.
+- Reflection and Metaprogramming -- moldable development is about building lots of little tools, so many pages touch on reflective techniques and metaprogramming.
+
+Examples of poor topics:
+- Working with GraphSQL -- too specific for a cluster of pages.
+- Glamorous Toolkit -- too broad; all the pages relate to GT.
+- Method Wrappers -- too specific; this is just one particular reflective technique.
+
+The input that follows is a list of over 1000 topics mined from the book, which is far too many.
+
+Your job is to partition the existing list of mined topics into thematic groups of similar topics, and for each topic group, to propose one of the topics to represent the group.
+
+You should return a list of results, one for each group of thematically similar topics.
+Each result you return should consist of a JSON array of strings, where the first string is the topic to represent the group, and the rest are the remining topics.
+
+Please propose no more than 40 groups of topics. 
+
+Please just provide your proposal, without any further explanation.'
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> topic2pages [
 	"Map the mined topics back to their pages. Needed to assess the clustering of topics."
 
@@ -175,6 +242,15 @@ TopicClusteringExperiments >> topic2pages [
 			chat results
 				do: [ :topic | (topic2pages at: topic ifAbsentPut: [ OrderedCollection new ]) add: chat page ] ].
 	^ topic2pages
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> topicList [
+	<gtExample>
+	^ STONJSON
+		toStringPretty: (TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats
+				flatCollect: [ :chat | chat results ]) asSet asSortedCollection asArray
+				asGtJson jsonObject
 ]
 
 { #category : #examples }
