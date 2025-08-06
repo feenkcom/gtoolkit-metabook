@@ -7,11 +7,3 @@ GtHome >> metabookSection [
 	<noTest>
 	^ MetabookHomeSection new
 ]
-
-{ #category : #'*GtoolkitMetabook' }
-GtHome >> oscarSection [
-	<gtHomeSection>
-	<gtExample>
-	<noTest>
-	^ OscarHomeSection new
-]
