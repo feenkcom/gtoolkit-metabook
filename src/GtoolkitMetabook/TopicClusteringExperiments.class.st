@@ -148,7 +148,7 @@ TopicClusteringExperiments >> clusterFormat [
 		'properties'
 			-> {'results'
 						-> {'type' -> 'array'.
-								'groups'
+								'items'
 									-> {'type' -> 'array'.
 											'items' -> {'type' -> 'string'} asDictionary} asDictionary}
 								asDictionary} asDictionary.
