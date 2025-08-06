@@ -820,14 +820,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T12:46:57.008515+02:00"
+									"dateAndTimeString" : "2025-08-06T12:55:56.185138+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "gNreMBH4DQC5Lq5OBAzZaA=="
 							},
-							"code" : "(TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats flatCollect: [: chat | chat results ]) asSet asSortedCollection"
+							"code" : "TopicClusteringExperiments new topicList"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -888,7 +888,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T11:59:36.224248+02:00"
+									"dateAndTimeString" : "2025-08-06T13:30:55.569502+02:00"
 								}
 							},
 							"uid" : {
@@ -898,7 +898,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Problem: the assistant is not formatting the results the way I want them. Often it just gives o"
 						},
 						{
 							"__type" : "textSnippet",

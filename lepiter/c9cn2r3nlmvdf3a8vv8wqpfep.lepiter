@@ -888,7 +888,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T11:59:36.224248+02:00"
+									"dateAndTimeString" : "2025-08-06T13:31:08.278098+02:00"
 								}
 							},
 							"uid" : {
@@ -898,7 +898,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Problem: the assistant is not formatting the results the way I want them. Often it just gives one answer instead of one JSON for each group."
 						},
 						{
 							"__type" : "textSnippet",
