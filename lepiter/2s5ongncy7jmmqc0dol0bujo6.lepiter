@@ -610,7 +610,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T10:18:57.843997+02:00"
+						"dateAndTimeString" : "2025-08-06T10:11:28.22346+02:00"
 					}
 				},
 				"uid" : {
@@ -620,7 +620,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Next: [[Clustering topics]] "
+				"string" : "Next: [[* Clustering topics]] "
 			}
 		]
 	},

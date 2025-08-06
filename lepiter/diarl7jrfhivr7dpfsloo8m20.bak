@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-28T15:18:47.816411+02:00"
+												"dateAndTimeString" : "2025-08-05T11:20:51.669797+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine categories from the GT Book pages]] "
+										"string" : "[[Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -151,7 +151,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-31T17:54:50.827306+02:00"
+												"dateAndTimeString" : "2025-08-05T11:20:58.714376+02:00"
 											}
 										},
 										"uid" : {
@@ -161,7 +161,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine topics from the GT Book pages]] "
+										"string" : "[[Mine topics from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
