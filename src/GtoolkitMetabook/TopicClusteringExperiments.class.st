@@ -56,7 +56,9 @@ TopicClusteringExperiments >> clus1TopicClusterChatSavedResults3 [
 { #category : #examples }
 TopicClusteringExperiments >> clus2TopicClusterChat [
 	"This time we ask it instead to cluster or group the existing topics, 
-	and *then* propose a name to cover the group."
+	and *then* propose a name to cover the group.
+	NB: The prompt does not always succeed to give the expected answer.
+	Insteda of all the answers it often just gives the first answer."
 
 	<gtExample>
 	| chat |
@@ -93,7 +95,7 @@ TopicClusteringExperiments >> clus3TopicClusterChat [
 	<gtExample>
 	| chat |
 	chat := GtLlmChat new.
-	chat provider instructions: self clusteringPrompt3.
+	chat provider instructions: self clusteringPrompt3Simplified.
 	chat provider format: PageClassifierChat new format.
 	^ chat
 ]
@@ -192,7 +194,7 @@ Please just provide your proposal, without any further explanation.'
 
 { #category : #examples }
 TopicClusteringExperiments >> clusteringPrompt3 [
-	"TO DO: Simplify the query."
+	"This time the input is just the list of topics, and the output should be the partition, with the first string of each group being the selected topic."
 
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
@@ -220,14 +222,27 @@ Examples of poor topics:
 
 The input that follows is a list of over 1000 topics mined from the book, which is far too many.
 
-Your job is to partition the existing list of mined topics into thematic groups of similar topics, and for each topic group, to propose one of the topics to represent the group.
+Your job is to partition the existing list of mined topics into thematic groups of similar topics.
 
-You should return a list of results, one for each group of thematically similar topics.
-Each result you return should consist of a JSON array of strings, where the first string is the topic to represent the group, and the rest are the remining topics.
+Each result you return should consist of a JSON array of strings, where the first string is the topic to represent the group, and the rest are the remaining topics.
 
-Please propose no more than 40 groups of topics. 
+Please propose no more than 40 groups of topics.'
+]
 
-Please just provide your proposal, without any further explanation.'
+{ #category : #examples }
+TopicClusteringExperiments >> clusteringPrompt3Simplified [
+	"This time the input is just the list of topics, and the output should be the partition, with the first string of each group being the selected topic."
+
+	<gtExample>
+	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
+
+The input that follows is a list of over 1000 topics mined from the book, which is far too many.
+
+Your job is to partition the existing list of mined topics into thematic groups of similar topics.
+
+Each result you return should consist of a JSON array of strings, where the first string is the topic to represent the group, and the rest are the remaining topics.
+
+Please propose no more than 40 groups of topics.'
 ]
 
 { #category : #examples }
