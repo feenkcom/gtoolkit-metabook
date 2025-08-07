@@ -343,6 +343,8 @@ TopicClusteringExperiments >> topicClustersFile [
 
 { #category : #examples }
 TopicClusteringExperiments >> topicList [
+	"Get the list of topics two ways and check they are the same."
+
 	<gtExample>
 	| topicList topicsFromMap |
 	topicList := (TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats
