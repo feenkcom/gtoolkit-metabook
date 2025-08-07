@@ -108,7 +108,7 @@ TopicClusteringExperiments >> clus3TopicClusterChatResults [
 	<noTest>
 	| chat results |
 	chat := self clus3TopicClusterChat.
-	chat sendMessage: self topicList.
+	chat sendMessage: self topicListJSON.
 	chat provider executions last wait.
 	results := chat messages last contentJson at: 'results'.
 	^ results
@@ -134,7 +134,7 @@ TopicClusteringExperiments >> clus4TopicClusterChatResults [
 	<noTest>
 	| chat results |
 	chat := self clus4TopicClusterChat.
-	chat sendMessage: self topicList.
+	chat sendMessage: self topicListJSON.
 	chat provider executions last wait.
 	results := chat messages last contentJson at: 'results'.
 	^ results
@@ -289,7 +289,11 @@ Please propose no more than 40 groups of topics.'
 
 { #category : #examples }
 TopicClusteringExperiments >> clusteringPrompt4 [
-	"Now the prompt should be in sync with the cluster format"
+	"Now the prompt should be in sync with the cluster format. 
+	We iterate over the prompt to esnure that:
+	(1) every topic appears in exactly one group
+	(2) no new topics are introduced
+	(3) we have a minimum of groups (ideally 40, but this may be overconstrained)"
 
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
@@ -298,9 +302,13 @@ The input that follows is a list of over 1000 topics mined from the book, which 
 
 Your job is to partition the existing list of mined topics into thematic groups of similar topics.
 
-Each result you return should consist of an array of topics, where the one is the topic to represent the group, and the rest are the remaining topics.
+Each result you return should consist of an array of topics, where the one is the topic to represent the group, and the rest are the remaining topics. 
 
-Please propose no more than 40 groups of topics.'
+Do not introduce any new topics, but only select an existing topic to represent a group.
+Make sure that every original topic appears in exactly one group.
+Try to minimize the number of groups to not more than 40, if possible, 
+as long as you do not violate the previous two requirements.
+'
 ]
 
 { #category : #examples }
@@ -318,12 +326,40 @@ TopicClusteringExperiments >> topic2pages [
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> topicClusters [
+	<gtExample>
+	^ STON fromString: self topicClustersFile contents
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> topicClustersFile [
+	"We backup a few versions:
+	- v1 has too many new topics and missing topics
+	- v2 has only 3 new topics but several hundred topics missing from the groups
+	- v3 ..."
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/topicClusters.json'
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> topicList [
 	<gtExample>
-	^ STONJSON
-		toStringPretty: (TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats
-				flatCollect: [ :chat | chat results ]) asSet asSortedCollection asArray
-				asGtJson jsonObject
+	| topicList topicsFromMap |
+	topicList := (TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats
+			flatCollect: [ :chat | chat results ]) asSet asSortedCollection asArray.
+
+	topicsFromMap := (TopicClusteringExperiments new topicMap
+			collect: [ :d | d at: 'results' ]) flatten asSet asSortedCollection asArray.
+	self assert: topicList equals: topicsFromMap.
+
+	^ topicList
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> topicListJSON [
+	<gtExample>
+	^ STONJSON toStringPretty: self topicList asGtJson jsonObject
 ]
 
 { #category : #examples }

@@ -663,6 +663,40 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-07T17:38:18.69817+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-07T17:38:35.58766+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "OtTG+yn4DQCzW72JCxBdIw=="
+							},
+							"code" : "TopicClusteringExperiments new topicList"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-08-06T10:56:46.291245+02:00"
 								}
 							},
@@ -741,7 +775,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T11:58:16.864538+02:00"
+						"dateAndTimeString" : "2025-08-07T17:35:20.841492+02:00"
 					}
 				},
 				"uid" : {
@@ -751,7 +785,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 2 — group the topics"
+				"string" : "# Experiment 2 — group the topics (failed format)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -820,14 +854,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T12:55:56.185138+02:00"
+									"dateAndTimeString" : "2025-08-07T17:37:09.764557+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "gNreMBH4DQC5Lq5OBAzZaA=="
 							},
-							"code" : "TopicClusteringExperiments new topicList"
+							"code" : "TopicClusteringExperiments new topicListJSON"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -921,7 +955,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T11:59:00.394119+02:00"
+						"dateAndTimeString" : "2025-08-07T17:35:25.43057+02:00"
 					}
 				},
 				"uid" : {
@@ -931,7 +965,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 3 — simplify the query"
+				"string" : "# Experiment 3 — simplify the query (failed format)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -963,7 +997,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T15:56:10.123923+02:00"
+									"dateAndTimeString" : "2025-08-07T18:01:47.096136+02:00"
 								}
 							},
 							"uid" : {
@@ -973,41 +1007,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "TG says the problem is that the format just specifies an array of results. We need a more refined format that says exactly what we expect."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T16:04:36.929889+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T16:04:36.929889+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "fxPajhT4DQC8Xr1zBRHt2A=="
-							},
-							"code" : ""
+							"string" : "TG says the problem is that the format just specifies an array of results. We need a more refined format that says exactly what we expect: {{gtMethod:name=TopicClusteringExperiments>>#clusterFormat}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1023,6 +1023,292 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-07T18:02:16.693109+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-07T18:02:18.108088+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "P+N8USr4DQC/uqx1CxBdIw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We need to iterate over the prompt: {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt4}}"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:28:39.959761+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:28:45.708106+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "qfpH2Sn4DQCwFl+jCxBdIw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We backup the results."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:26:20.010955+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T18:06:03.422416+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "eojw0Cn4DQCt8Mc5CxBdIw=="
+										},
+										"code" : "(TopicClusteringExperiments new topicClustersFile) \r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:34:07.981814+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:34:14.348564+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "Fi/V7Cn4DQCxEtGvCxBdIw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "and we can restore from the file:"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:32:51.490329+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:33:50.868473+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "kghG6Cn4DQCw5pTECxBdIw=="
+										},
+										"code" : "TopicClusteringExperiments new topicClusters"
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-06T16:04:36.929889+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-07T17:25:01.078378+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fxPajhT4DQC8Xr1zBRHt2A=="
+							},
+							"code" : "topicClusters := TopicClusteringExperiments new clus4TopicClusterChatResults"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:34:47.771731+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T17:59:55.645975+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "cFc07yn4DQCy3y2/CxBdIw=="
+										},
+										"code" : "topicList := TopicClusteringExperiments new topicList.\rclusteredTopics := TopicClusteringExperiments new topicClusters flatten.\rnewTopics := clusteredTopics copyWithoutAll: topicList.\rmissingTopics := topicList copyWithoutAll: clusteredTopics"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T18:00:18.018322+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-07T18:01:24.898936+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "ipwJjxT4DQC8Z4D8BRHt2A=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We refine the prompt to reduce the new topics (there should be none) and we ask it to ensure there are no missing topics, but we still are missing many. We try again, relaxing the constraint that we want no more than 40 groups."
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-08-06T16:04:39.621697+02:00"
 								}
 							},
@@ -1034,7 +1320,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T16:04:39.621697+02:00"
+									"dateAndTimeString" : "2025-08-07T17:35:47.650709+02:00"
 								}
 							},
 							"uid" : {
@@ -1044,44 +1330,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T16:04:40.045042+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T16:04:40.045042+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ipwJjxT4DQC8Z4D8BRHt2A=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"string" : "We want to perform a sanity check for all the topics."
 						},
 						{
 							"__type" : "textSnippet",
