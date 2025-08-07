@@ -1113,14 +1113,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T18:06:03.422416+02:00"
+												"dateAndTimeString" : "2025-08-07T18:24:55.806691+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "eojw0Cn4DQCt8Mc5CxBdIw=="
 										},
-										"code" : "(TopicClusteringExperiments new topicClustersFile) \r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
+										"code" : "topicClustersFile := (TopicClusteringExperiments new topicClustersFile) .\rtopicClustersFile\r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1184,14 +1184,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T17:33:50.868473+02:00"
+												"dateAndTimeString" : "2025-08-07T18:20:34.059332+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "kghG6Cn4DQCw5pTECxBdIw=="
 										},
-										"code" : "TopicClusteringExperiments new topicClusters"
+										"code" : "topicClusters := TopicClusteringExperiments new topicClusters"
 									}
 								]
 							},
@@ -1253,7 +1253,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T17:59:55.645975+02:00"
+												"dateAndTimeString" : "2025-08-07T18:24:13.326324+02:00"
 											}
 										},
 										"uid" : {
@@ -1427,7 +1427,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T15:55:31.146792+02:00"
+						"dateAndTimeString" : "2025-08-07T18:20:22.312173+02:00"
 					}
 				},
 				"uid" : {
@@ -1437,7 +1437,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 4 — refining the format"
+				"string" : "# Experiment 4 — refining the format and the prompt"
 			}
 		]
 	},

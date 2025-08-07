@@ -293,7 +293,8 @@ TopicClusteringExperiments >> clusteringPrompt4 [
 	We iterate over the prompt to esnure that:
 	(1) every topic appears in exactly one group
 	(2) no new topics are introduced
-	(3) we have a minimum of groups (ideally 40, but this may be overconstrained)"
+	(3) we have a minimum of groups (ideally 40, but this may be overconstrained)
+	We try leaving out the last requirement."
 
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
@@ -306,8 +307,6 @@ Each result you return should consist of an array of topics, where the one is th
 
 Do not introduce any new topics, but only select an existing topic to represent a group.
 Make sure that every original topic appears in exactly one group.
-Try to minimize the number of groups to not more than 40, if possible, 
-as long as you do not violate the previous two requirements.
 '
 ]
 
