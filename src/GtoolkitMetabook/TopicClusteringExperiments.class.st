@@ -141,6 +141,30 @@ TopicClusteringExperiments >> clus4TopicClusterChatResults [
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> clus5TopicClusterChat [
+	"We provide a specialized format for the list of groups."
+
+	<gtExample>
+	| chat |
+	chat := GtLlmChat new.
+	chat provider instructions: self clusteringPrompt5.
+	chat provider format: self clusterFormat.
+	^ chat
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clus5TopicClusterChatResults [
+	<gtExample>
+	<noTest>
+	| chat results |
+	chat := self clus5TopicClusterChat.
+	chat sendMessage: self topicListJSON.
+	chat provider executions last wait.
+	results := chat messages last contentJson at: 'results'.
+	^ results
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> clusterFormat [
 	"We need a special format for the list of lists of results".
 
@@ -303,10 +327,28 @@ The input that follows is a list of over 1000 topics mined from the book, which 
 
 Your job is to partition the existing list of mined topics into thematic groups of similar topics.
 
-Each result you return should consist of an array of topics, where the one is the topic to represent the group, and the rest are the remaining topics. 
+Each result you return should consist of an array of topics, where the first one is the topic to represent the group, and the rest are the remaining topics. 
 
 Do not introduce any new topics, but only select an existing topic to represent a group.
 Make sure that every original topic appears in exactly one group.
+'
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> clusteringPrompt5 [
+	"To simplify the task, we only ask the assistant to cluster the topics, nothing else."
+
+	<gtExample>
+	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
+
+The input that follows is a list of over 1000 topics mined from the book, which is far too many.
+
+Your job is to partition the existing list of mined topics into thematic groups of similar topics.
+
+Please return a result for each group, consisting of the list of topics in that group.
+
+Every topic from the input should appear in exactly one group of the output.
+Just return the list of groups, without any further explanation.
 '
 ]
 
