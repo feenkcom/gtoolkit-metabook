@@ -1759,7 +1759,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T09:25:35.064928+02:00"
+									"dateAndTimeString" : "2025-08-08T10:39:11.319211+02:00"
 								}
 							},
 							"uid" : {
@@ -1769,7 +1769,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "There are no artificial new topics, but there are 93 missing topics. We get 1013 topics in the clusters instead of 1068. But this is probably ok to work with."
+							"string" : "There are no artificial new topics, but there are 93 missing topics. We get 1013 topics in the clusters instead of 1068. But this is probably ok to work with. See {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5File}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -1796,7 +1796,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T09:24:19.725957+02:00"
+									"dateAndTimeString" : "2025-08-08T10:40:20.3179+02:00"
 								}
 							},
 							"uid" : {
@@ -1806,7 +1806,41 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We manually reduce the topics to 88 possibl etopics in  {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-08T10:39:51.672144+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-08T10:40:11.311676+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "6GIfQTj4DQCRDmIZDtbVlQ=="
+							},
+							"code" : "STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile contents"
 						},
 						{
 							"__type" : "textSnippet",

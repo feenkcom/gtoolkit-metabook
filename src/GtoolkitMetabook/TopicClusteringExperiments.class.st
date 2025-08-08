@@ -373,6 +373,22 @@ TopicClusteringExperiments >> topicClusters [
 ]
 
 { #category : #examples }
+TopicClusteringExperiments >> topicClustersExpt5File [
+	"This is the output of Experiment 5, a list of 40 groups of topics (missing 93)."
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/topicClusters-v5.json'
+]
+
+{ #category : #examples }
+TopicClusteringExperiments >> topicClustersExpt5ReducedFile [
+	"This is a manually edited version of the output of Experiment 5, reducing the output to a smaller list of topics."
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/topicClusters-v5-reduced.json'
+]
+
+{ #category : #examples }
 TopicClusteringExperiments >> topicClustersFile [
 	"We backup a few versions:
 	- v1 has too many new topics and missing topics
