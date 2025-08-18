@@ -657,7 +657,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T17:43:52.091017+02:00"
+									"dateAndTimeString" : "2025-08-18T17:43:58.929625+02:00"
 								}
 							},
 							"uid" : {
@@ -667,7 +667,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Sam"
+							"string" : "Same as before, just with all the book pages:"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -694,7 +694,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T17:43:48.155744+02:00"
+									"dateAndTimeString" : "2025-08-18T19:17:48.208785+02:00"
 								}
 							},
 							"uid" : {
@@ -702,6 +702,43 @@
 								"uidString" : "iLdvVwf5DQCKd+P/A3sc8A=="
 							},
 							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T19:18:00.020709+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T19:18:29.75491+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "a7CLqAj5DQCQthK9DW7/jA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "To do: \n- check which categories are new\n- which pages have multiple categories"
 						}
 					]
 				},
