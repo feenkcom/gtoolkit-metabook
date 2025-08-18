@@ -214,7 +214,7 @@ PageClassifierChat >> page: aLePage [
 
 { #category : #accessing }
 PageClassifierChat >> pageString [
-	^ GtLlmPageExporter new
+	^ GtLlmLepiterContentExporter new
 		page: self page;
 		export
 ]

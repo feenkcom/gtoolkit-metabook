@@ -64,7 +64,7 @@ PCExampleBasedPrompt >> value [
 		associationsDo: [ :keyVal | 
 			| page pageString |
 			page := self exampleDatabase pageNamed: keyVal key.
-			pageString := ((GtLlmPageExporter new
+			pageString := ((GtLlmLepiterContentExporter new
 					page: page;
 					export) copyReplaceAll: '```' with: '`')
 					copyReplaceAll: String cr

@@ -371,7 +371,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-07-22T17:43:35.049692+02:00"
+									"dateAndTimeString" : "2025-08-18T09:44:02.102312+02:00"
 								}
 							},
 							"uid" : {
@@ -381,7 +381,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[Assign topics and categories to pages]] "
+							"string" : "[[* Assign topics and categories to pages]] "
 						}
 					]
 				},

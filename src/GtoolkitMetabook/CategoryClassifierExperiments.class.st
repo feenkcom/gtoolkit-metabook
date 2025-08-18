@@ -1,6 +1,10 @@
 "
 I am a collection of example-based prompt classifiers for categories of pages.
 Each example is an experiment stored in a json file.
+The experiments ask an assistant to propose categories of pages, given a list of suggestions.
+New categories may be proposed.
+
+TO DO: after mining a list of categories from all pages, we edit the resulting list as use it as a canonical list for assigning categories to pages.
 "
 Class {
 	#name : #CategoryClassifierExperiments,
@@ -109,7 +113,7 @@ These are some of the most important categories, but there may be others as well
 
 Your task is to assign a category to a page provided as input. A single answer is preferred, but in case of doubt, please propose two or even three alternatives.
 
-Note that the category Video is preferred instreda of Tutorial or FAQ, and FAQ is preferred over Definition.
+Note that the category Video is preferred instead of Tutorial or FAQ, and FAQ is preferred over Definition.
 
 Also one of the categories listed above is preferred as an answer, but if none of those is a good fit, please propose a new category as one of the answers.
 

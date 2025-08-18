@@ -1770,7 +1770,45 @@
 								"__type" : "textStyle"
 							},
 							"string" : "There are no artificial new topics, but there are 93 missing topics. We get 1013 topics in the clusters instead of 1068. But this is probably ok to work with. See {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5File}}. "
-						},
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-06T16:04:40.292181+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-08T08:43:37.586527+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "3WENjxT4DQC8ayVeBRHt2A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Experiment 5 — simplifying the query"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -1796,7 +1834,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T10:40:20.3179+02:00"
+									"dateAndTimeString" : "2025-08-18T09:33:11.964595+02:00"
 								}
 							},
 							"uid" : {
@@ -1806,7 +1844,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We manually reduce the topics to 88 possibl etopics in  {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+							"string" : "We manually reduce the topics to 88 possible topics in  {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T09:37:57.732353+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T09:42:02.317655+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VukqjgD5DQCY7UmjBvMXBw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We eliminate duplicates (e.g., \"Examples and Documentation\", \"Unit Testing and Examples\", \"Working with Examples\") and we eliminate topics that are actually categoreis  (e.g., \"Case Studies\", \"Stub Pages\", \"Frequently Asked Questions\", \"How-to Guides\", \"Glossary and Technology Overviews\", \"Moldable Development Patterns\", \"Tutorials\", \"Videos\"). Now the list is down to 63 topics."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1841,80 +1916,6 @@
 								"uidString" : "6GIfQTj4DQCRDmIZDtbVlQ=="
 							},
 							"code" : "STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile contents"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T09:10:59.343731+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T09:10:59.343731+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "o4NKAzf4DQCGJ4CkDtbVlQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T08:46:31.46081+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T08:46:31.46081+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "QGLMqzb4DQCxgAX2BnHcmg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
 						}
 					]
 				},
@@ -1926,7 +1927,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T16:04:40.292181+02:00"
+						"dateAndTimeString" : "2025-08-18T09:36:39.952683+02:00"
 					}
 				},
 				"editEmail" : {
@@ -1937,17 +1938,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-08T08:43:37.586527+02:00"
+						"dateAndTimeString" : "2025-08-18T09:36:51.80063+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3WENjxT4DQC8ayVeBRHt2A=="
+					"uidString" : "PBaIiQD5DQCYUQDGBvMXBw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 5 — simplifying the query"
+				"string" : "# Curating the topic list"
 			}
 		]
 	},
@@ -1970,12 +1971,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-06T10:11:28.198742+02:00"
+			"dateAndTimeString" : "2025-08-18T09:43:41.374602+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Clustering topics"
+		"title" : "Clustering topics"
 	},
 	"uid" : {
 		"__type" : "uuid",
