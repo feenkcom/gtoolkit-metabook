@@ -7,6 +7,79 @@ Class {
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
+{ #category : #'as yet unclassified' }
+TopicClassifierExperiments >> groupedTopics [
+	<gtExample>
+	^ STONJSON toStringPretty: 
+	(STON fromString:
+	'[
+	["group" , 
+	["Algorithm Explanations",
+	"Announcements and Event Handling",
+	"Asynchronous Programming",
+	"Book Organization and Navigation",
+	"Building Custom Tools",
+	"Code Analysis",
+	"Code Configuration and Package Management",
+	"Collections and Data Structures",
+	"Community & Support",
+	"Debugging in Glamorous Toolkit",
+	"Deployment and Persistence",
+	"Distributed and Remote Execution",
+	"Domain Modeling",
+	"Examples and Documentation",
+	"Explainable Systems",
+	"Extension Methods",
+	"Games and Simulations in Glamorous Toolkit",
+	"Getting Started with GT",
+	"GT Component Documentation",
+	"Inspector actions",
+	"Inspector Views",
+	"Live Documentation",
+	"Moldable Development Practices",
+	"Moldable Exceptions",
+	"Object-Oriented Programming Concepts",
+	"Parsing and Language Manipulation",
+	"Performance Analysis and Profiling",
+	"Pharo Integration and Compatibility",
+	"Pragmas and Annotations",
+	"Programming Smalltalk",
+	"Querying and Navigating Code",
+	"Recovering from Crashes",
+	"Reflection and Metaprogramming",
+	"Scripting and Automation",
+	"Security and Authentication",
+	"Smalltalk History",
+	"Text Editing",
+	"Using Beacon",
+	"Using Bloc",
+	"Using Coder",
+	"Using Lepiter",
+	"Using Metacello",
+	"Using Mondrian",
+	"Using PetitParser",
+	"Using SmaCC",
+	"Utilities and Extensions",
+	"Wardley Maps",
+	"Working with Baselines and Dependencies",
+	"Working with Bash",
+	"Working with Cobol",
+	"Working with External APIs",
+	"Working with External Data",
+	"Working with External Tools",
+	"Working with GemStone",
+	"Working with Git and GitHub",
+	"Working with Java",
+	"Working with JavaScript",
+	"Working with Legacy Languages",
+	"Working with LLMs",
+	"Working with Python",
+	"Working with React and React Native",
+	"Working with Rust",
+	"Working with the File System"]]
+]') 
+]
+
 { #category : #examples }
 TopicClassifierExperiments >> top0BasicClassifier [
 	"Simple classifier with no examples, just a prompt.
@@ -107,4 +180,21 @@ TopicClassifierExperiments >> top3ClassifierOnEntireGtBook [
 			loadJSONresults;
 			yourself.
 	^ pc
+]
+
+{ #category : #'as yet unclassified' }
+TopicClassifierExperiments >> topicsFromClusters [
+	"This is a list of topics obtained from the topic clustering experiments, 
+	manually edited down to a list of ~60 specific topics that are not also categories.
+	NB: these can be grouped, but we have not yet done this.
+	Possible groups are:
+	- Glamorous Toolkit
+	- Moldable Development
+	- Core infrastructure and skills
+	- Using GT components
+	- Working with external systems and APIs
+	"
+
+	<gtExample>
+	^ STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile
 ]

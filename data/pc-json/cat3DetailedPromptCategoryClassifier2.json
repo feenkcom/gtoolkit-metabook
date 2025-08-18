@@ -796,527 +796,791 @@
 		},
 		{
 			"pageName" : "Tracking the state of the Ludo game play",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "PythonBridge",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Exporting GT server code for loading in a non-Rowan stone",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Examples of assertion failures comparing objects",
-			"results" : [ ]
+			"results" : [
+				"Examples"
+			]
 		},
 		{
 			"pageName" : "Architectural report for Glamorous Toolkit development",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "Sparta",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "COBOL",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "Example snippet",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "PetitParser SPL case study",
-			"results" : [ ]
+			"results" : [
+				"Case study"
+			]
 		},
 		{
 			"pageName" : "React Native",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "JavaScript snippet",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Changes regarding packages and package tags in Pharo 12",
-			"results" : [ ]
+			"results" : [
+				"Release notes",
+				"Migration guide"
+			]
 		},
 		{
 			"pageName" : "React",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "gt4gemstone server",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Ensuring repositories have a .gitattributes file",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Patches/changes to the base Pharo Image",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "Building a custom button appearance",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Fine-tuning",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "A short history of Glamorous Toolkit",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "I can't load or commit to repos. What's wrong?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Movies Collection demo in GT",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Bloc Visual Properties",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Debugger",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "How to create a standalone app",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Promise then:, asyncThen:, and then:otherwise: usage",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to build a Magritte form",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Testing a PetitParser class",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Profiling the execution of a release",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to change the memory settings during a computation",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "PetitParser SPL case study slideshow",
-			"results" : [ ]
+			"results" : [
+				"Slideshow"
+			]
 		},
 		{
 			"pageName" : "Custom View",
-			"results" : [ ]
+			"results" : [
+				"Pattern"
+			]
 		},
 		{
 			"pageName" : "World",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Bloc",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "How to compute the local sync database status for the default database",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Working with MCP servers",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Spotter",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Exploring GitHub through GraphQL ",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How do I rename a Note?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Creating the Ludo Board view",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to log Zinc events using Beacon",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to extract meta information using ExifTool",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Bash",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "How to investigate performance of  stylers in coder",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to test phlow views",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Multilanguage notebook",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "How to create a Glamorous Toolkit release for development",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Issues related to patches to the base image",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "Ludo Game",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "The Moldable Development Environment",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Metacello",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Element snippet",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Markdown",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Basic shortcuts",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "How to use an ICP callback in a web view",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Class comments as live documents",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Manually installing gt4gemstone into a GemStone extent",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "The LanguageLink protocol",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "How to load Glamorous Toolkit code for development",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Futures",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Exploring the GitHub REST API in 7'",
-			"results" : [ ]
+			"results" : [
+				"Video"
+			]
 		},
 		{
 			"pageName" : "How to set up a GT GitHub repo in 7'",
-			"results" : [ ]
+			"results" : [
+				"Video"
+			]
 		},
 		{
 			"pageName" : "A gentle introduction to Pharo Smalltalk",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to work with the file system",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Editor word classifiers",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "File search in the response provider",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "JavaScript",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "How to configure Git username and email address",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Converting old Spotter searches to use new Spotter",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "PharoLink",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "How to get started with Coder  (FAQ)",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Learning how button model works",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Implementing a Sudoku solver (open-ended)",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Example of parsing a Releaser log for Glamorous Toolkit",
-			"results" : [ ]
+			"results" : [
+				"Example"
+			]
 		},
 		{
 			"pageName" : "Examples",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Quantifying the need for custom tools",
-			"results" : [ ]
+			"results" : [
+				"Case study"
+			]
 		},
 		{
 			"pageName" : "How to get a class object starting from its name (asClass equivalent)",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to ... graphics related",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Graphical stack",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Implementing the Ludo Die in the Playground",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to reload the content of the default logical database",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Wardley Map",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "How to parse and manipulate other languages",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "SmaCC",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Composed Narrative",
-			"results" : [ ]
+			"results" : [
+				"Pattern"
+			]
 		},
 		{
 			"pageName" : "How do I search within a Lepiter page?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Lepiter Iceberg Integration Model",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "What to do if GT is becomes slow and unresponsive?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to measure the performance of delivering remote announcements",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to reset the GemStone connectors in default registry",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "GenAI",
-			"results" : [ ]
+			"results" : [
+				"Tag"
+			]
 		},
 		{
 			"pageName" : "Using Parallels to run GT on other platforms",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Visualizing tokenization",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to profile PharoLink remote calls",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Handling objects through custom views",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Compiling and performing code",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How Mondrian relates to Bloc",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Tutorials",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Working with the OpenAI API client",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Ludo Exercise 6",
-			"results" : [ ]
+			"results" : [
+				"Tutorial",
+				"Exercise"
+			]
 		},
 		{
 			"pageName" : "Contextual Playground",
-			"results" : [ ]
+			"results" : [
+				"Pattern"
+			]
 		},
 		{
 			"pageName" : "Using an externally started, already running Python Bridge instance",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Zinc debugging extensions",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "How to translate an ANTLr parser into SmaCC",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Smalltalk Introductory lecture",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "How do I add new snippets?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Connecting to a remote Python Bridge instance",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "What should I do if I get an error during Lepiter reload?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Debugging SPL grammar rules",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Analyzing JavaScript React Native: the Zooniverse case study",
-			"results" : [ ]
+			"results" : [
+				"Case study"
+			]
 		},
 		{
 			"pageName" : "How is the interrupt logic using primary+. working",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Overriding doesNotUnderstand:",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Molding the environment",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Configuring moldable exceptions",
-			"results" : [ ]
+			"results" : [
+				"Reference"
+			]
 		},
 		{
 			"pageName" : "Managing the Gt4Gemstone server connection",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Executable domain-driven design: the Ludo game case study",
-			"results" : [ ]
+			"results" : [
+				"Case study"
+			]
 		},
 		{
 			"pageName" : "Downloading the gt4gemstone release",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Analysing the size of code-related entities",
-			"results" : [ ]
+			"results" : [
+				"Analysis"
+			]
 		},
 		{
 			"pageName" : "How to set the extent of the current window",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to find stuff in GT in 7'",
-			"results" : [ ]
+			"results" : [
+				"Video"
+			]
 		},
 		{
 			"pageName" : "OpenAI assistants",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Inspector views",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Layout resizers",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "How to stream output from an external child process to the UI",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "JSLink",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "Searching for code, documents and objects in general",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Drawing graphs with Mondrian by example",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "Working with the GemStone transcript",
-			"results" : [ ]
+			"results" : [
+				"Tutorial"
+			]
 		},
 		{
 			"pageName" : "How to troubleshoot GT",
-			"results" : [ ]
+			"results" : [
+				"Introduction"
+			]
 		},
 		{
 			"pageName" : "Layout constraints",
-			"results" : [ ]
+			"results" : [
+				"Definition"
+			]
 		},
 		{
 			"pageName" : "How do I add a Lepiter database to an existing repo?",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "How to get started with Lepiter (FAQ)",
-			"results" : [ ]
+			"results" : [
+				"FAQ"
+			]
 		},
 		{
 			"pageName" : "Modeling a Concrete Price",

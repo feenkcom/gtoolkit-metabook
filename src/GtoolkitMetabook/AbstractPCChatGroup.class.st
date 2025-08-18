@@ -68,7 +68,7 @@ AbstractPCChatGroup >> gtActionMenuFor: anAction [
 		icon: BrGlamorousVectorIcons hamburger;
 		content: [ :aButton | 
 			BrGlamorousSimpleContextMenuContent new
-				items: {'Empty result chats'
+				items: {'Browse empty result chats'
 							-> [ :e | e phlow spawnObject: (self pcChatGroupWithItems: self emptyChats) ].
 						'Add 10 random pages' -> [ self addRandomPages: 10 ].
 						'Browse JSON parent folder'

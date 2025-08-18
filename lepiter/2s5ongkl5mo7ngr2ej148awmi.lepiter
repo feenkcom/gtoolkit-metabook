@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T09:45:30.773167+02:00"
+						"dateAndTimeString" : "2025-08-18T18:04:45.713109+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "This time, instead of mining topics and categories, we use the chats (again 1 per page) to automatically assign our predetermined topics and categories to pages. We iterate the prompt to get a reasonable first cut. The mapping is saved as a JSON, but could later be embedded in the pages themselves, either as text, or as a dedciated meta-snippet."
+				"string" : "This time, instead of mining topics and categories, we use the chats (again 1 per page) to automatically assign our predetermined topics and categories to pages. We iterate the prompt to get a reasonable first cut. The mapping is saved as a JSON, but could later be embedded in the pages themselves, either as text, or as a dedicated meta-snippet."
 			},
 			{
 				"__type" : "textSnippet",
@@ -71,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T09:46:26.434713+02:00"
+									"dateAndTimeString" : "2025-08-18T18:08:54.199259+02:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +81,78 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We have our curated list of topics: {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+							"string" : "We have our reduced list of topics obtained from the topic clustering experiments: {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T18:08:56.516383+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T18:11:43.012841+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "AdWSsQf5DQCh6VnKAwI5Kg=="
+							},
+							"code" : "TopicClassifierExperiments new topicsFromClusters"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T18:13:24.236702+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-18T18:13:24.236702+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "D+uHwQf5DQCejSJoBNT0Xg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						},
 						{
 							"__type" : "textSnippet",
@@ -108,7 +179,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T09:46:27.16444+02:00"
+									"dateAndTimeString" : "2025-08-18T18:13:19.612466+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +189,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Now we want to use *just* this topic list to assign topics to pages."
 						}
 					]
 				},
