@@ -309,6 +309,14 @@ PageClassifier >> missingResults [
 	^ (self chats reject: #hasResults) size
 ]
 
+{ #category : #accessing }
+PageClassifier >> multiResultChatGroup [
+	^ PCChatGroup new
+		pageClassifier: self;
+		initializeWith: (self chats select: [ :c | c results size > 1 ]);
+		yourself
+]
+
 { #category : #announcements }
 PageClassifier >> notifyResultsUpdated [
 	self announcer announce: PCResultsUpdatedAnnouncement new

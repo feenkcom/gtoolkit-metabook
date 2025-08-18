@@ -610,7 +610,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T09:43:41.38731+02:00"
+						"dateAndTimeString" : "2025-08-18T17:29:31.046428+02:00"
 					}
 				},
 				"uid" : {
@@ -620,7 +620,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Next: [[Clustering topics]] "
+				"string" : "Next: [[*** Clustering topics -- fix to make the experiments repeatable]] "
 			}
 		]
 	},

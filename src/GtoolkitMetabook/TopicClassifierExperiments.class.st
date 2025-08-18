@@ -102,7 +102,7 @@ TopicClassifierExperiments >> top3ClassifierOnEntireGtBook [
 	pc := PageClassifier new
 			resultType: 'Topic';
 			prompt: self top1TopicDescriptionPrompt;
-			pages: LeDatabase gtBook pages;
+			pages: self gtBookAllPages;
 			jsonFile: self jsonFilePath;
 			loadJSONresults;
 			yourself.

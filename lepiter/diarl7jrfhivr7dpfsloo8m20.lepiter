@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-05T11:20:51.669797+02:00"
+												"dateAndTimeString" : "2025-08-18T17:27:48.227609+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Mine categories from the GT Book pages]] "
+										"string" : "[[* Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -118,7 +118,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-18T09:43:41.384508+02:00"
+															"dateAndTimeString" : "2025-08-18T17:29:31.044057+02:00"
 														}
 													},
 													"uid" : {
@@ -128,7 +128,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Clustering topics]]"
+													"string" : "[[*** Clustering topics -- fix to make the experiments repeatable]]"
 												}
 											]
 										},

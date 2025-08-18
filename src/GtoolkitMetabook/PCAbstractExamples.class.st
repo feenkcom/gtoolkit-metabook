@@ -7,6 +7,11 @@ Class {
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
+{ #category : #examples }
+PCAbstractExamples >> gtBookAllPages [
+	^ LeDatabase gtBook pages
+]
+
 { #category : #'as yet unclassified' }
 PCAbstractExamples >> gtBookSamplePages1 [
 	"We have: Introductions, Videos, Tutorials, Case studies, FAQs/HowTos, Terms, Tags"

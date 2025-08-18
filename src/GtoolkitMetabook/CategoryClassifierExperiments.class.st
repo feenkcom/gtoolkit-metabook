@@ -76,6 +76,8 @@ Below follows a series of examples of User inputs consisting of notebook page co
 
 { #category : #examples }
 CategoryClassifierExperiments >> cat1DetailedPromptCategoryClassifier1 [
+	"A more detailed prompt describing categories, with examples from specific pages."
+
 	<gtExample>
 	<noTest>
 	| pc |
@@ -91,7 +93,8 @@ CategoryClassifierExperiments >> cat1DetailedPromptCategoryClassifier1 [
 
 { #category : #examples }
 CategoryClassifierExperiments >> cat2DetailedPrompt2 [
-"Added Pattern."
+	"Added Pattern."
+
 	<gtExample>
 	| prompt |
 	prompt := PCExampleBasedPrompt new
@@ -134,6 +137,8 @@ Below follows a series of examples of User inputs consisting of notebook page co
 
 { #category : #examples }
 CategoryClassifierExperiments >> cat2DetailedPromptCategoryClassifier2 [
+	"A more refined prompt, adding more examples and the Pattern category."
+
 	<gtExample>
 	<noTest>
 	| pc |
@@ -141,6 +146,23 @@ CategoryClassifierExperiments >> cat2DetailedPromptCategoryClassifier2 [
 			resultType: 'Category';
 			prompt: self cat2DetailedPrompt2;
 			pages: self gtBookSamplePages2;
+			jsonFile: self jsonFilePath;
+			loadJSONresults;
+			yourself.
+	^ pc
+]
+
+{ #category : #examples }
+CategoryClassifierExperiments >> cat3DetailedPromptCategoryClassifier2 [
+	"Same prompt, but run on the whole book."
+
+	<gtExample>
+	<noTest>
+	| pc |
+	pc := PageClassifier new
+			resultType: 'Category';
+			prompt: self cat2DetailedPrompt2;
+			pages: self gtBookAllPages;
 			jsonFile: self jsonFilePath;
 			loadJSONresults;
 			yourself.
