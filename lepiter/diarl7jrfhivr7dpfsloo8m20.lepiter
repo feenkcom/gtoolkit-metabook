@@ -118,7 +118,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-18T17:29:31.044057+02:00"
+															"dateAndTimeString" : "2025-08-18T18:03:21.604723+02:00"
 														}
 													},
 													"uid" : {
@@ -128,7 +128,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[*** Clustering topics -- fix to make the experiments repeatable]]"
+													"string" : "[[Clustering topics]]"
 												}
 											]
 										},
@@ -151,7 +151,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-05T11:20:58.714376+02:00"
+												"dateAndTimeString" : "2025-08-18T17:59:26.74316+02:00"
 											}
 										},
 										"uid" : {

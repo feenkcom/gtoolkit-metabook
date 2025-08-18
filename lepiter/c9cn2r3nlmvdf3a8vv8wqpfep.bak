@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T17:29:34.324989+02:00"
+						"dateAndTimeString" : "2025-08-18T18:00:15.241878+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T17:29:51.259325+02:00"
+						"dateAndTimeString" : "2025-08-18T18:00:20.45363+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "**To do:** something is wrong -- the actual experim"
+				"string" : "*Caveat:* these experiments use an ad hoc chat, without a wrapper to run the query witha progress bar. The results are just saved in intermediate methods and files."
 			},
 			{
 				"__type" : "textSnippet",
@@ -213,14 +213,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-05T11:15:07.465039+02:00"
+									"dateAndTimeString" : "2025-08-18T18:02:07.603674+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "4kQ4Yfz3DQC7OiBLDfwUzw=="
 							},
-							"code" : "TopicClusteringExperiments new clus1TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus1TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -430,14 +430,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:37:44.956092+02:00"
+									"dateAndTimeString" : "2025-08-18T18:02:13.706384+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "C5OXog/4DQCFSxleDkTeCg=="
 							},
-							"code" : "TopicClusteringExperiments new clus2TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus2TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -925,14 +925,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T12:52:44.75915+02:00"
+									"dateAndTimeString" : "2025-08-18T18:02:22.432464+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "nsBoJhH4DQC5BkXmBAzZaA=="
 							},
-							"code" : "TopicClusteringExperiments new clus3TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus3TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1251,14 +1251,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-07T17:25:01.078378+02:00"
+									"dateAndTimeString" : "2025-08-18T18:02:26.565212+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "fxPajhT4DQC8Xr1zBRHt2A=="
 							},
-							"code" : "topicClusters := TopicClusteringExperiments new clus4TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rtopicClusters := TopicClusteringExperiments new clus4TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1685,7 +1685,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T08:56:40.727426+02:00"
+									"dateAndTimeString" : "2025-08-18T18:02:40.836899+02:00"
 								}
 							},
 							"uid" : {
@@ -1695,7 +1695,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Took a long time, and then it return just the array of 1067 topics, not the groups! The {{gtMethod:name=TopicClusteringExperiments>>#clusterFormat}} seems ok, so the problem should not be there. We need to iterate on {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt5}}. "
+							"string" : "Took a long time, and then it returned just the array of 1067 topics, not the groups! The {{gtMethod:name=TopicClusteringExperiments>>#clusterFormat}} seems ok, so the problem should not be there. We need to iterate on {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt5}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -2008,12 +2008,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T17:29:31.034189+02:00"
+			"dateAndTimeString" : "2025-08-18T17:59:44.787745+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Clustering topics -- fix to make the experiments repeatable"
+		"title" : "*** Clustering topics"
 	},
 	"uid" : {
 		"__type" : "uuid",

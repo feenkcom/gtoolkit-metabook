@@ -19,6 +19,8 @@ TopicClusteringExperiments >> clus1TopicClusterChat [
 
 { #category : #examples }
 TopicClusteringExperiments >> clus1TopicClusterChatResults [
+	"Caveat: slow -- uses an ad hoc chat without a progress bar."
+
 	<gtExample>
 	<noTest>
 	| chat results |
@@ -70,6 +72,8 @@ TopicClusteringExperiments >> clus2TopicClusterChat [
 
 { #category : #examples }
 TopicClusteringExperiments >> clus2TopicClusterChatResults [
+	"Caveat: slow -- uses an ad hoc chat without a progress bar."
+
 	<gtExample>
 	<noTest>
 	| chat results |
@@ -103,6 +107,7 @@ TopicClusteringExperiments >> clus3TopicClusterChat [
 { #category : #examples }
 TopicClusteringExperiments >> clus3TopicClusterChatResults [
 	"The input here is just the list of topics, without duplicates."
+	"Caveat: slow -- uses an ad hoc chat without a progress bar."
 
 	<gtExample>
 	<noTest>
@@ -129,6 +134,8 @@ TopicClusteringExperiments >> clus4TopicClusterChat [
 { #category : #examples }
 TopicClusteringExperiments >> clus4TopicClusterChatResults [
 	"The input here is just the list of topics, without duplicates."
+	"Caveat: slow -- uses an ad hoc chat without a progress bar."
+
 
 	<gtExample>
 	<noTest>
@@ -154,6 +161,8 @@ TopicClusteringExperiments >> clus5TopicClusterChat [
 
 { #category : #examples }
 TopicClusteringExperiments >> clus5TopicClusterChatResults [
+	"Caveat: very slow -- uses an ad hoc chat without a progress bar."
+
 	<gtExample>
 	<noTest>
 	| chat results |
