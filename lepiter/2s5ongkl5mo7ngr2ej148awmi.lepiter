@@ -142,7 +142,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:13:24.236702+02:00"
+									"dateAndTimeString" : "2025-08-18T18:35:27.40714+02:00"
 								}
 							},
 							"uid" : {
@@ -152,7 +152,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We also prepare a tentative grouping of topics in {{gtMethod:name=TopicClassifierExperiments>>#groupedTopics}}."
 						},
 						{
 							"__type" : "textSnippet",
