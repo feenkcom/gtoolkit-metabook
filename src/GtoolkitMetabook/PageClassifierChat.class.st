@@ -62,7 +62,8 @@ PageClassifierChat >> defaultResults [
 { #category : #constants }
 PageClassifierChat >> format [
 	"JSON schema for the output -- a list of results.
-	This should be generic enough to work for all classifiers."
+	This should be generic enough to work for all classifiers.
+	NB: the format allows for any number of results, not just a maximum of 3."
 
 	^ {'type' -> 'object'.
 		'properties'
@@ -271,9 +272,12 @@ PageClassifierChat >> resultsJoined [
 ]
 
 { #category : #accessing }
-PageClassifierChat >> resultsWithDefaults: newSize [
+PageClassifierChat >> resultsWithDefaults: minSize [
 	"To be used by views that expect results to be of a certain length."
-	^ (1 to: newSize)
+
+	| size |
+	size := minSize max: self results size.
+	^ (1 to: size)
 		collect: [ :i | self results at: i ifAbsent: self defaultResultValue ]
 ]
 

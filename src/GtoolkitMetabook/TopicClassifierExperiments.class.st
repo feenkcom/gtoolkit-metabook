@@ -14,6 +14,7 @@ TopicClassifierExperiments >> groupTopicsJsonString [
 	[
 		"Glamorous Toolkit Basics",
 		[
+			"About Glamorous Toolkit",
 			"Book Organization and Navigation",
 			"Community & Support",
 			"Debugging in Glamorous Toolkit",
@@ -216,6 +217,76 @@ TopicClassifierExperiments >> top3ClassifierOnEntireGtBook [
 	pc := PageClassifier new
 			resultType: 'Topic';
 			prompt: self top1TopicDescriptionPrompt;
+			pages: self gtBookAllPages;
+			jsonFile: self jsonFilePath;
+			loadJSONresults;
+			yourself.
+	^ pc
+]
+
+{ #category : #examples }
+TopicClassifierExperiments >> top4ClassifierOnSamplePages [
+	"We provide the curated list of topics in the prompt.
+	We allow up to five topics per page (though we bundle 3-5 in the display)."
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier new
+			resultType: 'Topic';
+			prompt: self top4TopicDescriptionPrompt;
+			pages: self gtBookSamplePages2;
+			jsonFile: self jsonFilePath;
+			loadJSONresults;
+			yourself.
+	^ pc
+]
+
+{ #category : #examples }
+TopicClassifierExperiments >> top4TopicDescriptionPrompt [
+	"Prompt that includes a curated list of topics."
+
+	<gtExample>
+	| prompt writeStream |
+	writeStream := '' writeStream.
+	writeStream
+		nextPutAll: 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
+
+A typical newcomer to GT is either:
+(i) someone who has heard of GT, and would like to learn more about it, but has no particular  goal in mind, or
+(ii) someone with a specific problem to solve, whether work-related or a personal hobby project.
+We want to provide newcomers with a roadmap of the pages organized around a set of GT-related topics.
+
+The topic of a page refers to its subject matter, for example, "Using Bloc", or Programming Smalltalk", not the style or format of the page, such as "Tutorial" or "FAQ".
+
+A good topic is high-level enough that we can assign multiple pages to a topic, but specific enough to be useful for finding relevant pages.
+
+Your job is to assign topics from a curated list to a given page, so that pages can be organized into clusters by topic. Each page will cover at least one topic, but possible more, as topics cross-cut multiple dimensions. Please provide only a single topic per page, unless the page clearly covers more than one topic, in which case a maximum of five topics may be listed. You should only assign topics from the curated list, unless there is no topic that fits, in which case you may propose a topic not on the list. In your results, simply list the topics for the page and do not provide any further explanations.
+
+Here is the list of curated topics:';
+		lf;
+		lf;
+		nextPutAll: '```';
+		lf.
+	self topicsFromClusters
+		do: [ :topic | 
+			writeStream
+				nextPutAll: topic;
+				lf ].
+	writeStream nextPutAll: '```'.
+	prompt := PCSimplePrompt new promptString: writeStream contents.
+	^ prompt
+]
+
+{ #category : #examples }
+TopicClassifierExperiments >> top5ClassifierOnEntireGtBook [
+	"We provide the curated list of topics in the prompt.
+	We allow up to five topics per page (though we bundle 3-5 in the display)."
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier new
+			resultType: 'Topic';
+			prompt: self top4TopicDescriptionPrompt;
 			pages: self gtBookAllPages;
 			jsonFile: self jsonFilePath;
 			loadJSONresults;

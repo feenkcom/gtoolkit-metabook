@@ -98,7 +98,7 @@ AbstractPCChatGroup >> gtChatsFor: aView [
 			width: 150;
 		column: 'Result[rest]'
 			text: [ :each | '; ' join: ((each resultsWithDefaults: 3) allButFirst: 2) ]
-			width: 150;
+			width: 300;
 		actionUpdateButton;
 		updateWhen: PCResultsUpdatedAnnouncement in: self announcer
 ]

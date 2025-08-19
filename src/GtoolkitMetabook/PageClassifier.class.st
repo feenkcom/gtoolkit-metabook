@@ -70,6 +70,11 @@ PageClassifier >> addRandomPages: aNumber [
 ]
 
 { #category : #accessing }
+PageClassifier >> allResults [
+	^ self chats flatCollect: #results
+]
+
+{ #category : #accessing }
 PageClassifier >> announcer [
 	^ announcer
 ]
@@ -315,6 +320,12 @@ PageClassifier >> multiResultChatGroup [
 		pageClassifier: self;
 		initializeWith: (self chats select: [ :c | c results size > 1 ]);
 		yourself
+]
+
+{ #category : #accessing }
+PageClassifier >> newTopics [
+	^ self allResults copyWithoutDuplicates
+		copyWithoutAll: TopicClassifierExperiments new topicsFromClusters
 ]
 
 { #category : #announcements }
