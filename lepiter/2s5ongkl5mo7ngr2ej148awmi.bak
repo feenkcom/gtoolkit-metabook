@@ -463,7 +463,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T09:35:30.820874+02:00"
+									"dateAndTimeString" : "2025-08-19T10:02:00.498047+02:00"
 								}
 							},
 							"uid" : {
@@ -473,7 +473,115 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We run into a `results not found` error with the page {{gtPage:Inspector views|db=2j9m7db2i4oz116bexd7wbdxo}}. "
+							"string" : "We run into a `results not found` error with the page {{gtPage:Inspector views|db=2j9m7db2i4oz116bexd7wbdxo}}. At first th"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T09:36:50.098667+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:00:38.226721+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "80f6pxT5DQCck+XTDygi5Q=="
+							},
+							"code" : "TopicClassifierExperiments new top5ClassifierOnEntireGtBook\r\tchatWithPage: ((LeDatabase databaseNamed: 'Glamorous Toolkit Book')\r\t\t\tpageNamed: 'Inspector views')"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T09:36:33.376594+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T09:36:33.376594+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Bh/7phT5DQCbt+g9Dygi5Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T09:36:33.626761+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T09:36:33.626761+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DPH+phT5DQCbvKsYDygi5Q=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},

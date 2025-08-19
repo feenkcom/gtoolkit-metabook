@@ -281,6 +281,35 @@ PageClassifierChat >> resultsWithDefaults: minSize [
 		collect: [ :i | self results at: i ifAbsent: self defaultResultValue ]
 ]
 
+{ #category : #printing }
+PageClassifierChat >> storeOn: aStream [
+	aStream
+		nextPut: $(;
+		nextPutAll: self class name;
+		nextPutAll: ' new';
+		lf;
+		tab;
+		nextPutAll: 'resultType: ';
+		print: self resultType;
+		nextPut: $;;
+		lf;
+		tab;
+		nextPutAll: 'page: ((LeDatabase databaseNamed: ';
+		print: self page database databaseName;
+		nextPutAll: ') pageNamed: ';
+		print: self page title;
+		nextPutAll: ');';
+		lf;
+		tab;
+		nextPutAll: 'prompt: '.
+	self prompt storeOn: aStream.
+	aStream
+		nextPut: $;;
+		lf;
+		tab;
+		nextPutAll: ' yourself)'
+]
+
 { #category : #accessing }
 PageClassifierChat >> withPrompt: aString [
 	"Spawn a copy of myself with a new prompt."

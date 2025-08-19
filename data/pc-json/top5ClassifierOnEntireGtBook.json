@@ -1735,11 +1735,15 @@
 		},
 		{
 			"pageName" : "Inspector views",
-			"results" : [ ]
+			"results" : [
+				"Inspector Views"
+			]
 		},
 		{
 			"pageName" : "Layout resizers",
-			"results" : [ ]
+			"results" : [
+				"Using Bloc"
+			]
 		},
 		{
 			"pageName" : "How to stream output from an external child process to the UI",

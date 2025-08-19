@@ -38,6 +38,18 @@ PCSimplePrompt >> promptString: anObject [
 	promptString := anObject
 ]
 
+{ #category : #printing }
+PCSimplePrompt >> storeOn: aStream [
+	aStream
+		nextPut: $(;
+		nextPutAll: self class name;
+		nextPutAll: ' new'; lf; tab;
+		nextPutAll: 'promptString:';
+		print: self promptString;
+		nextPutAll: ';'; lf; tab;
+		nextPutAll: ' yourself)'
+]
+
 { #category : #accessing }
 PCSimplePrompt >> value [
 	^ self promptString
