@@ -391,7 +391,8 @@ TopicClusteringExperiments >> topicClustersExpt5File [
 
 { #category : #examples }
 TopicClusteringExperiments >> topicClustersExpt5ReducedFile [
-	"This is a manually edited version of the output of Experiment 5, reducing the clusters to a smaller list of topics."
+	"This is a manually edited version of the output of Experiment 5, reducing the clusters to a smaller list of topics.
+	We add `Using Magritte` after running TopicClassifierExperiments>>#top5ClassifierOnEntireGtBook"
 	<gtExample>
 	^ FileLocator gtResource
 		/ 'feenkcom/gtoolkit-metabook/data/pc-json/topicClusters-v5-reduced.json'

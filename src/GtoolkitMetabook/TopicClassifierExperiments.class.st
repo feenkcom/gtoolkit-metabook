@@ -9,6 +9,8 @@ Class {
 
 { #category : #'as yet unclassified' }
 TopicClassifierExperiments >> groupTopicsJsonString [
+	"We add `Using Magritte` after discovering it as a missing topic."
+
 	<gtExample>
 	^ '[
 	[
@@ -73,6 +75,7 @@ TopicClassifierExperiments >> groupTopicsJsonString [
 			"Using Bloc",
 			"Using Coder",
 			"Using Lepiter",
+			"Using Magritte",
 			"Using Metacello",
 			"Using Mondrian",
 			"Using PetitParser",
@@ -281,6 +284,23 @@ Here is the list of curated topics:';
 TopicClassifierExperiments >> top5ClassifierOnEntireGtBook [
 	"We provide the curated list of topics in the prompt.
 	We allow up to five topics per page (though we bundle 3-5 in the display)."
+
+	<gtExample>
+	| pc |
+	pc := PageClassifier new
+			resultType: 'Topic';
+			prompt: self top4TopicDescriptionPrompt;
+			pages: self gtBookAllPages;
+			jsonFile: self jsonFilePath;
+			loadJSONresults;
+			yourself.
+	^ pc
+]
+
+{ #category : #examples }
+TopicClassifierExperiments >> top5ClassifierOnEntireGtBookEdited [
+	"Same as TopicClassifierExperiments>>#top5ClassifierOnEntireGtBook
+	but we manually edit the JSON to patch the extra topics."
 
 	<gtExample>
 	| pc |

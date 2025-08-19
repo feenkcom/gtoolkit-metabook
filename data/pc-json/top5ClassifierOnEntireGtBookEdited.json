@@ -1,0 +1,4096 @@
+{
+	"bookName" : "Glamorous Toolkit Book",
+	"resultType" : "Topic",
+	"jsonFile" : "feenkcom/gtoolkit-metabook/data/pc-json/top5ClassifierOnEntireGtBookEdited.json",
+	"prompt" : {
+		"promptString" : "The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.\n\nA typical newcomer to GT is either:\n(i) someone who has heard of GT, and would like to learn more about it, but has no particular  goal in mind, or\n(ii) someone with a specific problem to solve, whether work-related or a personal hobby project.\nWe want to provide newcomers with a roadmap of the pages organized around a set of GT-related topics.\n\nThe topic of a page refers to its subject matter, for example, \"Using Bloc\", or Programming Smalltalk\", not the style or format of the page, such as \"Tutorial\" or \"FAQ\".\n\nA good topic is high-level enough that we can assign multiple pages to a topic, but specific enough to be useful for finding relevant pages.\n\nYour job is to assign topics from a curated list to a given page, so that pages can be organized into clusters by topic. Each page will cover at least one topic, but possible more, as topics cross-cut multiple dimensions. Please provide only a single topic per page, unless the page clearly covers more than one topic, in which case a maximum of five topics may be listed. You should only assign topics from the curated list, unless there is no topic that fits, in which case you may propose a topic not on the list. In your results, simply list the topics for the page and do not provide any further explanations.\n\nHere is the list of curated topics:\n\n```\nAbout Glamorous Toolkit\nAlgorithm Explanations\nAnnouncements and Event Handling\nAsynchronous Programming\nBook Organization and Navigation\nBuilding Custom Tools\nCode Analysis\nCode Configuration and Package Management\nCollections and Data Structures\nCommunity & Support\nDebugging in Glamorous Toolkit\nDeployment and Persistence\nDistributed and Remote Execution\nDomain Modeling\nExamples and Documentation\nExplainable Systems\nExtension Methods\nGames and Simulations in Glamorous Toolkit\nGetting Started with GT\nGT Component Documentation\nInspector actions\nInspector Views\nLive Documentation\nMoldable Development Practices\nMoldable Exceptions\nObject-Oriented Programming Concepts\nParsing and Language Manipulation\nPerformance Analysis and Profiling\nPharo Integration and Compatibility\nPragmas and Annotations\nProgramming Smalltalk\nQuerying and Navigating Code\nRecovering from Crashes\nReflection and Metaprogramming\nScripting and Automation\nSecurity and Authentication\nSmalltalk History\nText Editing\nUsing Beacon\nUsing Bloc\nUsing Coder\nUsing Lepiter\nUsing Metacello\nUsing Mondrian\nUsing PetitParser\nUsing SmaCC\nUtilities and Extensions\nWardley Maps\nWorking with Baselines and Dependencies\nWorking with Bash\nWorking with Cobol\nWorking with External APIs\nWorking with External Data\nWorking with External Tools\nWorking with GemStone\nWorking with Git and GitHub\nWorking with Java\nWorking with JavaScript\nWorking with Legacy Languages\nWorking with LLMs\nWorking with Python\nWorking with React and React Native\nWorking with Rust\nWorking with the File System\n```"
+	},
+	"chats" : [
+		{
+			"pageName" : "How to deal with \"Detached Working Copy\" message",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "How to set the default weight of a pane in Pager",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Asynchronous widgets & futures",
+			"results" : [
+				"Asynchronous Programming",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to work with Lepiter",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "RemoteRunner: worker startup scripts",
+			"results" : [
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Project Diary",
+			"results" : [
+				"Using Lepiter",
+				"Live Documentation",
+				"Moldable Development Practices",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Pager",
+			"results" : [
+				"Using Bloc",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Scripter",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison with variables",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Setting up the Gt4Gemstone connection",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Working with GemStone features",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Analyzing Ruby on Rails: the Whitehall case study",
+			"results" : [
+				"Code Analysis",
+				"Parsing and Language Manipulation",
+				"Using SmaCC",
+				"Querying and Navigating Code",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "A tour through Pharo",
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Understanding Smalltalk classes and metaclasses",
+			"results" : [
+				"Programming Smalltalk",
+				"Object-Oriented Programming Concepts",
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "What is the difference between Moldable Development and ...",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to get the default finalization registry",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Ludo Refactoring — merge Game and Board ",
+			"results" : [
+				"Object-Oriented Programming Concepts",
+				"Programming Smalltalk",
+				"Querying and Navigating Code",
+				"Scripting and Automation",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to work with a remote code synced image ",
+			"results" : [
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "SPL Facade",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "How to work with GenAI / LLM",
+			"results" : [
+				"Working with LLMs",
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "OpenAPI",
+			"results" : [
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Connecting to the Gemstone repository",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How to enable the GenAI / LLM integration in Coder",
+			"results" : [
+				"Using Coder",
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "A tour of the environment",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Getting Started with GT",
+				"Using Lepiter",
+				"Using Coder",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Python Debugger Setup & Example",
+			"results" : [
+				"Working with Python",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Querying classes and methods",
+			"results" : [
+				"Querying and Navigating Code",
+				"Reflection and Metaprogramming",
+				"Code Analysis",
+				"Parsing and Language Manipulation",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Custom Action",
+			"results" : [
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "Ludo Exercise 5",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Object-Oriented Programming Concepts",
+				"Debugging in Glamorous Toolkit",
+				"Working with Git and GitHub",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to change the default fonts in GT",
+			"results" : [
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "gt4gemstone server installation",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Components",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Visualizer",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Exploring repositories used when loading GT",
+			"results" : [
+				"Working with Baselines and Dependencies",
+				"Using Metacello",
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Running checks as part of the development cycle",
+			"results" : [
+				"Distributed and Remote Execution",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : " How do I move a bunch of snippets from one page to another?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Exploring the execution of a Python LampSort algorithm",
+			"results" : [
+				"Working with Python",
+				"Code Analysis",
+				"Moldable Development Practices",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Streams",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "How to debug issues related to the code index",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Querying and Navigating Code",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Scripting an elaborate user interface scenario",
+			"results" : [
+				"Using Bloc",
+				"Scripting and Automation",
+				"Using Coder",
+				"Using Beacon"
+			]
+		},
+		{
+			"pageName" : "Creating a dataset for fine-tuning",
+			"results" : [
+				"Working with LLMs",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Usages of moldable exceptions in Glamorous Toolkit",
+			"results" : [
+				"Moldable Exceptions",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Building treemaps",
+			"results" : [
+				"Using Mondrian",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Text editor",
+			"results" : [
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "How to use gt-installer",
+			"results" : [
+				"Deployment and Persistence",
+				"Scripting and Automation",
+				"Pharo Integration and Compatibility",
+				"Working with the File System"
+			]
+		},
+		{
+			"pageName" : "Configuring GemStone on MacOS",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How to set up a new GitHub repo",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Metacello",
+				"Working with Baselines and Dependencies",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison logging during development",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Using Beacon"
+			]
+		},
+		{
+			"pageName" : "Directly installing GemStone and loading gt4gemstone for development",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Tooling Buildup",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Glossary of Terms",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "How to get methods from a class in GemStone by selector",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Lepiter snippets",
+			"results" : [
+				"Using Lepiter",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Managing dependencies constraint",
+			"results" : [
+				"Working with Baselines and Dependencies",
+				"Using Metacello",
+				"Code Analysis"
+			]
+		},
+		{
+			"pageName" : "PharoLink - Start manual server and client",
+			"results" : [
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Movies Collection demo in GemStone",
+			"results" : [
+				"Working with GemStone",
+				"Using Metacello",
+				"Working with External Data",
+				"Working with the File System"
+			]
+		},
+		{
+			"pageName" : "Text snippet",
+			"results" : [
+				"Using Lepiter",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Profiling the user interface for a method styling",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "pandas",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "How to implement a moldable  exception",
+			"results" : [
+				"Moldable Exceptions",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to give feedback and contribute",
+			"results" : [
+				"Community & Support",
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Simple View",
+			"results" : [
+				"Inspector Views",
+				"Building Custom Tools",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Case studies of Moldable Development",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "How to check if a GemStone session was created from Glamorous Toolkit",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Working with MCP resources",
+			"results" : [
+				"Working with LLMs",
+				"Working with External Tools",
+				"Working with External Data"
+			]
+		},
+		{
+			"pageName" : "What is Intercession?",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "Breadcrumb",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Shell snippet",
+			"results" : [
+				"Using Lepiter",
+				"Working with Bash",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Rewrite snippet",
+			"results" : [
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Building an LLM assistant for editing blog posts",
+			"results" : [
+				"Working with LLMs",
+				"Building Custom Tools",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "How to parse sources in different languages",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "How do I recover my work after a crash?",
+			"results" : [
+				"Recovering from Crashes"
+			]
+		},
+		{
+			"pageName" : "Implementing the Memory Game model",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Announcements and Event Handling",
+				"Inspector Views",
+				"Programming Smalltalk",
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "Implementing a Ludo Game as a moldable development exercise",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Porting GT code to GemStone",
+			"results" : [
+				"Working with GemStone",
+				"Pharo Integration and Compatibility",
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming",
+				"Deployment and Persistence"
+			]
+		},
+		{
+			"pageName" : "How to programatically evaluate code in GemStone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "A code size analysis",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Bloc Elements",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to produce signed and verified GitHub commits",
+			"results" : [
+				"Working with Git and GitHub",
+				"Security and Authentication"
+			]
+		},
+		{
+			"pageName" : "How to parse Loader and Cloner logs",
+			"results" : [
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "Executable domain-driven design: documenting a price model",
+			"results" : [
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "Presenter",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Releaser",
+			"results" : [
+				"Working with Baselines and Dependencies",
+				"Using Metacello",
+				"Working with Git and GitHub",
+				"GT Component Documentation",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Chatting with an LLM in Ollama, Anthropic, Gemini, or OpenAI",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Exploring Undeclared Variables",
+			"results" : [
+				"Code Analysis",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Embeddings in OpenAI",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "How to limit the old space size in the VM",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Python Bridge troubleshooting",
+			"results" : [
+				"Working with Python",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "How to browse examples",
+			"results" : [
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Implementing an SPL interpreter",
+			"results" : [
+				"Parsing and Language Manipulation",
+				"Inspector Views",
+				"Building Custom Tools",
+				"Moldable Development Practices",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to show a picture from a URL",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Creating an analysis for senders of halt in GT packages",
+			"results" : [
+				"Querying and Navigating Code",
+				"Code Analysis"
+			]
+		},
+		{
+			"pageName" : "Visualizing yarn.lock files using JavaScript and Pharo",
+			"results" : [
+				"Using Mondrian",
+				"Working with JavaScript",
+				"Working with External Data",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Explaining the text editor's selection mechanism",
+			"results" : [
+				"Text Editing",
+				"Debugging in Glamorous Toolkit",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Exploring deprecated Glamorous Toolkit classes",
+			"results" : [
+				"Code Analysis",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "How to clone GlamorousToolkit repositories for development",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Metacello",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "How to configure search filters in Spotter extensions",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Adding an OpenAI API key",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "GemStone session registry and manager user interface",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How to - snippets with multiple halts for resume in the GemStoneDebugger",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Working with GemStone",
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "How to create a GitLab project",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Metacello",
+				"Working with Baselines and Dependencies",
+				"Using Lepiter",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Plotter",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to load another properties file in the default logical database",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Mondrian",
+			"results" : [
+				"Using Mondrian"
+			]
+		},
+		{
+			"pageName" : "How to scale the UI",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Example",
+			"results" : [
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Constructing a text editor with custom styling for urls",
+			"results" : [
+				"Text Editing",
+				"Using Bloc",
+				"Using PetitParser",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "gt4gemstone development",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Adding custom tools to assistants",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Glamorous Toolkit",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Getting Started with GT",
+				"Moldable Development Practices",
+				"Community & Support",
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "How to configure GitHub SSH key authentication",
+			"results" : [
+				"Working with Git and GitHub",
+				"Security and Authentication",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "GitHub",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Creating a fine-tuned model",
+			"results" : [
+				"Working with LLMs",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Example of parsing a Cloner and Loading log for Glamorous Toolkit",
+			"results" : [
+				"Using Beacon",
+				"Working with the File System",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "How to get the operating system name",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Python Bridge cleanup",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "Scripter creation",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Managing code with Coder",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Glamorous Toolkit and Pharo",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Moldable Development Practices",
+				"Pharo Integration and Compatibility",
+				"Explainable Systems",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "Process patterns",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Pharo",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Island parser",
+			"results" : [
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "Where are my pages stored?",
+			"results" : [
+				"Using Lepiter",
+				"Working with the File System"
+			]
+		},
+		{
+			"pageName" : "How to rewrite code in other languages",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Working with the PostgreSQL relational database",
+			"results" : [
+				"Working with External Data"
+			]
+		},
+		{
+			"pageName" : "Wardley Map snippet",
+			"results" : [
+				"Wardley Maps",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Setting different behavior for cursor word movement and double click selection",
+			"results" : [
+				"Using Coder",
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "Tracking the state of the Ludo game play",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Using Bloc",
+				"Announcements and Event Handling",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "PythonBridge",
+			"results" : [
+				"Working with Python",
+				"Distributed and Remote Execution",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Exporting GT server code for loading in a non-Rowan stone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Examples of assertion failures comparing objects",
+			"results" : [
+				"Moldable Exceptions",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Architectural report for Glamorous Toolkit development",
+			"results" : [
+				"Building Custom Tools",
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Sparta",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "COBOL",
+			"results" : [
+				"Working with Cobol"
+			]
+		},
+		{
+			"pageName" : "Example snippet",
+			"results" : [
+				"Using Lepiter",
+				"Examples and Documentation",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "PetitParser SPL case study",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "React Native",
+			"results" : [
+				"Working with React and React Native"
+			]
+		},
+		{
+			"pageName" : "JavaScript snippet",
+			"results" : [
+				"Working with JavaScript",
+				"Using Lepiter",
+				"GT Component Documentation",
+				"Working with External Tools",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Changes regarding packages and package tags in Pharo 12",
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "React",
+			"results" : [
+				"Working with React and React Native"
+			]
+		},
+		{
+			"pageName" : "gt4gemstone server",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Ensuring repositories have a .gitattributes file",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Patches/changes to the base Pharo Image",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Building a custom button appearance",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Fine-tuning",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "A short history of Glamorous Toolkit",
+			"results" : [
+				"About Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "I can't load or commit to repos. What's wrong?",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Movies Collection demo in GT",
+			"results" : [
+				"Working with GemStone",
+				"Working with External Data",
+				"Using Metacello"
+			]
+		},
+		{
+			"pageName" : "Bloc Visual Properties",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Debugger",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Moldable Exceptions"
+			]
+		},
+		{
+			"pageName" : "How to create a standalone app",
+			"results" : [
+				"Deployment and Persistence",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Promise then:, asyncThen:, and then:otherwise: usage",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "How to build a Magritte form",
+			"results" : [
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Testing a PetitParser class",
+			"results" : [
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "Profiling the execution of a release",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Using Beacon",
+				"Deployment and Persistence"
+			]
+		},
+		{
+			"pageName" : "How to change the memory settings during a computation",
+			"results" : [
+				"GT Component Documentation",
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "PetitParser SPL case study slideshow",
+			"results" : [
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "Custom View",
+			"results" : [
+				"Inspector Views",
+				"Moldable Development Practices",
+				"Explainable Systems"
+			]
+		},
+		{
+			"pageName" : "World",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Bloc",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to compute the local sync database status for the default database",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Working with MCP servers",
+			"results" : [
+				"Working with LLMs",
+				"Working with External APIs",
+				"Working with External Tools",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Spotter",
+			"results" : [
+				"GT Component Documentation",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Exploring GitHub through GraphQL ",
+			"results" : [
+				"Working with External APIs",
+				"Working with Git and GitHub",
+				"Inspector Views",
+				"Scripting and Automation",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How do I rename a Note?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Creating the Ludo Board view",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to log Zinc events using Beacon",
+			"results" : [
+				"Using Beacon",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "How to extract meta information using ExifTool",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Bash",
+			"results" : [
+				"Working with Bash"
+			]
+		},
+		{
+			"pageName" : "How to investigate performance of  stylers in coder",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "How to test phlow views",
+			"results" : [
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Multilanguage notebook",
+			"results" : [
+				"Using Lepiter",
+				"Working with JavaScript",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "How to create a Glamorous Toolkit release for development",
+			"results" : [
+				"Deployment and Persistence"
+			]
+		},
+		{
+			"pageName" : "Issues related to patches to the base image",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Ludo Game",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Moldable Development Practices",
+				"Domain Modeling",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "The Moldable Development Environment",
+			"results" : [
+				"Moldable Development Practices",
+				"Inspector Views",
+				"About Glamorous Toolkit",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Metacello",
+			"results" : [
+				"Using Metacello"
+			]
+		},
+		{
+			"pageName" : "Element snippet",
+			"results" : [
+				"Using Lepiter",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Markdown",
+			"results" : [
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "Basic shortcuts",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "How to use an ICP callback in a web view",
+			"results" : [
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Class comments as live documents",
+			"results" : [
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Manually installing gt4gemstone into a GemStone extent",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "The LanguageLink protocol",
+			"results" : [
+				"Distributed and Remote Execution",
+				"Asynchronous Programming",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "How to load Glamorous Toolkit code for development",
+			"results" : [
+				"Using Metacello",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "Futures",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "Exploring the GitHub REST API in 7'",
+			"results" : [
+				"Working with External APIs",
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "How to set up a GT GitHub repo in 7'",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Lepiter",
+				"Using Metacello",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "A gentle introduction to Pharo Smalltalk",
+			"results" : [
+				"Programming Smalltalk",
+				"Collections and Data Structures",
+				"Object-Oriented Programming Concepts",
+				"Working with External Data"
+			]
+		},
+		{
+			"pageName" : "How to work with the file system",
+			"results" : [
+				"Working with the File System"
+			]
+		},
+		{
+			"pageName" : "Editor word classifiers",
+			"results" : [
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "File search in the response provider",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "JavaScript",
+			"results" : [
+				"Working with JavaScript"
+			]
+		},
+		{
+			"pageName" : "How to configure Git username and email address",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Converting old Spotter searches to use new Spotter",
+			"results" : [
+				"GT Component Documentation",
+				"Pragmas and Annotations",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "PharoLink",
+			"results" : [
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How to get started with Coder  (FAQ)",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Learning how button model works",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Implementing a Sudoku solver (open-ended)",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Explainable Systems",
+				"Building Custom Tools",
+				"Working with External Data",
+				"Algorithm Explanations"
+			]
+		},
+		{
+			"pageName" : "Example of parsing a Releaser log for Glamorous Toolkit",
+			"results" : [
+				"Using Beacon"
+			]
+		},
+		{
+			"pageName" : "Examples",
+			"results" : [
+				"Examples and Documentation",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "Quantifying the need for custom tools",
+			"results" : [
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "How to get a class object starting from its name (asClass equivalent)",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How to ... graphics related",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Graphical stack",
+			"results" : [
+				"Using Bloc",
+				"Text Editing",
+				"Inspector Views",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Implementing the Ludo Die in the Playground",
+			"results" : [
+				"Using Bloc",
+				"Announcements and Event Handling",
+				"Inspector Views",
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to reload the content of the default logical database",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Wardley Map",
+			"results" : [
+				"Wardley Maps"
+			]
+		},
+		{
+			"pageName" : "How to parse and manipulate other languages",
+			"results" : [
+				"Parsing and Language Manipulation",
+				"Using SmaCC",
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "SmaCC",
+			"results" : [
+				"Using SmaCC"
+			]
+		},
+		{
+			"pageName" : "Composed Narrative",
+			"results" : [
+				"Live Documentation",
+				"Moldable Development Practices",
+				"Examples and Documentation",
+				"Inspector Views",
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "How do I search within a Lepiter page?",
+			"results" : [
+				"Using Lepiter",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Lepiter Iceberg Integration Model",
+			"results" : [
+				"Using Lepiter",
+				"Working with Git and GitHub",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "What to do if GT is becomes slow and unresponsive?",
+			"results" : [
+				"Asynchronous Programming",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to measure the performance of delivering remote announcements",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Announcements and Event Handling",
+				"Using Beacon",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How to reset the GemStone connectors in default registry",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "GenAI",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Using Parallels to run GT on other platforms",
+			"results" : [
+				"Working with External Tools",
+				"Deployment and Persistence",
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Visualizing tokenization",
+			"results" : [
+				"Working with LLMs",
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "How to profile PharoLink remote calls",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Handling objects through custom views",
+			"results" : [
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Compiling and performing code",
+			"results" : [
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "How Mondrian relates to Bloc",
+			"results" : [
+				"Using Mondrian",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Tutorials",
+			"results" : [
+				"Getting Started with GT",
+				"Programming Smalltalk",
+				"Querying and Navigating Code",
+				"Examples and Documentation",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Working with the OpenAI API client",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Ludo Exercise 6",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Contextual Playground",
+			"results" : [
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Examples and Documentation",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Using an externally started, already running Python Bridge instance",
+			"results" : [
+				"Working with Python",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Zinc debugging extensions",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Moldable Exceptions"
+			]
+		},
+		{
+			"pageName" : "How to translate an ANTLr parser into SmaCC",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Smalltalk Introductory lecture",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "How do I add new snippets?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Connecting to a remote Python Bridge instance",
+			"results" : [
+				"Working with Python",
+				"Distributed and Remote Execution",
+				"Security and Authentication"
+			]
+		},
+		{
+			"pageName" : "What should I do if I get an error during Lepiter reload?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Debugging SPL grammar rules",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Analyzing JavaScript React Native: the Zooniverse case study",
+			"results" : [
+				"Code Analysis",
+				"Working with JavaScript",
+				"Parsing and Language Manipulation",
+				"Working with Git and GitHub",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "How is the interrupt logic using primary+. working",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Announcements and Event Handling",
+				"Using Bloc",
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "Overriding doesNotUnderstand:",
+			"results" : [
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming",
+				"Object-Oriented Programming Concepts"
+			]
+		},
+		{
+			"pageName" : "Molding the environment",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Configuring moldable exceptions",
+			"results" : [
+				"Moldable Exceptions",
+				"Debugging in Glamorous Toolkit",
+				"Pragmas and Annotations",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Managing the Gt4Gemstone server connection",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Executable domain-driven design: the Ludo game case study",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Domain Modeling",
+				"Examples and Documentation",
+				"Live Documentation",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Downloading the gt4gemstone release",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Analysing the size of code-related entities",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Code Analysis"
+			]
+		},
+		{
+			"pageName" : "How to set the extent of the current window",
+			"results" : [
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "How to find stuff in GT in 7'",
+			"results" : [
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "OpenAI assistants",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Inspector views",
+			"results" : [
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Layout resizers",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to stream output from an external child process to the UI",
+			"results" : [
+				"Asynchronous Programming",
+				"Using Bloc",
+				"Working with External Tools",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "JSLink",
+			"results" : [
+				"Working with JavaScript"
+			]
+		},
+		{
+			"pageName" : "Searching for code, documents and objects in general",
+			"results" : [
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Drawing graphs with Mondrian by example",
+			"results" : [
+				"Using Mondrian",
+				"Using Bloc",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Working with the GemStone transcript",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How to troubleshoot GT",
+			"results" : [
+				"Recovering from Crashes",
+				"Performance Analysis and Profiling",
+				"Working with Git and GitHub",
+				"Using Lepiter",
+				"Community & Support"
+			]
+		},
+		{
+			"pageName" : "Layout constraints",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How do I add a Lepiter database to an existing repo?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to get started with Lepiter (FAQ)",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Modeling a Concrete Price",
+			"results" : [
+				"Domain Modeling",
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Using Coder",
+				"Extension Methods"
+			]
+		},
+		{
+			"pageName" : "Architectural report",
+			"results" : [
+				"Code Analysis",
+				"GT Component Documentation",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Querying the runtime",
+			"results" : [
+				"Reflection and Metaprogramming",
+				"Debugging in Glamorous Toolkit",
+				"Pragmas and Annotations",
+				"Building Custom Tools",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Get started",
+			"results" : [
+				"Getting Started with GT",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Experimental Development",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "One rendering tree",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to build a development version of Glamorous Toolkit",
+			"results" : [
+				"Deployment and Persistence",
+				"Working with Bash",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Remote Runner: start manual runner and workers",
+			"results" : [
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Accordion",
+			"results" : [
+				"Using Bloc",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Building the Memory Game graphical elements with Bloc",
+			"results" : [
+				"Using Bloc",
+				"Announcements and Event Handling",
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "gt4llm",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Example-driven development tutorial",
+			"results" : [
+				"Moldable Development Practices",
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "Molding Spotter searches",
+			"results" : [
+				"Building Custom Tools",
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "Using modelfiles",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Editing Rust sources through the Language Server Protocol",
+			"results" : [
+				"Working with Rust",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Filters",
+			"results" : [
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "How to setup LLM connections",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Element Border",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Working with images and LLMs",
+			"results" : [
+				"Working with LLMs",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Python snippet",
+			"results" : [
+				"Working with Python",
+				"Using Lepiter",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to install Glamorous Toolkit with Nix",
+			"results" : [
+				"Deployment and Persistence",
+				"Getting Started with GT",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Logging with Beacon",
+			"results" : [
+				"Using Beacon",
+				"Announcements and Event Handling",
+				"Debugging in Glamorous Toolkit",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Moldable Data Wrapper",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools",
+				"Explainable Systems",
+				"Inspector Views",
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "Beacon",
+			"results" : [
+				"Using Beacon"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison in HashedCollections",
+			"results" : [
+				"Collections and Data Structures"
+			]
+		},
+		{
+			"pageName" : "What is Introspection?",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "How to configure GitHub credentials",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Rewriting Rust code using the rewrite snippet",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation",
+				"Working with Rust"
+			]
+		},
+		{
+			"pageName" : "Understanding reflection",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "How to work with GitHub",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Metacello",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "Explainable software",
+			"results" : [
+				"Explainable Systems"
+			]
+		},
+		{
+			"pageName" : "Extending Lepiter with custom snippets and annotations",
+			"results" : [
+				"Using Lepiter",
+				"Parsing and Language Manipulation",
+				"Building Custom Tools",
+				"Text Editing"
+			]
+		},
+		{
+			"pageName" : "How to - managing remote bindings in a GemStone snippets",
+			"results" : [
+				"Working with GemStone",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How to profile GemStone remote calls",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Detecting the correct positioning of a dropdown",
+			"results" : [
+				"Using Bloc",
+				"Debugging in Glamorous Toolkit",
+				"Moldable Development Practices",
+				"Scripting and Automation",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "feenk",
+			"results" : [
+				"Explainable Systems",
+				"Moldable Development Practices",
+				"About Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "gt4anthropic: Working with Anthropic",
+			"results" : [
+				"Working with LLMs",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Working with MCP tools",
+			"results" : [
+				"Working with LLMs",
+				"Working with External Tools",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Optimizing the links in the book for first time readers",
+			"results" : [
+				"Book Organization and Navigation",
+				"Using Mondrian",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Ludo Game with first-class moves",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Inspector Views",
+				"Announcements and Event Handling",
+				"Domain Modeling",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Loading GT server code into a Rowan stone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Completer",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to visualize the current knowledge base",
+			"results" : [
+				"Using Mondrian",
+				"Using Lepiter",
+				"Using Bloc",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to replace the default logical database instance",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Understanding Smalltalk control structures",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Futures, Promises & Streams",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "PythonBridge custom views for pandas DataFrame and Series",
+			"results" : [
+				"Working with Python",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "How to get started with Moldable Development",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"Inspector Views",
+				"Inspector actions",
+				"Getting Started with GT"
+			]
+		},
+		{
+			"pageName" : "Identifying an editor bug by inspecting wrapped Rust objects",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Working with Rust",
+				"Inspector Views",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to explore objects pinned in memory",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "Debugging remote GemStone views",
+			"results" : [
+				"Working with GemStone",
+				"Inspector Views",
+				"Debugging in Glamorous Toolkit",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Software Assessment",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Parsing SPL tokens",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Tooling patterns",
+			"results" : [
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Custom Search",
+			"results" : [
+				"Building Custom Tools",
+				"Moldable Development Practices",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "Adding the GT book to a LLM to answer questions about GT",
+			"results" : [
+				"Working with LLMs",
+				"Using Lepiter",
+				"Working with External APIs",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Getting started with the Python Bridge",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "An example of moldable logging using Beacon",
+			"results" : [
+				"Using Beacon",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Refactoring scenario with Ludo",
+			"results" : [
+				"Scripting and Automation",
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "How to search for methods?",
+			"results" : [
+				"Using Coder",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "WireEncoding in GemStone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "x86_64",
+			"results" : [
+				"About Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to change the package or subpackage of a class?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Facilitator",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Testing user interactions: the Spotter case study",
+			"results" : [
+				"Scripting and Automation",
+				"Announcements and Event Handling",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Using an independent Python Bridge instance",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "Geolife GPS trajectory dataset example",
+			"results" : [
+				"Working with External Data",
+				"Working with GemStone",
+				"Using Metacello",
+				"Working with the File System"
+			]
+		},
+		{
+			"pageName" : "Language Server Protocol (LSP)",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Managing LLM provider connections and setting the default",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Announcements for changes in a Lepiter knowledgebase",
+			"results" : [
+				"Using Lepiter",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Playing the Memory Game",
+			"results" : [
+				"Using Bloc",
+				"Announcements and Event Handling",
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Moldable Development exercises",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Building the Memory Game graphics directly with the Sparta canvas",
+			"results" : [
+				"Using Bloc",
+				"Games and Simulations in Glamorous Toolkit",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Exploring a publications database",
+			"results" : [
+				"Working with External Data",
+				"Domain Modeling",
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "How to pages related to GemStone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Working with the Ollama API client",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Overrides of the base image using #gtPharoPatch:",
+			"results" : [
+				"Pragmas and Annotations",
+				"Extension Methods",
+				"Pharo Integration and Compatibility",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "GemStone / Gt4GemStone / GT Version Management",
+			"results" : [
+				"Working with GemStone",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Stakeholder",
+			"results" : [
+				"Explainable Systems"
+			]
+		},
+		{
+			"pageName" : "A single starting point for scripting, linking and documenting",
+			"results" : [
+				"Using Lepiter",
+				"Live Documentation",
+				"Scripting and Automation",
+				"Working with External APIs",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Inspecting objects with custom views in 7'",
+			"results" : [
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Programatically generating accessors for a class",
+			"results" : [
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Placing tokens on the Ludo Board",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Examples and Documentation",
+				"Inspector Views",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Understanding object pointers",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "A gentle introduction to classes and methods in Smalltalk",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "About this book",
+			"results" : [
+				"Book Organization and Navigation",
+				"Getting Started with GT"
+			]
+		},
+		{
+			"pageName" : "Nix",
+			"results" : [
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Querying Pharo code with GT filters",
+			"results" : [
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Understanding Smalltalk message syntax",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "How to get the content of the current gem log file",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Moldable Collection Wrapper",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools",
+				"Inspector Views",
+				"Collections and Data Structures",
+				"Domain Modeling"
+			]
+		},
+		{
+			"pageName" : "Brick",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to define a Magritte form field",
+			"results" : [
+				"Using Magritte",
+				"Using Bloc",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "Smalltalk",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Editing Python sources through the Language Server Protocol",
+			"results" : [
+				"Working with Python",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Programmatic code evaluation",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "How do  I move snippets around within a Lepiter page?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to snippets for Glamorous Toolkit development",
+			"results" : [
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "RemoteRunner",
+			"results" : [
+				"Distributed and Remote Execution",
+				"GT Component Documentation",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Pages containing missing references - allowed failures",
+			"results" : [
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Adding simple list views for Ludo Players and Squares",
+			"results" : [
+				"Inspector Views",
+				"Announcements and Event Handling",
+				"Moldable Development Practices",
+				"Games and Simulations in Glamorous Toolkit",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Explainable System",
+			"results" : [
+				"Explainable Systems",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "How to programatically register a new database to a logical database",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "What can I do if my repository is detached and I cannot commit my changes?",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "GemStone code synchronisation",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Button",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Transcript",
+			"results" : [
+				"GT Component Documentation",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "DeepTraverser",
+			"results" : [
+				"Utilities and Extensions"
+			]
+		},
+		{
+			"pageName" : "How to open the Morphic World",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Dropdown",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Examples of moldable exceptions",
+			"results" : [
+				"Moldable Exceptions"
+			]
+		},
+		{
+			"pageName" : "Smalltalk history",
+			"results" : [
+				"Smalltalk History"
+			]
+		},
+		{
+			"pageName" : "GraphQL snippet",
+			"results" : [
+				"Using Lepiter",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Pharo snippet",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to create a new class?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Remote",
+			"results" : [
+				"Distributed and Remote Execution",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "How to pages related to the virtual machine",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "How to install Glamorous Toolkit",
+			"results" : [
+				"Getting Started with GT"
+			]
+		},
+		{
+			"pageName" : "Running futures at user background priority",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "Treemap",
+			"results" : [
+				"Using Mondrian"
+			]
+		},
+		{
+			"pageName" : "Querying SmaCC abstract syntax trees (ASTs)",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "Checkbox",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to create a Lepiter page?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to close all open debugger windows",
+			"results" : [
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Widgets",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Method wrappers",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "How to properly initialize context menus, dropdowns, and tooltips",
+			"results" : [
+				"Using Bloc",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "How to find where a database is stored on disk",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "gt4ollama: working with Ollama",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Loading and managing code configurations with Metacello",
+			"results" : [
+				"Using Metacello",
+				"Working with Baselines and Dependencies",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Inspecting remote objects using Remote Phlow",
+			"results" : [
+				"Inspector Views",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How to rename a class or method?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Blind Spot",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "How to set up a baseline",
+			"results" : [
+				"Using Metacello",
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "gt4magritte",
+			"results" : [
+				"GT Component Documentation",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Iceberg model and inner workings",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "DRAFT",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "How to debug the examples command line runner in image",
+			"results" : [
+				"Debugging in Glamorous Toolkit",
+				"Scripting and Automation",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Generating embeddings",
+			"results" : [
+				"Working with LLMs",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "How to programatically explore the matching done by the substrings filter ",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to set up a home section",
+			"results" : [
+				"Building Custom Tools",
+				"GT Component Documentation",
+				"Extension Methods",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "Moldable Development roles: Facilitator and Stakeholder",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Explanations",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"About Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "PetitParser",
+			"results" : [
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "Connector",
+			"results" : [
+				"GT Component Documentation",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Working with Python Bridge objects",
+			"results" : [
+				"Working with Python",
+				"Inspector Views",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Accessing VM log messages using Beacon",
+			"results" : [
+				"Using Beacon",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Working with collections in Pharo",
+			"results" : [
+				"Collections and Data Structures",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Inspecting Python objects with custom inspectors",
+			"results" : [
+				"Working with Python",
+				"Inspector Views",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Warmup: understanding the Money classes",
+			"results" : [
+				"Domain Modeling",
+				"Examples and Documentation",
+				"Inspector Views",
+				"Extension Methods",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Famix",
+			"results" : [
+				"Code Analysis"
+			]
+		},
+		{
+			"pageName" : "Transforming Delphi code into C# (at syntax level)",
+			"results" : [
+				"Using SmaCC",
+				"Parsing and Language Manipulation",
+				"Working with Git and GitHub",
+				"Working with the File System",
+				"Working with Legacy Languages"
+			]
+		},
+		{
+			"pageName" : "Extracting a class from a PetitParser script",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "How do I find my pages?",
+			"results" : [
+				"Using Lepiter",
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "How to display MacOS native notifications",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Geometry, visual and layout bounds explained",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Profiling Glamorous Toolkit",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "How to use the Pure Git tool",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Using structured outputs",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Implementing the Memory Game model logic",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to add a slot to a class?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Example Object",
+			"results" : [
+				"Examples and Documentation",
+				"Moldable Development Practices",
+				"Pragmas and Annotations",
+				"Using Lepiter",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Throwaway Analysis Tool",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Working with GT as an MCP server",
+			"results" : [
+				"Working with LLMs",
+				"Distributed and Remote Execution",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Adding a Gemini API key",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Explaining the context menu and dropdown algorithm",
+			"results" : [
+				"Using Bloc",
+				"Algorithm Explanations",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "How to view the startup and shutdown lists",
+			"results" : [
+				"Inspector Views",
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Specifications and Views in Remote Phlow",
+			"results" : [
+				"Inspector Views",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Managing forked projects in GT",
+			"results" : [
+				"Working with Git and GitHub",
+				"Security and Authentication"
+			]
+		},
+		{
+			"pageName" : "Mapping Moldable Development",
+			"results" : [
+				"Wardley Maps",
+				"Moldable Development Practices",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "How to format text in Lepiter pages?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to work with styled text in GemStone",
+			"results" : [
+				"Working with GemStone",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Directly loading gt4gemstone into a Rowan stone for development",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "gt4openai: working with OpenAI",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Logging VM messages using Beacon",
+			"results" : [
+				"Using Beacon"
+			]
+		},
+		{
+			"pageName" : "Getting started with GT in 7'",
+			"results" : [
+				"Getting Started with GT",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "LLM",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Rust",
+			"results" : [
+				"Working with Rust"
+			]
+		},
+		{
+			"pageName" : "Improving the performance of the GemStone inspector",
+			"results" : [
+				"Working with GemStone",
+				"Inspector Views",
+				"Inspector actions",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "XML",
+			"results" : [
+				"Working with External Data"
+			]
+		},
+		{
+			"pageName" : "Analyzing COBOL: the AWS CardDemo case study",
+			"results" : [
+				"Working with Cobol",
+				"Code Analysis"
+			]
+		},
+		{
+			"pageName" : "Implementing a moldable Stack Machine",
+			"results" : [
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Inspector actions",
+				"Announcements and Event Handling",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "How to ...",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "How to update the content of all opened GtWorld instances",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Powershell",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "How to make GitHub credentials persistent",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Testing the Ludo corner cases",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Examples and Documentation",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Memory Game",
+			"results" : [
+				"Using Bloc",
+				"Announcements and Event Handling",
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to snippets for managing the default logical database",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Analyzing feature toggles from a Python project: the Open edX case study",
+			"results" : [
+				"Code Analysis",
+				"Working with Python",
+				"Working with Git and GitHub",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Fixing Ludo autoplay and storeStrings",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit",
+				"Inspector Views",
+				"Live Documentation",
+				"Deployment and Persistence"
+			]
+		},
+		{
+			"pageName" : "How to duplicate a class",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Debugging remote Python views",
+			"results" : [
+				"Working with Python",
+				"Debugging in Glamorous Toolkit",
+				"Inspector Views",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How to add a method to a class?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "The contextual nature of software and the importance of tools",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Loader",
+			"results" : [
+				"Working with Baselines and Dependencies"
+			]
+		},
+		{
+			"pageName" : "Promises",
+			"results" : [
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "GT in 7' videos",
+			"results" : [
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Moldable Development",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems"
+			]
+		},
+		{
+			"pageName" : "How to configure GitHub token authentication",
+			"results" : [
+				"Working with Git and GitHub",
+				"Security and Authentication"
+			]
+		},
+		{
+			"pageName" : "Modeling patterns",
+			"results" : [
+				"Domain Modeling",
+				"Explainable Systems",
+				"Querying and Navigating Code"
+			]
+		},
+		{
+			"pageName" : "gt4gemini: Working with Gemini",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Moldable Object",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"Building Custom Tools",
+				"Inspector Views",
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "How to evaluate some code?",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Checking the loaded gt4gemstone version inside a GemStone extent",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "How do I move a page to a different database?",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Using Gt4Gemstone to inspect objects",
+			"results" : [
+				"Working with GemStone",
+				"Debugging in Glamorous Toolkit",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison logging offline",
+			"results" : [
+				"Code Analysis",
+				"Scripting and Automation",
+				"Collections and Data Structures"
+			]
+		},
+		{
+			"pageName" : "Analyzing Spring Boot RESTful web services",
+			"results" : [
+				"Working with Java",
+				"Using SmaCC",
+				"Code Analysis",
+				"Querying and Navigating Code",
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "How to clone, load and release GlamorousToolkit from sources for development",
+			"results" : [
+				"Working with Git and GitHub",
+				"Using Metacello",
+				"Working with Baselines and Dependencies",
+				"Deployment and Persistence",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Parsing with PetitParser2",
+			"results" : [
+				"Using PetitParser"
+			]
+		},
+		{
+			"pageName" : "Understanding Smalltalk method syntax",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Java",
+			"results" : [
+				"Working with Java"
+			]
+		},
+		{
+			"pageName" : "Working with AT Protocol",
+			"results" : [
+				"Working with External APIs",
+				"GT Component Documentation",
+				"Using Lepiter",
+				"Asynchronous Programming",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "SmaCC scopes",
+			"results" : [
+				"Using SmaCC"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison in Collections",
+			"results" : [
+				"Collections and Data Structures"
+			]
+		},
+		{
+			"pageName" : "Glamorous Toolkit Book",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "Working with a REST API: the GitHub case study",
+			"results" : [
+				"Working with External APIs",
+				"Working with External Data",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Running the PythonBridge in another directory",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "Exploring your Twitter data",
+			"results" : [
+				"Working with External Data",
+				"Using Lepiter",
+				"Using Metacello",
+				"Working with Git and GitHub",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "OpenAI providers",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Python",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "Metacello baseline",
+			"results" : [
+				"Using Metacello",
+				"Working with Baselines and Dependencies",
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "Remote Runner: Run multiple workers with one image",
+			"results" : [
+				"Distributed and Remote Execution",
+				"Deployment and Persistence"
+			]
+		},
+		{
+			"pageName" : "Changes regarding parsing of code with errors in Pharo 12",
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Parsing and Language Manipulation",
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "JSON",
+			"results" : [
+				"Working with External Data"
+			]
+		},
+		{
+			"pageName" : "Introducing rules to the Ludo Board Game",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Layouts explained",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Traversing graphs with DeepTraverser",
+			"results" : [
+				"Utilities and Extensions",
+				"Using Mondrian",
+				"Querying and Navigating Code",
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison",
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Working with GemStone",
+				"Collections and Data Structures",
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "How to setup an LLM provider",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Understanding Pharo built-in data types",
+			"results" : [
+				"Programming Smalltalk",
+				"Collections and Data Structures"
+			]
+		},
+		{
+			"pageName" : "Reflection",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "AST",
+			"results" : [
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Inspector",
+			"results" : [
+				"Inspector Views",
+				"Using Lepiter",
+				"Using Coder",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Using the embedding registry",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Browsing the OpenAPI description of GitHub",
+			"results" : [
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Ensuring repositories have a Jenkins file",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Anonymous classes",
+			"results" : [
+				"Programming Smalltalk",
+				"Reflection and Metaprogramming",
+				"Object-Oriented Programming Concepts"
+			]
+		},
+		{
+			"pageName" : "How to work with temporary objects in a session",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Lepiter",
+			"results" : [
+				"Using Lepiter",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Example-driven",
+			"results" : [
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Phlow",
+			"results" : [
+				"Inspector Views",
+				"Inspector actions",
+				"GT Component Documentation",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "Generating embeddings using Ollama models",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Pharo architecture",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "How to contribute to Glamorous Toolkit through a GitHub pull request",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Debugging exceptions in Spotter processors",
+			"results" : [
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Understanding self and super",
+			"results" : [
+				"Programming Smalltalk",
+				"Object-Oriented Programming Concepts"
+			]
+		},
+		{
+			"pageName" : "Smalltalk Syntax in 7'",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "How to work with external child processes",
+			"results" : [
+				"Working with External Tools",
+				"Asynchronous Programming"
+			]
+		},
+		{
+			"pageName" : "Profiling the styling of a method using the virtual machine telemetry",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "Working with the Anthropic API client",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Another way to contribute to Glamorous Toolkit through a GitHub pull request",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "Working with MCP prompts",
+			"results" : [
+				"Working with LLMs",
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Changes to the base Pharo image",
+			"results" : [
+				"Pharo Integration and Compatibility",
+				"Extension Methods",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "How to guard against inifinte loops?",
+			"results" : [
+				"Moldable Exceptions"
+			]
+		},
+		{
+			"pageName" : "Introducing test examples and code cleaning",
+			"results" : [
+				"Examples and Documentation",
+				"Moldable Development Practices",
+				"Programming Smalltalk",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "Coder",
+			"results" : [
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "What is Glamorous Toolkit?",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Getting Started with GT",
+				"Moldable Development Practices",
+				"Inspector Views",
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "Working with the Gemini API client",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Profiling the synchronous execution of stylers using message tally",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "PharoLink snippet",
+			"results" : [
+				"Distributed and Remote Execution",
+				"GT Component Documentation",
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Working with Python source files",
+			"results" : [
+				"Working with Python",
+				"Working with the File System",
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Creating the basic Ludo Board model",
+			"results" : [
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison with literals",
+			"results" : [
+				"Programming Smalltalk"
+			]
+		},
+		{
+			"pageName" : "Strict Symbol Comparison - Enabling",
+			"results" : [
+				"Code Configuration and Package Management"
+			]
+		},
+		{
+			"pageName" : "How to create a new release for the GT Vm  from a new release of the Pharo Vm",
+			"results" : [
+				"Deployment and Persistence",
+				"Working with Git and GitHub",
+				"Pharo Integration and Compatibility",
+				"Working with External Tools",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "About this version of Glamorous Toolkit",
+			"results" : [
+				"About Glamorous Toolkit",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Using Libgit-CLI as an alternative to Libgit2 FFI in Iceberg",
+			"results" : [
+				"Working with Git and GitHub"
+			]
+		},
+		{
+			"pageName" : "How to implement a new snippet class ",
+			"results" : [
+				"Using Lepiter",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Explaining Andrej Karpathy's tokenization explanation",
+			"results" : [
+				"Explainable Systems",
+				"Inspector Views",
+				"Moldable Development Practices",
+				"Working with Python",
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Investigating GemStone operation performance",
+			"results" : [
+				"Working with GemStone",
+				"Performance Analysis and Profiling",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Handling custom instructions using assistants",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Using d3 to create views for local objects",
+			"results" : [
+				"Working with JavaScript",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "Phlow for Python",
+			"results" : [
+				"Working with Python",
+				"Inspector Views",
+				"GT Component Documentation",
+				"Building Custom Tools"
+			]
+		},
+		{
+			"pageName" : "SPL",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Inspector actions",
+			"results" : [
+				"Inspector actions"
+			]
+		},
+		{
+			"pageName" : "Moldable Development patterns",
+			"results" : [
+				"Moldable Development Practices",
+				"Explainable Systems",
+				"Building Custom Tools",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Using an alternative Python Bridge controller process",
+			"results" : [
+				"Working with Python"
+			]
+		},
+		{
+			"pageName" : "How to fix Lepiter loading errors",
+			"results" : [
+				"Using Lepiter",
+				"Debugging in Glamorous Toolkit",
+				"Recovering from Crashes"
+			]
+		},
+		{
+			"pageName" : "Lists",
+			"results" : [
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "What is Reflection?",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "gt4gemstone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Extending the debugger through moldable exceptions",
+			"results" : [
+				"Moldable Exceptions",
+				"Debugging in Glamorous Toolkit",
+				"Inspector Views",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "How to take a screenshot",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Understanding Lepiter in 7'",
+			"results" : [
+				"Using Lepiter",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Using a simulation for inspecting objects",
+			"results" : [
+				"Inspector Views",
+				"Distributed and Remote Execution"
+			]
+		},
+		{
+			"pageName" : "How do I create a Table of Contents for a Lepiter database?",
+			"results" : [
+				"Using Lepiter",
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "JavaScript debugger setup & example",
+			"results" : [
+				"Working with JavaScript",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Adding an Anthropic API key",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "How to execute external commands",
+			"results" : [
+				"Working with External Tools"
+			]
+		},
+		{
+			"pageName" : "Moldable Tool",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools",
+				"Inspector Views",
+				"Debugging in Glamorous Toolkit",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "What to do when GT hangs?",
+			"results" : [
+				"Recovering from Crashes",
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "How to use a startup script",
+			"results" : [
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Exploring IMDB movie lists",
+			"results" : [
+				"Working with External Data",
+				"Domain Modeling",
+				"Building Custom Tools",
+				"Inspector Views",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Adding a feedback region to the Ludo Board",
+			"results" : [
+				"Announcements and Event Handling",
+				"Games and Simulations in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Exploring extension methods to the base image",
+			"results" : [
+				"Extension Methods",
+				"Code Analysis",
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "LLM utilities",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "OpenGL",
+			"results" : [
+				"Working with External APIs"
+			]
+		},
+		{
+			"pageName" : "How to for gt4gemstone development",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Embeddings in Ollama",
+			"results" : [
+				"Working with LLMs"
+			]
+		},
+		{
+			"pageName" : "Printing VM log messages to the console",
+			"results" : [
+				"Debugging in Glamorous Toolkit"
+			]
+		},
+		{
+			"pageName" : "Using PetitParser to build an AST",
+			"results" : [
+				"Using PetitParser",
+				"Parsing and Language Manipulation"
+			]
+		},
+		{
+			"pageName" : "Basic usage of the Python Bridge",
+			"results" : [
+				"Working with Python",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Message Tally",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "Adding gtViews to the existing Python pandas DataFrame and Series class",
+			"results" : [
+				"Inspector Views",
+				"Working with Python",
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Implementing a stack machine",
+			"results" : [
+				"Programming Smalltalk",
+				"Examples and Documentation",
+				"Using Coder"
+			]
+		},
+		{
+			"pageName" : "Playing with label aptitudes for buttons",
+			"results" : [
+				"Using Bloc",
+				"GT Component Documentation",
+				"Announcements and Event Handling"
+			]
+		},
+		{
+			"pageName" : "Driller",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Modeling discounted prices",
+			"results" : [
+				"Domain Modeling",
+				"Programming Smalltalk",
+				"Object-Oriented Programming Concepts",
+				"Using Coder",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Changes in GT for supporting in Pharo 12",
+			"results" : [
+				"Pharo Integration and Compatibility"
+			]
+		},
+		{
+			"pageName" : "Example-driven development by example",
+			"results" : [
+				"Examples and Documentation",
+				"Moldable Development Practices",
+				"Live Documentation"
+			]
+		},
+		{
+			"pageName" : "Rewriting Pharo code",
+			"results" : [
+				"Parsing and Language Manipulation",
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "How to measure the size of the current knowledge base",
+			"results" : [
+				"Using Lepiter"
+			]
+		},
+		{
+			"pageName" : "Loading GT server code into a non-Rowan stone",
+			"results" : [
+				"Working with GemStone"
+			]
+		},
+		{
+			"pageName" : "Explaining the squarified treemap algorithm",
+			"results" : [
+				"Algorithm Explanations",
+				"Explainable Systems",
+				"Inspector Views",
+				"GT Component Documentation",
+				"Examples and Documentation"
+			]
+		},
+		{
+			"pageName" : "Developers spend most of their time figuring systems out",
+			"results" : [
+				"Moldable Development Practices"
+			]
+		},
+		{
+			"pageName" : "Smalltalk method syntax on a postcard",
+			"results" : [
+				"Programming Smalltalk",
+				"Pragmas and Annotations"
+			]
+		},
+		{
+			"pageName" : "stub",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		},
+		{
+			"pageName" : "Analysing the image size and its evolution",
+			"results" : [
+				"Performance Analysis and Profiling",
+				"GT Component Documentation"
+			]
+		},
+		{
+			"pageName" : "Scripter actions",
+			"results" : [
+				"Using Bloc"
+			]
+		},
+		{
+			"pageName" : "Glamorous Toolkit as a case study",
+			"results" : [
+				"Moldable Development Practices",
+				"Building Custom Tools",
+				"About Glamorous Toolkit",
+				"Inspector Views"
+			]
+		},
+		{
+			"pageName" : "Analysing the size of the code index",
+			"results" : [
+				"Performance Analysis and Profiling"
+			]
+		},
+		{
+			"pageName" : "Remote Runner: checks, examples and tests",
+			"results" : [
+				"Distributed and Remote Execution",
+				"GT Component Documentation",
+				"Scripting and Automation"
+			]
+		},
+		{
+			"pageName" : "Querying objects",
+			"results" : [
+				"Reflection and Metaprogramming"
+			]
+		},
+		{
+			"pageName" : "Technical Aspects",
+			"results" : [
+				"Book Organization and Navigation"
+			]
+		}
+	]
+}
