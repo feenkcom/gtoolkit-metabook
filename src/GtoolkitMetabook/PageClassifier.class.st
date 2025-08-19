@@ -125,6 +125,14 @@ PageClassifier >> chats [
 	^ chats
 ]
 
+{ #category : #querying }
+PageClassifier >> chatsWithNewCategories [
+	^ PCChatGroup new
+		pageClassifier: self;
+		initializeWith: (self chats select: [ :chat | chat results includesAny: self newCategories ]);
+		yourself
+]
+
 { #category : #accessing }
 PageClassifier >> database [
 	self assert: self chats notEmpty.
@@ -314,12 +322,18 @@ PageClassifier >> missingResults [
 	^ (self chats reject: #hasResults) size
 ]
 
-{ #category : #accessing }
-PageClassifier >> multiResultChatGroup [
+{ #category : #querying }
+PageClassifier >> multiResultChats [
 	^ PCChatGroup new
 		pageClassifier: self;
 		initializeWith: (self chats select: [ :c | c results size > 1 ]);
 		yourself
+]
+
+{ #category : #querying }
+PageClassifier >> newCategories [
+	^ self allResults copyWithoutDuplicates
+		copyWithoutAll: CategoryClassifierExperiments new standardCategories
 ]
 
 { #category : #accessing }

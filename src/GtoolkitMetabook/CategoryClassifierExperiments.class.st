@@ -168,3 +168,16 @@ CategoryClassifierExperiments >> cat3DetailedPromptCategoryClassifier2 [
 			yourself.
 	^ pc
 ]
+
+{ #category : #examples }
+CategoryClassifierExperiments >> standardCategories [
+	<gtExample>
+	^ {'Introduction'.
+		'Video'.
+		'Case study'.
+		'Tutorial'.
+		'Pattern'.
+		'FAQ'.
+		'Definition'.
+		'Tag'}
+]
