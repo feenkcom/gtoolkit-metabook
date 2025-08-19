@@ -176,7 +176,7 @@ AbstractPCChatGroup >> gtSpotterForPageTitles: aSearch [
 AbstractPCChatGroup >> gtSpotterForResults: aSearch [
 	<gtSearch>
 	^ aSearch list
-		title: 'Page titles';
+		title: 'Results';
 		priority: 16;
 		items: [ self chats ];
 		itemsLimit: Float infinity;

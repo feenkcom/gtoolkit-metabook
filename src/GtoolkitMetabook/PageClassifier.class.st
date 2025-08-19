@@ -127,10 +127,10 @@ PageClassifier >> chats [
 
 { #category : #querying }
 PageClassifier >> chatsWithNewCategories [
-	^ PCChatGroup new
-		pageClassifier: self;
-		initializeWith: (self chats select: [ :chat | chat results includesAny: self newCategories ]);
-		yourself
+	"NB: only makes sense if the prompt is related to categories."
+
+	^ self
+		pcChatGroupWithItems: (self chats select: [ :chat | chat results includesAny: self newCategories ])
 ]
 
 { #category : #accessing }
@@ -324,20 +324,21 @@ PageClassifier >> missingResults [
 
 { #category : #querying }
 PageClassifier >> multiResultChats [
-	^ PCChatGroup new
-		pageClassifier: self;
-		initializeWith: (self chats select: [ :c | c results size > 1 ]);
-		yourself
+	^ self pcChatGroupWithItems: (self chats select: [ :c | c results size > 1 ])
 ]
 
 { #category : #querying }
 PageClassifier >> newCategories [
+	"NB: only makes sense if the prompt is related to categories."
+
 	^ self allResults copyWithoutDuplicates
 		copyWithoutAll: CategoryClassifierExperiments new standardCategories
 ]
 
 { #category : #accessing }
 PageClassifier >> newTopics [
+	"NB: only makes sense if the prompt is related to topics."
+	
 	^ self allResults copyWithoutDuplicates
 		copyWithoutAll: TopicClassifierExperiments new topicsFromClusters
 ]

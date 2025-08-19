@@ -405,6 +405,43 @@
 							"code" : "TopicClassifierExperiments new top5ClassifierOnEntireGtBook"
 						},
 						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T08:12:58.918376+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:02:14.480782+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XJAYfBP5DQCbyG+sB/Xspw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We run into a `results not found` error with the page {{gtPage:Inspector views|db=2j9m7db2i4oz116bexd7wbdxo}}. At first the error seems reprodicible, then not. We plough on."
+						},
+						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -442,7 +479,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T16:27:00.537856+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T16:36:58.704011+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "b8ffYhr5DQCvhSX5DA9B3g=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We can change *Using Bloc* to *Using Bloc and Brick*.\n*Using Python* should be *Working with Python*.\n*System Architecture and Platforms* is an anomaly. The page {{gtPage:x86_64|db=2j9m7db2i4oz116bexd7wbdxo}} is a tag page realted to *About GT*.\n*Using Magritte* could  be another topic, or it could just be another *GT Component Documentation*."
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -452,7 +527,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:12:58.918376+02:00"
+									"dateAndTimeString" : "2025-08-19T16:25:09.213051+02:00"
 								}
 							},
 							"editEmail" : {
@@ -463,51 +538,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:02:00.498047+02:00"
+									"dateAndTimeString" : "2025-08-19T16:25:24.666345+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "XJAYfBP5DQCbyG+sB/Xspw=="
+								"uidString" : "JBk9XBr5DQCu7/4hDA9B3g=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We run into a `results not found` error with the page {{gtPage:Inspector views|db=2j9m7db2i4oz116bexd7wbdxo}}. At first th"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T09:36:50.098667+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:00:38.226721+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "80f6pxT5DQCck+XTDygi5Q=="
-							},
-							"code" : "TopicClassifierExperiments new top5ClassifierOnEntireGtBook\r\tchatWithPage: ((LeDatabase databaseNamed: 'Glamorous Toolkit Book')\r\t\t\tpageNamed: 'Inspector views')"
+							"string" : "We find just 4 new topics: 'System Architecture and Platforms' 'Using Python' 'Using Magritte' 'Using Brick'."
 						},
 						{
 							"__type" : "textSnippet",
@@ -523,7 +564,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T09:36:33.376594+02:00"
+									"dateAndTimeString" : "2025-08-19T16:37:53.80336+02:00"
 								}
 							},
 							"editEmail" : {
@@ -534,7 +575,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T09:36:33.376594+02:00"
+									"dateAndTimeString" : "2025-08-19T16:38:01.777712+02:00"
 								}
 							},
 							"uid" : {
@@ -544,7 +585,112 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "What is the distributions of pages to topics?"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:38:04.298887+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:39:14.836581+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "m/hvihr5DQC2rxX8DA9B3g=="
+							},
+							"code" : "(TopicClassifierExperiments new top5ClassifierOnEntireGtBook chats collect:  [:each | each results size ]) asBag sortedCounts"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:46:54.239954+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:46:59.104826+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "fzoGqhr5DQC6bRVfDA9B3g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Here are the "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:39:40.776501+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T16:46:42.636261+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "1RowkBr5DQC4e0bXDA9B3g=="
+							},
+							"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rpc pcChatGroupWithItems: (pc chats sortedAs: [ :chat | chat results size ]) reversed"
 						},
 						{
 							"__type" : "textSnippet",
