@@ -52,21 +52,8 @@ PageClassifier >> addPages: aLePageCollection [
 { #category : #accessing }
 PageClassifier >> addRandomPages: aNumber [
 	"Add a number of random pages from the database."
-
-	| available picked pick |
-	self assert: aNumber > 0.
-	available := self database pages difference: self pages.
-	picked := OrderedCollection new.
-	1
-		to: aNumber
-		do: [ :i | 
-			| posn |
-			available ifEmpty: [ ^ self addPages: picked ].
-			posn := available size atRandom.
-			pick := available at: posn.
-			picked addLast: pick.
-			available removeAt: posn ].
-	^ self addPages: picked
+	^ self
+		addPages: (self pickRandom: aNumber from: (self database pages difference: self pages))
 ]
 
 { #category : #accessing }
@@ -114,6 +101,16 @@ PageClassifier >> chatForPage: aLePage [
 	^ pcChat
 ]
 
+{ #category : #search }
+PageClassifier >> chatGroupWithItems: aChatCollection [
+	"For use in Spotter searches"
+
+	^ PCChatGroup new
+		pageClassifier: self;
+		initializeWith: aChatCollection;
+		yourself
+]
+
 { #category : #querying }
 PageClassifier >> chatWithPage: aLePage [
 	"NB: will produce error if no such chat exists."
@@ -123,14 +120,6 @@ PageClassifier >> chatWithPage: aLePage [
 { #category : #accessing }
 PageClassifier >> chats [
 	^ chats
-]
-
-{ #category : #querying }
-PageClassifier >> chatsWithNewCategories [
-	"NB: only makes sense if the prompt is related to categories."
-
-	^ self
-		pcChatGroupWithItems: (self chats select: [ :chat | chat results includesAny: self newCategories ])
 ]
 
 { #category : #accessing }
@@ -324,7 +313,7 @@ PageClassifier >> missingResults [
 
 { #category : #querying }
 PageClassifier >> multiResultChats [
-	^ self pcChatGroupWithItems: (self chats select: [ :c | c results size > 1 ])
+	^ self chatGroupWithItems: (self chats select: [ :c | c results size > 1 ])
 ]
 
 { #category : #querying }
@@ -355,16 +344,6 @@ PageClassifier >> pages: aLePageCollection [
 	chats := (aLePageCollection asOrderedCollection
 			reject: [ :p | self blackList includes: p title ])
 			collect: [ :aLePage | self chatForPage: aLePage ]
-]
-
-{ #category : #search }
-PageClassifier >> pcChatGroupWithItems: aChatCollection [
-	"For use in Spotter searches"
-
-	^ PCChatGroup new
-		pageClassifier: self;
-		initializeWith: aChatCollection;
-		yourself
 ]
 
 { #category : #accessing }

@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-18T17:27:48.227609+02:00"
+												"dateAndTimeString" : "2025-08-19T18:03:54.120581+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Mine categories from the GT Book pages]] "
+										"string" : "[[*** Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -167,7 +167,82 @@
 										"__type" : "textSnippet",
 										"children" : {
 											"__type" : "snippets",
-											"items" : [ ]
+											"items" : [
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-07-22T17:34:27.069739+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-19T17:50:27.84157+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "o3WCEOj2DQCNK4RvBn3+Lg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Assign topics to pages]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-19T17:49:43.477779+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-19T17:50:15.057299+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "3Dewihv5DQCYqhqKD6aJjQ=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[* Assign categories to pages]]  "
+												}
+											]
 										},
 										"createEmail" : {
 											"__type" : "email",
@@ -177,7 +252,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:34:27.069739+02:00"
+												"dateAndTimeString" : "2025-08-19T17:49:30.932424+02:00"
 											}
 										},
 										"editEmail" : {
@@ -188,17 +263,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-18T09:44:02.099333+02:00"
+												"dateAndTimeString" : "2025-08-19T17:49:40.316928+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "o3WCEOj2DQCNK4RvBn3+Lg=="
+											"uidString" : "Bc7wiRv5DQCYh2kFD6aJjQ=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[* Assign topics and categories to pages]] "
+										"string" : "[[Assign topics and categories to pages]]"
 									}
 								]
 							},

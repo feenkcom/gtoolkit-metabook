@@ -1437,14 +1437,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-08T08:55:25.75148+02:00"
+												"dateAndTimeString" : "2025-08-18T18:03:03.601968+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "0UlIpDb4DQCxHBWwBnHcmg=="
 										},
-										"code" : "timeToRun := [ topicClusters := TopicClusteringExperiments new\r\t\t\tclus5TopicClusterChatResults ] timeToRun.\rtopicClusters"
+										"code" : "\"Caveat: VERY slow , blocking\"\rtimeToRun := [ topicClusters := TopicClusteringExperiments new\r\t\t\tclus5TopicClusterChatResults ] timeToRun.\rtopicClusters"
 									}
 								]
 							},
@@ -1953,6 +1953,77 @@
 								"uidString" : "6GIfQTj4DQCRDmIZDtbVlQ=="
 							},
 							"code" : "STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile contents"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:12:44.775862+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:13:03.659177+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "VisF3Rv5DQChfaiFD6aJjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "After some further experiments, we end up with 65 topics."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:14:15.416609+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:14:35.465003+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "BT1s4hv5DQCiml84D6aJjQ=="
+							},
+							"code" : "TopicClassifierExperiments new topicsFromClusters"
 						}
 					]
 				},
@@ -2008,12 +2079,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T17:59:44.787745+02:00"
+			"dateAndTimeString" : "2025-08-18T18:03:21.594873+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Clustering topics"
+		"title" : "Clustering topics"
 	},
 	"uid" : {
 		"__type" : "uuid",

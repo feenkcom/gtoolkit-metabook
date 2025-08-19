@@ -110,7 +110,7 @@ PageClassifierChat >> gtPageFor: aView [
 	<gtView>
 	^ aView forward
 		title: 'Page';
-		priority: 20;
+		priority: 10;
 		object: [ self page ];
 		view: #gtLiveFor:
 ]
@@ -152,7 +152,7 @@ PageClassifierChat >> gtSummaryFor: aView [
 	<gtView>
 	^ aView columnedList
 		title: 'Summary';
-		priority: 10;
+		priority: 12;
 		items: [ {{'Result type'.
 					self resultType}.
 				{'Book'.

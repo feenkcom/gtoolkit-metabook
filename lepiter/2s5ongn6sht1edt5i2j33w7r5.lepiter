@@ -296,7 +296,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T17:27:48.231352+02:00"
+									"dateAndTimeString" : "2025-08-19T18:03:54.145945+02:00"
 								}
 							},
 							"uid" : {
@@ -306,7 +306,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[* Mine categories from the GT Book pages]] "
+							"string" : "[[*** Mine categories from the GT Book pages]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -338,7 +338,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:43:10.132313+02:00"
+												"dateAndTimeString" : "2025-08-19T18:05:11.836591+02:00"
 											}
 										},
 										"uid" : {
@@ -348,7 +348,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "This time, instead of mining topics and categories, we use the chats (again 1 per page) to automatically assign our predetermined topics and categories to pages. We iterate the prompt to get a reasonable first cut. The mapping is saved as a JSON, but could later be embedded in the pages themselves, either as text, or as a dedciated meta-snippet."
+										"string" : "This time, instead of mining topics and categories, we use the chats (again 1 per page) to automatically assign our predetermined topics and categories to pages. We iterate the prompt to get a reasonable first cut. The mapping is saved as a JSON, but could later be embedded in the pages themselves, either as text, or as a dedicated meta-snippet."
 									}
 								]
 							},
@@ -371,7 +371,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T09:44:02.102312+02:00"
+									"dateAndTimeString" : "2025-08-19T17:50:27.864954+02:00"
 								}
 							},
 							"uid" : {
@@ -381,7 +381,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[* Assign topics and categories to pages]] "
+							"string" : "[[Assign topics to pages]] "
 						}
 					]
 				},

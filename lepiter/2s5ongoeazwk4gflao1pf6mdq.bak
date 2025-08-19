@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T17:39:35.742946+02:00"
+						"dateAndTimeString" : "2025-08-19T18:05:23.887587+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "**To do:** \n- Run on the whole book\n- Minimize the #pages with multiple categories (refine the prompt)\n- Fix the the category list. "
+				"string" : "**To do:** \n- Run on the whole book (DONE)\n- Minimize the #pages with multiple categories (refine the prompt)\n- Fix the the category list. "
 			},
 			{
 				"__type" : "textSnippet",
@@ -694,7 +694,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T19:17:48.208785+02:00"
+									"dateAndTimeString" : "2025-08-19T18:16:06.30608+02:00"
 								}
 							},
 							"uid" : {
@@ -702,6 +702,43 @@
 								"uidString" : "iLdvVwf5DQCKd+P/A3sc8A=="
 							},
 							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:16:17.913989+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T18:16:39.898823+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "wmG56Rv5DQCi29M9D6aJjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Our prompt assumes these standard categories, but allows new ones to be proposed: {{gtMethod:name=CategoryClassifierExperiments>>#standardCategories}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -728,7 +765,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:37:51.766406+02:00"
+									"dateAndTimeString" : "2025-08-19T18:17:29.846509+02:00"
 								}
 							},
 							"uid" : {
@@ -738,7 +775,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Pages with multiple categories:"
+							"string" : "We get only 4 pages with multiple categories:"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -799,7 +836,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:38:00.493886+02:00"
+									"dateAndTimeString" : "2025-08-19T18:17:15.353936+02:00"
 								}
 							},
 							"uid" : {
@@ -809,7 +846,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "New categories:"
+							"string" : "We get 13 new categories on top of the 8 standard ones:"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -825,7 +862,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:38:02.059332+02:00"
+									"dateAndTimeString" : "2025-08-19T19:22:14.356949+02:00"
 								}
 							},
 							"editEmail" : {
@@ -836,14 +873,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:41:27.848513+02:00"
+									"dateAndTimeString" : "2025-08-19T19:22:37.163409+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "4quw1RP5DQCYmNyKDrGY3Q=="
+								"uidString" : "XO6L1Rz5DQCOf6PTD6aJjQ=="
 							},
-							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 newCategories"
+							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2\r\tallResults copyWithoutDuplicates\r\tcopyWithoutAll: CategoryClassifierExperiments new standardCategoriesOLD"
 						},
 						{
 							"__type" : "textSnippet",
@@ -907,14 +944,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:06:33.672808+02:00"
+									"dateAndTimeString" : "2025-08-19T19:21:24.887965+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "/YTiDRX5DQCkI5zcDA9B3g=="
 							},
-							"code" : "(CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 allResults\r\t\tcopyWithoutAll: CategoryClassifierExperiments new standardCategories) asBag sortedCounts"
+							"code" : "(CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 allResults\r\t\tcopyWithoutAll: CategoryClassifierExperiments new standardCategoriesOLD) asBag sortedCounts"
 						},
 						{
 							"__type" : "textSnippet",
@@ -941,7 +978,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:04:09.610056+02:00"
+									"dateAndTimeString" : "2025-08-19T18:18:07.088711+02:00"
 								}
 							},
 							"uid" : {
@@ -951,7 +988,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "They only occur in a few pages."
+							"string" : "They only occur in only 32 pages."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -967,7 +1004,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:45:21.378408+02:00"
+									"dateAndTimeString" : "2025-08-19T17:56:58.817277+02:00"
 								}
 							},
 							"editEmail" : {
@@ -978,20 +1015,58 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:50:42.421434+02:00"
+									"dateAndTimeString" : "2025-08-19T18:59:55.774013+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "uSTg7xP5DQCZtkqZDrGY3Q=="
+								"uidString" : "s/2ipBv5DQCb8IBiD6aJjQ=="
 							},
-							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 chatsWithNewCategories"
+							"code" : "pc := CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2.\rchats := pc chats select: [ :chat | chat results includesAny: pc newCategories ].\rpc chatGroupWithItems:  chats"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T18:19:12.375179+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T18:43:08.014144+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "q9hN1BP5DQCX9NLDDrGY3Q=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "11->'Reference' — Add *Documentation*, a technical description, set of metrics, or relase notes, for some component or API\n4/2->'Example/Examples' — Add *Examples*, a page containing one or more examples of a tool or technique\n3->'Index' — Add *Index*, a structuring page pointing to other pages\n3->'Analysis' — A kind of *Documentation* that lists metrics\n2->'Exercise' — A kind of *Tutorial* — update the prompt to include exercises\n2->'Release notes' — A kind of *Documentation*\n1->'Slideshow' — Change *Video* to *Media* including slideshows or other kinds of media.\n1/1->'Guideline/Guide' — more *Documentation*\n1->'Changelog' — *Documentation*\n1->'Migration guide' — *Documentation*\n1->'Architecture' — *Documentation* — we should suggest this as a generic catchall when other categories don't match"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -1001,7 +1076,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:11:16.218652+02:00"
+									"dateAndTimeString" : "2025-08-19T18:18:31.325732+02:00"
 								}
 							},
 							"editEmail" : {
@@ -1012,54 +1087,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T10:12:01.365167+02:00"
+									"dateAndTimeString" : "2025-08-19T18:18:31.325732+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "q9hN1BP5DQCX9NLDDrGY3Q=="
+								"uidString" : "fRSt8Rv5DQCmEPwOD6aJjQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "How to handle them?\n\tReference -> Technical aspects?\n\tExample/Examples -> \n\tIndex ->\n\tAnalysis"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T19:18:00.020709+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T19:18:47.73149+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "a7CLqAj5DQCQthK9DW7/jA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "***To do: ***\n- check which categories are new\n- check which pages have multiple categories\n- sample quality of mapping"
+							"string" : "How to handle them?"
 						}
 					]
 				},
@@ -1093,6 +1131,263 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Experiment 3 — categorize all the book pages"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T19:03:36.819595+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T19:23:11.736365+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "iKjvkhz5DQCL7OgTD6aJjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We refine the prompt, adding the categories *Examples*, *Index*, and *Documentation*, and changing *Video* to *Media*: {{gtMethod:name=CategoryClassifierExperiments>>#cat4DetailedPrompt3}}"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T19:23:16.829319+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T19:23:16.829319+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Ai5F2Rz5DQCO3U4eD6aJjQ=="
+							},
+							"code" : ""
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:03:20.53264+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:03:35.198193+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "A9w+kRz5DQCLTxguD6aJjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Experiment 4 — fix the categories"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:36.794482+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:36.794482+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bMmClhz5DQCOUQi2D6aJjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:37.074197+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:37.074197+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RhKHlhz5DQCOVf/jD6aJjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:37.271549+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-19T19:04:37.271549+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "dRaKlhz5DQCOWRS7D6aJjQ=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-18T19:18:00.020709+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-18T19:18:47.73149+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "a7CLqAj5DQCQthK9DW7/jA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "***To do: ***\n- check which categories are new\n- check which pages have multiple categories\n- sample quality of mapping"
 			}
 		]
 	},
@@ -1115,12 +1410,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T17:27:48.220941+02:00"
+			"dateAndTimeString" : "2025-08-19T18:03:54.093703+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Mine categories from the GT Book pages"
+		"title" : "*** Mine categories from the GT Book pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -8,43 +8,6 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:40:44.640444+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T18:04:45.713109+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "3rwDJ+j2DQCe2mg/Bn3+Lg=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "This time, instead of mining topics and categories, we use the chats (again 1 per page) to automatically assign our predetermined topics and categories to pages. We iterate the prompt to get a reasonable first cut. The mapping is saved as a JSON, but could later be embedded in the pages themselves, either as text, or as a dedicated meta-snippet."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
 					"items" : [
 						{
 							"__type" : "textSnippet",
@@ -579,14 +542,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T16:54:30.709547+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.932368+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "LbP2wRr5DQC9UNWXDA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := pc chats select: [ :chat | chat results includesAny: pc newTopics ].\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := pc chats select: [ :chat | chat results includesAny: pc newTopics ].\rpc chatGroupWithItems: chats"
 									},
 									{
 										"__type" : "textSnippet",
@@ -796,14 +759,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T16:53:18.494945+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.977682+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "yqw9wBr5DQC8xcdHDA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc chatGroupWithItems: chats"
 									}
 								]
 							},
@@ -1047,14 +1010,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T17:09:41.203386+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.945085+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "+gw5+xr5DQCDbIL2DA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBookEdited.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBookEdited.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc chatGroupWithItems: chats"
 									}
 								]
 							},
@@ -1088,6 +1051,189 @@
 								"__type" : "textStyle"
 							},
 							"string" : "## Cleaned topics"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:47:17.340506+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:37.185464+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "AFz6gRv5DQCVhLstD6aJjQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We generate a *topic map* from the experiment: {{gtMethod:name=TopicClassifierExperiments>>#top5TopicMap}}, a dictionary mapping page names to topics."
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:37.710016+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:41.784867+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "YbLEhhv5DQCX8fMOD6aJjQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "A JSON version:"
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:33.111224+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:54.069202+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "vYZ+hhv5DQCX2fP5D6aJjQ=="
+										},
+										"code" : "TopicClassifierExperiments new top5TopicMap asGtJson"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:13.365307+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-19T17:48:13.365307+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "uzpRhRv5DQCX1SRUD6aJjQ=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : ""
+									}
+								]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T17:47:11.224594+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T17:47:16.793579+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "mNZygRv5DQCVLWPqD6aJjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "## Topic map"
 						}
 					]
 				},
@@ -1143,12 +1289,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T09:44:02.091627+02:00"
+			"dateAndTimeString" : "2025-08-19T17:50:27.820121+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Assign topics and categories to pages"
+		"title" : "Assign topics to pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

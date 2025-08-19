@@ -315,6 +315,29 @@ TopicClassifierExperiments >> top5ClassifierOnEntireGtBookEdited [
 ]
 
 { #category : #'as yet unclassified' }
+TopicClassifierExperiments >> top5TopicMap [
+	"Topic map derived from TopicClassifierExperiments>>#top5ClassifierOnEntireGtBookEdited
+	We return a dictionary mapping pages to topics.
+	"
+
+	<gtExample>
+	| json dict |
+	json := STON fromString: self top5TopicMapFile.
+	dict := ((json at: 'chats')
+			collect: [ :d | (d at: 'pageName') -> (d at: 'results') ]) sorted asDictionary.
+	^ dict
+]
+
+{ #category : #'as yet unclassified' }
+TopicClassifierExperiments >> top5TopicMapFile [
+	"The edited JSON file from TopicClassifierExperiments>>#top5ClassifierOnEntireGtBookEdited"
+
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/top5ClassifierOnEntireGtBookEdited.json'
+]
+
+{ #category : #'as yet unclassified' }
 TopicClassifierExperiments >> topicsFromClusters [
 	"This is a list of topics obtained from the topic clustering experiments, 
 	manually edited down to a list of ~60 specific topics that are not also categories.

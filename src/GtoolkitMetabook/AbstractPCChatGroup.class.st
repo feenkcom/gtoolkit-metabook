@@ -36,6 +36,11 @@ AbstractPCChatGroup >> announcer [
 	self subclassResponsibility
 ]
 
+{ #category : #serialization }
+AbstractPCChatGroup >> chatGroupWithItems: aChatCollection [
+	self subclassResponsibility
+]
+
 { #category : #view }
 AbstractPCChatGroup >> chats [
 	self subclassResponsibility
@@ -69,8 +74,12 @@ AbstractPCChatGroup >> gtActionMenuFor: anAction [
 		content: [ :aButton | 
 			BrGlamorousSimpleContextMenuContent new
 				items: {'Browse empty result chats'
-							-> [ :e | e phlow spawnObject: (self pcChatGroupWithItems: self emptyChats) ].
+							-> [ :e | e phlow spawnObject: (self chatGroupWithItems: self emptyChats) ].
 						'Add 10 random pages' -> [ self addRandomPages: 10 ].
+						'Browse 10 random chats'
+							-> [ :e | 
+								e phlow
+									spawnObject: (self chatGroupWithItems: (self pickRandom: 10 from: self chats)) ].
 						'Browse JSON parent folder'
 							-> [ :e | e phlow spawnObject: self jsonFileReference parent ].
 						'Browse pending chat request processes'
@@ -151,11 +160,11 @@ AbstractPCChatGroup >> gtSpotterForPageContent: aSearch [
 	<gtSearch>
 	^ aSearch list
 		title: 'Page content';
-		priority: 14;
+		priority: 18;
 		items: [ self chats ];
 		itemsLimit: Float infinity;
 		itemName: #pageString;
-		sendCategory: [ :aCategory :aStep :thisSearch | self pcChatGroupWithItems: aCategory items contents ];
+		sendCategory: [ :aCategory :aStep :thisSearch | self chatGroupWithItems: aCategory items contents ];
 		filterBySubstring
 ]
 
@@ -168,7 +177,7 @@ AbstractPCChatGroup >> gtSpotterForPageTitles: aSearch [
 		items: [ self chats ];
 		itemsLimit: Float infinity;
 		itemName: #pageTitle;
-		sendCategory: [ :aCategory :aStep :thisSearch | self pcChatGroupWithItems: aCategory items contents ];
+		sendCategory: [ :aCategory :aStep :thisSearch | self chatGroupWithItems: aCategory items contents ];
 		filterBySubstring
 ]
 
@@ -181,7 +190,7 @@ AbstractPCChatGroup >> gtSpotterForResults: aSearch [
 		items: [ self chats ];
 		itemsLimit: Float infinity;
 		itemName: #resultsJoined;
-		sendCategory: [ :aCategory :aStep :thisSearch | self pcChatGroupWithItems: aCategory items contents ];
+		sendCategory: [ :aCategory :aStep :thisSearch | self chatGroupWithItems: aCategory items contents ];
 		filterBySubstring
 ]
 
@@ -235,16 +244,28 @@ AbstractPCChatGroup >> pagesStoreString [
 		, ' }'
 ]
 
-{ #category : #serialization }
-AbstractPCChatGroup >> pcChatGroupWithItems: aChatCollection [
-	self subclassResponsibility
-]
-
 { #category : #accessing }
 AbstractPCChatGroup >> pendingProcesses [
 	^ self class allInstances
 		collect: [ :pc | pc process ]
 		thenSelect: [ :p | p isNotNil and: [ p isTerminated not ] ]
+]
+
+{ #category : #utility }
+AbstractPCChatGroup >> pickRandom: aNumber from: available [
+	| pick picked |
+	self assert: aNumber > 0.
+	picked := OrderedCollection new.
+	1
+		to: aNumber
+		do: [ :i | 
+			| posn |
+			available ifEmpty: [ ^ self addPages: picked ].
+			posn := available size atRandom.
+			pick := available at: posn.
+			picked addLast: pick.
+			available removeAt: posn ].
+	^ picked
 ]
 
 { #category : #accessing }

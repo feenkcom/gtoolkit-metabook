@@ -174,7 +174,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-01T10:24:15.818764+02:00"
+						"dateAndTimeString" : "2025-08-19T18:59:55.834615+02:00"
 					}
 				},
 				"uid" : {
@@ -184,7 +184,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "A PCChatGroup should always refer to some existing PageClassifier as its source, and should  get its data from there. We let a PageClassifier generate and initialize a group with itself as the reference in {{gtMethod:name=PageClassifier>>#pcChatGroupWithItems:}}."
+				"string" : "A PCChatGroup should always refer to some existing PageClassifier as its source, and should  get its data from there. We let a PageClassifier generate and initialize a group with itself as the reference in {{gtMethod:name=PageClassifier>>#chatGroupWithItems:}}."
 			},
 			{
 				"__type" : "textSnippet",

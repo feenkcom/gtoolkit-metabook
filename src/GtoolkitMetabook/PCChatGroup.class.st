@@ -27,6 +27,16 @@ PCChatGroup >> announcer [
 	^ self pageClassifier announcer
 ]
 
+{ #category : #search }
+PCChatGroup >> chatGroupWithItems: aChatCollection [
+	"For use in Spotter searches"
+
+	^ PCChatGroup new
+		pageClassifier: self pageClassifier;
+		initializeWith: aChatCollection;
+		yourself
+]
+
 { #category : #accessing }
 PCChatGroup >> chats [
 	^ self items
@@ -70,16 +80,6 @@ PCChatGroup >> pageClassifier [
 { #category : #accessing }
 PCChatGroup >> pageClassifier: anObject [
 	pageClassifier := anObject
-]
-
-{ #category : #search }
-PCChatGroup >> pcChatGroupWithItems: aChatCollection [
-	"For use in Spotter searches"
-
-	^ PCChatGroup new
-		pageClassifier: self pageClassifier;
-		initializeWith: aChatCollection;
-		yourself
 ]
 
 { #category : #forwarding }
