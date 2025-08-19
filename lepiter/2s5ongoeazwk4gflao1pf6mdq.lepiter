@@ -846,6 +846,114 @@
 							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 newCategories"
 						},
 						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:03:27.794784+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:07:44.611865+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "EzA1BxX5DQCiVdopDA9B3g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The new categories we find are currently: 'Guide' 'Changelog' 'Slideshow' 'Reference' 'Release notes' 'Index' 'Example' 'Examples' 'Guideline' 'Migration guide' 'Exercise' 'Analysis' 'Architecture'. The most common is `Reference` followed by `Example`, `Index` and `Analysis`."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:05:19.817512+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:06:33.672808+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "/YTiDRX5DQCkI5zcDA9B3g=="
+							},
+							"code" : "(CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2 allResults\r\t\tcopyWithoutAll: CategoryClassifierExperiments new standardCategories) asBag sortedCounts"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:04:02.441495+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-19T10:04:09.610056+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "WdpFCRX5DQCjWsDIDA9B3g=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "They only occur in a few pages."
+						},
+						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -893,7 +1001,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:37:38.805305+02:00"
+									"dateAndTimeString" : "2025-08-19T10:11:16.218652+02:00"
 								}
 							},
 							"editEmail" : {
@@ -904,7 +1012,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T08:37:38.805305+02:00"
+									"dateAndTimeString" : "2025-08-19T10:12:24.177862+02:00"
 								}
 							},
 							"uid" : {
@@ -914,7 +1022,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "How to handle them?\n\tReference -> Technical aspects?\n\tExample/Examples -> \n\tIndex ->\n\tAnalysis -> Code analysis\n\tExercise ->\n\tRelease notes ->\n\t..."
 						},
 						{
 							"__type" : "textSnippet",
