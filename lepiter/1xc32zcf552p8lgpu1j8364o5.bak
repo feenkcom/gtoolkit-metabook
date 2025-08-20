@@ -511,7 +511,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T13:26:14.849427+02:00"
+									"dateAndTimeString" : "2025-08-20T13:26:18.887807+02:00"
 								}
 							},
 							"uid" : {
@@ -521,7 +521,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We can reconstruct the JSON from the stored file: {{gt"
+							"string" : "We can reconstruct the JSON from the stored file: {{gtMethod:name=TopicMapOverview>>#groupsAndPagesJsonFromFile}}"
 						},
 						{
 							"__type" : "textSnippet",

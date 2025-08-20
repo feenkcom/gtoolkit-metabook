@@ -618,7 +618,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-20T12:41:25.305947+02:00"
+						"dateAndTimeString" : "2025-08-20T13:31:08.397816+02:00"
 					}
 				},
 				"uid" : {
@@ -628,7 +628,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# # Consolodating the data"
+				"string" : "# # Consolidating the data"
 			},
 			{
 				"__type" : "textSnippet",
