@@ -1,3 +1,6 @@
+"
+Inspect TopicMapOverview>>#overview for an overview.
+"
 Class {
 	#name : #TopicMapOverview,
 	#superclass : #Object,
@@ -50,11 +53,18 @@ TopicMapOverview >> groupedTopics [
 { #category : #views }
 TopicMapOverview >> gtCategoriesFor: aView [
 	<gtView>
-	^ aView forward
+	^ aView columnedList
 		title: 'Standard Categories';
 		priority: 10;
-		object: [ self standardCategories ];
-		view: #gtItemsFor:;
+		items: [ self standardCategories ];
+		actionUpdateButtonTooltip: 'Update item list';
+		column: 'Index'
+			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
+			width: 45;
+		column: 'Count'
+			text: [ :cat | (self cachedCategory2PageMap at: cat) size ]
+			width: 50;
+		column: 'Item' text: [ :eachItem | eachItem gtDisplayText ];
 		send: [ :cat | 
 			(self cachedCategory2PageMap at: cat)
 				collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
@@ -69,10 +79,9 @@ TopicMapOverview >> gtCategory2PageFor: aView [
 		object: [ self category2PageMap ];
 		view: #gtTreeFor:context:;
 		send: [ :assoc | 
-			assoc value isSequenceable
-				ifTrue: [ 
-					assoc value collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
-				ifFalse: [ LeDatabase gtBook pageNamed: assoc value ] ]
+			assoc value isString
+				ifTrue: [ LeDatabase gtBook pageNamed: assoc value ]
+				ifFalse: [ assoc value collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
 ]
 
 { #category : #views }
@@ -95,13 +104,13 @@ TopicMapOverview >> gtGroupedTopicsFor: aView [
 		object: [ self groupedTopics ];
 		view: #gtTreeFor:context:;
 		send: [ :assoc | 
-			assoc value isSequenceable
-				ifTrue: [ assoc value
+			assoc value isString
+				ifTrue: [ (self cachedTopic2PageMap at: assoc value)
+						collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
+				ifFalse: [ assoc value
 						flatCollect: [ :pageName | 
 							(self cachedTopic2PageMap at: pageName)
-								collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
-				ifFalse: [ (self cachedTopic2PageMap at: assoc value)
-						collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
+								collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ] ]
 ]
 
 { #category : #views }
@@ -112,20 +121,41 @@ TopicMapOverview >> gtTopicMapFor: aView [
 		priority: 24;
 		object: [ self top5TopicMap ];
 		view: #gtTreeFor:context:;
-		send: [ :assoc | LeDatabase gtBook pageNamed: assoc key ]
+		send: [ :assoc | 
+			assoc key isString
+				ifTrue: [ LeDatabase gtBook pageNamed: assoc key ]
+				ifFalse: [ (self cachedTopic2PageMap at: assoc value)
+						collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
 ]
 
 { #category : #views }
 TopicMapOverview >> gtTopicsFor: aView [
 	<gtView>
-	^ aView forward
+	^ aView columnedList
 		title: 'Topics';
 		priority: 20;
-		object: [ self topicsFromClusters ];
-		view: #gtItemsFor:;
+		items: [ self topicsFromClusters ];
+		actionUpdateButtonTooltip: 'Update item list';
+		column: 'Index' 
+			text: [ :eachItem :eachIndex | 
+				eachIndex asRopedText foreground: Color gray ]
+			width: 45;
+		column: 'Count' 
+			text: [ :topic | 
+				(self cachedTopic2PageMap at: topic) size ]
+			width: 50;
+		column: 'Item' 
+			text: [ :eachItem | eachItem gtDisplayText ]
+	;
 		send: [ :topic | 
 			(self cachedTopic2PageMap at: topic)
 				collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
+]
+
+{ #category : #examples }
+TopicMapOverview >> overview [
+	<gtExample>
+	^ self
 ]
 
 { #category : #examples }

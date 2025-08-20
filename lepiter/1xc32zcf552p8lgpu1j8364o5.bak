@@ -256,7 +256,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:43:15.674415+02:00"
+									"dateAndTimeString" : "2025-08-20T10:39:21.086307+02:00"
 								}
 							},
 							"uid" : {
@@ -266,41 +266,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We bundle these as an overview object."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:43:17.0545+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:43:23.190012+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "whzi3Cj5DQCuNSooCUaIIA=="
-							},
-							"code" : "TopicMapOverview"
+							"string" : "We bundle these as an overview object. {{gtExample:name=TopicMapOverview>>#overview|noCode}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -375,40 +341,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : ""
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:37:43.342514+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:39:56.40105+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "CBb+yCj5DQCpJ3rNCUaIIA=="
-							},
-							"code" : "jsonString := CategoryClassifierExperiments new cat4CategoryMapFile contents.\r\rjson := STON fromString: jsonString.\rchats := (json at: 'chats').\remptyResults := chats select: [:d | (d at: 'results') isEmpty].\rnotEmptyResults := chats select: [:d | (d at: 'results') notEmpty].\rdict := (notEmptyResults\r\t\tcollect: [ :d | (d at: 'pageName') -> (d at: 'results') first ]) sorted asDictionary.\r^ dict"
 						}
 					]
 				},
@@ -431,7 +363,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-20T09:21:40.736866+02:00"
+						"dateAndTimeString" : "2025-08-20T10:35:27.959772+02:00"
 					}
 				},
 				"uid" : {
@@ -441,7 +373,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Source materials"
+				"string" : "# Source materials and Topic Map Overview"
 			}
 		]
 	},

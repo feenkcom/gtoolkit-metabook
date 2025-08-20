@@ -1270,7 +1270,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:31:28.904828+02:00"
+									"dateAndTimeString" : "2025-08-20T10:35:45.148331+02:00"
 								}
 							},
 							"uid" : {
@@ -1341,7 +1341,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:31:38.508113+02:00"
+									"dateAndTimeString" : "2025-08-20T10:35:52.709648+02:00"
 								}
 							},
 							"uid" : {
@@ -1351,7 +1351,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "New categiories?"
+							"string" : "New categories? None."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1378,14 +1378,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:31:49.350438+02:00"
+									"dateAndTimeString" : "2025-08-20T09:32:09.675934+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "oy1Vsyj5DQCk1NMgCUaIIA=="
 							},
-							"code" : "CategoryClassifierExperiments new cat3DetailedPromptCategoryClassifier2\r\tallResults copyWithoutDuplicates\r\tcopyWithoutAll: CategoryClassifierExperiments new standardCategoriesOLD"
+							"code" : "CategoryClassifierExperiments new cat4DetailedPromptCategoryClassifier4\r\tallResults copyWithoutDuplicates\r\tcopyWithoutAll: CategoryClassifierExperiments new standardCategories"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1412,12 +1412,49 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T19:04:37.074197+02:00"
+									"dateAndTimeString" : "2025-08-20T10:37:34.661247+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "RhKHlhz5DQCOVf/jD6aJjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We can sample the results in the {{gtMethod:name=TopicMapOverview>>#overview}}."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-20T10:36:02.542606+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-20T10:36:02.542606+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "p6WPmSn5DQCLyASPBvOxeA=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
