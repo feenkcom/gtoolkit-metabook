@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:08:54.199259+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.756079+02:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We have our reduced list of topics obtained from the topic clustering experiments: {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+							"string" : "We have our reduced list of topics obtained from the topic clustering experiments: {{gtMethod:name=TopicMergingExperiments>>#topicClustersExpt5ReducedFile}}."
 						},
 						{
 							"__type" : "pharoSnippet",

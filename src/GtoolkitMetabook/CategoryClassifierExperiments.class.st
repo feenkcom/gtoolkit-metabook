@@ -169,6 +169,15 @@ CategoryClassifierExperiments >> cat3DetailedPromptCategoryClassifier2 [
 	^ pc
 ]
 
+{ #category : #'as yet unclassified' }
+CategoryClassifierExperiments >> cat4CategoryMapFile [
+	"The JSON file produced from CategoryClassifierExperiments>>#cat4DetailedPromptCategoryClassifier4"
+
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/cat4DetailedPromptCategoryClassifier4.json'
+]
+
 { #category : #examples }
 CategoryClassifierExperiments >> cat4DetailedPrompt3 [
 	"Refined prompt, fixing the categories as a result of the analysis of expt 3."

@@ -542,14 +542,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T16:54:30.709547+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.932368+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "LbP2wRr5DQC9UNWXDA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := pc chats select: [ :chat | chat results includesAny: pc newTopics ].\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := pc chats select: [ :chat | chat results includesAny: pc newTopics ].\rpc chatGroupWithItems: chats"
 									},
 									{
 										"__type" : "textSnippet",
@@ -759,14 +759,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T16:53:18.494945+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.977682+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "yqw9wBr5DQC8xcdHDA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBook.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc chatGroupWithItems: chats"
 									}
 								]
 							},
@@ -1010,14 +1010,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T17:09:41.203386+02:00"
+												"dateAndTimeString" : "2025-08-19T18:59:55.945085+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "+gw5+xr5DQCDbIL2DA9B3g=="
 										},
-										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBookEdited.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc pcChatGroupWithItems: chats"
+										"code" : "pc := TopicClassifierExperiments new top5ClassifierOnEntireGtBookEdited.\rchats := (pc chats sortedAs: [ :chat | chat results size ]) reversed.\rpc chatGroupWithItems: chats"
 									}
 								]
 							},

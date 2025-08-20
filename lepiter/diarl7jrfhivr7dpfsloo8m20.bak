@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T17:58:34.218679+02:00"
+												"dateAndTimeString" : "2025-08-19T18:03:54.120581+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Mine categories from the GT Book pages]] "
+										"string" : "[[*** Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -182,43 +182,6 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-07-22T17:34:27.069739+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-19T17:50:27.84157+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "o3WCEOj2DQCNK4RvBn3+Lg=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "[[Assign topics to pages]] "
-												},
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2025-08-19T17:49:43.477779+02:00"
 														}
 													},
@@ -241,6 +204,43 @@
 														"__type" : "textStyle"
 													},
 													"string" : "[[* Assign categories to pages]]  "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-07-22T17:34:27.069739+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-20T09:14:38.826615+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "o3WCEOj2DQCNK4RvBn3+Lg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Assign topics to pages]] "
 												}
 											]
 										},
@@ -274,6 +274,43 @@
 											"__type" : "textStyle"
 										},
 										"string" : "[[Assign topics and categories to pages]]"
+									},
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-20T09:14:39.207171+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-20T09:14:56.373334+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "W9t9dij5DQCPXcE4CUaIIA=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "[[Preparing a topic map]] "
 									}
 								]
 							},

@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T18:00:15.241878+02:00"
+						"dateAndTimeString" : "2025-08-20T09:16:30.32444+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,54 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T18:00:20.45363+02:00"
+						"dateAndTimeString" : "2025-08-20T09:17:24.054001+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6ZTGJAf5DQCyMRxJDi1ebw=="
+					"uidString" : "VV8dfSj5DQCSQnHFCUaIIA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*Caveat:* these experiments use an ad hoc chat, without a wrapper to run the query witha progress bar. The results are just saved in intermediate methods and files."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T17:16:12.057148+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T10:19:19.218763+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "3MMtU+33DQCDrmEvDBahKA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Next: we analyze the topics suggested for all the pages and reduce them to a canonical set. We extract the mined Topic map."
+				"string" : "Since we have too many topics, we use an assistant to cluster similar topics so they can be merged into a canonical list. We extract the mined Topic map.\n*Caveat:* these experiments use an ad hoc chat, without a wrapper to run the query witha progress bar. The results are just saved in intermediate methods and files."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -351,7 +314,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T11:57:49.338525+02:00"
+						"dateAndTimeString" : "2025-08-20T09:17:37.853385+02:00"
 					}
 				},
 				"uid" : {
@@ -361,7 +324,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 1 — propose new topics that cluster existing ones"
+				"string" : "# Experiment 1 — propose new topics that merge existing ones"
 			},
 			{
 				"__type" : "textSnippet",
@@ -1921,40 +1884,6 @@
 							"string" : "We eliminate duplicates (e.g., \"Examples and Documentation\", \"Unit Testing and Examples\", \"Working with Examples\") and we eliminate topics that are actually categoreis  (e.g., \"Case Studies\", \"Stub Pages\", \"Frequently Asked Questions\", \"How-to Guides\", \"Glossary and Technology Overviews\", \"Moldable Development Patterns\", \"Tutorials\", \"Videos\"). Now the list is down to 63 topics."
 						},
 						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T10:39:51.672144+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T10:40:11.311676+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "6GIfQTj4DQCRDmIZDtbVlQ=="
-							},
-							"code" : "STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile contents"
-						},
-						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -2079,12 +2008,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T18:03:21.594873+02:00"
+			"dateAndTimeString" : "2025-08-20T09:16:25.857758+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Clustering topics"
+		"title" : "Merging topics"
 	},
 	"uid" : {
 		"__type" : "uuid",

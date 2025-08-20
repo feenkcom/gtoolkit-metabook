@@ -345,5 +345,5 @@ TopicClassifierExperiments >> topicsFromClusters [
 	"
 
 	<gtExample>
-	^ STON fromString: TopicClusteringExperiments new topicClustersExpt5ReducedFile
+	^ STON fromString: TopicMergingExperiments new topicClustersExpt5ReducedFile
 ]

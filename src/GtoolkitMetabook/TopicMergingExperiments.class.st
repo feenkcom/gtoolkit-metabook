@@ -1,11 +1,14 @@
+"
+These experiments take the long list of mined topics, and attempt to *cluster* them into groups that can then be merged. Each cluster will then become a single, caninical topic. The final result can be seen in `TopicClassifierExperiments>>#topicsFromClusters`.
+"
 Class {
-	#name : #TopicClusteringExperiments,
+	#name : #TopicMergingExperiments,
 	#superclass : #PCAbstractExamples,
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
 { #category : #examples }
-TopicClusteringExperiments >> clus1TopicClusterChat [
+TopicMergingExperiments >> clus1TopicClusterChat [
 	"We ask the assistant to propose 30 topics to replace the longer set we have.
 	Each run is rather different, and only a few topics are stable."
 
@@ -18,7 +21,7 @@ TopicClusteringExperiments >> clus1TopicClusterChat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus1TopicClusterChatResults [
+TopicMergingExperiments >> clus1TopicClusterChatResults [
 	"Caveat: slow -- uses an ad hoc chat without a progress bar."
 
 	<gtExample>
@@ -32,7 +35,7 @@ TopicClusteringExperiments >> clus1TopicClusterChatResults [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus1TopicClusterChatSavedResults1 [
+TopicMergingExperiments >> clus1TopicClusterChatSavedResults1 [
 	"Results from a run"
 
 	<gtExample>
@@ -40,7 +43,7 @@ TopicClusteringExperiments >> clus1TopicClusterChatSavedResults1 [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus1TopicClusterChatSavedResults2 [
+TopicMergingExperiments >> clus1TopicClusterChatSavedResults2 [
 	"Results from a run"
 
 	<gtExample>
@@ -48,7 +51,7 @@ TopicClusteringExperiments >> clus1TopicClusterChatSavedResults2 [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus1TopicClusterChatSavedResults3 [
+TopicMergingExperiments >> clus1TopicClusterChatSavedResults3 [
 	"Results from a run"
 
 	<gtExample>
@@ -56,7 +59,7 @@ TopicClusteringExperiments >> clus1TopicClusterChatSavedResults3 [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus2TopicClusterChat [
+TopicMergingExperiments >> clus2TopicClusterChat [
 	"This time we ask it instead to cluster or group the existing topics, 
 	and *then* propose a name to cover the group.
 	NB: The prompt does not always succeed to give the expected answer.
@@ -71,7 +74,7 @@ TopicClusteringExperiments >> clus2TopicClusterChat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus2TopicClusterChatResults [
+TopicMergingExperiments >> clus2TopicClusterChatResults [
 	"Caveat: slow -- uses an ad hoc chat without a progress bar."
 
 	<gtExample>
@@ -85,14 +88,14 @@ TopicClusteringExperiments >> clus2TopicClusterChatResults [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus2TopicClusterChatSavedResults1 [
+TopicMergingExperiments >> clus2TopicClusterChatSavedResults1 [
 	<gtExample>
 	<noTest>
 	^ #('["Understanding Moldable Development", "Understanding Moldable Development", "Learning Moldable Development", "Moldable Development Concepts", "Moldable Development Roles", "History of Glamorous Toolkit", "Glamorous Toolkit Overview", "Moldable Development", "Glamorous Toolkit Tutorials", "Book Organization and Navigation", "Mapping Moldable Development", "Program Comprehension and Code Reading", "Software Assessment Fundamentals", "Importance of Tools in Software Engineering", "Learning Moldable Development", "The Moldable Development Environment", "Explanations"]' '["Moldable Development Patterns", "Moldable Development Patterns", "Process and Workflow in Moldable Development", "Tooling Patterns", "Tool Creation Techniques", "Custom Tooling", "Moldable Tools and Extensions", "Moldable Tools", "Tool Prototyping and Custom Visualization", "Pattern-Oriented Moldable Development", "Explainable Software", "Explainable Systems", "Explainability and System Exploration", "Custom Views and Moldable Object Presentations", "Custom Visualization and Views", "Game Implementation Patterns", "Object-Oriented Design Patterns", "Refactoring Patterns in Moldable Development", "Tracking the state of the Ludo game play", "Process patterns", "Glamorous Toolkit as a case study", "Blind Spot", "Spotter and Custom Search Views", "Connector", "Tooling Buildup", "Tool Creation Techniques", "Moldable User Interfaces", "Inspector Views", "Custom Views and Presentations", "Throwaway Analysis Tool", "Tool Prototyping and Custom Visualization", "Futures", "LLM", "Extending the debugger through moldable exceptions", "Process Patterns in Moldable Development", "Modeling patterns", "Presenter", "Testing the Ludo corner cases", "Unit Testing and Examples", "Testing Phlow Views", "Moldable Data Wrapper", "Custom Tooling"]' '["Programming Smalltalk", "Programming Smalltalk", "Programming with GT Tools", "Programming Smalltalk in GT", "Pharo Programming", "Pharo Language Semantics", "Programming Smalltalk", "Programming Java", "Programming Smalltalk", "Programming Python", "Programming COBOL", "Working with Smalltalk", "Object-Oriented Programming Concepts", "Pharo and Smalltalk Architecture", "Programming Smalltalk"]' '["Reflection and Metaprogramming", "Metaprogramming and Reflection", "Reflection and Metaprogramming", "Querying Objects, Classes, and the Runtime", "Dynamic Language Features (doesNotUnderstand, Wrappers, Anonymous Classes)", "Introspection and Inspection", "Understanding reflection", "Introspection Techniques", "Overriding doesNotUnderstand:", "Reflection", "What is Reflection?", "What is Introspection?", "Querying objects", "Method wrappers", "Reflection and Metaprogramming"]' '["Working with Python", "Working with Python", "Working with Python Bridge", "GT-Python Integration", "Programming Python", "Python Integration and Bridge Architecture", "Working with Python source files", "Editing with Language Server Protocol", "Working with Shell Integrations", "GT LanguageLink Framework", "Snippet Interoperability", "Snippet Configuration and Environment Management", "Snippet Types", "Phlow for Python", "Python Debugger Setup & Example", "Working with Examples and Snippets", "pandas", "Exploring the execution of a Python LampSort algorithm", "PythonBridge custom views for pandas DataFrame and Series", "Inspecting Python objects with custom inspectors", "Basic usage of the Python Bridge", "Connecting to a remote Python Bridge instance", "Editing Python sources through the Language Server Protocol"]' '["Glamorous Toolkit Architecture and IDE", "Glamorous Toolkit Architecture", "Customizing the GT User Interface", "GT IDE Tour and Structure", "GT Book Organization", "Getting Started with GT", "Getting Started with Glamorous Toolkit", "Setting Up GT for Development", "IDE Components", "Entry Points and Tool Integration", "About this version of Glamorous Toolkit", "Setting Up GT for Development", "Technical Analyses", "GT Environment Tour"]' '["Case Studies and Tutorials", "Case Studies in Moldable Development", "Case Studies", "Case Studies and Real-World Examples", "Case Studies and Real-World Applications", "An Example of moldable logging using Beacon", "Ludo Game", "Memory Game", "Glamorous Toolkit as a case study"]' '["Inspector and Custom Views", "Inspector Views and Customization", "Inspector Customization", "Moldable Inspector Patterns", "Inspector Views and Actions", "Inspector actions", "Inspector Frameworks and Phlow", "Inspector Customization", "Phlow Framework", "Inspector actions", "Inspector actions", "Inspector customization", "Inspector Views"]' '["Visualization and Graphics", "Visualization in GT", "Visualization Techniques", "Visualizing Data Structures", "Visualizing Data and Graphs", "Visualizing Code and Data", "Visualizing and Editing Wardley Maps", "Building Graphical Visualizations", "Graph Visualization", "Treemap", "Pharo Integration and Patching", "Performance Profiling", "Visual Animations and Transitions", "Visualizing Code and Data", "Graphics and Visualization", "Custom Views and Visualization", "Data Visualization"]' '["Working with GemStone / GT4GemStone", "Working with GemStone", "GemStone/S Integration", "GT4GemStone Development", "Working with GemStone (Object Databases)", "Porting and Integration", "Integrating with GemStone", "Checking the loaded gt4gemstone version inside a GemStone extent", "Working with Remote Phlow", "Porting GT code to GemStone", "Connecting to the Gemstone repository", "Working with GemStone features", "Directly loading gt4gemstone into a Rowan stone for development", "Manually installing gt4gemstone into a GemStone extent", "Setting up the Gt4Gemstone connection"]' '["User Interface Development and Customization", "User Interface Development", "Building Custom UI Components", "Styling and Theming", "Customizing the GT User Interface", "UI Development with GT", "User Interface Components", "Widgets and User Interface Elements", "GT User Interface Customization", "User Interface Design in GT", "Programming Smalltalk", "Custom Widgets and UI components", "Custom widgets and UI components", "Bloc Visual Properties", "UI Scripting", "User Interface Programming", "UI Architecture", "Building Custom Assistants", "User Interface Layouts", "User Interface Components"]' '["Working with APIs, External Tools & Integration", "Integrating External Tools and Services", "Working with External Tools", "Integrating External Libraries", "Working with APIs", "Integrating External Services", "Integrating with External Systems", "Integration Techniques", "Integrating with External APIs", "Working with Large Language Models (LLMs)", "Working with AI and LLM Integrations", "Setting up Tooling in GT", "Integration with Databases", "Interfacing with External Services (APIs)", "Integrating and Managing LLM Providers"]' '["Testing, Quality Assurance, and Debugging", "Testing and Assertions", "Testing in Moldable Development", "Quality Assurance", "Error Handling", "Debugging and Diagnostics", "Debugging and Error Handling", "Testing and Quality Assurance", "Debugging in Glamorous Toolkit", "Debugging Tools and Techniques", "Debugging Techniques", "Debugging and Stack Inspection", "Unit Testing and Test-Driven Development", "Testing and Simulating UI Interactions", "Moldable Debugging", "Debugging Techniques in Glamorous Toolkit", "Debugging and Troubleshooting", "Testing the Ludo corner cases"]' '["Asynchronous Programming & Concurrency", "Asynchronous Programming", "Promises", "Futures", "Working with Futures, Streams, and Sinks", "Async Programming in GT", "Promises then:, asyncThen:, and then:otherwise: usage", "Running futures at user background priority", "Performance and Optimization"]' '["Working with Databases & Data Management", "Working with Databases", "Database Configuration and Management", "Managing Lepiter Databases", "Database Management", "Data Import and Integration", "Database Management in Glamorous Toolkit", "Persistence and Syncing"]' '["Version Control & Project Setup", "Working with Git and GitHub", "Working with Version Control", "Version Control Integration", "Version Control with Iceberg", "Using Metacello and Baselines", "Setting Up GT for Development", "Managing Releases and Versioning", "Version Control and Git Integration", "Source Code Version Control", "Configuring Version Control", "Maintaining Version Control and Collaboration", "Using the GT Coder", "Working with Git", "Version Control with GitHub"]' '["Scripting and Automation", "Scripting and Automation", "Automating Assistant Workflows", "UI Scripting in GT", "Scripting and Automation in GT", "Scripting in Glamorous Toolkit", "Tool Integration and Automation", "Automated Testing and Logging", "Customization and Scripting"]' '["Parsers, Grammar & Language Analysis", "Parsing Techniques", "Parsing and Grammars", "Language Design and Implementation", "Parsing with PetitParser2", "SmaCC Framework", "Grammar and Parsing Design", "AST and Parsing Internals", "Parsing and Syntax Trees", "Parsing and Code Analysis"]' '["Extending & Customizing GT", "Extending GT with Custom Tools", "Customizing Visualizations in Moldable Development", "Developer Extensions and Packages", "System Configuration and Customization", "Glamorous Toolkit Development", "Tool Extension Methods", "Extending the GT IDE", "Extensions and Interoperability", "Domain-Specific Extensions", "Developing with gt4gemstone"]' '["Learning and Tutorials", "Getting Started with GT", "Getting Started with Lepiter", "Beginner Tutorials", "Tutorials and Guided Examples", "Smalltalk Tutorials", "Example-driven Development", "Example-driven development tutorial", "Case Studies and Tutorials", "How to ...", "Guided Examples", "How-To Guides (General)", "How-To Guides", "FAQs"]' '["Live Documentation & Notebooks", "Live Documentation", "Lepiter Notebooks", "Lepiter Snippet Authoring", "Working with GT Notebooks", "Living Documentation", "Lepiter Architecture and Internals", "Moldable Documentation and Knowledge Management", "Managing Databases and Notebooks", "Lepiter Data Management", "Notebook and Page Usage", "Authoring with Lepiter", "Using the GT Editor", "Editing and Organizing Content", "Working with Lepiter Pages", "Page Navigation and Search"]' '["Project & Dependency Management", "Project Organization and Tracking", "Project and Dependency Management", "Managing Dependencies and Baselines", "Managing Dependencies with Metacello", "Project-specific Customization", "Authoring GT Book Pages", "Dependency Management", "Baselines and Package Management", "Package and Package Tag System in Pharo", "Migration from Pharo 11 to Pharo 12"]' '["Releases, Updates & Installation", "Releasing and Versioning", "Building and Releasing Glamorous Toolkit", "Installing and Updating Glamorous Toolkit", "Installing Glamorous Toolkit", "Installation and Configuration", "Working with GTWorld", "Setting Up and Updating GT", "Tooling and Automation for Moldable Development"]' '["Performance & Profiling", "Performance Profiling", "Performance Analysis and Profiling", "Profiling and Performance Analysis", "Performance and Optimization", "Performance Measurement", "Performance Optimization and Memory Management", "Performance Profiling in Glamorous Toolkit", "Virtual Machine Telemetry"]' '["Learning Other Languages & Interoperability", "Working with JavaScript", "Programming JavaScript", "Working with Rust", "Editing Code in External Languages", "Working with Java", "Programming Java", "Working with Legacy Languages", "Cross-language Integration", "Integrating External Languages", "Programming Languages and Interoperability", "Integrating Multiple Languages"]' '["Modular Architecture & Components", "Glamorous Toolkit Architecture", "Modules and Components", "IDE Components", "GT Architectural Internals", "Glamorous Toolkit Component Documentation", "Components"]' '["Managing the Codebase & Navigation", "Code Querying and Filters", "Searching and Navigation", "Code Navigation and Search", "Code Navigation and Exploration", "Code and Object Search", "Modeling and Visualizing Code", "Querying and Navigating Code", "Object Graph Traversal"]' '["Games & Educational Examples", "Board Game Modeling", "Game Development in GT", "Implementing Games in GT", "Game Modeling Tutorials (Memory Game, Ludo Game)", "Gaming and Simulation", "Example-Driven Development", "Implementing Board Games", "Prototyping in the Playground"]' '["Working with AI & Machine Learning", "Working with GenAI and LLMs", "Working with LLMs", "Integrating Large Language Models (LLMs)", "Working with Large Language Models", "Machine Learning Workflows", "Generative AI", "Integrating Large Language Models", "Embedding and Vector Search", "Integrating AI in Moldable Development", "Working with AI APIs", "Working with LLM APIs", "Fine-tuning Large Language Models"]' '["Data Representation & Modeling", "Domain Modeling", "Executable Domain-Driven Design", "Modeling with Example-Driven Development (EDD)", "Domain-Driven Design in Moldable Development", "Modeling Applications", "Domain Modeling in Moldable Development", "Modeling Money and Price Hierarchies"]' '["Log Analysis & Monitoring", "Logging and Diagnostics", "Debugging and Logging", "Log Analysis and Parsing", "Announcements and Event Handling", "Beacon", "Logging and Monitoring", "Live Visualization and Animation"]' '["System & Environment Configuration", "Configuring the GT Environment", "Environment Configuration", "System Initialization and Versioning", "Pharo Integration and Compatibility", "Patch Management and Upgrading", "Handling Language and Framework Evolution", "Setting Up and Customizing GT", "Configuration and Setup", "Configuring External Services"]' '["Knowledge Base, Documentation & Organization", "Documentation Navigation and Visualization", "Knowledge Base Management", "Organizing and Navigating Notebooks", "Table of Contents", "Glossary and Technology Overviews", "Interactive Documentation", "Documentation with Live Examples"]' '["File & Process Management", "Working with the File System", "Interfacing with External Processes", "Process and Resource Management", "Process Management", "Event Handling and User Interaction", "Variable Binding and Environment Management"]' '["Troubleshooting & Error Recovery", "Troubleshooting and Debugging", "Troubleshooting and Debugging GT", "Error Handling and Debugging", "Debugging and Error Handling", "Error Recovery and Troubleshooting", "Troubleshooting and Error Handling"]' '["Code Analysis & Metrics", "Code Analysis and Metrics", "Measuring and Analyzing the Knowledge Base", "Static Analysis and Code Quality", "Analyzing Feature Toggles", "Code Indexing and Metrics"]' '["Building & Extending Tools with AI", "Integrating AI in Moldable Development", "Building LLM-powered Assistants", "Extending GT with AI capabilities", "Customizing and Extending GT Assistants", "Using GT Book as a Knowledge Base", "Adding the GT book to a LLM to answer questions about GT"]' '["Community, Contribution & Support", "Community & Support", "Contributing to Glamorous Toolkit", "Contributing to Glamorous Toolkit through a GitHub pull request", "Another way to contribute to Glamorous Toolkit through a GitHub pull request"]' '["Pharo & GT Integration", "Pharo Integration", "PharoLink", "GT-Pharo Integration", "Pharo Integration and Patching", "PharoLink snippet", "Pharo Integration and Compatibility", "Handling Language and Framework Evolution"]' '["Widget, Layout & UI Libraries", "Working with Bloc", "Brick Widgets and UI Components", "Building User Interfaces with Bloc", "Widget Libraries", "Bloc UI Framework", "UI Composition", "User Interface Layout", "Building graphical interfaces with Bloc", "Bloc Elements", "Sparta", "Bloc"]' '["Session, State & Context Management", "Session Management", "Session State Management", "Process Management in GT", "Working with Temporary Objects"]' '["Release Engineering & CI", "Continuous Integration and Automation", "Release Engineering", "Release Process and Quality Assurance", "Automating Releases", "Loading and Release Analysis"]' '["Snippets & Examples", "Working with Examples and Snippets", "Example-driven Development", "Example Object", "Snippet Types"]')
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus3TopicClusterChat [
+TopicMergingExperiments >> clus3TopicClusterChat [
 	"This time we ask it instead to cluster or group the existing topics, 
 	and *then* propose a name to cover the group."
 
@@ -105,7 +108,7 @@ TopicClusteringExperiments >> clus3TopicClusterChat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus3TopicClusterChatResults [
+TopicMergingExperiments >> clus3TopicClusterChatResults [
 	"The input here is just the list of topics, without duplicates."
 	"Caveat: slow -- uses an ad hoc chat without a progress bar."
 
@@ -120,7 +123,7 @@ TopicClusteringExperiments >> clus3TopicClusterChatResults [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus4TopicClusterChat [
+TopicMergingExperiments >> clus4TopicClusterChat [
 	"We provide a specialized format for the list of groups."
 
 	<gtExample>
@@ -132,7 +135,7 @@ TopicClusteringExperiments >> clus4TopicClusterChat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus4TopicClusterChatResults [
+TopicMergingExperiments >> clus4TopicClusterChatResults [
 	"The input here is just the list of topics, without duplicates."
 	"Caveat: slow -- uses an ad hoc chat without a progress bar."
 
@@ -148,7 +151,7 @@ TopicClusteringExperiments >> clus4TopicClusterChatResults [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus5TopicClusterChat [
+TopicMergingExperiments >> clus5TopicClusterChat [
 	"We provide a specialized format for the list of groups."
 
 	<gtExample>
@@ -160,7 +163,7 @@ TopicClusteringExperiments >> clus5TopicClusterChat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clus5TopicClusterChatResults [
+TopicMergingExperiments >> clus5TopicClusterChatResults [
 	"Caveat: very slow -- uses an ad hoc chat without a progress bar."
 
 	<gtExample>
@@ -174,7 +177,7 @@ TopicClusteringExperiments >> clus5TopicClusterChatResults [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusterFormat [
+TopicMergingExperiments >> clusterFormat [
 	"We need a special format for the list of lists of results".
 
 	^ {'type' -> 'object'.
@@ -190,7 +193,7 @@ TopicClusteringExperiments >> clusterFormat [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt1 [
+TopicMergingExperiments >> clusteringPrompt1 [
 	<gtExample>
 	^ 'The Glamorous Toolkit (GT) Book consists of over 500 notebook pages documenting various aspects of Moldable Development and the GT IDE that supports it.
 
@@ -227,7 +230,7 @@ Just list the new topics and do not provide any further explanation.
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt2 [
+TopicMergingExperiments >> clusteringPrompt2 [
 	"Similar to clusteringPrompt1, but in the end we ask it not just to propose new topics,
 	but rather 30 clusters of topics, each with a representative topic name (existing or new)."
 
@@ -268,7 +271,7 @@ Please just provide your proposal, without any further explanation.'
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt3 [
+TopicMergingExperiments >> clusteringPrompt3 [
 	"This time the input is just the list of topics, and the output should be the partition, with the first string of each group being the selected topic."
 
 	<gtExample>
@@ -305,7 +308,7 @@ Please propose no more than 40 groups of topics.'
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt3Simplified [
+TopicMergingExperiments >> clusteringPrompt3Simplified [
 	"This time the input is just the list of topics, and the output should be the partition, with the first string of each group being the selected topic."
 
 	<gtExample>
@@ -321,7 +324,7 @@ Please propose no more than 40 groups of topics.'
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt4 [
+TopicMergingExperiments >> clusteringPrompt4 [
 	"Now the prompt should be in sync with the cluster format. 
 	We iterate over the prompt to esnure that:
 	(1) every topic appears in exactly one group
@@ -344,7 +347,7 @@ Make sure that every original topic appears in exactly one group.
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> clusteringPrompt5 [
+TopicMergingExperiments >> clusteringPrompt5 [
 	"To simplify the task, we only ask the assistant to cluster the topics, nothing else."
 
 	<gtExample>
@@ -362,7 +365,7 @@ Just return the list of groups, without any further explanation.
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topic2pages [
+TopicMergingExperiments >> topic2pages [
 	"Map the mined topics back to their pages. Needed to assess the clustering of topics."
 
 	<gtExample>
@@ -376,13 +379,13 @@ TopicClusteringExperiments >> topic2pages [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicClusters [
+TopicMergingExperiments >> topicClusters [
 	<gtExample>
 	^ STON fromString: self topicClustersFile contents
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicClustersExpt5File [
+TopicMergingExperiments >> topicClustersExpt5File [
 	"This is the output of Experiment 5, a list of 40 groups of topics (missing 93)."
 	<gtExample>
 	^ FileLocator gtResource
@@ -390,7 +393,7 @@ TopicClusteringExperiments >> topicClustersExpt5File [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicClustersExpt5ReducedFile [
+TopicMergingExperiments >> topicClustersExpt5ReducedFile [
 	"This is a manually edited version of the output of Experiment 5, reducing the clusters to a smaller list of topics.
 	We add `Using Magritte` after running TopicClassifierExperiments>>#top5ClassifierOnEntireGtBook"
 	<gtExample>
@@ -399,7 +402,7 @@ TopicClusteringExperiments >> topicClustersExpt5ReducedFile [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicClustersFile [
+TopicMergingExperiments >> topicClustersFile [
 	"We backup a few versions:
 	- v1 has too many new topics and missing topics
 	- v2 has only 3 new topics but several hundred topics missing from the groups
@@ -410,7 +413,7 @@ TopicClusteringExperiments >> topicClustersFile [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicList [
+TopicMergingExperiments >> topicList [
 	"Get the list of topics two ways and check they are the same."
 
 	<gtExample>
@@ -418,7 +421,7 @@ TopicClusteringExperiments >> topicList [
 	topicList := (TopicClassifierExperiments new top3ClassifierOnEntireGtBook chats
 			flatCollect: [ :chat | chat results ]) asSet asSortedCollection asArray.
 
-	topicsFromMap := (TopicClusteringExperiments new topicMap
+	topicsFromMap := (TopicMergingExperiments new topicMap
 			collect: [ :d | d at: 'results' ]) flatten asSet asSortedCollection asArray.
 	self assert: topicList equals: topicsFromMap.
 
@@ -426,26 +429,26 @@ TopicClusteringExperiments >> topicList [
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicListJSON [
+TopicMergingExperiments >> topicListJSON [
 	<gtExample>
 	^ STONJSON toStringPretty: self topicList asGtJson jsonObject
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicMap [
+TopicMergingExperiments >> topicMap [
 	<gtExample>
 	^ TopicClassifierExperiments new top3ClassifierOnEntireGtBook jsonObject
 		at: 'chats'
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicMapJson [
+TopicMergingExperiments >> topicMapJson [
 	<gtExample>
 	^ STONJSON toStringPretty: self topicMap asGtJson jsonObject
 ]
 
 { #category : #examples }
-TopicClusteringExperiments >> topicsSorted [
+TopicMergingExperiments >> topicsSorted [
 	<gtExample>
 	^ (self topicMap flatCollect: [ :d | d at: 'results' ]) asBag sortedCounts
 ]

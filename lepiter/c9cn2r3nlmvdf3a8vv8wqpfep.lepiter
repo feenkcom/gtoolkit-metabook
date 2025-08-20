@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T18:00:15.241878+02:00"
+						"dateAndTimeString" : "2025-08-20T09:16:30.32444+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,54 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-18T18:00:20.45363+02:00"
+						"dateAndTimeString" : "2025-08-20T09:17:24.054001+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "6ZTGJAf5DQCyMRxJDi1ebw=="
+					"uidString" : "VV8dfSj5DQCSQnHFCUaIIA=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "*Caveat:* these experiments use an ad hoc chat, without a wrapper to run the query witha progress bar. The results are just saved in intermediate methods and files."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-04T17:16:12.057148+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-05T10:19:19.218763+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "3MMtU+33DQCDrmEvDBahKA=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "Next: we analyze the topics suggested for all the pages and reduce them to a canonical set. We extract the mined Topic map."
+				"string" : "Since we have too many topics, we use an assistant to cluster similar topics so they can be merged into a canonical list. We extract the mined Topic map.\n*Caveat:* these experiments use an ad hoc chat, without a wrapper to run the query witha progress bar. The results are just saved in intermediate methods and files."
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -176,7 +139,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:13:08.371936+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.164805+02:00"
 								}
 							},
 							"uid" : {
@@ -186,7 +149,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "There are over 1000 topics, and only 119 that occur more than once. We need to cluster them. To do this, we can introduce an ad hoc chat with a clustering prompt {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt1}} and the topic map JSON as input {{gtMethod:name=TopicClusteringExperiments>>#topicMapJson}}. "
+							"string" : "There are over 1000 topics, and only 119 that occur more than once. We need to cluster them. To do this, we can introduce an ad hoc chat with a clustering prompt {{gtMethod:name=TopicMergingExperiments>>#clusteringPrompt1}} and the topic map JSON as input {{gtMethod:name=TopicMergingExperiments>>#topicMapJson}}. "
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -213,14 +176,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:02:07.603674+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.194579+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "4kQ4Yfz3DQC7OiBLDfwUzw=="
 							},
-							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus1TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicMergingExperiments new clus1TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -247,7 +210,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-05T11:22:08.324405+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.897819+02:00"
 								}
 							},
 							"uid" : {
@@ -257,7 +220,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We save several test runs: {{gtMethod:name=TopicClusteringExperiments>>#clus1TopicClusterChatSavedResults1}} and friends. How can we compare them?"
+							"string" : "We save several test runs: {{gtMethod:name=TopicMergingExperiments>>#clus1TopicClusterChatSavedResults1}} and friends. How can we compare them?"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -284,14 +247,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-05T11:23:42.660831+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.658597+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "EHEagfz3DQC/S0w5DfwUzw=="
 							},
-							"code" : "(TopicClusteringExperiments new clus1TopicClusterChatSavedResults1\r\t, TopicClusteringExperiments new clus1TopicClusterChatSavedResults2\r\t, TopicClusteringExperiments new clus1TopicClusterChatSavedResults3) asBag sortedCounts"
+							"code" : "(TopicMergingExperiments new clus1TopicClusterChatSavedResults1\r\t, TopicMergingExperiments new clus1TopicClusterChatSavedResults2\r\t, TopicMergingExperiments new clus1TopicClusterChatSavedResults3) asBag sortedCounts"
 						},
 						{
 							"__type" : "textSnippet",
@@ -351,7 +314,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-06T11:57:49.338525+02:00"
+						"dateAndTimeString" : "2025-08-20T09:17:37.853385+02:00"
 					}
 				},
 				"uid" : {
@@ -361,7 +324,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment 1 — propose new topics that cluster existing ones"
+				"string" : "# Experiment 1 — propose new topics that merge existing ones"
 			},
 			{
 				"__type" : "textSnippet",
@@ -430,14 +393,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:02:13.706384+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.080897+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "C5OXog/4DQCFSxleDkTeCg=="
 							},
-							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus2TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicMergingExperiments new clus2TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -501,14 +464,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:38:05.309191+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.8965+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "8or+/Q/4DQChjIGlBAzZaA=="
 							},
-							"code" : "TopicClusteringExperiments new clus2TopicClusterChatSavedResults1"
+							"code" : "TopicMergingExperiments new clus2TopicClusterChatSavedResults1"
 						},
 						{
 							"__type" : "textSnippet",
@@ -572,14 +535,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:58:14.272121+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.813604+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "FAtKCRD4DQCll1V4BAzZaA=="
 							},
-							"code" : "TopicClusteringExperiments new topic2pages"
+							"code" : "TopicMergingExperiments new topic2pages"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -606,14 +569,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:51:54.282932+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.027057+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "vL2fJxD4DQCoyRgcBAzZaA=="
 							},
-							"code" : "topic2pages := TopicClusteringExperiments new topic2pages.\r(TopicClusteringExperiments new clus2TopicClusterChatSavedResults1\r\tcollect: [ :each | STONJSON fromString: each ])\r\tcollect: [ :cluster | \r\t\tcluster first\r\t\t\t-> {cluster allButFirst collect: [ :topic | topic -> (topic2pages at: topic) ]} ]"
+							"code" : "topic2pages := TopicMergingExperiments new topic2pages.\r(TopicMergingExperiments new clus2TopicClusterChatSavedResults1\r\tcollect: [ :each | STONJSON fromString: each ])\r\tcollect: [ :cluster | \r\t\tcluster first\r\t\t\t-> {cluster allButFirst collect: [ :topic | topic -> (topic2pages at: topic) ]} ]"
 						},
 						{
 							"__type" : "textSnippet",
@@ -677,14 +640,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T11:00:05.97517+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.080141+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "66AsSBD4DQCvEaoKBAzZaA=="
 							},
-							"code" : "(TopicClusteringExperiments new topicMap collect: [ :d | d at: 'results' ])\r\tflatten asSet asSortedCollection"
+							"code" : "(TopicMergingExperiments new topicMap collect: [ :d | d at: 'results' ])\r\tflatten asSet asSortedCollection"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -711,14 +674,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-07T17:38:35.58766+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.814371+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "OtTG+yn4DQCzW72JCxBdIw=="
 							},
-							"code" : "TopicClusteringExperiments new topicList"
+							"code" : "TopicMergingExperiments new topicList"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -745,14 +708,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-06T10:57:19.85256+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.026149+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "jX7qQRD4DQCswo8HBAzZaA=="
 							},
-							"code" : "(TopicClusteringExperiments new clus2TopicClusterChatSavedResults1\r\tcollect: [ :each | STONJSON fromString: each ]) flatten asSet asSortedCollection"
+							"code" : "(TopicMergingExperiments new clus2TopicClusterChatSavedResults1\r\tcollect: [ :each | STONJSON fromString: each ]) flatten asSet asSortedCollection"
 						},
 						{
 							"__type" : "textSnippet",
@@ -891,14 +854,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-07T17:37:09.764557+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.95352+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "gNreMBH4DQC5Lq5OBAzZaA=="
 							},
-							"code" : "TopicClusteringExperiments new topicListJSON"
+							"code" : "TopicMergingExperiments new topicListJSON"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -925,14 +888,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:02:22.432464+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.81486+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "nsBoJhH4DQC5BkXmBAzZaA=="
 							},
-							"code" : "\"Caveat: slow , blocking\"\rTopicClusteringExperiments new clus3TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rTopicMergingExperiments new clus3TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1034,7 +997,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-07T18:01:47.096136+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.953902+02:00"
 								}
 							},
 							"uid" : {
@@ -1044,7 +1007,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "TG says the problem is that the format just specifies an array of results. We need a more refined format that says exactly what we expect: {{gtMethod:name=TopicClusteringExperiments>>#clusterFormat}}"
+							"string" : "TG says the problem is that the format just specifies an array of results. We need a more refined format that says exactly what we expect: {{gtMethod:name=TopicMergingExperiments>>#clusterFormat}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1071,7 +1034,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-07T18:02:18.108088+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.137033+02:00"
 								}
 							},
 							"uid" : {
@@ -1081,7 +1044,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We need to iterate over the prompt: {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt4}}"
+							"string" : "We need to iterate over the prompt: {{gtMethod:name=TopicMergingExperiments>>#clusteringPrompt4}}"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -1150,14 +1113,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T18:24:55.806691+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:08.195199+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "eojw0Cn4DQCt8Mc5CxBdIw=="
 										},
-										"code" : "topicClustersFile := (TopicClusteringExperiments new topicClustersFile) .\rtopicClustersFile\r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
+										"code" : "topicClustersFile := (TopicMergingExperiments new topicClustersFile) .\rtopicClustersFile\r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1221,14 +1184,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T18:20:34.059332+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:07.811442+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "kghG6Cn4DQCw5pTECxBdIw=="
 										},
-										"code" : "topicClusters := TopicClusteringExperiments new topicClusters"
+										"code" : "topicClusters := TopicMergingExperiments new topicClusters"
 									}
 								]
 							},
@@ -1251,14 +1214,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:02:26.565212+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.257973+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "fxPajhT4DQC8Xr1zBRHt2A=="
 							},
-							"code" : "\"Caveat: slow , blocking\"\rtopicClusters := TopicClusteringExperiments new clus4TopicClusterChatResults"
+							"code" : "\"Caveat: slow , blocking\"\rtopicClusters := TopicMergingExperiments new clus4TopicClusterChatResults"
 						},
 						{
 							"__type" : "textSnippet",
@@ -1290,14 +1253,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-07T18:24:13.326324+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:08.135072+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "cFc07yn4DQCy3y2/CxBdIw=="
 										},
-										"code" : "topicList := TopicClusteringExperiments new topicList.\rclusteredTopics := TopicClusteringExperiments new topicClusters flatten.\rnewTopics := clusteredTopics copyWithoutAll: topicList.\rmissingTopics := topicList copyWithoutAll: clusteredTopics"
+										"code" : "topicList := TopicMergingExperiments new topicList.\rclusteredTopics := TopicMergingExperiments new topicClusters flatten.\rnewTopics := clusteredTopics copyWithoutAll: topicList.\rmissingTopics := topicList copyWithoutAll: clusteredTopics"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1437,14 +1400,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-18T18:03:03.601968+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:07.87057+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "0UlIpDb4DQCxHBWwBnHcmg=="
 										},
-										"code" : "\"Caveat: VERY slow , blocking\"\rtimeToRun := [ topicClusters := TopicClusteringExperiments new\r\t\t\tclus5TopicClusterChatResults ] timeToRun.\rtopicClusters"
+										"code" : "\"Caveat: VERY slow , blocking\"\rtimeToRun := [ topicClusters := TopicMergingExperiments new\r\t\t\tclus5TopicClusterChatResults ] timeToRun.\rtopicClusters"
 									}
 								]
 							},
@@ -1509,14 +1472,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-08T08:46:13.692633+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:07.89549+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "S3G3qjb4DQCxMnLQBnHcmg=="
 										},
-										"code" : "topicClustersFile := (TopicClusteringExperiments new topicClustersFile) .\rtopicClustersFile\r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
+										"code" : "topicClustersFile := (TopicMergingExperiments new topicClustersFile) .\rtopicClustersFile\r\tensureCreateFile\r\twriteStreamDo: [ :aStream | aStream nextPutAll: (STONJSON toStringPretty: topicClusters) ].\rtopicClustersFile"
 									},
 									{
 										"__type" : "textSnippet",
@@ -1618,14 +1581,14 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-08T08:50:25.029603+02:00"
+												"dateAndTimeString" : "2025-08-20T09:18:07.87124+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
 											"uidString" : "9TttuDb4DQCxyIAuBnHcmg=="
 										},
-										"code" : "topicList := TopicClusteringExperiments new topicList.\rclusteredTopics := TopicClusteringExperiments new topicClusters flatten.\rnewTopics := clusteredTopics copyWithoutAll: topicList.\rmissingTopics := topicList copyWithoutAll: clusteredTopics.\r{newTopics.\r\tmissingTopics}"
+										"code" : "topicList := TopicMergingExperiments new topicList.\rclusteredTopics := TopicMergingExperiments new topicClusters flatten.\rnewTopics := clusteredTopics copyWithoutAll: topicList.\rmissingTopics := topicList copyWithoutAll: clusteredTopics.\r{newTopics.\r\tmissingTopics}"
 									}
 								]
 							},
@@ -1685,7 +1648,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T18:02:40.836899+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.72722+02:00"
 								}
 							},
 							"uid" : {
@@ -1695,7 +1658,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Took a long time, and then it returned just the array of 1067 topics, not the groups! The {{gtMethod:name=TopicClusteringExperiments>>#clusterFormat}} seems ok, so the problem should not be there. We need to iterate on {{gtMethod:name=TopicClusteringExperiments>>#clusteringPrompt5}}. "
+							"string" : "Took a long time, and then it returned just the array of 1067 topics, not the groups! The {{gtMethod:name=TopicMergingExperiments>>#clusterFormat}} seems ok, so the problem should not be there. We need to iterate on {{gtMethod:name=TopicMergingExperiments>>#clusteringPrompt5}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -1796,7 +1759,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-08T10:39:11.319211+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:08.195485+02:00"
 								}
 							},
 							"uid" : {
@@ -1806,7 +1769,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "There are no artificial new topics, but there are 93 missing topics. We get 1013 topics in the clusters instead of 1068. But this is probably ok to work with. See {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5File}}. "
+							"string" : "There are no artificial new topics, but there are 93 missing topics. We get 1013 topics in the clusters instead of 1068. But this is probably ok to work with. See {{gtMethod:name=TopicMergingExperiments>>#topicClustersExpt5File}}. "
 						}
 					]
 				},
@@ -1871,7 +1834,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-18T09:33:11.964595+02:00"
+									"dateAndTimeString" : "2025-08-20T09:18:07.954643+02:00"
 								}
 							},
 							"uid" : {
@@ -1881,7 +1844,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We manually reduce the topics to 88 possible topics in  {{gtMethod:name=TopicClusteringExperiments>>#topicClustersExpt5ReducedFile}}."
+							"string" : "We manually reduce the topics to 88 possible topics in  {{gtMethod:name=TopicMergingExperiments>>#topicClustersExpt5ReducedFile}}."
 						},
 						{
 							"__type" : "textSnippet",
@@ -2045,12 +2008,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-18T18:03:21.594873+02:00"
+			"dateAndTimeString" : "2025-08-20T09:16:25.857758+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Clustering topics"
+		"title" : "Merging topics"
 	},
 	"uid" : {
 		"__type" : "uuid",
