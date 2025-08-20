@@ -11,6 +11,18 @@ Class {
 	#category : #'GtoolkitMetabook-TopicMining'
 }
 
+{ #category : #'as yet unclassified' }
+TopicMapOverview class >> gtInspectOverviewActionFor: anAction [
+	<gtClassAction>
+	^ anAction button
+		tooltip: 'Inspect slideshow';
+		priority: 10;
+		icon: BrGlamorousVectorIcons playinspect;
+		action: [ :aButton | aButton phlow spawnObject: self new ];
+		primaryModifierAction: [ :aButton | aButton phlow showObject: self new ]
+			mouseCursor: BlCopyCursor new
+]
+
 { #category : #accessing }
 TopicMapOverview >> cachedCategory2PageMap [
 	"Cached version for fast lookups."
