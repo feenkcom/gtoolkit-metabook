@@ -548,7 +548,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T12:42:21.295234+02:00"
+									"dateAndTimeString" : "2025-08-20T13:43:15.349784+02:00"
 								}
 							},
 							"uid" : {
@@ -558,7 +558,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Let's create a subclass to validate that we ca"
 						},
 						{
 							"__type" : "textSnippet",
@@ -618,7 +618,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-20T12:41:25.305947+02:00"
+						"dateAndTimeString" : "2025-08-20T13:31:08.397816+02:00"
 					}
 				},
 				"uid" : {
@@ -628,7 +628,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# # Consolodating the data"
+				"string" : "# # Consolidating the data"
 			},
 			{
 				"__type" : "textSnippet",

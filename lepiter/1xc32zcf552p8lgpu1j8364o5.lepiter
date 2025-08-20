@@ -548,7 +548,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T12:42:21.295234+02:00"
+									"dateAndTimeString" : "2025-08-20T13:43:21.203011+02:00"
 								}
 							},
 							"uid" : {
@@ -558,7 +558,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Let's create a subclass to validate that we can recar"
 						},
 						{
 							"__type" : "textSnippet",
