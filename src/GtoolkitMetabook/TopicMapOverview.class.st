@@ -50,6 +50,43 @@ TopicMapOverview >> groupedTopics [
 		collect: [ :each | each first -> each second ]) asDictionary
 ]
 
+{ #category : #examples }
+TopicMapOverview >> groupsAndPagesJson [
+	<gtExample>
+	| page2CategoryMap page2TopicMap groupsAndPagesJson |
+	page2CategoryMap := TopicMapOverview new categoryMap.
+	page2TopicMap := TopicMapOverview new top5TopicMap.
+	groupsAndPagesJson := {'groups'
+				-> (TopicMapOverview new groupedTopics associations
+						collect: [ :assoc | 
+							{'group' -> assoc key.
+								'topics' -> assoc value} asDictionary ]).
+			'pages'
+				-> (LeDatabase gtBook pages asArray
+						collect: [ :page | 
+							{'page' -> page title.
+								'category' -> (page2CategoryMap at: page title).
+								'topics' -> (page2TopicMap at: page title)} asDictionary ])}
+			asDictionary.
+	^ groupsAndPagesJson
+]
+
+{ #category : #examples }
+TopicMapOverview >> groupsAndPagesJsonFile [
+	<gtExample>
+	^ FileLocator gtResource
+		/ 'feenkcom/gtoolkit-metabook/data/pc-json/groupsAndPagesJson.json'
+]
+
+{ #category : #examples }
+TopicMapOverview >> groupsAndPagesJsonFromFile [
+	<gtExample>
+	| json |
+	json := STONJSON fromString: self groupsAndPagesJsonFile contents.
+	self assert: json equals: self groupsAndPagesJson.
+	^ json
+]
+
 { #category : #views }
 TopicMapOverview >> gtCategoriesFor: aView [
 	<gtView>
@@ -114,6 +151,16 @@ TopicMapOverview >> gtGroupedTopicsFor: aView [
 ]
 
 { #category : #views }
+TopicMapOverview >> gtGroupsAndPagesJsonFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Groups and Pages JSON';
+		priority: 30;
+		object: [ self groupsAndPagesJsonFromFile asGtJson ];
+		view: #gtJsonObjectFor:context:
+]
+
+{ #category : #views }
 TopicMapOverview >> gtTopicMapFor: aView [
 	<gtView>
 	^ aView forward
@@ -156,6 +203,19 @@ TopicMapOverview >> gtTopicsFor: aView [
 TopicMapOverview >> overview [
 	<gtExample>
 	^ self
+]
+
+{ #category : #utility }
+TopicMapOverview >> saveGroupsAndPagesJson [
+	"Only run this if the file needs to be regenerated."
+
+	<gtExample>
+	<noTest>
+	| jsonString file |
+	jsonString := STONJSON toStringPretty: TopicMapOverview new groupsAndPagesJson.
+	file := self groupsAndPagesJsonFile.
+	file writeStreamDo: [ :aStream | aStream nextPutAll: jsonString ].
+	^ file
 ]
 
 { #category : #examples }
