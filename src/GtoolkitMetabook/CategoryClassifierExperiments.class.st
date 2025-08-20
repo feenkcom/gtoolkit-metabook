@@ -246,6 +246,25 @@ CategoryClassifierExperiments >> cat4DetailedPromptCategoryClassifier4 [
 ]
 
 { #category : #examples }
+CategoryClassifierExperiments >> categoryMap [
+	"Map from page names to categories."
+
+	<gtExample>
+	| jsonString json chats emptyResults notEmptyResults dict |
+	jsonString := CategoryClassifierExperiments new cat4CategoryMapFile contents.
+
+	json := STON fromString: jsonString.
+	chats := json at: 'chats'.
+	emptyResults := chats select: [ :d | (d at: 'results') isEmpty ].	"self assert: emptyResults isEmpty."
+	notEmptyResults := chats select: [ :d | (d at: 'results') notEmpty ].
+	notEmptyResults do: [ :d | self assert: (d at: 'results') size equals: 1 ].
+	dict := (notEmptyResults
+			collect: [ :d | (d at: 'pageName') -> (d at: 'results') first ]) sorted
+			asDictionary.
+	^ dict
+]
+
+{ #category : #examples }
 CategoryClassifierExperiments >> standardCategories [
 	"This list is the outcome of analyzing the results of
 	CategoryClassifierExperiments>>#cat3DetailedPromptCategoryClassifier2"

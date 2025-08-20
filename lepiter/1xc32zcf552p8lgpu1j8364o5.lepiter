@@ -219,7 +219,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:26:52.658017+02:00"
+									"dateAndTimeString" : "2025-08-20T09:42:51.276318+02:00"
 								}
 							},
 							"uid" : {
@@ -229,7 +229,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The map from pages to categories: "
+							"string" : "The map from pages to categories: {{gtMethod:name=CategoryClassifierExperiments>>#categoryMap}}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -256,7 +256,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:28:44.816032+02:00"
+									"dateAndTimeString" : "2025-08-20T09:43:15.674415+02:00"
 								}
 							},
 							"uid" : {
@@ -266,7 +266,41 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We bundle these as an overview object."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-20T09:43:17.0545+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-20T09:43:26.119565+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "whzi3Cj5DQCuNSooCUaIIA=="
+							},
+							"code" : "TopicMapOverview new"
 						},
 						{
 							"__type" : "textSnippet",
@@ -356,7 +390,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:26:56.784474+02:00"
+									"dateAndTimeString" : "2025-08-20T09:37:43.342514+02:00"
 								}
 							},
 							"editEmail" : {
@@ -367,14 +401,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T09:29:59.507426+02:00"
+									"dateAndTimeString" : "2025-08-20T09:39:56.40105+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "PWJ0oij5DQChpJxKCUaIIA=="
+								"uidString" : "CBb+yCj5DQCpJ3rNCUaIIA=="
 							},
-							"code" : "jsonString := CategoryClassifierExperiments new cat4CategoryMapFile contents.\r\rjson := STON fromString: jsonString.\rdict := ((json at: 'chats')\r\t\tcollect: [ :d | (d at: 'pageName') -> (d at: 'results') ]) sorted asDictionary.\r^ dict"
+							"code" : "jsonString := CategoryClassifierExperiments new cat4CategoryMapFile contents.\r\rjson := STON fromString: jsonString.\rchats := (json at: 'chats').\remptyResults := chats select: [:d | (d at: 'results') isEmpty].\rnotEmptyResults := chats select: [:d | (d at: 'results') notEmpty].\rdict := (notEmptyResults\r\t\tcollect: [ :d | (d at: 'pageName') -> (d at: 'results') first ]) sorted asDictionary.\r^ dict"
 						}
 					]
 				},

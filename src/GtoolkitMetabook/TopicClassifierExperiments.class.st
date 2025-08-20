@@ -314,7 +314,7 @@ TopicClassifierExperiments >> top5ClassifierOnEntireGtBookEdited [
 	^ pc
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #examples }
 TopicClassifierExperiments >> top5TopicMap [
 	"Topic map derived from TopicClassifierExperiments>>#top5ClassifierOnEntireGtBookEdited
 	We return a dictionary mapping pages to topics.
@@ -328,7 +328,7 @@ TopicClassifierExperiments >> top5TopicMap [
 	^ dict
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #examples }
 TopicClassifierExperiments >> top5TopicMapFile [
 	"The edited JSON file from TopicClassifierExperiments>>#top5ClassifierOnEntireGtBookEdited"
 
