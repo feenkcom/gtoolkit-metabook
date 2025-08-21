@@ -67,7 +67,7 @@ TopicMapOverview >> groupsAndPagesJson [
 	<gtExample>
 	| page2CategoryMap page2TopicMap groupsAndPagesJson |
 	page2CategoryMap := TopicMapOverview new categoryMap.
-	page2TopicMap := TopicMapOverview new top5TopicMap.
+	page2TopicMap := TopicMapOverview new page2TopicMap.
 	groupsAndPagesJson := {'groups'
 				-> (TopicMapOverview new groupedTopics associations
 						collect: [ :assoc | 
@@ -179,7 +179,7 @@ TopicMapOverview >> gtTopicMapFor: aView [
 	^ aView forward
 		title: 'Page to Topic map';
 		priority: 24;
-		object: [ self top5TopicMap ];
+		object: [ self page2TopicMap ];
 		view: #gtTreeFor:context:;
 		send: [ :assoc | 
 			assoc key isString
@@ -218,6 +218,12 @@ TopicMapOverview >> overview [
 	^ self
 ]
 
+{ #category : #examples }
+TopicMapOverview >> page2TopicMap [
+	<gtExample>
+	^ TopicClassifierExperiments new top5TopicMap
+]
+
 { #category : #utility }
 TopicMapOverview >> saveGroupsAndPagesJson [
 	"Only run this if the file needs to be regenerated."
@@ -238,18 +244,12 @@ TopicMapOverview >> standardCategories [
 ]
 
 { #category : #examples }
-TopicMapOverview >> top5TopicMap [
-	<gtExample>
-	^ TopicClassifierExperiments new top5TopicMap
-]
-
-{ #category : #examples }
 TopicMapOverview >> topic2PageMap [
 	"NB: This is computed each time."
 	<gtExample>
 	| dict |
 	dict := Dictionary new.
-	self top5TopicMap
+	self page2TopicMap
 		associationsDo: [ :assoc | 
 			assoc value
 				do: [ :topic | (dict at: topic ifAbsentPut: OrderedCollection new) add: assoc key ] ].
