@@ -13,6 +13,43 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-20T09:14:39.207171+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-21T08:53:24.822732+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "W9t9dij5DQCPXcE4CUaIIA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "[[* Prepare a topic map]] "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
 								"items" : [
 									{
 										"__type" : "textSnippet",
@@ -39,7 +76,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T18:03:54.120581+02:00"
+												"dateAndTimeString" : "2025-08-21T08:49:07.518705+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +86,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Mine categories from the GT Book pages]] "
+										"string" : "[[Mine categories from the GT Book pages]] "
 									},
 									{
 										"__type" : "textSnippet",
@@ -129,81 +166,6 @@
 														"__type" : "textStyle"
 													},
 													"string" : "[[Merging topics]]"
-												}
-											]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-07-22T17:34:26.517104+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-18T17:59:26.74316+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "twZ6EOj2DQCNI5akBn3+Lg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Mine topics from the GT Book pages]] "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [
-												{
-													"__type" : "textSnippet",
-													"children" : {
-														"__type" : "snippets",
-														"items" : [ ]
-													},
-													"createEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"createTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-19T17:49:43.477779+02:00"
-														}
-													},
-													"editEmail" : {
-														"__type" : "email",
-														"emailString" : "<unknown>"
-													},
-													"editTime" : {
-														"__type" : "time",
-														"time" : {
-															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-19T17:50:15.057299+02:00"
-														}
-													},
-													"uid" : {
-														"__type" : "uid",
-														"uidString" : "3Dewihv5DQCYqhqKD6aJjQ=="
-													},
-													"paragraphStyle" : {
-														"__type" : "textStyle"
-													},
-													"string" : "[[* Assign categories to pages]]  "
 												},
 												{
 													"__type" : "textSnippet",
@@ -252,7 +214,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T17:49:30.932424+02:00"
+												"dateAndTimeString" : "2025-07-22T17:34:26.517104+02:00"
 											}
 										},
 										"editEmail" : {
@@ -263,54 +225,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-19T17:49:40.316928+02:00"
+												"dateAndTimeString" : "2025-08-18T17:59:26.74316+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "Bc7wiRv5DQCYh2kFD6aJjQ=="
+											"uidString" : "twZ6EOj2DQCNI5akBn3+Lg=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Assign topics and categories to pages]]"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-20T09:14:39.207171+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-20T09:14:56.373334+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "W9t9dij5DQCPXcE4CUaIIA=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "[[Preparing a topic map]] "
+										"string" : "[[Mine topics from the GT Book pages]] "
 									}
 								]
 							},

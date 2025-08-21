@@ -1412,7 +1412,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T10:37:34.661247+02:00"
+									"dateAndTimeString" : "2025-08-20T10:38:02.802993+02:00"
 								}
 							},
 							"uid" : {
@@ -1422,7 +1422,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We can sample the results in the {{gtMethod:name=TopicMapOverview>>#overview}}."
+							"string" : "We can sample the results in the topic map overview {{gtExample:name=TopicMapOverview>>#overview|noCode}}"
 						},
 						{
 							"__type" : "textSnippet",

@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-19T18:04:36.073845+02:00"
+						"dateAndTimeString" : "2025-08-19T18:04:43.582901+02:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Next we prepare a clean "
+				"string" : "Next we prepare a clean map from pages to categories."
 			},
 			{
 				"__type" : "textSnippet",

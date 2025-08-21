@@ -106,7 +106,6 @@ TopicMapOverview >> gtCategoriesFor: aView [
 		title: 'Standard Categories';
 		priority: 10;
 		items: [ self standardCategories ];
-		actionUpdateButtonTooltip: 'Update item list';
 		column: 'Index'
 			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
 			width: 45;
@@ -116,7 +115,8 @@ TopicMapOverview >> gtCategoriesFor: aView [
 		column: 'Item' text: [ :eachItem | eachItem gtDisplayText ];
 		send: [ :cat | 
 			(self cachedCategory2PageMap at: cat)
-				collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
+				collect: [ :each | LeDatabase gtBook pageNamed: each ] ];
+		actionUpdateButton
 ]
 
 { #category : #views }
@@ -141,7 +141,8 @@ TopicMapOverview >> gtCategoryMapFor: aView [
 		priority: 12;
 		object: [ self categoryMap ];
 		view: #gtItemsFor:;
-		send: [ :assoc | LeDatabase gtBook pageNamed: assoc key ]
+		send: [ :assoc | LeDatabase gtBook pageNamed: assoc key ];
+		actionUpdateButton
 ]
 
 { #category : #views }

@@ -296,7 +296,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-19T18:03:54.145945+02:00"
+									"dateAndTimeString" : "2025-08-21T08:49:07.520063+02:00"
 								}
 							},
 							"uid" : {
@@ -306,7 +306,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Mine categories from the GT Book pages]] "
+							"string" : "[[Mine categories from the GT Book pages]] "
 						},
 						{
 							"__type" : "textSnippet",
