@@ -620,6 +620,43 @@
 								"uidString" : "ZOiU7ET5DQCbVfltCU7Z6w=="
 							},
 							"code" : "#optionAt:put: gtSenders & LePage package gtPackageMatches"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T16:39:17.676611+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T16:39:37.162649+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "zlwM51b5DQCVMlDTCnLIGw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The problem is that the `options` field is not stored. We need to extend t"
 						}
 					]
 				},
@@ -642,7 +679,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T09:20:10.954468+02:00"
+						"dateAndTimeString" : "2025-08-22T16:38:49.88941+02:00"
 					}
 				},
 				"uid" : {
@@ -652,7 +689,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Writing the topic map data to the page and database options slot (not an option)"
+				"string" : "# Writing the topic map data to the page and database options slot"
 			},
 			{
 				"__type" : "textSnippet",
@@ -684,7 +721,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T09:25:12.579123+02:00"
+									"dateAndTimeString" : "2025-08-22T09:25:39.781394+02:00"
 								}
 							},
 							"uid" : {
@@ -694,7 +731,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "For pages we can add a slot and extend {{"
+							"string" : "For pages we can add a slot and extend {{gtMethod:name=LePage class>>#leJsonV4AttributeMapping}}. For the database, it seems another mechanism is used. See {{gtMethod:name=LeDatabase>>#toRoamJsonFile:}}. "
 						}
 					]
 				},

@@ -39,7 +39,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:19:58.549445+02:00"
+												"dateAndTimeString" : "2025-08-22T16:40:06.396794+02:00"
 											}
 										},
 										"uid" : {
@@ -49,7 +49,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Storing topics, categories and topic groups]] "
+										"string" : "[[Storing topics, categories and topic groups]] "
 									}
 								]
 							},

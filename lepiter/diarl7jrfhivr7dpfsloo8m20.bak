@@ -81,7 +81,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-22T11:02:42.160979+02:00"
+															"dateAndTimeString" : "2025-08-22T11:16:36.472086+02:00"
 														}
 													},
 													"uid" : {
@@ -91,7 +91,44 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Adding topicMaps to Lepiter Pages]] "
+													"string" : "[[*** Adding topicMaps to Lepiter Pages]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-22T16:40:12.625156+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-08-22T16:41:17.72766+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "bzKc61b5DQCYgeaQCnLIGw=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Storing topic maps in the options slot]] "
 												}
 											]
 										},
@@ -114,7 +151,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:19:58.539403+02:00"
+												"dateAndTimeString" : "2025-08-22T16:40:06.390348+02:00"
 											}
 										},
 										"uid" : {
@@ -124,7 +161,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Storing topics, categories and topic groups]] "
+										"string" : "[[Storing topics, categories and topic groups]] "
 									},
 									{
 										"__type" : "textSnippet",

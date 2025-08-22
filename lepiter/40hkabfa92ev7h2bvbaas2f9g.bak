@@ -173,12 +173,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-22T11:02:43.306132+02:00"
+			"dateAndTimeString" : "2025-08-22T11:16:36.462638+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Adding topicMaps to Lepiter Pages"
+		"title" : "*** Adding topicMaps to Lepiter Pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

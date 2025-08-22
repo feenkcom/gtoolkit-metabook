@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T10:41:43.236634+02:00"
+						"dateAndTimeString" : "2025-08-22T16:41:21.223812+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T10:43:04.153676+02:00"
+						"dateAndTimeString" : "2025-08-22T16:45:09.608291+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "VvyM6VH5DQCirW3kAjHLQw=="
+					"uidString" : "0/Cy71b5DQCZixKKCnLIGw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Let's try to add an attribute to {{gtClass:name=LePage}}, store some data in the new field, as see if it is stored. Also check what happens to pages missing the attribute."
+				"string" : "We return to the idea of leveraging the `options` slot."
 			},
 			{
 				"__type" : "textSnippet",
@@ -60,7 +60,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:43:06.06402+02:00"
+									"dateAndTimeString" : "2025-08-22T16:46:20.990182+02:00"
 								}
 							},
 							"editEmail" : {
@@ -71,17 +71,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:43:39.146303+02:00"
+									"dateAndTimeString" : "2025-08-22T16:46:56.649252+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Q9J87lH5DQCnL9uaAjHLQw=="
+								"uidString" : "fwGRAVf5DQChBOCrCnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We have a local test DB:"
+							"string" : "As before, we create a test database with a couple of test pages."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -97,7 +97,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:43:35.28451+02:00"
+									"dateAndTimeString" : "2025-08-22T16:46:58.160102+02:00"
 								}
 							},
 							"editEmail" : {
@@ -108,14 +108,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:44:23.218883+02:00"
+									"dateAndTimeString" : "2025-08-22T16:48:11.215852+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "xa068FH5DQCnivCWAjHLQw=="
+								"uidString" : "rivIA1f5DQCicMQ7CnLIGw=="
 							},
-							"code" : "testdb := LeDatabase databaseNamed: 'GT/GT-2025-08-22@08h15/testDB'.\rp1 := testdb pageNamed: 'Page 1'"
+							"code" : "testdb := LeDatabase databaseNamed: 'GT/GT-2025-08-22@11h20/testDB'.\rp1 := testdb pageNamed: 'Page 1'"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -131,7 +131,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:59:20.537861+02:00"
+									"dateAndTimeString" : "2025-08-22T16:48:20.642967+02:00"
 								}
 							},
 							"editEmail" : {
@@ -142,14 +142,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:59:29.190415+02:00"
+									"dateAndTimeString" : "2025-08-22T16:48:31.744633+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "Sh2SKFL5DQC42gJTAjHLQw=="
+								"uidString" : "/MKyCFf5DQCiiqh0CnLIGw=="
 							},
-							"code" : "testdb := LeDatabase databaseNamed: 'GT/GT-2025-08-22@08h15/testDB'.\rp2 := testdb pageNamed: 'Page 2'"
+							"code" : "testdb := LeDatabase databaseNamed: 'GT/GT-2025-08-22@11h20/testDB'.\rp2 := testdb pageNamed: 'Page 2'"
 						},
 						{
 							"__type" : "textSnippet",
@@ -165,7 +165,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:46:29.719864+02:00"
+									"dateAndTimeString" : "2025-08-22T16:46:07.241052+02:00"
 								}
 							},
 							"editEmail" : {
@@ -176,17 +176,54 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:47:42.486042+02:00"
+									"dateAndTimeString" : "2025-08-22T16:55:34.186899+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "P1yg+lH5DQCr1M4rAjHLQw=="
+								"uidString" : "OTS/AFf5DQCgrx1SCnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We add an attribute `topicMap` to {{gtClass:name=LePage}}. It is added to all instances and initialized to `nil`.\nWe add accessors: {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}}. \n**NB:** Later we want these to be extensions from a new package `Lepiter-Topics`.\nWe add a value to Page 1."
+							"string" : "We add the package {{gtPackage:name=Lepiter-Topics}}. We add extension methods {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}}. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T16:51:24.448533+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T16:52:52.548452+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "vGinE1f5DQClXmoTCnLIGw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "For testing, we add a topic Map to the `options` slot"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -202,7 +239,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:47:44.432572+02:00"
+									"dateAndTimeString" : "2025-08-22T16:51:41.314268+02:00"
 								}
 							},
 							"editEmail" : {
@@ -213,12 +250,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:58:52.478384+02:00"
+									"dateAndTimeString" : "2025-08-22T16:56:40.787432+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "SmMU/1H5DQCuhLUrAjHLQw=="
+								"uidString" : "dcKoFFf5DQClzPrDCnLIGw=="
 							},
 							"code" : "p1TopicMap := {'category' -> 'Tag'.\r\t\t'topics'\r\t\t\t-> {{'topic' -> 'Experimental Pages'.\r\t\t\t\t\t\t'group' -> 'Experiments'} asDictionary}} asDictionary.\rp1 topicMap: p1TopicMap. \rp1"
 						},
@@ -236,7 +273,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:51:45.933804+02:00"
+									"dateAndTimeString" : "2025-08-22T17:03:10.250897+02:00"
 								}
 							},
 							"editEmail" : {
@@ -247,12 +284,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:55:49.325088+02:00"
+									"dateAndTimeString" : "2025-08-22T17:03:10.256256+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "qmd5DVL5DQCySc3sAjHLQw=="
+								"uidString" : "rb3CE1f5DQClY4ObCnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
@@ -273,7 +310,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:55:51.078605+02:00"
+									"dateAndTimeString" : "2025-08-22T17:03:16.363052+02:00"
 								}
 							},
 							"editEmail" : {
@@ -284,12 +321,12 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:55:52.04581+02:00"
+									"dateAndTimeString" : "2025-08-22T17:03:17.405713+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "zwQWHFL5DQC1zuyhAjHLQw=="
+								"uidString" : "BV0WPlf5DQCpIm+hCnLIGw=="
 							},
 							"code" : "LeJsonV4 cleanUniqueInstance."
 						},
@@ -307,7 +344,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:55:53.149329+02:00"
+									"dateAndTimeString" : "2025-08-22T17:06:52.706279+02:00"
 								}
 							},
 							"editEmail" : {
@@ -318,17 +355,91 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:57:57.356754+02:00"
+									"dateAndTimeString" : "2025-08-22T17:06:52.706279+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "XZ01HFL5DQC12J9TAjHLQw=="
+								"uidString" : "+n37Slf5DQCtRE8ICnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We modify p1 and now we see the new data in the json for the page!"
+							"string" : "We modify both pages and check that the JSONs are ok. Only p1 should have the new topicMap."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T17:06:53.161108+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T17:11:00.130392+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "+W8CS1f5DQCtSh1QCnLIGw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Inspecting the p1 file we discover that we made an error in setting the topicMap in the `options` slot, since it is by default `nil`. We should instead use the dedicated {{gtClass:name=TGtOptions}} API. We fix the two accessors, and we delete and recreate p1 and p2."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T16:48:36.817185+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-22T17:06:52.710296+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "kIupCVf5DQCio4j+CnLIGw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : " Looks good! Just p1 includes:"
 						},
 						{
 							"__type" : "blockQuoteSnippet",
@@ -344,7 +455,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:58:00.778558+02:00"
+									"dateAndTimeString" : "2025-08-22T17:05:25.259203+02:00"
 								}
 							},
 							"editEmail" : {
@@ -355,14 +466,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:58:21.423076+02:00"
+									"dateAndTimeString" : "2025-08-22T17:13:21.991413+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "ORXRI1L5DQC4KAVhAjHLQw=="
+								"uidString" : "tCnFRVf5DQCtNop8CnLIGw=="
 							},
-							"string" : "{\n\t\"__schema\" : \"4.1\",\n\t\"__type\" : \"page\",\n\t...\n\t\"topicMap\" : {\n\t\t\"category\" : \"Tag\",\n\t\t\"topics\" : [\n\t\t\t{\n\t\t\t\t\"group\" : \"Experiments\",\n\t\t\t\t\"topic\" : \"Experimental Pages\"\n\t\t\t}\n\t\t]\n\t}\n}"
+							"string" : "{\n\t\"__schema\" : \"4.1\",\n\t...\n\t\"topicMap\" : {\n\t\t\"category\" : \"Tag\",\n\t\t\"topics\" : [\n\t\t\t{\n\t\t\t\t\"group\" : \"Experiments\",\n\t\t\t\t\"topic\" : \"Experimental Pages\"\n\t\t\t}\n\t\t]\n\t}\n}"
 						},
 						{
 							"__type" : "textSnippet",
@@ -378,7 +489,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:00:16.753989+02:00"
+									"dateAndTimeString" : "2025-08-22T16:48:37.043279+02:00"
 								}
 							},
 							"editEmail" : {
@@ -389,17 +500,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:00:34.992025+02:00"
+									"dateAndTimeString" : "2025-08-22T17:13:57.369612+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "XObrK1L5DQC5ek4BAjHLQw=="
+								"uidString" : "oAGtCVf5DQCiqHx6CnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We update p2 and see that there is no additional json since the value is nil."
+							"string" : "We push the changes and rebuild to see if all is ok."
 						},
 						{
 							"__type" : "textSnippet",
@@ -415,7 +526,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:58:34.71997+02:00"
+									"dateAndTimeString" : "2025-08-22T16:46:07.812974+02:00"
 								}
 							},
 							"editEmail" : {
@@ -426,88 +537,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:58:45.563116+02:00"
+									"dateAndTimeString" : "2025-08-22T17:02:27.052252+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "efzWJVL5DQC4S3LcAjHLQw=="
+								"uidString" : "z+7HAFf5DQCgvlJSCnLIGw=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Now, to test reloading."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:01:00.42462+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:01:10.147281+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "b0SGLlL5DQC7B5lSAjHLQw=="
-							},
-							"code" : "testdb monitor primitiveReloadWithPageDeletion."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:01:54.999387+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:02:03.168449+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "KgLHMVL5DQC7OX4HAjHLQw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "This seems to work fine!"
+							"string" : "Changes to {{gtPackage:name=Lepiter-Topics}}:\n- Added extension methods {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}}\n\nChanges to {{gtPackage:name=BaselineOfLepiterEngineCore}}:\n- Added dependency from `Lepiter-Topics` to `Lepiter-Core`\n\nChanges to {{gtPackage:name=Lepiter-Store}}:\n- Updated {{gtMethod:name=LePage class>>#leJsonV4AttributeMapping}}"
 						}
 					]
 				},
@@ -519,7 +559,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T16:41:38.933445+02:00"
+						"dateAndTimeString" : "2025-08-22T16:45:12.139043+02:00"
 					}
 				},
 				"editEmail" : {
@@ -530,209 +570,23 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T16:41:48.371364+02:00"
+						"dateAndTimeString" : "2025-08-22T16:46:16.491238+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "FijB8Fb5DQCZjizICnLIGw=="
+					"uidString" : "UGp2/Vb5DQCgiM3bCnLIGw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Experiment with extra page attributes"
+				"string" : "# Experiment"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:02:43.458098+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:03:16.016724+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "WnCqNFL5DQC8hX8uAjHLQw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "After the simple experiment, now we want to push the changes to the Lepiter repo and see if anything breaks."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:03:20.019973+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:04:10.96475+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "TlDYNlL5DQC+rkqSAjHLQw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We first want to add the changes to {{gtClass:name=LePage}} to a new package `#Lepiter-Topics`."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:15:26.674513+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:58:46.557559+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "sC8oYlL5DQCGBE1cAjHLQw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Changes to  {{gtPackage:name=Lepiter-Core}}:\n- new slot `topicMap` in {{gtClass:name=LePage}} \n\nChanges to {{gtPackage:name=Lepiter-Store}}:\n- updated {{gtMethod:name=LePage class>>#leJsonV4AttributeMapping}}\n\nChanges to {{gtPackage:name=BaselineOfLepiterEngineCore}}:\n- Added dependency from `Lepiter-Topics` to `Lepiter-Core`\n\nChanges to {{gtPackage:name=Lepiter-Topics}}:\n- Added extension methods {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}} "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T11:15:41.134725+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:43:22.983395+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "6tQEY1L5DQCGXDkZAjHLQw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "We push these changes and rebuild to see if anything breaks!"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:43:20.065867+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:44:07.4189+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "5lDI9lb5DQCb4x1HCnLIGw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "It works fine, but TG wants to avoid adding a slot to LePage in the core Lepiter package. Instead we should use the `options` slot and just provide extension methods."
-						}
-					]
+					"items" : [ ]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -742,7 +596,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T16:42:17.562219+02:00"
+						"dateAndTimeString" : "2025-08-22T16:46:07.633793+02:00"
 					}
 				},
 				"editEmail" : {
@@ -753,17 +607,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-22T16:42:31.665325+02:00"
+						"dateAndTimeString" : "2025-08-22T16:46:07.633793+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "/ZUO81b5DQCaO8bMCnLIGw=="
+					"uidString" : "1DPFAFf5DQCguaroCnLIGw=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Adding topics to Lepiter Pages"
+				"string" : ""
 			}
 		]
 	},
@@ -775,7 +629,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-22T10:41:43.055499+02:00"
+			"dateAndTimeString" : "2025-08-22T16:41:21.068788+02:00"
 		}
 	},
 	"editEmail" : {
@@ -786,15 +640,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-22T16:44:47.500175+02:00"
+			"dateAndTimeString" : "2025-08-22T16:44:52.746266+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Storing topic maps in a dedicated slot (not used)"
+		"title" : "*** Storing topic maps in the options slot"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "31388ae9-51f9-0d00-a2ac-0bdb0231cb43"
+		"uuid" : "3a92b0ef-56f9-0d00-998a-68bc0a72c81b"
 	}
 }
