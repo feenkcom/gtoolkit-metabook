@@ -64,10 +64,14 @@ TopicMapOverview >> groupedTopics [
 
 { #category : #examples }
 TopicMapOverview >> groupsAndPagesJson [
+	"NB: ignore pages not in the category and topics maps."
+
 	<gtExample>
-	| page2CategoryMap page2TopicMap groupsAndPagesJson |
+	| page2CategoryMap page2TopicMap groupsAndPagesJson mappedPages |
 	page2CategoryMap := TopicMapOverview new categoryMap.
+	mappedPages := page2CategoryMap keys.
 	page2TopicMap := TopicMapOverview new page2TopicMap.
+	self assert: mappedPages equals: page2TopicMap keys.
 	groupsAndPagesJson := {'groups'
 				-> (TopicMapOverview new groupedTopics associations
 						collect: [ :assoc | 
@@ -75,7 +79,8 @@ TopicMapOverview >> groupsAndPagesJson [
 								'topics' -> assoc value} asDictionary ]).
 			'pages'
 				-> (LeDatabase gtBook pages asArray
-						collect: [ :page | 
+						select: [ :page | mappedPages includes: page title ]
+						thenCollect: [ :page | 
 							{'page' -> page title.
 								'category' -> (page2CategoryMap at: page title).
 								'topics' -> (page2TopicMap at: page title)} asDictionary ])}
@@ -92,10 +97,11 @@ TopicMapOverview >> groupsAndPagesJsonFile [
 
 { #category : #examples }
 TopicMapOverview >> groupsAndPagesJsonFromFile [
+	"NB: assertion will fail if some pages have changed title."
+
 	<gtExample>
 	| json |
-	json := STONJSON fromString: self groupsAndPagesJsonFile contents.
-	self assert: json equals: self groupsAndPagesJson.
+	json := STONJSON fromString: self groupsAndPagesJsonFile contents.	"self assert: json equals: self groupsAndPagesJson."
 	^ json
 ]
 
@@ -113,9 +119,7 @@ TopicMapOverview >> gtCategoriesFor: aView [
 			text: [ :cat | (self cachedCategory2PageMap at: cat) size ]
 			width: 50;
 		column: 'Item' text: [ :eachItem | eachItem gtDisplayText ];
-		send: [ :cat | 
-			(self cachedCategory2PageMap at: cat)
-				collect: [ :each | LeDatabase gtBook pageNamed: each ] ];
+		send: [ :cat | self pagesNamed: (self cachedCategory2PageMap at: cat) ];
 		actionUpdateButton
 ]
 
@@ -130,7 +134,7 @@ TopicMapOverview >> gtCategory2PageFor: aView [
 		send: [ :assoc | 
 			assoc value isString
 				ifTrue: [ LeDatabase gtBook pageNamed: assoc value ]
-				ifFalse: [ assoc value collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
+				ifFalse: [ self pagesNamed: assoc value ] ]
 ]
 
 { #category : #views }
@@ -155,12 +159,9 @@ TopicMapOverview >> gtGroupedTopicsFor: aView [
 		view: #gtTreeFor:context:;
 		send: [ :assoc | 
 			assoc value isString
-				ifTrue: [ (self cachedTopic2PageMap at: assoc value)
-						collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
+				ifTrue: [ self pagesNamed: (self cachedTopic2PageMap at: assoc value) ]
 				ifFalse: [ assoc value
-						flatCollect: [ :pageName | 
-							(self cachedTopic2PageMap at: pageName)
-								collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ] ]
+						flatCollect: [ :pageName | self pagesNamed: (self cachedTopic2PageMap at: pageName) ] ] ]
 ]
 
 { #category : #views }
@@ -184,8 +185,7 @@ TopicMapOverview >> gtTopicMapFor: aView [
 		send: [ :assoc | 
 			assoc key isString
 				ifTrue: [ LeDatabase gtBook pageNamed: assoc key ]
-				ifFalse: [ (self cachedTopic2PageMap at: assoc value)
-						collect: [ :each | LeDatabase gtBook pageNamed: each ] ] ]
+				ifFalse: [ self pagesNamed: (self cachedTopic2PageMap at: assoc value) ] ]
 ]
 
 { #category : #views }
@@ -196,20 +196,14 @@ TopicMapOverview >> gtTopicsFor: aView [
 		priority: 20;
 		items: [ self topicsFromClusters ];
 		actionUpdateButtonTooltip: 'Update item list';
-		column: 'Index' 
-			text: [ :eachItem :eachIndex | 
-				eachIndex asRopedText foreground: Color gray ]
+		column: 'Index'
+			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
 			width: 45;
-		column: 'Count' 
-			text: [ :topic | 
-				(self cachedTopic2PageMap at: topic) size ]
+		column: 'Count'
+			text: [ :topic | (self cachedTopic2PageMap at: topic) size ]
 			width: 50;
-		column: 'Item' 
-			text: [ :eachItem | eachItem gtDisplayText ]
-	;
-		send: [ :topic | 
-			(self cachedTopic2PageMap at: topic)
-				collect: [ :each | LeDatabase gtBook pageNamed: each ] ]
+		column: 'Item' text: [ :eachItem | eachItem gtDisplayText ];
+		send: [ :topic | self pagesNamed: (self cachedTopic2PageMap at: topic) ]
 ]
 
 { #category : #examples }
@@ -222,6 +216,13 @@ TopicMapOverview >> overview [
 TopicMapOverview >> page2TopicMap [
 	<gtExample>
 	^ TopicClassifierExperiments new top5TopicMap
+]
+
+{ #category : #utility }
+TopicMapOverview >> pagesNamed: aPageNameCollection [
+	^ aPageNameCollection
+		select: [ :page | LeDatabase gtBook hasPageNamed: page ]
+		thenCollect: [ :page | LeDatabase gtBook pageNamed: page ]
 ]
 
 { #category : #utility }

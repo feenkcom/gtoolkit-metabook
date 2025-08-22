@@ -1498,12 +1498,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-22T16:19:59.127891+02:00"
+			"dateAndTimeString" : "2025-08-19T19:30:27.225679+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Contextual View"
+		"title" : "Custom View"
 	},
 	"uid" : {
 		"__type" : "uuid",

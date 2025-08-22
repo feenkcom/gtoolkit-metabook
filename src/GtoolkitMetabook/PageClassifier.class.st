@@ -231,7 +231,8 @@ PageClassifier >> initializeDefiningMethod [
 { #category : #initialization }
 PageClassifier >> initializeFromJson: json [
 	"NB: we only set attributes not already initialized.
-	To initialize the results there is now a separate method."
+	To initialize the results there is now a separate method.
+	NB: if a page has been renamed, we ignore it."
 
 	| database |
 	jsonFile ifNil: [ jsonFile := json at: 'jsonFile' ifAbsent: nil ].
@@ -241,22 +242,25 @@ PageClassifier >> initializeFromJson: json [
 	(json at: 'chats')
 		do: [ :j | 
 			| page chat |
-			page := database pageNamed: (j at: 'pageName').
-			chat := self chats
-					detect: [ :c | c page = page ]
-					ifNone: [ chats addLast: (self chatForPage: page) ].
-			"chat initializeResults: (j at: 'results')" ].
+			(database hasPageNamed: (j at: 'pageName'))
+				ifTrue: [ page := database pageNamed: (j at: 'pageName').
+					chat := self chats
+							detect: [ :c | c page = page ]
+							ifNone: [ chats addLast: (self chatForPage: page) ] ] ].
 	^ self
 ]
 
 { #category : #initialization }
 PageClassifier >> initializeResultsFromJson: json [
+	"NB: we ignore renamed pages that we can no longer find."
+
 	| database |
 	database := LeDatabase databaseNamed: (json at: 'bookName').
 	(json at: 'chats')
 		do: [ :j | 
-			(self chatWithPage: (database pageNamed: (j at: 'pageName')))
-				initializeResults: (j at: 'results') ]
+			(database hasPageNamed: (j at: 'pageName'))
+				ifTrue: [ (self chatWithPage: (database pageNamed: (j at: 'pageName')))
+						initializeResults: (j at: 'results') ] ]
 ]
 
 { #category : #accessing }
