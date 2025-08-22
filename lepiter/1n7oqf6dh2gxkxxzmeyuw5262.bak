@@ -479,7 +479,45 @@
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-22T16:46:07.812974+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-08-22T17:02:27.052252+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "z+7HAFf5DQCgvlJSCnLIGw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "Changes to {{gtPackage:name=Lepiter-Topics}}:\n- Added extension methods {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}}\n\nChanges to {{gtPackage:name=BaselineOfLepiterEngineCore}}:\n- Added dependency from `Lepiter-Topics` to `Lepiter-Core`\n\nChanges to {{gtPackage:name=Lepiter-Store}}:\n- Updated {{gtMethod:name=LePage class>>#leJsonV4AttributeMapping}}"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -511,43 +549,6 @@
 								"__type" : "textStyle"
 							},
 							"string" : "We push the changes and rebuild to see if all is ok."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T16:46:07.812974+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T17:02:27.052252+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "z+7HAFf5DQCgvlJSCnLIGw=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Changes to {{gtPackage:name=Lepiter-Topics}}:\n- Added extension methods {{gtMethod:name=LePage>>#topicMap}} and {{gtMethod:name=LePage>>#topicMap:}}\n\nChanges to {{gtPackage:name=BaselineOfLepiterEngineCore}}:\n- Added dependency from `Lepiter-Topics` to `Lepiter-Core`\n\nChanges to {{gtPackage:name=Lepiter-Store}}:\n- Updated {{gtMethod:name=LePage class>>#leJsonV4AttributeMapping}}"
 						}
 					]
 				},

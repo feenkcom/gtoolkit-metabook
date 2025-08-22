@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-22T17:44:14.22169+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-22T17:44:56.28336+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "kU6W0Ff5DQC9+9Y0CXutfw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "**TL;DR** We shouldn't modify the Lepiter package directly, but only add extsnions."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-08-22T10:41:43.236634+02:00"
 					}
 				},
@@ -213,14 +250,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-22T10:51:23.051652+02:00"
+									"dateAndTimeString" : "2025-08-22T16:58:52.478384+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "SmMU/1H5DQCuhLUrAjHLQw=="
 							},
-							"code" : "p1TopicMap := {'category' -> 'Tag'.\r\t\t'topics'\r\t\t\t-> {{'topic' -> 'Experimental Pages'.\r\t\t\t\t\t\t'group' -> 'Experiments'} asDictionary}} asDictionary.\rp1 topicMap: p1TopicMap.\rp1"
+							"code" : "p1TopicMap := {'category' -> 'Tag'.\r\t\t'topics'\r\t\t\t-> {{'topic' -> 'Experimental Pages'.\r\t\t\t\t\t\t'group' -> 'Experiments'} asDictionary}} asDictionary.\rp1 topicMap: p1TopicMap. \rp1"
 						},
 						{
 							"__type" : "textSnippet",

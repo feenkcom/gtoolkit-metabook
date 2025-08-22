@@ -44,7 +44,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-22T11:02:16.962976+02:00"
+															"dateAndTimeString" : "2025-08-22T16:44:47.51143+02:00"
 														}
 													},
 													"uid" : {
@@ -54,7 +54,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Experiment with extra page attributes]] "
+													"string" : "[[Storing topic maps in a dedicated slot (not used)]] "
 												},
 												{
 													"__type" : "textSnippet",
@@ -70,7 +70,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-22T11:02:24.506702+02:00"
+															"dateAndTimeString" : "2025-08-22T17:45:33.664536+02:00"
 														}
 													},
 													"editEmail" : {
@@ -81,7 +81,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-22T11:16:36.472086+02:00"
+															"dateAndTimeString" : "2025-08-22T17:45:33.664536+02:00"
 														}
 													},
 													"uid" : {
@@ -91,7 +91,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[*** Adding topicMaps to Lepiter Pages]] "
+													"string" : ""
 												},
 												{
 													"__type" : "textSnippet",
@@ -118,7 +118,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-08-22T16:41:17.72766+02:00"
+															"dateAndTimeString" : "2025-08-22T17:45:08.321164+02:00"
 														}
 													},
 													"uid" : {
@@ -128,7 +128,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[Storing topic maps in the options slot]] "
+													"string" : "[[Storing topic maps in the options slot (not used)]] "
 												}
 											]
 										},
