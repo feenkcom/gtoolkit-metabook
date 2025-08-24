@@ -251,7 +251,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-24T08:42:07.442507+02:00"
+									"dateAndTimeString" : "2025-08-24T09:19:49.474809+02:00"
 								}
 							},
 							"uid" : {
@@ -261,7 +261,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We start to add some views similar to those we had in {{gtClass:name=TopicMapOverviewFromJson}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -288,7 +288,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-24T08:46:01.220397+02:00"
+									"dateAndTimeString" : "2025-08-24T09:28:35.053882+02:00"
 								}
 							},
 							"uid" : {
@@ -298,7 +298,78 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We need a better way to return a collection of pages, as a searchable wrapped collection of pages with their topics and categories. *However* for testing purposes we want to explicitly store the origin topic map in the collection rather than the registered topic map (the topic map could be the test example rather than the registered one)."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-24T09:29:20.445823+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-24T09:29:29.805961+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "wP5hInn5DQCm5ASLBTGMxw=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We get a default group like this:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-24T09:28:40.264892+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-24T09:29:06.249971+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "++H8H3n5DQCmhdeaBTGMxw=="
+							},
+							"code" : "TMPageGroup for: TopicMapExamples new topicMap"
 						},
 						{
 							"__type" : "textSnippet",
@@ -325,7 +396,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-24T08:46:01.424677+02:00"
+									"dateAndTimeString" : "2025-08-24T10:03:15.448359+02:00"
 								}
 							},
 							"uid" : {
@@ -335,7 +406,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "How to create a navigable view that allows us to dive into the category, topics, or an individual topic? We can turn it into a nested dictionary for the view ..."
 						}
 					]
 				},
