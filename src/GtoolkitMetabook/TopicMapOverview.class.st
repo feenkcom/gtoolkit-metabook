@@ -15,7 +15,7 @@ Class {
 TopicMapOverview class >> gtInspectOverviewActionFor: anAction [
 	<gtClassAction>
 	^ anAction button
-		tooltip: 'Inspect slideshow';
+		tooltip: 'Inspect default instance';
 		priority: 10;
 		icon: BrGlamorousVectorIcons playinspect;
 		action: [ :aButton | aButton phlow spawnObject: self new ];
