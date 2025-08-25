@@ -262,7 +262,45 @@
 								"__type" : "textStyle"
 							},
 							"string" : "We start to add some views similar to those we had in {{gtClass:name=TopicMapOverviewFromJson}}. "
-						},
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-23T08:33:12.732199+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-24T08:46:06.34188+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jDFTO2T5DQCK4EleAn7xXg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Introducing a TopicMap object"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
 						{
 							"__type" : "textSnippet",
 							"children" : {
@@ -385,6 +423,114 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:32:08.102008+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:34:35.441699+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SY7qJ5P5DQCTWB5nCBLOjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We would  like to have a navigaable columned tree view for pages, topics etc. This means we need a small hierarchy of TM tree nodes for pages, topics, groups and categories. Each of these should be scoped to a particular page group, for further navigation."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:33:46.95506+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:33:46.95506+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "y3YlLpP5DQCX3h/zCBLOjQ=="
+							},
+							"code" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:32:02.669849+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:32:02.669849+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "njPuJ5P5DQCTXKOeCBLOjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-08-24T08:46:01.424677+02:00"
 								}
 							},
@@ -396,7 +542,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-24T10:03:12.556941+02:00"
+									"dateAndTimeString" : "2025-08-25T08:48:09.788508+02:00"
 								}
 							},
 							"uid" : {
@@ -406,7 +552,44 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "How to create a navigable view that allows us to dive into the category, topics, or an individual topic? We can turn it into a nested dictionary f"
+							"string" : "How to create a navigable view that allows us to dive into the category, topics, or an individual topic? We can turn it into a nested dictionary for the view ... but this is too clumsy ...\nThe key point is that the *children* of a tree node must be the same type as the parent, ie respond to the same messages. In particular, for ecah topic we must create TMPageGroup for that topic.\nInstead of leveraging dictionaries, we should just make our our tree nodes that have tree nodes as children.\rWhat are the children of a page group?"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:29:12.98366+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-25T16:29:12.98366+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "KP3QHZP5DQCTU6FmCBLOjQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						}
 					]
 				},
@@ -418,7 +601,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-23T08:33:12.732199+02:00"
+						"dateAndTimeString" : "2025-08-25T16:28:18.174241+02:00"
 					}
 				},
 				"editEmail" : {
@@ -429,17 +612,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-24T08:46:06.34188+02:00"
+						"dateAndTimeString" : "2025-08-25T16:28:57.281026+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "jDFTO2T5DQCK4EleAn7xXg=="
+					"uidString" : "RqqMGpP5DQCSLFdDCBLOjQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Introducing a TopicMap object"
+				"string" : "# Introducing a page group and an explorable tree view"
 			},
 			{
 				"__type" : "textSnippet",
