@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T09:28:31.08592+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T09:28:54.014996+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "TJIfW6H5DQCB9LVLBOjTvA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "*Caveat:* Later we rename \"category\" to \"style\"."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-07-22T17:25:29.314968+02:00"
 					}
 				},
@@ -29,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-07-22T17:28:16.97143+02:00"
+						"dateAndTimeString" : "2025-08-26T09:28:33.188927+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : " To build roadmaps for newcomers we need to cluster GT book pages into clusters of pages around the same topics, or learning goals (e.g. Programming Smalltalk, EDD, MD), and categorizes those pages into types (e.g., intro, tutorial, use case, FAQ). See {{gtPage:GT Topic Roadmaps|db=13cm1i7479vigj3b6heeymnoh}}."
+				"string" : "To build roadmaps for newcomers we need to cluster GT book pages into clusters of pages around the same topics, or learning goals (e.g. Programming Smalltalk, EDD, MD), and categorizes those pages into types (e.g., intro, tutorial, use case, FAQ). See {{gtPage:GT Topic Roadmaps|db=13cm1i7479vigj3b6heeymnoh}}."
 			},
 			{
 				"__type" : "textSnippet",

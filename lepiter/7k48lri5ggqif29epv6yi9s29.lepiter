@@ -135,6 +135,156 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T08:55:51.559445+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T08:58:42.571881+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tJNT5qD5DQC26V48BOjTvA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "• field — the domain of a cluster of related topics, e.g., *GT basics*\n• topic — the topic of a particular GT book page, e.g., *About GT*\n• page — the title of a given page, e.g. *How to work with Lepiter*\n• style — the kind of content of a page, e.g., *Tutorial* or *FAQ*"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T08:55:08.780134+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T08:55:48.694359+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Zc/G46D5DQC0ATw6BOjTvA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We need to standardize the names of the topic entities — they should be short and avoid confusion with other terminology."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T08:59:15.047859+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T09:01:27.947795+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ApB08qD5DQC9uTOjBOjTvA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "groups -> fields\ngroup -> field\ncategories -> styles\ncategory -> style"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T08:59:04.407322+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-26T08:59:14.598431+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yy7S8aD5DQC8+edMBOjTvA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "We rename the old fields:"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-08-24T08:46:15.475448+02:00"
 								}
 							},
@@ -434,7 +584,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:34:35.441699+02:00"
+									"dateAndTimeString" : "2025-08-26T10:56:30.951029+02:00"
 								}
 							},
 							"uid" : {
@@ -444,41 +594,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We would  like to have a navigaable columned tree view for pages, topics etc. This means we need a small hierarchy of TM tree nodes for pages, topics, groups and categories. Each of these should be scoped to a particular page group, for further navigation."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:33:46.95506+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:55:24.693904+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "y3YlLpP5DQCX3h/zCBLOjQ=="
-							},
-							"code" : "(TMPageGroup for: TopicMapExamples new topicMap) pageNodes"
+							"string" : "We would  like to have a navigable columned tree view for pages, topics etc. This means we need a small hierarchy of TM tree nodes for pages, topics, groups and categories. Each of these should be scoped to a particular page group, for further navigation."
 						},
 						{
 							"__type" : "textSnippet",
@@ -494,7 +610,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:32:02.669849+02:00"
+									"dateAndTimeString" : "2025-08-26T10:55:26.870513+02:00"
 								}
 							},
 							"editEmail" : {
@@ -505,44 +621,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:32:02.669849+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "njPuJ5P5DQCTXKOeCBLOjQ=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-24T08:46:01.424677+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T08:48:09.788508+02:00"
+									"dateAndTimeString" : "2025-08-26T10:56:14.863912+02:00"
 								}
 							},
 							"uid" : {
@@ -552,7 +631,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "How to create a navigable view that allows us to dive into the category, topics, or an individual topic? We can turn it into a nested dictionary for the view ... but this is too clumsy ...\nThe key point is that the *children* of a tree node must be the same type as the parent, ie respond to the same messages. In particular, for ecah topic we must create TMPageGroup for that topic.\nInstead of leveraging dictionaries, we should just make our our tree nodes that have tree nodes as children.\rWhat are the children of a page group?"
+							"string" : "We create initial versions of {{gtClass:name=TMAbstractTreeNode}} and children. We need test cases for navigation to finer-grained page groups."
 						},
 						{
 							"__type" : "textSnippet",
@@ -612,7 +691,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-25T16:28:57.281026+02:00"
+						"dateAndTimeString" : "2025-08-26T10:56:24.607172+02:00"
 					}
 				},
 				"uid" : {
@@ -622,7 +701,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Introducing a page group and an explorable tree view"
+				"string" : "# *** Introducing a page group and an explorable tree view"
 			},
 			{
 				"__type" : "textSnippet",

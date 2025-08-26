@@ -619,7 +619,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T14:33:55.61016+02:00"
+									"dateAndTimeString" : "2025-08-21T14:33:55.989929+02:00"
 								}
 							},
 							"uid" : {
@@ -629,7 +629,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Everything looks good"
+							"string" : "Everything looks good."
 						}
 					]
 				},
@@ -833,12 +833,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-21T08:53:24.813742+02:00"
+			"dateAndTimeString" : "2025-08-21T14:34:03.923548+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Prepare a topic map"
+		"title" : "Prepare a topic map"
 	},
 	"uid" : {
 		"__type" : "uuid",

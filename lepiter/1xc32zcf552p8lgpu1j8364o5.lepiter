@@ -440,14 +440,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-20T13:10:57.340662+02:00"
+									"dateAndTimeString" : "2025-08-26T09:30:17.554665+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "e8cduyv5DQCaI9DGCeCh/w=="
 							},
-							"code" : "page2CategoryMap := TopicMapOverview new categoryMap.\rpage2TopicMap := TopicMapOverview new top5TopicMap.\rgroupsAndPagesJson := {'groups'\r\t\t\t-> (TopicMapOverview new groupedTopics associations\r\t\t\t\t\tcollect: [ :assoc | \r\t\t\t\t\t\t{'group' -> assoc key.\r\t\t\t\t\t\t\t'topics' -> assoc value} asDictionary ]).\r\t\t'pages'\r\t\t\t-> (LeDatabase gtBook pages asArray\r\t\t\t\t\tcollect: [ :page | \r\t\t\t\t\t\t{'page' -> page title.\r\t\t\t\t\t\t\t'category' -> (page2CategoryMap at: page title).\r\t\t\t\t\t\t\t'topics' -> (page2TopicMap at: page title)} asDictionary ])} asDictionary.\rgroupsAndPagesJson asGtJson"
+							"code" : "page2CategoryMap := TopicMapOverview new categoryMap.\rpage2TopicMap := TopicMapOverview new page2TopicMap.\rgroupsAndPagesJson := {'groups'\r\t\t\t-> (TopicMapOverview new groupedTopics associations\r\t\t\t\t\tcollect: [ :assoc | \r\t\t\t\t\t\t{'group' -> assoc key.\r\t\t\t\t\t\t\t'topics' -> assoc value} asDictionary ]).\r\t\t'pages'\r\t\t\t-> (LeDatabase gtBook pages asArray\r\t\t\t\t\tcollect: [ :page | \r\t\t\t\t\t\t{'page' -> page title.\r\t\t\t\t\t\t\t'category' -> (page2CategoryMap at: page title).\r\t\t\t\t\t\t\t'topics' -> (page2TopicMap at: page title)} asDictionary ])} asDictionary.\rgroupsAndPagesJson asGtJson"
 						},
 						{
 							"__type" : "textSnippet",
