@@ -11,6 +11,11 @@ MetabookHomeSection >> cardPriorities [
 	^ #(metabookProjectCard metabookOverviewCard)
 ]
 
+{ #category : #'as yet unclassified' }
+MetabookHomeSection >> defaultPriority [
+	^ 20
+]
+
 { #category : #card }
 MetabookHomeSection >> metabookOverviewCard [
 	<gtSectionCard>
