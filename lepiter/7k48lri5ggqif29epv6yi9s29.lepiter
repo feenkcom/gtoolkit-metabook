@@ -634,6 +634,40 @@
 							"string" : "We create initial versions of {{gtClass:name=TMAbstractTreeNode}} and children. We need test cases for navigation to finer-grained page groups."
 						},
 						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T11:08:01.736978+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T13:37:56.274023+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yXoAv6L5DQC8Rq2RBVDH4w=="
+							},
+							"code" : "TMPageGroupExamples new gtBookPageGroup"
+						},
+						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -658,7 +692,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:29:12.98366+02:00"
+									"dateAndTimeString" : "2025-08-26T13:50:44.06736+02:00"
 								}
 							},
 							"uid" : {
@@ -668,7 +702,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "To do: more views for topics and fields."
 						}
 					]
 				},

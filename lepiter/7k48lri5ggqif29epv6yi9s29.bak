@@ -584,7 +584,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-25T16:34:35.441699+02:00"
+									"dateAndTimeString" : "2025-08-26T10:56:30.951029+02:00"
 								}
 							},
 							"uid" : {
@@ -594,7 +594,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We would  like to have a navigaable columned tree view for pages, topics etc. This means we need a small hierarchy of TM tree nodes for pages, topics, groups and categories. Each of these should be scoped to a particular page group, for further navigation."
+							"string" : "We would  like to have a navigable columned tree view for pages, topics etc. This means we need a small hierarchy of TM tree nodes for pages, topics, groups and categories. Each of these should be scoped to a particular page group, for further navigation."
 						},
 						{
 							"__type" : "textSnippet",
@@ -632,6 +632,40 @@
 								"__type" : "textStyle"
 							},
 							"string" : "We create initial versions of {{gtClass:name=TMAbstractTreeNode}} and children. We need test cases for navigation to finer-grained page groups."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T11:08:01.736978+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-26T13:37:56.274023+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yXoAv6L5DQC8Rq2RBVDH4w=="
+							},
+							"code" : "TMPageGroupExamples new gtBookPageGroup"
 						},
 						{
 							"__type" : "textSnippet",
