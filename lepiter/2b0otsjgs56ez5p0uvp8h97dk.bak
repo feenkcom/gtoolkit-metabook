@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-21T18:18:53.767152+02:00"
+						"dateAndTimeString" : "2025-08-21T18:19:35.811443+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\nHow to organize an actual Roadmap?\nThere are 5 “islands” or groups of topics.\nWhich pages have topics that bridge these groups?\nUse a scenery Mindmap?\n"
+				"string" : "\nHow to organize an actual Roadmap?\nThere are 5 “islands” or groups of topics.\nWhich pages have topics that bridge these groups?\nUse a scenery Mindmap?\n\n\n\n\nHow to track one's progress?\nWhich pages from a roadmap have been visited?\nWhere to store this? (In one's private db?)\nNeed a Roadmap snippet?\n\n"
 			}
 		]
 	},

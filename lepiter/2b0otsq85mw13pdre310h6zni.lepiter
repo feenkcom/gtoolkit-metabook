@@ -28,7 +28,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:15:20.972577+02:00"
+												"dateAndTimeString" : "2025-08-27T11:16:17.347812+02:00"
 											}
 										},
 										"editEmail" : {
@@ -39,17 +39,17 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-22T16:40:06.396794+02:00"
+												"dateAndTimeString" : "2025-08-27T11:16:17.354775+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "QSWNIUT5DQCIJMPuC93zJg=="
+											"uidString" : "2Kkw+rb5DQCHJntEB75TxA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Storing topics, categories and topic groups]] "
+										"string" : "[[*** Introducing topic map views for pages and databases]]"
 									}
 								]
 							},
@@ -61,7 +61,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:15:10.069199+02:00"
+									"dateAndTimeString" : "2025-08-27T11:15:07.505026+02:00"
 								}
 							},
 							"editEmail" : {
@@ -72,135 +72,23 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:15:10.069199+02:00"
+									"dateAndTimeString" : "2025-08-27T11:16:02.305509+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "oupcIUT5DQCIHTPOC93zJg=="
+								"uidString" : "HemgKkT5DQCLMUvnC93zJg=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Decide how to store topics, categories and groups in pages and the DB."
+							"string" : "Add views for pages anda databases tp navigate between: fields-topics-styles-pages"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
 								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:17:45.519893+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:17:45.519893+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "HemgKkT5DQCLMUvnC93zJg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:17:26.325009+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:17:44.672834+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "AwF8KUT5DQCJ+670C93zJg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Provide a way to navigate between pages, topics, groups etc"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:19:43.020713+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:19:43.020713+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "gxddL0T5DQCMz7hPC93zJg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
-									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
@@ -226,7 +114,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:18:33.093571+02:00"
+												"dateAndTimeString" : "2025-08-27T11:17:22.711899+02:00"
 											}
 										},
 										"uid" : {
@@ -236,7 +124,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Design and implement Roadmaps]] "
+										"string" : "[[* Design and implement Roadmaps]]  "
 									}
 								]
 							},
@@ -285,6 +173,80 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-27T11:16:33.461044+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-27T11:16:40.449299+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "/x9Y+7b5DQCHTy/gB75TxA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Add LePage and LeDatabase inspector views."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-27T11:16:40.446019+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-27T11:16:40.446019+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LLXC+7b5DQCHX6r7B75TxA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Provide a way to find pages missing topics and categories, and trigger an assistant."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2025-08-21T18:16:11.71619+02:00"
 								}
 							},
@@ -296,7 +258,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:16:11.71619+02:00"
+									"dateAndTimeString" : "2025-08-27T11:16:33.469523+02:00"
 								}
 							},
 							"uid" : {
@@ -306,7 +268,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Provide first-class query collections for pages, topics and categories.\nProvide ways to query and navigate.\nProvide a way to find pages missing topics and categories, and trigger an assistant.\nAdd LePage and LeDatabase inspector views.\nProvide a way to add or rename topics and categories."
+							"string" : "Provide a way to add or rename topics and categories."
 						},
 						{
 							"__type" : "textSnippet",
@@ -338,7 +300,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-21T18:16:39.043934+02:00"
+												"dateAndTimeString" : "2025-08-27T11:17:28.075124+02:00"
 											}
 										},
 										"uid" : {
@@ -348,7 +310,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[Profile Newcomers]] "
+										"string" : "[[* Profile Newcomers]] "
 									}
 								]
 							},

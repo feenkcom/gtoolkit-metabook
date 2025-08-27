@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-21T18:16:41.221652+02:00"
+						"dateAndTimeString" : "2025-08-21T18:19:19.446816+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-21T18:16:59.691302+02:00"
+						"dateAndTimeString" : "2025-08-21T18:19:27.249547+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "MM7LJkT5DQCJ4eJRC93zJg=="
+					"uidString" : "QCE6MET5DQCNU6sjC93zJg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "How to profile newcomers?\nDo they have a specific problem to address or not?\nAre they interested in a specific GT component or technique?"
+				"string" : "\nUseful Visualizations?\n\nScenery mindmap of groups -> topics -> categories and linking to pages\n\nTreeMap: Book > Topic groups > Topics > Categories > Pages\nHow to handle pages with >1 topic?\nHighlight in special color?\n\nFCA lattice: Objects = Pages, Properties = Topic Groups + Categories\nOR Top 20 Topics + Categories\n\n"
 			}
 		]
 	},
@@ -51,7 +51,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-21T18:16:41.116748+02:00"
+			"dateAndTimeString" : "2025-08-21T18:19:19.394189+02:00"
 		}
 	},
 	"editEmail" : {
@@ -62,15 +62,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-27T11:17:28.047679+02:00"
+			"dateAndTimeString" : "2025-08-21T18:19:19.394189+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Profile Newcomers"
+		"title" : "Visualize topic maps"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "9733ca26-44f9-0d00-89e0-6ca90bddf326"
+		"uuid" : "aa523930-44f9-0d00-8d52-81480bddf326"
 	}
 }

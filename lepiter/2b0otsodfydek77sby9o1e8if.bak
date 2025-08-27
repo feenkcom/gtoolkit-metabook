@@ -62,12 +62,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-27T11:17:28.047679+02:00"
+			"dateAndTimeString" : "2025-08-21T18:16:41.116748+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Profile Newcomers"
+		"title" : "Profile Newcomers"
 	},
 	"uid" : {
 		"__type" : "uuid",

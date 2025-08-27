@@ -62,12 +62,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-21T18:19:19.394189+02:00"
+			"dateAndTimeString" : "2025-08-27T11:17:18.538114+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Visualize topic maps"
+		"title" : "* Visualize topic maps"
 	},
 	"uid" : {
 		"__type" : "uuid",
