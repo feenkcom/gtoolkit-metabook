@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-27T13:16:53.05445+02:00"
+						"dateAndTimeString" : "2025-08-28T18:15:49.424368+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Vj6kM7f5DQCHl03iB75TxA=="
 				},
-				"code" : "TMRegistry uniqueInstance enableActions"
+				"code" : "TMRegistry uniqueInstance enableExtensions"
 			},
 			{
 				"__type" : "textSnippet",

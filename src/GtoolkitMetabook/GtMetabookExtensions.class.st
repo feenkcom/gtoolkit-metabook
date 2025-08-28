@@ -52,9 +52,12 @@ GtMetabookExtensions >> enableExtensions [
 	extensionsEnabled := true
 ]
 
-{ #category : #accessing }
+{ #category : #initialization }
 GtMetabookExtensions >> extensionsEnabled [
 	^ extensionsEnabled
-		ifNil: [ self enableExtensions.
-			extensionsEnabled ]
+]
+
+{ #category : #initialization }
+GtMetabookExtensions >> initialize [
+	self enableExtensions
 ]

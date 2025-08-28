@@ -1001,12 +1001,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-27T10:53:59.673038+02:00"
+			"dateAndTimeString" : "2025-08-28T17:18:01.990988+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Introducing topic map views for pages and databases"
+		"title" : "Introducing topic map views for pages and databases"
 	},
 	"uid" : {
 		"__type" : "uuid",
