@@ -28,7 +28,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-27T11:16:17.347812+02:00"
+												"dateAndTimeString" : "2025-08-28T17:18:36.171049+02:00"
 											}
 										},
 										"editEmail" : {
@@ -39,56 +39,18 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-27T11:16:17.354775+02:00"
+												"dateAndTimeString" : "2025-08-28T17:18:37.666001+02:00"
 											}
 										},
 										"uid" : {
 											"__type" : "uid",
-											"uidString" : "2Kkw+rb5DQCHJntEB75TxA=="
+											"uidString" : "f7TGJ9D5DQC6slyODNJRPA=="
 										},
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Introducing topic map views for pages and databases]]"
-									}
-								]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T11:15:07.505026+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T11:16:02.305509+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "HemgKkT5DQCLMUvnC93zJg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Add views for pages anda databases tp navigate between: fields-topics-styles-pages"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [
+										"string" : "[[* Visualize topic maps]] "
+									},
 									{
 										"__type" : "textSnippet",
 										"children" : {
@@ -147,7 +109,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:15:51.183505+02:00"
+									"dateAndTimeString" : "2025-08-28T17:18:32.672764+02:00"
 								}
 							},
 							"uid" : {

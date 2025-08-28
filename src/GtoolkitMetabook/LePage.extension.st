@@ -35,6 +35,8 @@ LePage >> createMetapage [
 LePage >> gtGitButtonFor: anAction [
 	<lePageAction>
 	| repoName repo |
+	GtMetabookExtensions uniqueInstance extensionsEnabled
+		ifFalse: [ ^ anAction empty ].
 	repoName := self repoName.
 	repoName ifNil: [ ^ anAction empty ].
 	repo := [ GtGitRepository forRepoNamed: repoName ]
@@ -53,6 +55,8 @@ LePage >> gtMetadatabaseSummaryActionFor: anAction [
 
 	<lePageAction>
 	| baseDatabase |
+	GtMetabookExtensions uniqueInstance extensionsEnabled
+		ifFalse: [ ^ anAction empty ].
 	self database ifNil: [ ^ anAction noAction ].
 	self database isDatabase ifFalse: [ ^ anAction noAction ].
 	self hasMetadatabase
@@ -72,6 +76,8 @@ LePage >> gtMetadatabaseSummaryActionFor: anAction [
 { #category : #'*GtoolkitMetabook' }
 LePage >> gtOpenBasepageActionFor: anAction [
 	<lePageAction>
+	GtMetabookExtensions uniqueInstance extensionsEnabled
+		ifFalse: [ ^ anAction empty ].
 	self isMetapage ifFalse: [ ^ anAction empty ].
 	self hasBasePage ifFalse: [ ^ anAction empty ].
 	^ anAction button
@@ -86,6 +92,8 @@ LePage >> gtOpenBasepageActionFor: anAction [
 { #category : #'*GtoolkitMetabook' }
 LePage >> gtOpenMetapageActionFor: anAction [
 	<lePageAction>
+	GtMetabookExtensions uniqueInstance extensionsEnabled
+		ifFalse: [ ^ anAction empty ].
 	self hasMetadatabase ifFalse: [ ^ anAction empty ].
 	^ anAction button
 		tooltip: (self hasMetapage ifTrue: [ 'Open metapage' ] ifFalse: [ 'Create metapage' ]);
