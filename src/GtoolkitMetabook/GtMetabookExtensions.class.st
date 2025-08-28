@@ -59,5 +59,5 @@ GtMetabookExtensions >> extensionsEnabled [
 
 { #category : #initialization }
 GtMetabookExtensions >> initialize [
-	self enableExtensions
+	self disableExtensions
 ]
