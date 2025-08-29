@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-28T18:23:55.613606+02:00"
+						"dateAndTimeString" : "2025-08-28T18:24:48.183604+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-28T18:24:31.221177+02:00"
+						"dateAndTimeString" : "2025-08-29T10:49:53.495655+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,41 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\nUseful Visualizations?\n\n\n\n"
+				"string" : "Several things to try out"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-29T10:49:56.151729+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-29T10:50:38.305822+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "suPR1975DQCyKcN8CLgqSg=="
+				},
+				"code" : "LeDatabase gtBook topicMap databaseNode"
 			},
 			{
 				"__type" : "textSnippet",
@@ -71,7 +105,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-28T18:24:36.348052+02:00"
+									"dateAndTimeString" : "2025-08-28T18:24:37.744702+02:00"
 								}
 							},
 							"uid" : {
@@ -81,7 +115,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "\nScenery mindmap of groups -> topics -> categories and linking to pages\n\nSee also Road"
+							"string" : "\nScenery mindmap of groups -> topics -> categories and linking to pages\n\nSee also Roadmap below"
 						}
 					]
 				},
@@ -512,12 +546,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-27T11:17:18.538114+02:00"
+			"dateAndTimeString" : "2025-08-28T18:24:58.08717+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Visualize topic maps"
+		"title" : "*** Visualize topic maps"
 	},
 	"uid" : {
 		"__type" : "uuid",

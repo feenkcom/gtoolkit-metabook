@@ -66,14 +66,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-27T13:16:53.05445+02:00"
+						"dateAndTimeString" : "2025-08-28T18:15:49.424368+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "Vj6kM7f5DQCHl03iB75TxA=="
 				},
-				"code" : "TMRegistry uniqueInstance enableActions"
+				"code" : "TMRegistry uniqueInstance enableExtensions"
 			},
 			{
 				"__type" : "textSnippet",
@@ -796,7 +796,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T19:32:31.523371+02:00"
+									"dateAndTimeString" : "2025-08-29T11:06:52.160676+02:00"
 								}
 							},
 							"uid" : {
@@ -806,41 +806,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We see that our oldPageGroup class is very similar to the new {{gtClass:name=TMNodeCollectionNode}}, so we rename the old class to `OLDTMPageGroup` and make {{gtClass:name=TMPageGroup}} a subclass of the collection node  class. We migrate the functionality and the examples before deprecating the old class."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T19:08:36.840467+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T19:08:37.38078+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "lp2Mk735DQC6hA0jBBYdQw=="
-							},
-							"code" : "OLDTMPageGroup for: TopicMapExamples new topicMap"
+							"string" : "We see that our oldPageGroup class is very similar to the new {{gtClass:name=TMNodeGroup}}, so we rename the old class to `OLDTMPageGroup` and make {{gtClass:name=TMPageGroup}} a subclass of the collection node  class. We migrate the functionality and the examples before deprecating the old class."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -979,6 +945,149 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Moving PageGroup to the Node hiererachy"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T10:51:24.316857+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T11:08:38.725867+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Jy0T3d75DQCzdLGHCLgqSg=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "The difference is minimal, but {{gtClass:name=TMPageGroup}} just adds some conven"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T11:02:38.081853+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T11:02:38.081853+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "QQQ8Bd/5DQC1dvnWCLgqSg=="
+							},
+							"code" : "pg := TMPageGroupExamples new gtBookPageGroup"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T10:51:21.077701+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-29T11:06:52.132679+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "oMHh3N75DQCzcA7rCLgqSg=="
+							},
+							"code" : "TMNodeGroup\r\t\tfor: pg nodes\r\t\tin:  pg topicMap"
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-29T10:51:06.034377+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-08-29T10:51:19.477375+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "wDX82975DQCypsQtCLgqSg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Do we still need the PageGroup class?"
 			}
 		]
 	},
