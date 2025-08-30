@@ -207,12 +207,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-29T11:37:25.675308+02:00"
+			"dateAndTimeString" : "2025-08-30T10:39:21.363547+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Add assistant to updated unmapped pages"
+		"title" : "* Add assistant to updated unmapped pages"
 	},
 	"uid" : {
 		"__type" : "uuid",

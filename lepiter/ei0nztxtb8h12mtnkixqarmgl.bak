@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-29T11:48:52.16671+02:00"
+						"dateAndTimeString" : "2025-08-29T11:50:31.51938+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "NB: pages that have been *renamed* will appear as *Missing* underthe old name and *unmapped* under the new name. How to patch them? See [[Repairing missing pages]] "
+				"string" : "NB: pages that have been *renamed* will appear as *Missing* underthe old name and *unmapped* under the new name. How to patch them? See [[* Repairing missing pages]] "
 			},
 			{
 				"__type" : "pharoSnippet",

@@ -105,7 +105,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T11:56:05.697192+02:00"
+									"dateAndTimeString" : "2025-08-30T09:58:48.994896+02:00"
 								}
 							},
 							"uid" : {
@@ -115,7 +115,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "See {{gtClass:name=GtBuildingTreeMapsExplanation}}"
+							"string" : "See {{gtClass:name=GtBuildingTreeMapsExplanation}}."
 						},
 						{
 							"__type" : "textSnippet",
@@ -131,7 +131,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T13:46:35.109493+02:00"
+									"dateAndTimeString" : "2025-08-30T09:58:49.913879+02:00"
 								}
 							},
 							"editEmail" : {
@@ -142,17 +142,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T13:46:35.109493+02:00"
+									"dateAndTimeString" : "2025-08-30T09:58:57.275788+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "7iWRT+H5DQCfvPQMCxC/FA=="
+								"uidString" : "ZjDmPvL5DQC+OFIHAFoaew=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "We prototype a treemap."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -179,55 +179,20 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T15:09:00.808983+02:00"
+									"dateAndTimeString" : "2025-08-30T09:49:26.439885+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "YqDoT+H5DQCfxAQ7CxC/FA=="
 							},
-							"code" : "GtNestedRectangleTreeMap new\r\troots: {LeDatabase gtBook topicMap databaseNode};\r\tleaves: [ :aNode | aNode treeMapLeaves ];\r\tdeep: [ :aNode | aNode treeMapDeep ];\r\tleavesSize: [ :aPageNode | aPageNode page asMarkdownString size max: 1000 ]"
+							"code" : "GtNestedRectangleTreeMap new\r\troots: {LeDatabase gtBook topicMap databaseNode};\r\tleaves: [ :aNode | aNode treeMapLeaves ];\r\tdeep: [ :aNode | aNode treeMapChildren ];\r\tleavesSize: [ :aPageNode | aPageNode page asMarkdownString size max: 1000 ]"
 						},
 						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "pharoSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T19:08:10.000081+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T19:09:09.786745+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "QdGhzeX5DQCT8SjODznttQ=="
-										},
-										"code" : "(LeDatabase gtBook pages collect: [:p | p allChildrenDepthFirst size ]) asBag sortedCounts"
-									}
-								]
+								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -248,14 +213,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T19:11:07.265844+02:00"
+									"dateAndTimeString" : "2025-08-30T09:59:13.054258+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "n0GKt+H5DQCCblEEBf0p3Q=="
 							},
-							"code" : "style2Color := {'Introduction' -> Color red.\r\t\t'Media' -> Color green.\r\t\t'Tutorial' -> Color blue.\r\t\t'Case study' -> Color purple.\r\t\t'Pattern' -> Color orange.\r\t\t'FAQ' -> Color lightRed.\r\t\t'Examples' -> Color paleBlue.\r\t\t'Documentation' -> Color lightGreen.\r\t\t'Definition' -> Color black.\r\t\t'Index' -> Color gray.\r\t\t'Tag' -> Color veryLightGray} asDictionary.\r\rtimeToRun := [ treemap := GtNestedRectangleTreeMap new\r\t\t\troots: {LeDatabase gtBook topicMap databaseNode};\r\t\t\tleaves: [ :aNode | aNode treeMapLeaves ];\r\t\t\tdeep: [ :aNode | aNode treeMapDeep ];\r\t\t\tleavesSize: [ :aPageNode | aPageNode page asMarkdownString size max: 1000 ];\r\t\t\t\"leavesSize: [ :aPageNode | aPageNode page allChildrenBreadthFirst size max: 100 ];\"\r\t\t\tleafElement: [ :anElement :aLeafContext | \r\t\t\t\t| page pageNode |\r\t\t\t\tpageNode := aLeafContext model.\r\t\t\t\tpage := pageNode page.\r\t\t\t\tanElement background: (style2Color at: pageNode style ifAbsent: Color veryLightGray).\r\t\t\t\tanElement\r\t\t\t\t\twhen: BlClickEvent\r\t\t\t\t\tdo: [ :e | e target phlow spawnObject: pageNode ].\r\t\t\t\tanElement\r\t\t\t\t\taptitude: (BrGlamorousWithExplicitTooltipAptitude content: [ pageNode treeMapTooltip ]) ] ]\r\t\ttimeToRun.\r\rtreemap"
+							"code" : "style2Color := {'Introduction' -> Color red.\r\t\t'Media' -> Color green.\r\t\t'Tutorial' -> Color blue.\r\t\t'Case study' -> Color purple.\r\t\t'Pattern' -> Color orange.\r\t\t'FAQ' -> Color lightRed.\r\t\t'Examples' -> Color yellow.\r\t\t'Documentation' -> Color paleBlue.\r\t\t'Definition' -> Color black.\r\t\t'Index' -> Color gray.\r\t\t'Tag' -> Color veryLightGray} asDictionary.\r\rtimeToRun := [ treemap := GtNestedRectangleTreeMap new\r\t\t\troots: {LeDatabase gtBook topicMap databaseNode};\r\t\t\tleaves: [ :aNode | aNode treeMapLeaves ];\r\t\t\tdeep: [ :aNode | aNode treeMapChildren ];\r\t\t\tleavesSize: [ :aPageNode | aPageNode page asMarkdownString size max: 1000 ];\r\t\t\tleafElement: [ :anElement :aLeafContext | \r\t\t\t\t| page pageNode |\r\t\t\t\tpageNode := aLeafContext model.\r\t\t\t\tpage := pageNode page.\r\t\t\t\tanElement\r\t\t\t\t\tbackground: (style2Color at: pageNode style ifAbsent: Color veryLightGray).\r\t\t\t\tanElement\r\t\t\t\t\twhen: BlClickEvent\r\t\t\t\t\tdo: [ :e | e target phlow spawnObject: pageNode ].\r\t\t\t\tanElement\r\t\t\t\t\taptitude: (BrGlamorousWithExplicitTooltipAptitude content: [ pageNode treeMapTooltip ]) ] ]\r\t\ttimeToRun.\r\rtreemap"
 						},
 						{
 							"__type" : "textSnippet",
@@ -271,7 +236,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T15:01:22.852428+02:00"
+									"dateAndTimeString" : "2025-08-30T09:58:40.613301+02:00"
 								}
 							},
 							"editEmail" : {
@@ -282,7 +247,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T15:01:25.358757+02:00"
+									"dateAndTimeString" : "2025-08-30T10:00:45.798768+02:00"
 								}
 							},
 							"uid" : {
@@ -292,88 +257,13 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Problem: "
+							"string" : "We move the prototype to {{gtMethod:name=TMAbstractTreeNode>>#treeMap}}. "
 						},
 						{
-							"__type" : "textSnippet",
+							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T18:38:08.875025+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T18:38:43.960615+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "zdNGYuX5DQCNpz9UDznttQ=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Database `1<->*` Field `1<->*` Topic `*<->*` Style `1<->*` Page"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T18:37:08.282466+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-29T18:38:58.742237+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "EEOqXuX5DQCMWo3CDznttQ=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "We want to store *path* from whichever root we choose."
-									}
-								]
+								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -383,7 +273,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T13:46:36.062627+02:00"
+									"dateAndTimeString" : "2025-08-30T10:00:03.594698+02:00"
 								}
 							},
 							"editEmail" : {
@@ -394,7 +284,41 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T18:37:07.898946+02:00"
+									"dateAndTimeString" : "2025-08-30T10:00:11.622335+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "tHdKQ/L5DQC/VWSsAFoaew=="
+							},
+							"code" : "LeDatabase gtBook topicMap databaseNode"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-30T10:37:54.617585+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-08-30T10:38:50.640279+02:00"
 								}
 							},
 							"uid" : {
@@ -404,81 +328,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "***TO DO:*** Can we unify the tree and graph views of the topic map? The graph view continues on, while the tree view stops with Pages."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-28T18:23:11.767778+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T11:53:54.839786+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "9qj2DtH5DQCgsqCYDnVEBA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "TreeMap: Book > Topic groups > Topics > Categories > Pages\nHow to handle pages with >1 topic?\nHighlight in special color?\n\nFields > Topics > Styles > Pages\nColor by styles?\nNB: the same page may be in multiple topics. Highlight with broader?\nSize of page box = page length?\n"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T11:53:55.45164+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T11:53:55.45164+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "RfOovN/5DQCIFYd/AV3u9A=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"string" : "We add colored borders to nodes. We generalize treemaps so they work for all kinds of nodes."
 						}
 					]
 				},
@@ -501,7 +351,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-28T18:24:11.216357+02:00"
+						"dateAndTimeString" : "2025-08-30T10:39:09.050957+02:00"
 					}
 				},
 				"uid" : {
@@ -511,7 +361,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Tree maps"
+				"string" : "# Tree maps (done)"
 			},
 			{
 				"__type" : "textSnippet",
@@ -576,7 +426,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-28T18:24:25.842338+02:00"
+						"dateAndTimeString" : "2025-08-30T10:39:02.610122+02:00"
 					}
 				},
 				"uid" : {
@@ -586,7 +436,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "## Sceneries"
+				"string" : "# Sceneries"
 			},
 			{
 				"__type" : "textSnippet",
