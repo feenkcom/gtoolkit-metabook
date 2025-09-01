@@ -108,14 +108,51 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T18:30:07.799425+02:00"
+									"dateAndTimeString" : "2025-09-01T19:13:20.633988+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "CMm29yD6DQCKOUX5CzydFw=="
 							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root allMondrianChildren copyWithoutDuplicates.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | \r\t\tnode mondrianNodeElement ];\r\twith: nodes.\rmondrian edges\r\tconnect: nodes\r\ttoAll: #mondrianChildren.\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\t\t\t\t\tcharge: -200;\r\t\t\t\t\t\t\tlength: 20).\rmondrian"
+							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connect: nodes toAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -100;\r\t\t\tlength: 30).\rmondrian"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-01T19:13:22.286695+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-01T19:13:46.297055+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Dg7FOSL6DQCpnqhmDOLLBA=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "This is starting to look like something. \nWe need graphs also for smaller parts"
 						}
 					]
 				},
