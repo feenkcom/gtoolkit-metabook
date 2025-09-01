@@ -219,6 +219,43 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-09-01T09:38:10.503599+02:00"
+														}
+													},
+													"editEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"editTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
+															"dateAndTimeString" : "2025-09-01T10:03:28.348302+02:00"
+														}
+													},
+													"uid" : {
+														"__type" : "uid",
+														"uidString" : "zwi1MBr6DQCC0ovZAcwjZg=="
+													},
+													"paragraphStyle" : {
+														"__type" : "textStyle"
+													},
+													"string" : "[[Implement Topic Treemaps]] "
+												},
+												{
+													"__type" : "textSnippet",
+													"children" : {
+														"__type" : "snippets",
+														"items" : [ ]
+													},
+													"createEmail" : {
+														"__type" : "email",
+														"emailString" : "<unknown>"
+													},
+													"createTime" : {
+														"__type" : "time",
+														"time" : {
+															"__type" : "dateAndTime",
 															"dateAndTimeString" : "2025-08-21T18:18:44.095343+02:00"
 														}
 													},
@@ -263,7 +300,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-08-28T18:24:58.096518+02:00"
+												"dateAndTimeString" : "2025-09-01T09:40:35.645002+02:00"
 											}
 										},
 										"uid" : {
@@ -273,7 +310,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "[[*** Visualize topic maps]] "
+										"string" : "[[* Visualize topic maps]] "
 									},
 									{
 										"__type" : "textSnippet",

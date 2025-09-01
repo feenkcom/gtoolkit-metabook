@@ -18,6 +18,43 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-01T09:39:58.795655+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-01T09:39:58.795655+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "bnApNxr6DQCElDXkAcwjZg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "How to organize an actual Roadmap?\nThere are 5 “islands” or groups of topics.\nWhich pages have topics that bridge these groups?\nUse a scenery Mindmap?\n"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
 						"dateAndTimeString" : "2025-08-21T18:18:34.831035+02:00"
 					}
 				},
@@ -29,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-21T18:19:35.811443+02:00"
+						"dateAndTimeString" : "2025-09-01T09:40:01.779682+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "\nHow to organize an actual Roadmap?\nThere are 5 “islands” or groups of topics.\nWhich pages have topics that bridge these groups?\nUse a scenery Mindmap?\n\n\n\n\nHow to track one's progress?\nWhich pages from a roadmap have been visited?\nWhere to store this? (In one's private db?)\nNeed a Roadmap snippet?\n\n"
+				"string" : "How to track one's progress?\nWhich pages from a roadmap have been visited?\nWhere to store this? (In one's private db?)\nNeed a Roadmap snippet?"
 			}
 		]
 	},
@@ -62,12 +99,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-08-21T18:18:34.722051+02:00"
+			"dateAndTimeString" : "2025-08-27T11:17:22.680296+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Design and implement Roadmaps"
+		"title" : "* Design and implement Roadmaps"
 	},
 	"uid" : {
 		"__type" : "uuid",

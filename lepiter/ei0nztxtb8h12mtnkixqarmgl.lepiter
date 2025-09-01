@@ -137,7 +137,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-08-29T11:48:24.424698+02:00"
+						"dateAndTimeString" : "2025-09-01T09:37:46.286547+02:00"
 					}
 				},
 				"uid" : {
@@ -147,7 +147,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "Add AI assistant for missing topics. \nOffer option to manually edit topics. "
 			},
 			{
 				"__type" : "textSnippet",
