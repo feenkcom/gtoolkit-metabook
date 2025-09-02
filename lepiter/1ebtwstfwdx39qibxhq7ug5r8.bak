@@ -142,7 +142,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T19:13:46.297055+02:00"
+									"dateAndTimeString" : "2025-09-01T19:13:57.801982+02:00"
 								}
 							},
 							"uid" : {
@@ -152,7 +152,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "This is starting to look like something. \nWe need graphs also for smaller parts"
+							"string" : "This is starting to look like something. \nWe need graphs also for smaller parts, with just a single field or topic shown."
 						}
 					]
 				},

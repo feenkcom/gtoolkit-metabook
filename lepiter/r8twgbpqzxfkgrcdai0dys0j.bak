@@ -976,7 +976,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-29T11:08:38.725867+02:00"
+									"dateAndTimeString" : "2025-08-29T11:08:47.827595+02:00"
 								}
 							},
 							"uid" : {
@@ -986,7 +986,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The difference is minimal, but {{gtClass:name=TMPageGroup}} just adds some conven"
+							"string" : "The difference is minimal, but {{gtClass:name=TMPageGroup}} just adds some convenience methods for instantiating a group."
 						},
 						{
 							"__type" : "pharoSnippet",

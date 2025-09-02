@@ -253,14 +253,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T19:25:03.71696+02:00"
+									"dateAndTimeString" : "2025-09-02T10:35:31.968697+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "++H8H3n5DQCmhdeaBTGMxw=="
 							},
-							"code" : "TMPageGroup for: TopicMapExamples new topicMap"
+							"code" : "TopicMapExamples new topicMap pageGroup"
 						},
 						{
 							"__type" : "textSnippet",
@@ -833,14 +833,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-27T19:10:11.034025+02:00"
+									"dateAndTimeString" : "2025-09-02T10:35:47.642246+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "PjLwmL35DQC+U0vFBBYdQw=="
 							},
-							"code" : "TMPageGroup for: TopicMapExamples new topicMap"
+							"code" : "TopicMapExamples new topicMap pageGroup"
 						},
 						{
 							"__type" : "pharoSnippet",

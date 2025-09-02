@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:16.124613+02:00"
+						"dateAndTimeString" : "2025-09-02T10:04:16.364584+02:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:37.067504+02:00"
+						"dateAndTimeString" : "2025-09-02T10:21:20.587866+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "5a4lQSD6DQCI7gtVCzydFw=="
+					"uidString" : "UJDhqy76DQCcFs1iBj/t2A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Need search bth in TopicMap and in tree nodes"
+				"string" : "We create common superclass {{gtClass:name=TMAbstractEntity}} for {{gtClass:name=TopicMap}} and {{gtClass:name=TMAbstractTreeNode}} to share spotter searches (and some actions?). "
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:37.98001+02:00"
+						"dateAndTimeString" : "2025-09-02T10:04:35.718697+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,20 +66,20 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:43.590645+02:00"
+						"dateAndTimeString" : "2025-09-02T10:20:20.988531+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "0ylzQiD6DQCJ1H1HCzydFw=="
+					"uidString" : "ot8IrS76DQCcL8IJBj/t2A=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Need search for topics"
+				"string" : "Do we need a separate subclass pof PageGroup for queries?"
 			},
 			{
-				"__type" : "textSnippet",
+				"__type" : "pharoSnippet",
 				"children" : {
 					"__type" : "snippets",
 					"items" : [ ]
@@ -92,7 +92,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:44.697412+02:00"
+						"dateAndTimeString" : "2025-09-02T10:05:01.465109+02:00"
 					}
 				},
 				"editEmail" : {
@@ -103,17 +103,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T16:52:44.697412+02:00"
+						"dateAndTimeString" : "2025-09-02T10:05:12.111678+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "XajZQiD6DQCKMworCzydFw=="
+					"uidString" : "/ruRri76DQCdV675Bj/t2A=="
 				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : ""
+				"code" : "LeDatabase gtBook topicMap"
 			}
 		]
 	},
@@ -125,7 +122,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-01T16:52:15.974709+02:00"
+			"dateAndTimeString" : "2025-09-02T10:04:16.172307+02:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +133,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-01T16:52:23.893534+02:00"
+			"dateAndTimeString" : "2025-09-02T10:21:38.654146+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Refining TopicMap search and navigation"
+		"title" : "Generalize Spotter searches"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "93642341-20fa-0d00-88ed-ff1a0b3c9d17"
+		"uuid" : "2da0deab-2efa-0d00-9c15-d1b5063fedd8"
 	}
 }
