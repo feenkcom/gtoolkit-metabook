@@ -267,7 +267,7 @@
 														"__type" : "time",
 														"time" : {
 															"__type" : "dateAndTime",
-															"dateAndTimeString" : "2025-09-02T10:02:45.074737+02:00"
+															"dateAndTimeString" : "2025-09-02T13:54:34.70651+02:00"
 														}
 													},
 													"uid" : {
@@ -277,7 +277,7 @@
 													"paragraphStyle" : {
 														"__type" : "textStyle"
 													},
-													"string" : "[[*** Implement Topic Treemaps]] "
+													"string" : "[[Implement Topic Treemaps]] "
 												},
 												{
 													"__type" : "textSnippet",

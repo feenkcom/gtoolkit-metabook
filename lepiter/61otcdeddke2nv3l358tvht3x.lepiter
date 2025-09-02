@@ -118,43 +118,6 @@
 											"__type" : "textStyle"
 										},
 										"string" : "Check implementations of {{gtMethod:name=TMAbstractTreeNode>>#children}}.\nWe  fix them all and add new tests in {{gtClass:name=TopicMapExamples}}"
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-02T10:22:48.634893+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-02T10:22:48.634893+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "z3Mt7i76DQCi0ExsBj/t2A=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : ""
 									}
 								]
 							},
@@ -188,84 +151,84 @@
 								"__type" : "textStyle"
 							},
 							"string" : "Check all children are NodeGroups and not OrderedCollections."
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-02T10:22:34.057455+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-02T10:22:36.408078+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "ZwRP7S76DQCihwJ5Bj/t2A=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "# Done"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T11:00:41.109656+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T11:00:48.117932+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "/aegdS/6DQCzkv2JDe/AJA=="
-							},
-							"code" : "LeDatabase gtBook topicMap databaseNode"
 						},
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [ ]
+								"items" : [
+									{
+										"__type" : "textSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-09-02T13:12:46.264766+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-09-02T13:21:28.006475+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "yeIATjH6DQCJqk9UDnKfLw=="
+										},
+										"paragraphStyle" : {
+											"__type" : "textStyle"
+										},
+										"string" : "We start by implementing {{gtMethod:name=TMPageGroup>>#treeMapChildren}}.\nBut there is more to do, it seems ..."
+									},
+									{
+										"__type" : "pharoSnippet",
+										"children" : {
+											"__type" : "snippets",
+											"items" : [ ]
+										},
+										"createEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"createTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-09-02T11:00:41.109656+02:00"
+											}
+										},
+										"editEmail" : {
+											"__type" : "email",
+											"emailString" : "<unknown>"
+										},
+										"editTime" : {
+											"__type" : "time",
+											"time" : {
+												"__type" : "dateAndTime",
+												"dateAndTimeString" : "2025-09-02T13:16:21.19459+02:00"
+											}
+										},
+										"uid" : {
+											"__type" : "uid",
+											"uidString" : "/aegdS/6DQCzkv2JDe/AJA=="
+										},
+										"code" : "TopicMapExamples new pageGroupFromTopicMap"
+									}
+								]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -328,7 +291,7 @@
 											"__type" : "time",
 											"time" : {
 												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-02T10:02:39.336072+02:00"
+												"dateAndTimeString" : "2025-09-02T13:54:00.193206+02:00"
 											}
 										},
 										"uid" : {
@@ -338,44 +301,7 @@
 										"paragraphStyle" : {
 											"__type" : "textStyle"
 										},
-										"string" : "Tree maps — try to leave larger margin for text label. "
-									},
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-01T10:00:56.783252+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-01T10:01:20.105761+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "j8skghr6DQCFpkB+AcwjZg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "Problem: Can't seem to get the labelon top — it gets hidden by the leaf nodes."
+										"string" : "Tree maps — leave larger margin for text label in {{gtMethod:name=TMAbstractTreeNode>>#treeMap}}"
 									}
 								]
 							},
@@ -409,50 +335,50 @@
 								"__type" : "textStyle"
 							},
 							"string" : "TreeMap titles: add white background to field names (or top level TreeMap containers)."
-						},
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-02T10:22:34.057455+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-02T10:22:36.408078+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "ZwRP7S76DQCihwJ5Bj/t2A=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Done"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
 						{
 							"__type" : "textSnippet",
 							"children" : {
 								"__type" : "snippets",
-								"items" : [
-									{
-										"__type" : "textSnippet",
-										"children" : {
-											"__type" : "snippets",
-											"items" : [ ]
-										},
-										"createEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"createTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-01T10:01:27.415837+02:00"
-											}
-										},
-										"editEmail" : {
-											"__type" : "email",
-											"emailString" : "<unknown>"
-										},
-										"editTime" : {
-											"__type" : "time",
-											"time" : {
-												"__type" : "dateAndTime",
-												"dateAndTimeString" : "2025-09-01T10:02:28.640268+02:00"
-											}
-										},
-										"uid" : {
-											"__type" : "uid",
-											"uidString" : "Mjb4gxr6DQCHZfs7AcwjZg=="
-										},
-										"paragraphStyle" : {
-											"__type" : "textStyle"
-										},
-										"string" : "We introduce {{gtMethod:name=TMAbstractTreeNode>>#treeMapRoots}}, but when we override it in the page group node, it breaks."
-									}
-								]
+								"items" : [ ]
 							},
 							"createEmail" : {
 								"__type" : "email",
@@ -462,7 +388,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T09:36:46.269483+02:00"
+									"dateAndTimeString" : "2025-09-02T13:54:28.035563+02:00"
 								}
 							},
 							"editEmail" : {
@@ -473,7 +399,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T09:37:26.244214+02:00"
+									"dateAndTimeString" : "2025-09-02T13:54:28.035563+02:00"
 								}
 							},
 							"uid" : {
@@ -483,7 +409,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "PageGroups and NodeGroups: as TreeMap start with Fields, not just list of pages, to get a structured TreeMap for query results."
+							"string" : ""
 						}
 					]
 				},
@@ -864,12 +790,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-02T10:02:45.066191+02:00"
+			"dateAndTimeString" : "2025-09-02T13:54:34.695472+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Implement Topic Treemaps"
+		"title" : "Implement Topic Treemaps"
 	},
 	"uid" : {
 		"__type" : "uuid",
