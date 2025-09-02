@@ -34,7 +34,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T14:00:26.804068+02:00"
+									"dateAndTimeString" : "2025-09-02T18:29:52.699569+02:00"
 								}
 							},
 							"uid" : {
@@ -44,7 +44,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Mondrian graph \nCreate a tree version with replicated pages. \nThis is  not working yet."
+							"string" : "Mondrian graph \nCreate a tree version with replicated pages. \nThis is  not working yet — why are there disconnected page nodes?!\nIt seems that the connection logic depends on there not being multiple nodes with the same underlying object."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -71,14 +71,48 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T13:59:42.610423+02:00"
+									"dateAndTimeString" : "2025-09-02T18:22:34.949037+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "BCrt6zH6DQC/Vs68DCHbpg=="
 							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllTreeMapChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connect: nodes toAll: #treeMapChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -100;\r\t\t\tlength: 30).\rmondrian"
+							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianTreeChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-02T18:24:35.103731+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-02T18:26:40.328872+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "aSojqTX6DQCiUz41CTkChg=="
+							},
+							"code" : "root := LeDatabase gtBook topicMap databaseNode children first .\r\rnodes := root withAllMondrianTreeChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
 						}
 					]
 				},
@@ -180,14 +214,48 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T19:13:20.633988+02:00"
+									"dateAndTimeString" : "2025-09-02T18:30:37.078679+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "CMm29yD6DQCKOUX5CzydFw=="
 							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connect: nodes toAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -100;\r\t\t\tlength: 30).\rmondrian"
+							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianGraphChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectToAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-02T18:31:04.043195+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-02T18:33:59.206035+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "y+VRwDX6DQClvz7mCTkChg=="
+							},
+							"code" : "root := LeDatabase gtBook topicMap databaseNode children first .\r\rnodes := root withAllMondrianGraphChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectToAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
 						},
 						{
 							"__type" : "textSnippet",

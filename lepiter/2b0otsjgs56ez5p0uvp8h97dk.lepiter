@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-02T10:03:41.49832+02:00"
+						"dateAndTimeString" : "2025-09-02T18:34:24.201601+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Add a \"Query: query string\" name for PageGroups? Or create a PageQuery subclass. Needed for  Sceneries"
+				"string" : "Add a \"Query: query string\" name for PageGroups? Or create a PageQuery subclass. Needed for  Sceneries."
 			},
 			{
 				"__type" : "textSnippet",
