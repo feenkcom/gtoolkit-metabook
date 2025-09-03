@@ -23,7 +23,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T10:02:58.715416+02:00"
+									"dateAndTimeString" : "2025-09-03T13:38:30.752651+02:00"
 								}
 							},
 							"editEmail" : {
@@ -34,160 +34,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:29:52.699569+02:00"
+									"dateAndTimeString" : "2025-09-03T13:39:25.798089+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "0LlApy76DQCbUg3LBj/t2A=="
+								"uidString" : "4lHnx0X6DQCs8oNbD7TtKQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Mondrian graph \nCreate a tree version with replicated pages. \nThis is  not working yet — why are there disconnected page nodes?!\nIt seems that the connection logic depends on there not being multiple nodes with the same underlying object."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T13:56:55.769469+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:22:34.949037+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "BCrt6zH6DQC/Vs68DCHbpg=="
-							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianTreeChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:24:35.103731+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:26:40.328872+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "aSojqTX6DQCiUz41CTkChg=="
-							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode children first .\r\rnodes := root withAllMondrianTreeChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-01T17:43:40.670431+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-02T10:02:58.103605+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "AB4A+SD6DQCK6k/0CzydFw=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "# To do"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-28T18:23:17.038629+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T17:43:21.398501+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "JBhHD9H5DQCguiwsDnVEBA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Database, Fields, Topics, Pages tripartite graph. \nUse white, black and grey rectangles for database, fields and topics. Or use a db icon for the database. \nCircles for pages. Color pages by style. 11 colors?\nUse a tree layout?\nMulti topic pages will have connections to several topics?"
+							"string" : "In this graph rendering we show database -> field -> topic -> page, with pages colored by style.\nEach page may be connectedto multiple topics, so we get a graph, not a tree."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -214,7 +71,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:30:37.078679+02:00"
+									"dateAndTimeString" : "2025-09-03T13:35:14.442632+02:00"
 								}
 							},
 							"uid" : {
@@ -222,77 +79,6 @@
 								"uidString" : "CMm29yD6DQCKOUX5CzydFw=="
 							},
 							"code" : "root := LeDatabase gtBook topicMap databaseNode.\r\rnodes := root withAllMondrianGraphChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectToAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:31:04.043195+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:31:31.653134+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "y+VRwDX6DQClvz7mCTkChg=="
-							},
-							"code" : "root := LeDatabase gtBook topicMap databaseNode children first children first.\r\rnodes := root withAllMondrianGraphChildren.\r\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectToAll: #mondrianChildren.\r\"mondrian layout tree.\"\r\"mondrian layout force.\"\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T19:13:22.286695+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T19:13:57.801982+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "Dg7FOSL6DQCpnqhmDOLLBA=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "This is starting to look like something. \nWe need graphs also for smaller parts, with just a single field or topic shown."
 						}
 					]
 				},
@@ -326,6 +112,257 @@
 					"__type" : "textStyle"
 				},
 				"string" : "# Mondrian graphs"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:39:42.745851+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:41:57.52399+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ldcxzEX6DQCwsPoiD7TtKQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "In this tree version, we represent each page multiple times, once for each topic. To avoid confusing mendrian when it is beuilding edges, we have to introduce special subclasses {{gtClass:TMPageForTopicNode}} and {{gtClass:name=TMPageForTopicGroup}} which support a refine `=` to consider the topic as well.\nIt looks fine, but is slow and expensive to compute"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:16:46.491989+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:43:30.033962+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "F+MpekX6DQCkcK9sD7TtKQ=="
+							},
+							"code" : "root := LeDatabase gtBook topicMap databaseNode.\rnodes := root withAllMondrianTreeChildren.\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\rmondrian layout\r\tcustom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -100;\r\t\t\tlength: 20).\rmondrian"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:37:19.473708+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:37:28.970115+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Raenw0X6DQCr67XbD7TtKQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Here the root is a single field:"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-02T18:24:35.103731+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:43:40.062096+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "aSojqTX6DQCiUz41CTkChg=="
+							},
+							"code" : "root := LeDatabase gtBook topicMap databaseNode children first .\rnodes := root withAllMondrianTreeChildren.\rmondrian := GtMondrian new.\rmondrian nodes\r\tshape: [ :node | node mondrianNodeElement ];\r\twith: nodes.\rmondrian edges connectTo: #treeMapParent.\rmondrian layout custom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -200;\r\t\t\tlength: 30).\rmondrian"
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:53:47.524246+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-03T13:53:53.980784+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "lSSM/kX6DQC6PR+hD7TtKQ=="
+							},
+							"code" : "GtMondrian new."
+						}
+					]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-03T13:37:32.242411+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-03T13:37:36.567225+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "AB4A+SD6DQCK6k/0CzydFw=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Mondrian trees"
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-03T13:39:34.368182+02:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-09-03T13:39:34.368182+02:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "Dg7FOSL6DQCpnqhmDOLLBA=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : ""
 			}
 		]
 	},
