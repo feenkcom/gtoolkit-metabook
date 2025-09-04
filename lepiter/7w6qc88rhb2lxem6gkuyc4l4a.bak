@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:29:44.965218+02:00"
+						"dateAndTimeString" : "2025-09-04T13:04:24.095761+02:00"
 					}
 				},
 				"uid" : {
@@ -45,7 +45,230 @@
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:29:45.282244+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:31:51.354728+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Zb2xQlf6DQCHK4z5Di5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "What we need is a left to right horizontal layout, with most nodes being hidden, and clicking to expose different subtrees. Each node should show its name."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T12:48:11.148789+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T12:50:21.081905+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "ZDPDMVn6DQCfIjiADi5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "DB – show children\nFields — parent (DB), peers and children\nTopics — parents (DB, Field), parent peers (Fields), peers (Topics), children (Pages)\nPages — parents (DB, Field, Topic, Peers (?)"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T12:47:49.21127+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:57.059254+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "s3Z0MFn6DQCe/bs2Di5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "From the prototype we extract a method: "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.081456+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.081456+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "qYmRb1n6DQClo3uJDi5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.306093+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.306093+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "TPaUb1n6DQClp9QSDi5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.528658+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:05:28.528658+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "bF2Yb1n6DQClq5b2Di5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -55,7 +278,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:29:45.282244+02:00"
+						"dateAndTimeString" : "2025-09-04T13:04:24.451565+02:00"
 					}
 				},
 				"editEmail" : {
@@ -66,97 +289,58 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:31:51.354728+02:00"
+						"dateAndTimeString" : "2025-09-04T13:04:51.643953+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "Zb2xQlf6DQCHK4z5Di5XhQ=="
+					"uidString" : "e5/Ga1n6DQCk2Y3XDi5XhQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "What we need is a left to right horizontal layout, with most nodes being hidden, and clicking to expose different subtrees. Each node should show its name."
+				"string" : "# Mondrian Roadmaps"
 			},
 			{
 				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:56:19.92129+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:56:19.92129+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "S/+9oVf6DQCXYMXODi5XhQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "How to hide nodes or make them invisible? We want {{gtClass:name=BlVisibilityGone}}, since the invisible nodes should not partiicpate in the layout. "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:36:18.450832+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:57:09.981547+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "LwMhWlf6DQCLSi+hDi5XhQ=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "How can we access the actual elements? How can we navigate from one element to another? If we click on a topic node, this should make the subnodes appear or disappear, and make the subnodes of other topics disappear. How do we get to them?"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:34:07.491378+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T13:03:04.330008+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "CrpSUlf6DQCKuHtdDi5XhQ=="
+							},
+							"code" : "root := LeDatabase gtBook topicMap databaseNode children first children first.\rtmNodes := root withAllMondrianTreeChildren.\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :aTmNode | aTmNode topicNodeElement ];\r\twith: tmNodes.\rmondrian edges connectFrom: #treeMapParent.\r\rmondrian layout\r\tcustom: (GtGradHorizontalTreeLayout new\r\t\t\tlevelDistance: 50;\r\t\t\tnodeDistance: 20).\r\rmondrian"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -177,7 +361,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:31:56.217657+02:00"
+						"dateAndTimeString" : "2025-09-04T13:03:44.37203+02:00"
 					}
 				},
 				"uid" : {
@@ -187,13 +371,88 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "Pototype:"
+				"string" : "# Prototype:"
 			},
 			{
-				"__type" : "pharoSnippet",
+				"__type" : "textSnippet",
 				"children" : {
 					"__type" : "snippets",
-					"items" : [ ]
+					"items" : [
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:56:19.92129+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:56:19.92129+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "S/+9oVf6DQCXYMXODi5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "How to hide nodes or make them invisible? We want {{gtClass:name=BlVisibilityGone}}, since the invisible nodes should not partiicpate in the layout. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:36:18.450832+02:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2025-09-04T10:57:09.981547+02:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "LwMhWlf6DQCLSi+hDi5XhQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "How can we access the actual elements? How can we navigate from one element to another? If we click on a topic node, this should make the subnodes appear or disappear, and make the subnodes of other topics disappear. How do we get to them?"
+						}
+					]
 				},
 				"createEmail" : {
 					"__type" : "email",
@@ -203,7 +462,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:34:07.491378+02:00"
+						"dateAndTimeString" : "2025-09-04T12:47:34.328989+02:00"
 					}
 				},
 				"editEmail" : {
@@ -214,14 +473,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T11:03:10.369503+02:00"
+						"dateAndTimeString" : "2025-09-04T12:47:38.380025+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "CrpSUlf6DQCKuHtdDi5XhQ=="
+					"uidString" : "EmCRL1n6DQCesGZPDi5XhQ=="
 				},
-				"code" : "root := LeDatabase gtBook topicMap databaseNode children first.\rtmNodes := root withAllMondrianTreeChildren.\rmondrian := GtMondrian new.\r\rmondrian nodes\r\tshape: [ :aTmNode | \r\t\taTmNode mondrianNodeElement\r\t\t\twhen: BlClickEvent\r\t\t\t\tdo: [ :anEvent | \r\t\t\t\t\t\"self halt.\"\r\t\t\t\t\tanEvent consumed: true ];\r\t\t\tyourself ];\r\twith: tmNodes.\rmondrian edges connectTo: #treeMapParent.\rmondrian layout\r\tcustom: (GtGraphForceBasedLayout new\r\t\t\tcharge: -100;\r\t\t\tlength: 20).\t\"mondrian layout radialTree.\"\rmondrian"
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "# Questions"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -248,14 +510,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-04T10:50:00.081378+02:00"
+						"dateAndTimeString" : "2025-09-04T11:40:10.464293+02:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "JPPZhVf6DQCT1gWeDi5XhQ=="
 				},
-				"code" : "mondrian nodes"
+				"code" : "GtPhlowMondrianView new\r\toriginalView: mondrian;\r\tyourself"
 			}
 		]
 	},
