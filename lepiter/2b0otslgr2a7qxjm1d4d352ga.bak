@@ -105,7 +105,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T10:02:45.08097+02:00"
+									"dateAndTimeString" : "2025-09-02T13:54:34.709909+02:00"
 								}
 							},
 							"uid" : {
@@ -115,7 +115,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Implement Topic Treemaps]] "
+							"string" : "[[Implement Topic Treemaps]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -142,7 +142,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T10:01:50.455229+02:00"
+									"dateAndTimeString" : "2025-09-04T10:24:26.012767+02:00"
 								}
 							},
 							"uid" : {
@@ -152,7 +152,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Design and implement Scenery Roadmaps]] "
+							"string" : "[[Scenery experiment]] "
 						},
 						{
 							"__type" : "textSnippet",
@@ -179,7 +179,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T10:03:04.373851+02:00"
+									"dateAndTimeString" : "2025-09-04T10:24:43.16737+02:00"
 								}
 							},
 							"uid" : {
@@ -189,7 +189,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "[[*** Mondrian Topic Maps]] "
+							"string" : "[[*** Design and implement Mondrian Roadmaps]] "
 						}
 					]
 				},

@@ -131,7 +131,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:15:32.987793+02:00"
+									"dateAndTimeString" : "2025-09-04T10:11:08.521865+02:00"
 								}
 							},
 							"editEmail" : {
@@ -142,7 +142,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:28:22.465639+02:00"
+									"dateAndTimeString" : "2025-09-04T10:25:29.108793+02:00"
 								}
 							},
 							"uid" : {
@@ -152,78 +152,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Looks ok. Now we want our own class to wrap a TM node instead of just text. We introduce {{gtClass:name=TMSceneryTopicNodeStencil}} and {{gtClass:name=TMSceneryBuilder}}. "
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:16:08.434624+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:24:18.186818+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "ceG9ykP6DQCT40CCB7oV1Q=="
-							},
-							"code" : "builder := TMSceneryBuilder for: LeDatabase gtBook topicMap databaseNode.\rbuilder build."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:16:11.667492+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:55:17.419368+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "M0jRykP6DQCT5w5kB7oV1Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Problem — the ndoes should not be editable. What should we use a parent?"
+							"string" : "We try to implement dedicated classes to wrap the nodes, but this introduces unwanted dependencies. Also the nodes should not be editable. What should we use a parent?"
 						},
 						{
 							"__type" : "textSnippet",
@@ -250,7 +179,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T11:16:11.995407+02:00"
+									"dateAndTimeString" : "2025-09-04T10:25:49.043903+02:00"
 								}
 							},
 							"uid" : {
@@ -260,7 +189,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "Perhaps instead of sceneries we can just use more static mandrian roadmaps."
 						}
 					]
 				},
@@ -283,7 +212,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-03T10:46:59.77825+02:00"
+						"dateAndTimeString" : "2025-09-04T10:10:57.080368+02:00"
 					}
 				},
 				"uid" : {
@@ -293,156 +222,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "# Prototyping a Roadmap"
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T10:03:40.910277+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-02T18:34:24.201601+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "OJDEqS76DQCbY0IbBj/t2A=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "Add a \"Query: query string\" name for PageGroups? Or create a PageQuery subclass. Needed for  Sceneries."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T09:39:58.795655+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T09:40:14.403634+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "bnApNxr6DQCElDXkAcwjZg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "How to organize an actual Roadmap?\nThere are 5 “islands” or groups of topics.\nWhich pages have topics that bridge these groups?\nUse a scenery Mindmap?\n\nScenery mindmap of groups -> topics -> categories and linking to pages\n\nSee also Roadmap below"
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-08-21T18:18:34.831035+02:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-01T09:40:01.779682+02:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "4ViRLUT5DQCMp3CzC93zJg=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : "How to track one's progress?\nWhich pages from a roadmap have been visited?\nWhere to store this? (In one's private db?)\nNeed a Roadmap snippet?"
-						}
-					]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-03T10:46:31.973455+02:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-03T10:46:34.484114+02:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "RDzbYEP6DQCHeBx3B7oV1Q=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "# Notes"
+				"string" : "# Prototyping a Roadmap as a Scenery"
 			}
 		]
 	},
@@ -465,12 +245,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-02T10:01:50.438357+02:00"
+			"dateAndTimeString" : "2025-09-04T10:24:26.000755+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Design and implement Scenery Roadmaps"
+		"title" : "Scenery experiment"
 	},
 	"uid" : {
 		"__type" : "uuid",

@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-09-03T15:59:10.180285+02:00"
+						"dateAndTimeString" : "2025-09-04T10:10:07.484442+02:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "See [[* How to fix Mondrian background clicking?]] "
+				"string" : "See [[How to fix Mondrian background clicking (fixed)]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -388,12 +388,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-02T10:03:04.360751+02:00"
+			"dateAndTimeString" : "2025-09-04T10:27:19.591705+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "*** Mondrian Topic Maps"
+		"title" : "Mondrian experiments"
 	},
 	"uid" : {
 		"__type" : "uuid",

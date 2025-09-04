@@ -108,7 +108,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T16:00:58.220943+02:00"
+									"dateAndTimeString" : "2025-09-04T10:09:54.442946+02:00"
 								}
 							},
 							"uid" : {
@@ -118,7 +118,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "The node setting seems to be defined in {{gtMethod:name=GtTreePagerFlowPanesElement>>#newNodeElementForPaneModel:}}. We try to comment it out. This causes very strange behavior when opening new panes. "
+							"string" : "The node setting seems to be defined in {{gtMethod:name=GtTreePagerFlowPanesElement>>#newNodeElementForPaneModel:}}. We try to comment it out. This causes very strange behavior when opening new panes. JK confirms it is necessary.\nTG changes the logic in {{gtMethod:name=GtPhlowMondrianView>>#asElementDo:}} to fix the issue."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -145,14 +145,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2025-09-03T13:53:53.980784+02:00"
+									"dateAndTimeString" : "2025-09-03T16:01:31.494708+02:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "lSSM/kX6DQC6PR+hD7TtKQ=="
 							},
-							"code" : "GtMondrian new."
+							"code" : "GtMondrianBasicExamples new oneNode"
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -276,12 +276,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-09-03T15:59:10.155771+02:00"
+			"dateAndTimeString" : "2025-09-04T10:09:17.127784+02:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* How to fix Mondrian background clicking?"
+		"title" : "How to fix Mondrian background clicking?"
 	},
 	"uid" : {
 		"__type" : "uuid",
